@@ -1,0 +1,2 @@
+class SavedShop < ApplicationRecord
+end
