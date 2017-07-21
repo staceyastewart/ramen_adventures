@@ -5,7 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-[
+
+
+$blog_seeds = [
     {
         "date": "2008-10-30 00:00:00",
         "pictures": [],
@@ -9408,3 +9410,7 @@ i and a French vegetable bouillon. The combination is so full of umami. I was sh
         "post": "\nらぁめん矢 ロックンビリースーパーワン\n\n\n\nThere was once a legendary shop in Tokyo. The master, Shimazaki-san, required near complete silence in his shop. Your phone rings? You're gone.You could take a photo, but you better not take long. Some people compared him to a popular character in the American TV show Seinfeld, and I could see it.\n\nPast the rough exterior, he was an amazing man. Friendly as hell, he just wants his ramen shop to be a place of noodle greatness.\n\nWell, he moved from his Machida location to Asakusa, and then disappeared. He finally reopened far away from Tokyo, in Hyogo Prefecture.\n\nI went, and I made a video!\n\n\n\nIt's a trek, but you'll know you are here when you see that rockabilly sign out front.\n\n\n\nAnd that rockabilly master inside.\n\n\n\nFamous (and expensive) 比内地鶏 - hinai chicken - is rendered down for some of the richest chicken oil in a bowl of ramen. I found this kind of oil a bit heavy in ramen back when I was younger, but now I can't get enough of it.\n\n\n\nThe concept is simplicity, but this bowl goes deep. Aged soy sauce provides the kick.\n\n\n\nRamen is my life!! Rock n Roll is Greatest!!\n\nWords to live by.\n\n\n\nGo for the 尼ロック if you want the shoyu, which is probably your best best for the first time. The Sロック is a popular salt ramen. The 俺のつけめん is a tsukemen dish. I hope to be back to try them all.\n\n\n\nThis shop is a favorite among ramen chefs around the world. His attention to detail caught the eye of the Lucky Peach magazine people, who put it in their first issue.\n\n\n\nThanks for signing my magazine!\n\n\n\n\n\n\n\n\n\n\n\n\n兵庫県尼崎市南塚口町3-29-13\nHyogo-ken, Amagasaki-shi, Minamitsukaguchicho 3-29-13\nClosest station: Tsukaguchi\n\nOpen 11:00-14:00. 18:00-21:00\nSundays  11:00-15:00\nClosed Mondays\n\n"
     }
 ]
+
+
+Post.create([{content: $blog_seeds[1][:post]}])
+puts $blog_seeds[1][:post]
