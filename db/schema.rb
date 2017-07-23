@@ -10,54 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170721183755) do
+ActiveRecord::Schema.define(version: 20170723153814) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
-
-  create_table "comments", force: :cascade do |t|
-    t.string   "content"
-    t.integer  "posts_id"
-    t.integer  "users_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["posts_id"], name: "index_comments_on_posts_id", using: :btree
-    t.index ["users_id"], name: "index_comments_on_users_id", using: :btree
-  end
-
-  create_table "photos", force: :cascade do |t|
-    t.string   "link"
-    t.integer  "posts_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["posts_id"], name: "index_photos_on_posts_id", using: :btree
-  end
-
-  create_table "posts", force: :cascade do |t|
-    t.string   "content"
-    t.string   "date"
-    t.integer  "shops_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["shops_id"], name: "index_posts_on_shops_id", using: :btree
-  end
-
-  create_table "saved_shops", force: :cascade do |t|
-    t.integer  "users_id"
-    t.integer  "shops_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["shops_id"], name: "index_saved_shops_on_shops_id", using: :btree
-    t.index ["users_id"], name: "index_saved_shops_on_users_id", using: :btree
-  end
-
-  create_table "shops", force: :cascade do |t|
-    t.string   "name"
-    t.string   "address"
-    t.boolean  "recommended"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
-  end
 
   create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "", null: false
@@ -82,10 +38,4 @@ ActiveRecord::Schema.define(version: 20170721183755) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
   end
 
-  add_foreign_key "comments", "posts", column: "posts_id"
-  add_foreign_key "comments", "users", column: "users_id"
-  add_foreign_key "photos", "posts", column: "posts_id"
-  add_foreign_key "posts", "shops", column: "shops_id"
-  add_foreign_key "saved_shops", "shops", column: "shops_id"
-  add_foreign_key "saved_shops", "users", column: "users_id"
 end

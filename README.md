@@ -1,11 +1,24 @@
-# RAMEN ADVENTURES
+# README
 
-This is a client project to rebuild the Ramen Adventures blog. There are 4 developers and 4 designers on this project. This project is a one month sprint beginning on July 14th and finishing on August 14th 2017.
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-Below are a few photos of the blog before the rebuild, while still hosted and maintained on Blogger.
+Things you may want to cover:
 
->![photoOfOurApp](app/assets/images/home_page.png)
+* Ruby version
 
->![photoOfOurApp](app/assets/images/press.png)
+* System dependencies
 
->![photoOfOurApp](app/assets/images/ramen_school.png)
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
