@@ -1,0 +1,2 @@
+class Usershop < ApplicationRecord
+end
