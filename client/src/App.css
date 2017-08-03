@@ -1,13 +1,31 @@
 .nav {
   width: 100%;
+  font-family: 'Proza Libre', sans-serif;
 }
 
-.links {
-  height: 4vh;
-  width: 10vw;
+.top-links, .bottom-links {
+  font-size: 14px;
+  border: 1px solid #9d9b9d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #D8D8D8;
 }
 
 .top-links {
+  height: 3vh;
+  width: 8vw;
+   margin: 10px 5px; 
+}
+
+
+.bottom-links {
+  height: 3vh;
+  width: 9vw;
+  margin: 5px;
+}
+
+.top-nav {
   display: flex;
 }
 
@@ -24,10 +42,17 @@
 
 .search {
   border: 1px solid black;
-  height: 4vh;
-  width: 20vw;
+  height: 2.5vh;
+  width: 25vw;
+  background: #D8D8D8;
+  margin: 10px;
 }
 
+hr {
+  border: 0;
+  height: 1px;
+  border-top: 2px solid #D8D8D8;
+}
 .bottom-nav {
   display: flex;
 }

@@ -2,50 +2,75 @@ import React, { Component } from 'react';
 
 class Navigation extends Component {
 
+    constructor(props) {
+    super(props);
+
+        this.state = {
+            search: ''
+        }
+    }
+
+    search = (e) => {
+        e.preventDefault();
+        //api call to database
+        this.setState({ search: '' });
+    }
+
+    handleSearchChange = (event) => {
+        this.setState({ search: event.target.value })
+    }
+
 
   render() {
     return (
         <div className="nav">
             <div className="top-nav">
                 <div className="logo">
+                    ((logo here))
                 </div>
                 <div className="top-elements">
-                        <div className="top-links">
-                        <div className="account links">
+                        <div className="top-nav">
+                        <div className="account top-links">
                             My Account
                         </div>
-                        <div className="signup links">
+                        <div className="signup top-links">
                             Sign Up
                         </div>
-                        <div className="contact links">
+                        <div className="contact top-links">
                             Contact
                         </div>
                     </div>
-                    <div className="search">
-                    </div>
+                    <form onSubmit={(e) => this.search(e)}>
+                        <input  type="text" 
+                                placeholder="Search" 
+                                onChange={this.handleSearchChange} 
+                                value={this.state.search}
+                                className="search" 
+                        />
+                    </form>
                 </div>
-                
             </div>
+            <hr />
             <div className="bottom-nav">
-                <div className="home links">
+                <div className="home bottom-links">
                     Home
                 </div>
-                <div className="about links">
+                <div className="about bottom-links">
                     About
                 </div>
-                <div className="books links">
+                <div className="books bottom-links">
                     Books
                 </div>
-                <div className="blog links">
+                <div className="blog bottom-links">
                     Ramen Blog
                 </div>
-                <div className="schools links">
+                <div className="schools bottom-links">
                     Ramen Schools
                 </div>
-                <div className="tours links">
+                <div className="tours bottom-links">
                     Ramen Tours
                 </div>
-                <div className="media links">
+                <div className="media bottom-links">
                     Media
                 </div>
             </div>
