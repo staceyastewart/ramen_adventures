@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170801175818) do
+ActiveRecord::Schema.define(version: 20170804012509) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -21,7 +21,9 @@ ActiveRecord::Schema.define(version: 20170801175818) do
     t.integer  "users_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer  "user_id"
     t.index ["posts_id"], name: "index_comments_on_posts_id", using: :btree
+    t.index ["user_id"], name: "index_comments_on_user_id", using: :btree
     t.index ["users_id"], name: "index_comments_on_users_id", using: :btree
   end
 
@@ -51,25 +53,13 @@ ActiveRecord::Schema.define(version: 20170801175818) do
   end
 
   create_table "users", force: :cascade do |t|
-    t.string   "email",                  default: "", null: false
-    t.string   "encrypted_password",     default: "", null: false
-    t.string   "reset_password_token"
-    t.datetime "reset_password_sent_at"
-    t.datetime "remember_created_at"
-    t.integer  "sign_in_count",          default: 0,  null: false
-    t.datetime "current_sign_in_at"
-    t.datetime "last_sign_in_at"
-    t.inet     "current_sign_in_ip"
-    t.inet     "last_sign_in_ip"
-    t.datetime "created_at",                          null: false
-    t.datetime "updated_at",                          null: false
-    t.string   "first_name",                          null: false
-    t.string   "last_name",                           null: false
-    t.string   "username",                            null: false
-    t.string   "city"
-    t.string   "country"
-    t.index ["email"], name: "index_users_on_email", unique: true, using: :btree
-    t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "auth_token"
+    t.string   "email"
+    t.string   "password_digest"
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
   end
 
   create_table "usershops", force: :cascade do |t|
@@ -77,14 +67,16 @@ ActiveRecord::Schema.define(version: 20170801175818) do
     t.integer  "shops_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer  "user_id"
     t.index ["shops_id"], name: "index_usershops_on_shops_id", using: :btree
+    t.index ["user_id"], name: "index_usershops_on_user_id", using: :btree
     t.index ["users_id"], name: "index_usershops_on_users_id", using: :btree
   end
 
   add_foreign_key "comments", "posts", column: "posts_id"
-  add_foreign_key "comments", "users", column: "users_id"
+  add_foreign_key "comments", "users"
   add_foreign_key "photos", "posts", column: "posts_id"
   add_foreign_key "posts", "shops", column: "shops_id"
   add_foreign_key "usershops", "shops", column: "shops_id"
-  add_foreign_key "usershops", "users", column: "users_id"
+  add_foreign_key "usershops", "users"
 end
