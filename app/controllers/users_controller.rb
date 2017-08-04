@@ -1,4 +1,6 @@
 class UsersController < ApiController
+    include Response
+    include ExceptionHandler
     before_action :require_login, except: [:create]
 
     def create
@@ -21,5 +23,5 @@ class UsersController < ApiController
 
     def user_params
         params.require(:user).permit(:first_name, :last_name, :email, :password)
-    end  
+    end
 end
