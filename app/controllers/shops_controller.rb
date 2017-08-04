@@ -2,8 +2,6 @@ class ShopsController < ApplicationController
     include Response
     include ExceptionHandler
 
-    before_action :require_login
-
     def index
         @shops = Shop.all
         json_response(@shops)
