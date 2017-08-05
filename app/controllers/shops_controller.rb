@@ -1,6 +1,7 @@
 class ShopsController < ApplicationController
     include Response
-    include ExceptionHandler
+
+    before_action :require_login, only: [:create, :update, :destroy]
 
     def index
         @shops = Shop.all
