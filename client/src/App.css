@@ -1,3 +1,7 @@
+/*------------------------------
+      NAVIGATION
+-----------------------------*/
+
 .nav {
   width: 100%;
   font-family: 'Proza Libre', sans-serif;
@@ -55,4 +59,76 @@ hr {
 }
 .bottom-nav {
   display: flex;
+}
+
+/*----------------------------
+      HOME
+----------------------------*/
+
+ .home {
+  /* border: 1px solid black; */
+  font-family: 'Proza Libre', sans-serif;
+} 
+
+.middle-container {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.bottom-container {
+  height: 20vh;
+}
+
+.top-container {
+  background: #D8D8D8;
+  height: 50vh;
+  display: flex;
+}
+
+.top-image {
+  height: 49vh;
+  width: 370vw;
+  /* background-image: url('https://img.buzzfeed.com/buzzfeed-static/static/2015-11/23/11/enhanced/webdr02/enhanced-buzz-25668-1448296037-6.jpg'); */
+  margin: 2px 0 0 5px;
+}
+
+.top-text {
+  margin: 30px;
+}
+
+.date {
+  height: 5vh;
+  width: 10vw;
+  float: right;
+}
+
+.left, .right {
+  background: #D8D8D8;
+  height: 37vh;
+  width: 48vw;
+}
+
+.bottom-container {
+  height: 20vh;
+  background: #D8D8D8;
+  display: flex;
+}
+
+.bottom-left {
+  height: 20vh;
+  width: 48vw;
+}
+
+.middle-image {
+  height: 27vh;
+  width: 45vw;
+  background-image: url('https://media0.giphy.com/media/Fj0MaDHcLycOk/200_s.gif');
+  margin: 5px 10px 0 10px;
+}
+
+.ramen-text {
+  height: 1vh;
+  margin: 10px;
 }
