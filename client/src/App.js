@@ -5,20 +5,16 @@ import RegisterForm from './components/RegisterForm';
 import ShopPostForm from './components/ShopPostForm';
 import Navigation from './components/Navigation';
 import Home from './components/Home';
+import Comments from './components/Comments';
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
-        <div>          
-            <Navigation />
-            <Switch>
-              <Route exact path="/" compenent={Home} />
-              <Route path="/resister" compenent={RegisterForm} />
-            </Switch>
-        </div>
-        </BrowserRouter>
+      <div>
+        <Navigation />
+        <Comments />
+      </div>
     );
   }
 }
