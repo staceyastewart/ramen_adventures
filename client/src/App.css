@@ -1,24 +1,134 @@
-.App {
-  text-align: center;
+/*------------------------------
+      NAVIGATION
+-----------------------------*/
+
+.nav {
+  width: 100%;
+  font-family: 'Proza Libre', sans-serif;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.top-links, .bottom-links {
+  font-size: 14px;
+  border: 1px solid #9d9b9d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #D8D8D8;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.top-links {
+  height: 3vh;
+  width: 8vw;
+   margin: 10px 5px; 
 }
 
-.App-intro {
-  font-size: large;
+
+.bottom-links {
+  height: 3vh;
+  width: 9vw;
+  margin: 5px;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.top-nav {
+  display: flex;
+}
+
+.logo {
+  border: 1px solid black;
+  height: 10vh;
+  width: 15vw;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search {
+  border: 1px solid black;
+  height: 2.5vh;
+  width: 25vw;
+  background: #D8D8D8;
+  margin: 10px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  border-top: 2px solid #D8D8D8;
+}
+.bottom-nav {
+  display: flex;
+}
+
+/*----------------------------
+      HOME
+----------------------------*/
+
+ .home {
+  /* border: 1px solid black; */
+  font-family: 'Proza Libre', sans-serif;
+} 
+
+.middle-container {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.bottom-container {
+  height: 20vh;
+}
+
+.top-container {
+  background: #D8D8D8;
+  height: 50vh;
+  display: flex;
+}
+
+.top-image {
+  height: 49vh;
+  width: 370vw;
+  /* background-image: url('https://img.buzzfeed.com/buzzfeed-static/static/2015-11/23/11/enhanced/webdr02/enhanced-buzz-25668-1448296037-6.jpg'); */
+  margin: 2px 0 0 5px;
+}
+
+.top-text {
+  margin: 30px;
+}
+
+.date {
+  height: 5vh;
+  width: 10vw;
+  float: right;
+}
+
+.left, .right {
+  background: #D8D8D8;
+  height: 37vh;
+  width: 48vw;
+}
+
+.bottom-container {
+  height: 20vh;
+  background: #D8D8D8;
+  display: flex;
+}
+
+.bottom-left {
+  height: 20vh;
+  width: 48vw;
+}
+
+.middle-image {
+  height: 27vh;
+  width: 45vw;
+  background-image: url('https://media0.giphy.com/media/Fj0MaDHcLycOk/200_s.gif');
+  margin: 5px 10px 0 10px;
+}
+
+.ramen-text {
+  height: 1vh;
+  margin: 10px;
 }
