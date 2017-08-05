@@ -1,22 +1,22 @@
 class UsersController < ApiController
     include Response
-    include ExceptionHandler
+
     before_action :require_login, except: [:create]
 
     def create
         begin
             @user = User.new(user_params)
             @user.save
-            json_response({ token: @user.auth_token })
+            if @user.save
+                json_response({ token: @user.auth_token })
+            else
+                json_response({ :errors => @user.errors.full_messages })
+            end
         end
     end
 
     def show
-        begin
-            @user = User.find_by_auth_token(params[:id])
-            @response = { user: { name: @user.first_name, email: @user.email } }
-            json_response(@response)
-        end
+        json_response(current_user)
     end
 
     private
