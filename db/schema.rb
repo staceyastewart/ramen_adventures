@@ -10,21 +10,33 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170804180617) do
+ActiveRecord::Schema.define(version: 20170805205852) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
+  create_table "active_admin_comments", force: :cascade do |t|
+    t.string   "namespace"
+    t.text     "body"
+    t.string   "resource_type"
+    t.integer  "resource_id"
+    t.string   "author_type"
+    t.integer  "author_id"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+    t.index ["author_type", "author_id"], name: "index_active_admin_comments_on_author_type_and_author_id", using: :btree
+    t.index ["namespace"], name: "index_active_admin_comments_on_namespace", using: :btree
+    t.index ["resource_type", "resource_id"], name: "index_active_admin_comments_on_resource_type_and_resource_id", using: :btree
+  end
+
   create_table "comments", force: :cascade do |t|
     t.string   "content"
-    t.integer  "posts_id"
-    t.integer  "users_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer  "user_id"
-    t.index ["posts_id"], name: "index_comments_on_posts_id", using: :btree
+    t.integer  "post_id"
+    t.index ["post_id"], name: "index_comments_on_post_id", using: :btree
     t.index ["user_id"], name: "index_comments_on_user_id", using: :btree
-    t.index ["users_id"], name: "index_comments_on_users_id", using: :btree
   end
 
   create_table "photos", force: :cascade do |t|
@@ -74,8 +86,7 @@ ActiveRecord::Schema.define(version: 20170804180617) do
     t.index ["users_id"], name: "index_usershops_on_users_id", using: :btree
   end
 
-  add_foreign_key "comments", "posts", column: "posts_id"
-  add_foreign_key "comments", "users"
+  add_foreign_key "comments", "posts"
   add_foreign_key "photos", "posts", column: "posts_id"
   add_foreign_key "posts", "shops", column: "shops_id"
   add_foreign_key "usershops", "shops", column: "shops_id"
