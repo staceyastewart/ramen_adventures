@@ -5,16 +5,34 @@ import RegisterForm from './components/RegisterForm';
 import ShopPostForm from './components/ShopPostForm';
 import Navigation from './components/Navigation';
 import Home from './components/Home';
+
+
+import { Provider } from 'react-redux';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { createStore, applyMiddleware } from 'redux';
+// import reducers from './reducers';
+import promise from 'redux-promise';
+// const createStoreWithMiddleware = applyMiddleware(promise)(createStore);
 import Comments from './components/Comments';
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <Navigation />
-        <Comments />
-      </div>
+      // <Provider store={createStoreWithMiddleware(reducers)}>
+        <div className="App">
+          <Navigation />
+          <Comments />
+          <BrowserRouter>
+            <div>
+              <Switch>
+                <Route path="/register" component={RegisterForm} />
+                <Route path="/" component={Home} />
+              </Switch>
+            </div>
+          </BrowserRouter>
+        </div>
+      // </Provider>
     );
   }
 }

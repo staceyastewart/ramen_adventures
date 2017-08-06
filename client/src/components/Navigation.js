@@ -34,18 +34,18 @@ class Navigation extends Component {
                             My Account
                         </div>
                         <div className="signup top-links">
-                            Sign Up
+                          <a href="register">Sing Up</a>
                         </div>
                         <div className="contact top-links">
                             Contact
                         </div>
                     </div>
                     <form onSubmit={(e) => this.search(e)}>
-                        <input  type="text" 
-                                placeholder="Search" 
-                                onChange={this.handleSearchChange} 
+                        <input  type="text"
+                                placeholder="Search"
+                                onChange={this.handleSearchChange}
                                 value={this.state.search}
-                                className="search" 
+                                className="search"
                         />
                     </form>
                 </div>
@@ -74,7 +74,7 @@ class Navigation extends Component {
                     Media
                 </div>
             </div>
-            
+
         </div>
     )
   }
