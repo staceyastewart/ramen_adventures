@@ -31,10 +31,10 @@ class Navigation extends Component {
                 <div className="top-elements">
                         <div className="top-nav">
                         <div className="account top-links">
-                            My Account
+                          My Account
                         </div>
                         <div className="signup top-links">
-                          <a href="register">Sing Up</a>
+                          <a href="/register">Sing Up</a>
                         </div>
                         <div className="contact top-links">
                             Contact
