@@ -1,25 +1,22 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import RegisterForm from './components/RegisterForm';
 import ShopPostForm from './components/ShopPostForm';
 import Navigation from './components/Navigation';
 import Home from './components/Home';
-
+import Comments from './components/Comments';
 
 import { Provider } from 'react-redux';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { createStore, applyMiddleware } from 'redux';
-// import reducers from './reducers';
+import reducers from './reducers';
 import promise from 'redux-promise';
-// const createStoreWithMiddleware = applyMiddleware(promise)(createStore);
-import Comments from './components/Comments';
-import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
+const createStoreWithMiddleware = applyMiddleware(promise)(createStore);
 
 class App extends Component {
   render() {
     return (
-      // <Provider store={createStoreWithMiddleware(reducers)}>
+      <Provider store={createStoreWithMiddleware(reducers)}>
         <div className="App">
           <Navigation />
           <Comments />
@@ -32,7 +29,7 @@ class App extends Component {
             </div>
           </BrowserRouter>
         </div>
-      // </Provider>
+      </Provider>
     );
   }
 }

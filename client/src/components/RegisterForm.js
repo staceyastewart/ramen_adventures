@@ -1,7 +1,13 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import { connect } from 'react-redux';
+import { fetchUsers } from '../actions';
 
 class RegisterForm extends Component {
+
+  componentDidMount() {
+    this.props.fetchUsers();
+  }
 
   registerSubmit = (e) => {
     e.preventDefault();
@@ -48,4 +54,8 @@ class RegisterForm extends Component {
   }
 }
 
-export default RegisterForm;
+function mapStateToProps(state) {
+  return { users: state.users };
+}
+
+export default connect(mapStateToProps, { fetchUsers })(RegisterForm);
