@@ -5,8 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-
-[
+let blog_data = [
     {
         "date": "2008-10-30 00:00:00",
         "pictures": [],
