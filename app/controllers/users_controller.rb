@@ -6,7 +6,7 @@ class UsersController < ApiController
     def create
         begin
             @user = User.new(user_params)
-            @user.save
+            @user.save!
             if @user.save
                 json_response({ token: @user.auth_token })
             else

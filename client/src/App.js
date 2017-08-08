@@ -1,24 +1,35 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import RegisterForm from './components/RegisterForm';
 import ShopPostForm from './components/ShopPostForm';
 import Navigation from './components/Navigation';
 import Home from './components/Home';
-import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
+import Comments from './components/Comments';
+
+import { Provider } from 'react-redux';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { createStore, applyMiddleware } from 'redux';
+import reducers from './reducers';
+import promise from 'redux-promise';
+const createStoreWithMiddleware = applyMiddleware(promise)(createStore);
 
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
-        <div>
-            <Navigation />
-            <Switch>
-              <Route exact path="/" compenent={Home} />
-              <Route path="/resister" compenent={RegisterForm} />
-            </Switch>
+      <Provider store={createStoreWithMiddleware(reducers)}>
+        <div className="App">
+          <Navigation />
+          <Comments />
+          <BrowserRouter>
+            <div>
+              <Switch>
+                <Route path="/register" component={RegisterForm} />
+                <Route path="/" component={Home} />
+              </Switch>
+            </div>
+          </BrowserRouter>
         </div>
-        </BrowserRouter>
+      </Provider>
     );
   }
 }
