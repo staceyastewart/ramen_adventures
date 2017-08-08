@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import logo from '../ramenlogo.png';
 
 class Navigation extends Component {
 
@@ -25,16 +26,14 @@ class Navigation extends Component {
     return (
         <div className="nav">
             <div className="top-nav">
-                <div className="logo">
-                    ((logo here))
-                </div>
+                <img src={logo} />
                 <div className="top-elements">
-                        <div className="top-nav">
+                    <div className="top-nav">
                         <div className="account top-links">
                           My Account
                         </div>
                         <div className="signup top-links">
-                          <a href="/register">Sing Up</a>
+                          <a href="/register">Sign Up</a>
                         </div>
                         <div className="contact top-links">
                             Contact

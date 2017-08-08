@@ -32,7 +32,9 @@ class Comments extends Component {
 
   postCommentData = () => {
       axios.post('/comments', {
-          comment: { content: this.state.comments }
+          comment: { 
+            content: this.state.comments,
+            user_id: this.props.id }
       }).then(response => console.log(response))
         .catch(error => console.log(error));
       
