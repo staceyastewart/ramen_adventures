@@ -9,21 +9,9 @@ class RegisterForm extends Component {
     this.props.fetchUsers();
   }
 
-  registerSubmit = (e) => {
-    e.preventDefault();
-    axios.post('/users', {
-      user: {
-        first_name: e.target.firstName.value,
-        last_name: e.target.lastName.value,
-        email: e.target.email.value,
-        password: e.target.password.value,
-    }
-    }).catch(err => console.log(err));
-  }
-
   render() {
     return (
-      <form onSubmit={(e) => this.registerSubmit(e)}>
+      <form onSubmit={(e) => this.props.registerSubmit(e)}>
         <h3>Create Profile *required fields</h3>
         <label>First Name:*</label>
         <input type="text" name="firstName" />
