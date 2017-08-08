@@ -21,7 +21,12 @@ class UsersController < ApiController
 
     def update
         @user = current_user
-        json_response(@user)
+        @user.update_attributes(user_params)
+        if @user.update_attributes(user_params)
+            json_response(@user)
+        else
+            json_response( {:errors => @user.errors.full_messages })
+        end
     end
 
     private

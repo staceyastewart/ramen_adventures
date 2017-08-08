@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
   ActiveAdmin.routes(self)
   resources :shops
-  resources :posts
+  resources :posts, shallow: true do
+    resources :comments, only: [:create, :update, :destroy]
+  end
 
   get "/test", to: "test#index"
 
