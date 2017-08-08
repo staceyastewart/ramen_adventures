@@ -19,6 +19,11 @@ class UsersController < ApiController
         json_response(current_user)
     end
 
+    def update
+        @user = current_user
+        json_response(@user)
+    end
+
     private
 
     def user_params
