@@ -2,6 +2,7 @@ class UsersController < ApiController
     include Response
 
     before_action :require_login, except: [:create]
+    after_action :verify_authorized, except: [:create]
 
     def create
         begin
@@ -16,12 +17,17 @@ class UsersController < ApiController
     end
 
     def show
+        @user = current_user
+        authorize @user
         json_response(current_user)
     end
 
     def update
         @user = current_user
+
+        authorize @user
         @user.update_attributes(user_params)
+
         if @user.update_attributes(user_params)
             json_response(@user)
         else

@@ -1,7 +1,8 @@
-class PostsController < ApplicationController
+class PostsController < ApiController
     include Response
 
     before_action :require_login, only: [:create, :update, :destroy]
+    after_action :verify_authorized, except: [:index, :show]
 
     def index
         @posts = Post.all
@@ -14,8 +15,10 @@ class PostsController < ApplicationController
     end
 
     def create
-        @post = Post.create!(post_params)
-        @post.shop = Shop.find(params[:id])
+        @post = Post.new(post_params)
+        authorize @post
+        #@post.shop = Shop.find(params[:id])
+        @post.save!
         if @post.save
             json_response(@post, :created)
         else
@@ -24,12 +27,20 @@ class PostsController < ApplicationController
     end
 
     def update
-        @post = Post.update(post_params)
-        head :no_content
+        @post = Post.find(params[:id])
+        authorize @post
+        @post.update_attributes(post_params)
+
+        if @post.update_attributes(post_params)
+            json_response(@post)
+        else
+            json_response( {:errors => @post.errors.full_messages })
+        end
     end
 
     def destroy
         @post = Post.find(params[:id])
+        authorize @post
         @post.destroy
     end
 
