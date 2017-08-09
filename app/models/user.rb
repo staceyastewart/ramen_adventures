@@ -15,4 +15,6 @@ class User < ApplicationRecord
         user
       end
     end
+
+    enum role: [:basic, :admin]
 end
