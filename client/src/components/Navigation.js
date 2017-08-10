@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import logo from '../ramenlogo.png';
+import Auth from '../modules/Auth';
+import axios from 'axios';
+import { Link } from 'react-router';
 
 class Navigation extends Component {
 
@@ -20,7 +23,6 @@ class Navigation extends Component {
     handleSearchChange = (event) => {
         this.setState({ search: event.target.value })
     }
-
 
   render() {
     return (

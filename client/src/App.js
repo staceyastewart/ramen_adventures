@@ -46,7 +46,7 @@ class App extends Component {
     }).catch(err => console.log(err));
   }
 
-  loginSubmit(e) {
+  loginSubmit = (e) => {
     e.preventDefault();
     axios.post('/login', {
         email: e.target.email.value,
@@ -64,13 +64,37 @@ class App extends Component {
     }).catch(err => console.log(err));
   }
 
+  // logOut = () => {
+  //       axios.delete('/logout', {
+  //       }).then(jsonRes => {
+  //       console.log(jsonRes);
+  //       Auth.deauthenticateUser();
+  //       this.setState({
+  //           auth: Auth.deauthenticateUser(),
+  //           isLoggedIn: false
+  //       });
+  //       }).catch(err => console.log(err));
+  //   }
+
+  getPhotos = () => {
+    axios.get('/photos')
+      .then((res) => {
+        console.log(res);
+      })
+  }
+  
+  componentDidMount = () => {
+    this.getPhotos();
+  }
+
+
+
   render() {
     return (
       <Provider store={createStoreWithMiddleware(reducers)}>
         <div className="App">
-          <Login  loginSubmit={this.loginSubmit} />
-          <Comments  id={this.state.id}/>
-          <Navigation/>
+          <Navigation />
+          <Login />
           <BrowserRouter>
             <div>
               <Switch>
