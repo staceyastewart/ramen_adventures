@@ -13,7 +13,9 @@ end
   delete "/logout", to: "sessions#destroy"
   post "/users", to: "users#create"
   get "/users", to: "users#show"
+  get "/search" => "search#index"
   put "/users", to: "users#update"
+
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
