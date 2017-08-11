@@ -10,7 +10,7 @@ class CommentsController < ApplicationController
 
     def create
         @comment = Comment.create!(comment_params)
-        @comment.post = Post.find(params[:id])
+        @comment.post = Post.find(params[:post_id])
         if @comment.save
             json_response(@comment, :created)
         else
