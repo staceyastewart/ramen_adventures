@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170811001008) do
+ActiveRecord::Schema.define(version: 20170811132505) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -50,10 +50,10 @@ ActiveRecord::Schema.define(version: 20170811001008) do
   create_table "posts", force: :cascade do |t|
     t.string   "content"
     t.string   "date"
-    t.integer  "shops_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["shops_id"], name: "index_posts_on_shops_id", using: :btree
+    t.integer  "shop_id"
+    t.index ["shop_id"], name: "index_posts_on_shop_id", using: :btree
   end
 
   create_table "shops", force: :cascade do |t|
@@ -89,7 +89,7 @@ ActiveRecord::Schema.define(version: 20170811001008) do
 
   add_foreign_key "comments", "posts"
   add_foreign_key "photos", "posts"
-  add_foreign_key "posts", "shops", column: "shops_id"
+  add_foreign_key "posts", "shops"
   add_foreign_key "usershops", "shops", column: "shops_id"
   add_foreign_key "usershops", "users"
 end
