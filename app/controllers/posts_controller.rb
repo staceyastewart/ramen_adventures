@@ -5,9 +5,6 @@ class PostsController < ApplicationController
 
   def index
     @posts = Post.all
-    q = params[:q]
-    @posts_search    = Post.ransack(content_cont: q).result
-    @shops_search = Shop.ransack(name_cont: q).result
     json_response(@posts)
   end
 
