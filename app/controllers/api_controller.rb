@@ -1,4 +1,6 @@
-class ApiController < ApplicationController
+class ApiController < ActionController::API
+    include ActionController::HttpAuthentication::Token::ControllerMethods
+    include Pundit
     include Response
 
     def require_login

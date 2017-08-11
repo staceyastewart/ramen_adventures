@@ -1,3 +1,4 @@
+
 class PostsController < ApplicationController
   include Response
 
@@ -14,29 +15,40 @@ class PostsController < ApplicationController
   end
 
   def create
-    @post = Post.create!(post_params)
-    @post.shop = Shop.find(params[:id])
+    @post = Post.new(post_params)
+    authorize @post
+    #@post.shop = Shop.find(params[:id])
+    @post.save!
     if @post.save
-        json_response(@post, :created)
+       json_response(@post, :created)
     else
-        json_response({:errors => @post.errors.full_messages})
+       json_response({:errors => @post.errors.full_messages})
     end
   end
 
-  def update
-    @post = Post.update(post_params)
-    head :no_content
-  end
+    def update
+      @post = Post.find(params[:id])
+      authorize @post
+      @post.update_attributes(post_params)
 
-  def destroy
-    @post = Post.find(params[:id])
-    @post.destroy
-  end
+      if @post.update_attributes(post_params)
+         json_response(@post)
+      else
+         json_response( {:errors => @post.errors.full_messages })
+      end
+    end
 
-  private
+    def destroy
+      @post = Post.find(params[:id])
+      authorize @post
+      @post.destroy
+    end
 
-  def post_params
-    json_params = ActionController::Parameters.new( JSON.parse(request.body.read) )
-    return json_params.require(:post).permit(:content, :date, :shops_id)
-  end
+    private
+
+    def post_params
+      json_params = ActionController::Parameters.new( JSON.parse(request.body.read) )
+      return json_params.require(:post).permit(:content, :date, :shops_id)
+    end
+
 end
