@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   resources :shops
 
 resources :posts do
-  resources :photos, shallow: true
+  resources :photos
   resources :comments, shallow: true
 end
 
