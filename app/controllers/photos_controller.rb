@@ -5,7 +5,7 @@ class PhotosController < ApiController
     #after_action :verify_authorized, except: [:index, :show]
 
     def index
-        @photos = Photo.all
+        @photos = Photo.where(post_id: Post.find(params[:post_id]))
         json_response(@photos)
     end
 
