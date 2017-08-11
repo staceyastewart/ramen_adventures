@@ -5,7 +5,7 @@ class SearchController < ApiController
     q = params[:q]
     @posts_search    = Post.ransack(content_cont: q).result
     @shops_search = Shop.ransack(name_cont: q).result
-    json_response(@shops_search)
+    render json: {posts: @posts_search, shops: @shops_search}, status: :ok
   end
 
 
