@@ -1,10 +1,10 @@
 
-class PostsController < ApplicationController
+class PostsController < ApiController
   include Response
 
   before_action :require_login, only: [:create, :update, :destroy]
   after_action :verify_authorized, only: [:create, :update, :destroy]
-  
+
   def index
     @posts = Post.all
     json_response(@posts)

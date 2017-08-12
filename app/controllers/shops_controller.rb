@@ -1,4 +1,4 @@
-class ShopsController < ApplicationController
+class ShopsController < ApiController
     include Response
 
     before_action :require_login, only: [:create, :update, :destroy]
