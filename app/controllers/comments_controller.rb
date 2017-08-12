@@ -1,4 +1,4 @@
-class CommentsController < ApplicationController
+class CommentsController < ApiController
     include Response
 
     before_action :require_login, only: [:create, :update, :destroy]

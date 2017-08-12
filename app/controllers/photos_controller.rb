@@ -1,8 +1,8 @@
 class PhotosController < ApiController
     include Response
 
-    #before_action :require_login, only: [:create, :update, :destroy]
-    #after_action :verify_authorized, except: [:index, :show]
+    before_action :require_login, only: [:create, :update, :destroy]
+    after_action :verify_authorized, except: [:index, :show]
 
     def index
         @photos = Photo.where(post_id: Post.find(params[:post_id]))
@@ -16,7 +16,7 @@ class PhotosController < ApiController
 
     def create
         @photo = Photo.new(photo_params)
-        #authorize @photo
+        authorize @photo
         @photo.post = Post.find(params[:post_id])
         @photo.save!
         if @photo.save
@@ -28,7 +28,7 @@ class PhotosController < ApiController
 
     def update
         @photo = Photo.find(params[:id])
-        #authorize @photo
+        authorize @photo
         @photo.update_attributes(photo_params)
 
         if @photo.update_attributes(photo_params)
@@ -40,7 +40,7 @@ class PhotosController < ApiController
 
     def destroy
         @photo = Photo.find(params[:id])
-        #authorize @photo
+        authorize @photo
         @photo.destroy
     end
 
