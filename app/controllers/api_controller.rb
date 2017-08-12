@@ -5,6 +5,8 @@ class ApiController < ActionController::API
 
     rescue_from Pundit::NotAuthorizedError, with: :user_not_authorized
 
+    rescue_from ActiveRecord::RecordNotFound, with: :no_record_found
+
     def require_login
         authenticate_token || render_unauthorized("Access Denied")
     end
@@ -15,6 +17,10 @@ class ApiController < ActionController::API
 
     def user_not_authorized
         json_response("You must be an administrator to complete this action.")
+    end
+
+    def no_record_found
+        json_response("Record with this ID does not exist.")
     end
 
     protected
