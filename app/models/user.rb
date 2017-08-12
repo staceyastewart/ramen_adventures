@@ -1,4 +1,7 @@
 class User < ApplicationRecord
+    has_many :comments
+    has_many :usershops
+
     has_secure_password
     has_secure_token :auth_token
 

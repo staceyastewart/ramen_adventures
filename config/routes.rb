@@ -7,15 +7,18 @@ resources :posts do
   resources :comments, shallow: true
 end
 
-  get "/test", to: "test#index"
+resources :shops do
+  resources :usershops, only: [:create], shallow: true
+end
 
+resources :users do
+  resources :usershops, except: [:create, :update]
+end
+
+  get "/test", to: "test#index"
   post "/login", to: "sessions#create"
   delete "/logout", to: "sessions#destroy"
-  post "/users", to: "users#create"
-  get "/users", to: "users#show"
   get "/search" => "search#index"
-  put "/users", to: "users#update"
-
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170811132505) do
+ActiveRecord::Schema.define(version: 20170812152327) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -77,19 +77,16 @@ ActiveRecord::Schema.define(version: 20170811132505) do
   end
 
   create_table "usershops", force: :cascade do |t|
-    t.integer  "users_id"
-    t.integer  "shops_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer  "user_id"
-    t.index ["shops_id"], name: "index_usershops_on_shops_id", using: :btree
+    t.integer  "shop_id"
+    t.index ["shop_id"], name: "index_usershops_on_shop_id", using: :btree
     t.index ["user_id"], name: "index_usershops_on_user_id", using: :btree
-    t.index ["users_id"], name: "index_usershops_on_users_id", using: :btree
   end
 
   add_foreign_key "comments", "posts"
   add_foreign_key "photos", "posts"
   add_foreign_key "posts", "shops"
-  add_foreign_key "usershops", "shops", column: "shops_id"
-  add_foreign_key "usershops", "users"
+  add_foreign_key "usershops", "shops"
 end
