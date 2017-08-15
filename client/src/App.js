@@ -8,6 +8,7 @@ import Navigation from './components/Navigation';
 import Home from './components/Home';
 import Comments from './components/Comments';
 import Login from './components/Login';
+import SearchResults from './components/SearchResults';
 
 import { Provider } from 'react-redux';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
@@ -36,7 +37,6 @@ class App extends Component {
         password: e.target.password.value,
     }
     }).then(jsonRes => {
-      console.log(jsonRes.token);
       if (jsonRes.token !== undefined) {
         Auth.authenticateUser(jsonRes.token);
       }
@@ -48,13 +48,13 @@ class App extends Component {
 
   loginSubmit = (e) => {
     e.preventDefault();
+  
     axios.post('/login', {
         email: e.target.email.value,
         password: e.target.password.value,
       }).then((jsonRes) => {
-        console.log(jsonRes.data)
-        console.log(localStorage)
-      if (jsonRes.token !== undefined) {
+        console.log(jsonRes);
+      if (jsonRes.token === undefined) {
         Auth.authenticateUser(jsonRes.token);
       }
       this.setState({
@@ -64,42 +64,36 @@ class App extends Component {
     }).catch(err => console.log(err));
   }
 
-  // logOut = () => {
-  //       axios.delete('/logout', {
-  //       }).then(jsonRes => {
-  //       console.log(jsonRes);
-  //       Auth.deauthenticateUser();
-  //       this.setState({
-  //           auth: Auth.deauthenticateUser(),
-  //           isLoggedIn: false
-  //       });
-  //       }).catch(err => console.log(err));
-  //   }
-
-  getPhotos = () => {
-    axios.get('/photos')
-      .then((res) => {
-        console.log(res);
-      })
-  }
-  
-  componentDidMount = () => {
-    this.getPhotos();
-  }
-
+  logOut = () => {
+        axios.delete('/logout', {
+          headers: {
+            'Content-type': 'application/json',
+            'Authorization': `Token token=${Auth.getToken()}`
+            }
+         })
+          .then(jsonRes => {
+        console.log(jsonRes);
+        Auth.deauthenticateUser();
+        this.setState({
+            auth: Auth.deauthenticateUser(),
+        });
+      }).catch(err => console.log(err));
+    }
 
 
   render() {
     return (
       <Provider store={createStoreWithMiddleware(reducers)}>
         <div className="App">
-          <Navigation />
-          <Login />
+          <Navigation logOut={this.logOut}/>
+          {/* <Login loginSubmit={this.loginSubmit}/> */}
           <BrowserRouter>
             <div>
               <Switch>
-                <Route path="/register" component={(props) => <RegisterForm {...props} registerSubmit={this.registerSubmit}/>} />
-                <Route path="/" component={Home} />
+                <Route exact path="/" component={Home} />
+                <Route path="/register" component={(props) => <RegisterForm {...props} 
+                                        registerSubmit={this.registerSubmit}/>} />
+                <Route path="/search" component={SearchResults} />
               </Switch>
             </div>
           </BrowserRouter>

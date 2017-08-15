@@ -18,28 +18,28 @@ a:hover {
 
 .nav {
   width: 100%;
-  font-family: 'Proza Libre', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .top-links, .bottom-links {
-  font-size: 14px;
-  border: 1px solid #9d9b9d;
+  font-size: 21px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #D8D8D8;
+  background: #FB4F21;
+  color: white;
+  height: 35px;
+  padding: 0 5px;
 }
 
-.top-links {
-  height: 3vh;
-  width: 8vw;
-   margin: 10px 5px; 
+.top-links { 
+   margin: 10px 5px;
 }
 
 
 .bottom-links {
-  height: 3vh;
-  width: 9vw;
+  /* height: 100px;
+  width: 300px; */
   margin: 5px;
 }
 
@@ -80,12 +80,13 @@ hr {
 ----------------------------*/
 
  .home {
-  /* border: 1px solid black; */
-  font-family: 'Proza Libre', sans-serif;
+   border: 1px solid black; 
+   font-family: 'Roboto', sans-serif;
+   
 } 
 
-.middle-container {
-  height: 40vh;
+.top-middle-container, .bottom-middle-container {
+  height: 90vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -95,10 +96,15 @@ hr {
   height: 20vh;
 }
 
-.top-container {
-  background: #D8D8D8;
-  height: 50vh;
+.top-container { 
+  background: #9A6B43;
+  height: 60vh;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 65px;
+  font-weight: bold;
 }
 
 .top-image {
@@ -108,20 +114,10 @@ hr {
   margin: 2px 0 0 5px;
 }
 
-.top-text {
-  margin: 30px;
-}
-
-.date {
-  height: 5vh;
-  width: 10vw;
-  float: right;
-}
-
-.left, .right {
+.left, .right, .middle {
   background: #D8D8D8;
   height: 37vh;
-  width: 48vw;
+  /* width: 4vw; */
 }
 
 .bottom-container {
@@ -137,7 +133,7 @@ hr {
 
 .middle-image {
   height: 27vh;
-  width: 45vw;
+  width: 31vw;
   background-image: url('https://media0.giphy.com/media/Fj0MaDHcLycOk/200_s.gif');
   margin: 5px 10px 0 10px;
 }
@@ -145,4 +141,6 @@ hr {
 .ramen-text {
   height: 1vh;
   margin: 10px;
+  display: flex;
+  justify-content: center;
 }
