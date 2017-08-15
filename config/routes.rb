@@ -18,7 +18,7 @@ end
   get "/test", to: "test#index"
   post "/login", to: "sessions#create"
   delete "/logout", to: "sessions#destroy"
-  get "/search" => "search#index"
+  post "/search" => "search#index"
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
