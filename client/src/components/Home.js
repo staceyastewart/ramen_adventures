@@ -37,15 +37,15 @@ class Home extends Component {
         return (
             <div className="home home-container">
                 <div className="home top-container">
-                    A one stop shop for everything Ramen!
+                    <p className="top-text">A one stop shop for everything Ramen!</p>
                 </div>
                 <div className="home top-middle-container">
                     <div className="home left">
                         <div className="home left-middle-text">
-                            <p className="ramen-text">
+                            <p className="ramen-text title">
                             Ramen Blog
                             </p>
-                            <p className="ramen-text">
+                            <p className="ramen-text description">
                                 Check out my latest posts on my reviews of ramen shops!
                             </p>
                         </div>
@@ -53,11 +53,11 @@ class Home extends Component {
                         </div>
                     </div>
                     <div className="home middle">
-                        <div className="home left-middle-text">
-                            <p className="ramen-text">
+                        <div className="home middle-text">
+                            <p className="ramen-text title">
                                 Ramen Tour
                             </p>
-                            <p className="ramen-text">
+                            <p className="ramen-text description">
                                 Book a tour with me to visit my favorite ramen shops!
                             </p>
                         </div>
@@ -66,10 +66,10 @@ class Home extends Component {
                     </div>
                     <div className="home right">
                         <div className="home right-middle-text">
-                            <p className="ramen-text">
+                            <p className="ramen-text title">
                                 Ramen School
                             </p>
-                            <p className="ramen-text">
+                            <p className="ramen-text description">
                                 Reserve a spot to take a class on how to make ramen!
                             </p>
                         </div>
