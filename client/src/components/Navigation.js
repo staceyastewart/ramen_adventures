@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../ramenlogo.png';
+import logo from '../images/orangelogo.svg';
 import Auth from '../modules/Auth';
 import axios from 'axios';
 import { Link } from 'react-router';
@@ -39,7 +39,10 @@ class Navigation extends Component {
     return (
         <div className="nav">
             <div className="top-nav">
-                <img src={logo} />
+                <img className="logo" src={logo} />
+                <div className="banner">
+                    <p>RAMEN ADVENTURES</p>
+                </div>
                 <div className="top-elements">
                     <div className="top-nav">
                         <div className="top-links" onClick={this.props.logOut}>

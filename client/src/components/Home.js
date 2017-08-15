@@ -1,6 +1,13 @@
 import React, { Component } from 'react';
 import moment from 'moment';
 import axios from 'axios';
+import blog from '../images/blog.jpg';
+import yticon from '../images/yticon.png';
+import fbicon from '../images/fbicon.png';
+import igicon from '../images/igicon.png';
+import book from '../images/book.png';
+import whiteshirt from '../images/tshirtwhitelogo.png';
+import blueshirt from '../images/tshirtbluetokyo.png';
 
 class Home extends Component {
     constructor(props) {
@@ -41,7 +48,7 @@ class Home extends Component {
                 </div>
                 <div className="home top-middle-container">
                     <div className="home left">
-                        <div className="home left-middle-text">
+                        <div className="home left-middle-text middle-text">
                             <p className="ramen-text title">
                             Ramen Blog
                             </p>
@@ -65,7 +72,7 @@ class Home extends Component {
                         </div>
                     </div>
                     <div className="home right">
-                        <div className="home right-middle-text">
+                        <div className="home right-middle-text middle-text">
                             <p className="ramen-text title">
                                 Ramen School
                             </p>
@@ -78,25 +85,25 @@ class Home extends Component {
                     </div>
                 </div>
                 <div className="home bottom-middle-container">
-                    <div className="home left">
+                    <div className="home left bottom-middle">
+                         <div className="home left-middle-text">
+                            <p className="ramen-text title">
+                                Shop
+                            </p>
+                            <p className="ramen-text description">
+                                Don't forget to pick up a copy of my book at Top Ramen Shops in Tokyo! I also have t-shirts!
+                            </p>
+                        </div>
                         <div className="home middle-image">
                         </div>
-                        <div className="home left-middle-text">
-                            <p className="ramen-text">
-                            RAMEN RAMEN
-                            </p>
-                            <p className="ramen-text">
-                                Lorem ipsum dolor sit amet
-                            </p>
-                        </div>
                     </div>
-                    <div className="home right">
+                    <div className="home right bottom-middle">
                         <div className="home right-middle-text">
-                            <p className="ramen-text">
-                            RAMEN RAMEN
+                            <p className="ramen-text title">
+                                My Top Picks
                             </p>
-                            <p className="ramen-text">
-                                Lorem ipsum dolor sit amet
+                            <p className="ramen-text description">
+                                Not sure which shops to choose? Check out my list of top shops!
                             </p>
                         </div>
                         <div className="home middle-image">
@@ -105,8 +112,6 @@ class Home extends Component {
                 </div>
                 <div className="home bottom-container">
                     <div className="home bottom-left">
-                    </div>
-                    <div className="home botton-right">
                         <div>
                             Sign up to recieve exclusive ramen updates
                         </div>
@@ -118,8 +123,14 @@ class Home extends Component {
                             />
                         </form>
                     </div>
+                    <div className="home bottom-right">
+                        <div className="social-contain">
+                            <img className="social" src={yticon}/>
+                            <img className="social" src={fbicon} />
+                            <img className="social" src={igicon} />
+                        </div>
+                    </div>
                 </div>
-                
             </div>
         );
     }
