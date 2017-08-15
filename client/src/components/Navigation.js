@@ -16,12 +16,23 @@ class Navigation extends Component {
 
     search = (e) => {
         e.preventDefault();
-        //api call to database
-        this.setState({ search: '' });
+        this.getSearchResults();
     }
 
     handleSearchChange = (event) => {
         this.setState({ search: event.target.value })
+    }
+
+    getSearchResults = () => {
+        
+        axios.post(`/search`, { q: 'dogen' })
+        .then((res) => {
+            
+        })
+    }
+    
+    componentDidMount = () => {
+        this.getSearchResults();
     }
 
   render() {
@@ -31,11 +42,11 @@ class Navigation extends Component {
                 <img src={logo} />
                 <div className="top-elements">
                     <div className="top-nav">
-                        <div className="account top-links">
-                          My Account
+                        <div className="top-links" onClick={this.props.logOut}>
+                          Log Out
                         </div>
                         <div className="signup top-links">
-                          <a href="/register">Sign Up</a>
+                          <a href="/register">Log In/Sign Up</a>
                         </div>
                         <div className="contact top-links">
                             Contact
@@ -53,26 +64,23 @@ class Navigation extends Component {
             </div>
             <hr />
             <div className="bottom-nav">
-                <div className="home bottom-links">
-                    Home
-                </div>
-                <div className="about bottom-links">
-                    About
-                </div>
-                <div className="books bottom-links">
-                    Books
-                </div>
                 <div className="blog bottom-links">
                     Ramen Blog
                 </div>
-                <div className="schools bottom-links">
-                    Ramen Schools
+                <div className="books bottom-links">
+                    Store [Books & Tshirts]
                 </div>
                 <div className="tours bottom-links">
                     Ramen Tours
                 </div>
+                <div className="schools bottom-links">
+                    Ramen Schools
+                </div>
                 <div className="media bottom-links">
                     Media
+                </div>
+                <div className="about bottom-links">
+                    About Me
                 </div>
             </div>
 

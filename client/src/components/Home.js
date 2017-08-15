@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import moment from 'moment';
+import axios from 'axios';
 
 class Home extends Component {
     constructor(props) {
@@ -20,26 +21,63 @@ class Home extends Component {
         this.setState({ emailInput: event.target.value })
     }
 
+    getPhotos = () => {
+    axios.get('/photos/1313')
+      .then((res) => {
+        this.setState({ photo: res.data.link });
+      })
+  }
+
+  componentDidMount = () => {
+      this.getPhotos();
+  }
 
     render() {
-        let ramenCat = 'https://i.ytimg.com/vi/sxvdbiGE6ps/hqdefault.jpg';
+        let photo1 = this.state.photo;
         return (
             <div className="home home-container">
                 <div className="home top-container">
-                     <div className="home top-image">
-                         <img src={ramenCat} />
-                    </div> 
-                        
-                        <div className="top-right">
-                        <div className="home date">
-                            {moment().format('MMM Do YYYY')}
+                    A one stop shop for everything Ramen!
+                </div>
+                <div className="home top-middle-container">
+                    <div className="home left">
+                        <div className="home left-middle-text">
+                            <p className="ramen-text">
+                            Ramen Blog
+                            </p>
+                            <p className="ramen-text">
+                                Check out my latest posts on my reviews of ramen shops!
+                            </p>
                         </div>
-                        <div className="home top-text text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam veniam id recusandae ipsam expedita vero mollitia aliquid accusantium, qui obcaecati officiis velit impedit ducimus natus corporis, nam, deserunt iusto placeat.
+                        <div className="home middle-image">
+                        </div>
+                    </div>
+                    <div className="home middle">
+                        <div className="home left-middle-text">
+                            <p className="ramen-text">
+                                Ramen Tour
+                            </p>
+                            <p className="ramen-text">
+                                Book a tour with me to visit my favorite ramen shops!
+                            </p>
+                        </div>
+                        <div className="home middle-image">
+                        </div>
+                    </div>
+                    <div className="home right">
+                        <div className="home right-middle-text">
+                            <p className="ramen-text">
+                                Ramen School
+                            </p>
+                            <p className="ramen-text">
+                                Reserve a spot to take a class on how to make ramen!
+                            </p>
+                        </div>
+                        <div className="home middle-image">
                         </div>
                     </div>
                 </div>
-                <div className="home middle-container">
+                <div className="home bottom-middle-container">
                     <div className="home left">
                         <div className="home middle-image">
                         </div>
@@ -53,8 +91,6 @@ class Home extends Component {
                         </div>
                     </div>
                     <div className="home right">
-                        <div className="home middle-image">
-                        </div>
                         <div className="home right-middle-text">
                             <p className="ramen-text">
                             RAMEN RAMEN
@@ -62,6 +98,8 @@ class Home extends Component {
                             <p className="ramen-text">
                                 Lorem ipsum dolor sit amet
                             </p>
+                        </div>
+                        <div className="home middle-image">
                         </div>
                     </div>
                 </div>
