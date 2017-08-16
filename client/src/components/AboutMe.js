@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
+import  BestOfNav from './BestOfNav';
 
 class AboutMe extends Component {
     render() {
         return (
-            <div>
-                <h1>Meeeeeeeeeeeee!</h1>
+            <div className="about-contain">
+                <BestOfNav />
+                {this.props.children}
             </div>
         );
     }

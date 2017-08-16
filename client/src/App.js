@@ -3,11 +3,9 @@ import './App.css';
 import axios from 'axios';
 import Auth from './modules/Auth';
 import RegisterForm from './components/RegisterForm';
-import ShopPostForm from './components/ShopPostForm';
 import Navigation from './components/Navigation';
 import Home from './components/Home';
-import Comments from './components/Comments';
-import Login from './components/Login';
+import Footer from './components/Footer';
 import SearchResults from './components/SearchResults';
 import Store from './components/Store';
 import Tours from './components/Tours';
@@ -108,6 +106,7 @@ class App extends Component {
                   <Route path="/blog" component={Blog} />
                 </Switch>
               </div>
+              <Footer />
           </div>
         </BrowserRouter>
       </Provider>

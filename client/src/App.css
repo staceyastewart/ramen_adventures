@@ -245,3 +245,29 @@ hr {
   width: 50px;
   margin-top: 10px;
 }
+
+/*-------------------------
+        best of nav
+-------------------------*/
+
+.best-of-contain {
+  height: 700px;
+  width: 18%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+  color: white;
+  font-size: 20px;
+  margin-top: 30px;
+  padding-top: 35px;
+}
+
+.side-nav {
+  background: #FB4F21;
+  height: 35px;
+  width: 200px;
+  margin: 7px 0 7px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

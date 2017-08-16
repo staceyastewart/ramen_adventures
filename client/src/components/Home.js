@@ -5,9 +5,6 @@ import { Link } from 'react-router-dom';
 import blog from '../images/blog.jpg';
 import tour from '../images/tour.jpg';
 import school from '../images/school.jpg';
-import yticon from '../images/yticon.png';
-import fbicon from '../images/fbicon.png';
-import igicon from '../images/igicon.png';
 import book from '../images/book.png';
 import whiteshirt from '../images/tshirtwhitelogo.png';
 import blueshirt from '../images/tshirtbluetokyo.png';
@@ -19,14 +16,7 @@ import midpicks from '../images/picksmiddle.png';
 import rtpicks from '../images/picksright.png';
 
 class Home extends Component {
-    constructor(props) {
-    super(props);
-
-        this.state = {
-            emailInput: ''
-        }
-    }
-
+   
      inputEmail = (e) => {
         e.preventDefault();
         //api call to database
@@ -133,28 +123,7 @@ class Home extends Component {
                          </div>
                     </div>
                 </div>
-                <div className="home bottom-container">
-                    <div className="home bottom-left">
-                        <div>
-                            Sign up to recieve exclusive ramen updates
-                        </div>
-                        <form onSubmit={(e) => this.inputEmail(e)}>
-                            <input type="text" 
-                                    placeholder="Enter Email" 
-                                    onChange={this.handleEmailInputChange} 
-                                    value={this.state.emailInput}
-                                    className="email-input"
-                            />
-                        </form>
-                    </div>
-                    <div className="home bottom-right">
-                        <div className="social-contain">
-                            <img className="social" src={yticon} alt="youtube logo"/>
-                            <img className="social" src={fbicon} alt="facebook logo"/>
-                            <img className="ig" src={igicon} alt="instagram logo"/>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         );
     }

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import logo from '../images/orangelogo.svg';
-import Auth from '../modules/Auth';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 
