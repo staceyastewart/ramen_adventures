@@ -92,9 +92,7 @@ hr {
 
 .top-container { 
   height: 400px;
-  display: flex !important;
-  justify-content: center;
-  align-items: center; 
+  width: 100%;
   color: white;
   font-size: 65px;
   font-weight: bold;
@@ -115,11 +113,13 @@ hr {
   width: 50%;
 }
 
-p.top-text {
+.top-text {
   text-align: center; 
-  position: absolute;
+  position: absolute; 
   z-index: 10;
-  margin-top: 0;
+  left: 50%;
+  transform: translate(-50%, 80px); 
+  width: 100%;
 }
 
 .top-image {
