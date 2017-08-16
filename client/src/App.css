@@ -96,6 +96,9 @@ hr {
 
 .top-text {
   text-align: center;
+  position: absolute;
+  z-index: 10;
+  margin-top: 0;
 }
 
 .bottom-container {
@@ -103,7 +106,6 @@ hr {
 }
 
 .top-container { 
-  background: #9A6B43;
   height: 400px;
   display: flex;
   justify-content: center;
@@ -114,9 +116,9 @@ hr {
 }
 
 .top-image {
-  height: 49vh;
-  width: 370vw;
-  margin: 2px 0 0 5px;
+  height: 400px;
+  width: 33.33%;
+  position: relative;
 }
 
 .left, .right, .middle {

@@ -8,6 +8,9 @@ import igicon from '../images/igicon.png';
 import book from '../images/book.png';
 import whiteshirt from '../images/tshirtwhitelogo.png';
 import blueshirt from '../images/tshirtbluetokyo.png';
+import rtramen from '../images/bannerrt.jpg';
+import midramen from '../images/bannermid.jpg';
+import ltramen from '../images/bannerlt.jpg';
 
 class Home extends Component {
     constructor(props) {
@@ -43,8 +46,12 @@ class Home extends Component {
         let photo1 = this.state.photo;
         return (
             <div className="home home-container">
+                
                 <div className="home top-container">
-                    <p className="top-text">A one stop shop for everything Ramen!</p>
+                    <p className="top-text">A one stop shop for everything Ramen!</p> 
+                    <img src={ltramen} className="top-image" />
+                    <img src={midramen} className="top-image" />
+                    <img src={rtramen} className="top-image" />
                 </div>
                 <div className="home top-middle-container">
                     <div className="home left">
