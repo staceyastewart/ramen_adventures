@@ -79,7 +79,7 @@ class Home extends Component {
                                 Book a tour with me to visit my favorite ramen shops!
                             </p>
                         </div>
-                        <img src={tour} className="home middle-image"/>
+                        <img src={tour} className="home middle-image tour"/>
                     </div>
                     <div className="home right">
                         <div className="home right-middle-text middle-text">
@@ -90,7 +90,7 @@ class Home extends Component {
                                 Reserve a spot to take a class on how to make ramen!
                             </p>
                         </div>
-                        <img src={school} className="home middle-image"/>
+                        <img src={school} className="home middle-image school"/>
                     </div>
                 </div>
                 <div className="home bottom-middle-container">
@@ -132,9 +132,10 @@ class Home extends Component {
                         </div>
                         <form onSubmit={(e) => this.inputEmail(e)}>
                             <input type="text" 
-                                    placeholder="Email" 
+                                    placeholder="Enter Email" 
                                     onChange={this.handleEmailInputChange} 
                                     value={this.state.emailInput}
+                                    className="email-input"
                             />
                         </form>
                     </div>
