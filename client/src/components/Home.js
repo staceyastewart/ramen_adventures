@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
+
 import blog from '../images/blog.jpg';
 import tour from '../images/tour.jpg';
 import school from '../images/school.jpg';
@@ -57,46 +59,54 @@ class Home extends Component {
                     <img src={rtramen} className="top-image" alt="bowl of ramen"/>
                 </div>
                 <div className="home top-middle-container">
-                    <div className="home left">
-                        <div className="home left-middle-text middle-text">
-                            <p className="ramen-text title">
-                            Ramen Blog
-                            </p>
-                            <p className="ramen-text description">
-                                Check out my latest posts on my reviews of ramen shops!
-                            </p>
+                    <Link to='/blog'>
+                        <div className="home left">
+                            <div className="home left-middle-text middle-text">
+                                <p className="ramen-text title">
+                                Ramen Blog
+                                </p>
+                                <p className="ramen-text description">
+                                    Check out my latest posts on my reviews of ramen shops!
+                                </p>
+                            </div>
+                            <img src={blog} className="home middle-image" alt="bowl of ramen on restaurant table in Japan with Japanese magazine beside it"/>   
                         </div>
-                        <img src={blog} className="home middle-image" alt="bowl of ramen on restaurant table in Japan with Japanese magazine beside it"/>   
-                    </div>
-                    <div className="home middle">
-                        <div className="home middle-text">
-                            <p className="ramen-text title">
-                                Ramen Tour
-                            </p>
-                            <p className="ramen-text description">
-                                Book a tour with me to visit my favorite ramen shops!
-                            </p>
+                    </Link>
+                    <Link to="/tours">
+                        <div className="home middle">
+                            <div className="home middle-text">
+                                <p className="ramen-text title">
+                                    Ramen Tour
+                                </p>
+                                <p className="ramen-text description">
+                                    Book a tour with me to visit my favorite ramen shops!
+                                </p>
+                            </div>
+                            <img src={tour} className="home middle-image tour" alt="black and white of street view in Japan with Ramen shop in frame"/>
                         </div>
-                        <img src={tour} className="home middle-image tour" alt="black and white of street view in Japan with Ramen shop in frame"/>
-                    </div>
-                    <div className="home right">
-                        <div className="home right-middle-text middle-text">
-                            <p className="ramen-text title">
-                                Ramen School
-                            </p>
-                            <p className="ramen-text description">
-                                Reserve a spot to take a class on how to make ramen!
-                            </p>
+                    </Link>
+                    <Link to='/schools'>
+                        <div className="home right">
+                            <div className="home right-middle-text middle-text">
+                                <p className="ramen-text title">
+                                    Ramen School
+                                </p>
+                                <p className="ramen-text description">
+                                    Reserve a spot to take a class on how to make ramen!
+                                </p>
+                            </div>
+                            <img src={school} className="home middle-image school" alt="special large pot for cooking ramen on a stove top"/>
                         </div>
-                        <img src={school} className="home middle-image school" alt="special large pot for cooking ramen on a stove top"/>
-                    </div>
+                    </Link>
                 </div>
                 <div className="home bottom-middle-container">
                     <div className="home left bottom-middle">
                          <div className="home left-middle-text">
-                            <p className="ramen-text title">
-                                Shop
-                            </p>
+                             <Link to="/store">
+                                <p className="ramen-text title">
+                                    Shop
+                                </p>
+                            </Link>
                             <p className="ramen-text description">
                                 Don't forget to pick up a copy of my book at Top Ramen Shops in Tokyo! I also have t-shirts!
                             </p>

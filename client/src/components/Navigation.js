@@ -50,12 +50,16 @@ class Navigation extends Component {
                         <div className="top-links" onClick={this.props.logOut}>
                           Log Out
                         </div>
-                        <div className="signup top-links">
-                          <Link to="/register">Log In/Sign Up</Link>
-                        </div>
-                        <div className="contact top-links">
-                            Contact
-                        </div>
+                        <Link to="/register">
+                            <div className="signup top-links">
+                                Log In/Sign Up
+                            </div>
+                        </Link>
+                        <Link to="/about">
+                            <div className="contact top-links">
+                                Contact
+                            </div>
+                        </Link>
                     </div>
                     <form onSubmit={(e) => this.search(e)}>
                         <input  type="text"
