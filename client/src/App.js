@@ -9,6 +9,12 @@ import Home from './components/Home';
 import Comments from './components/Comments';
 import Login from './components/Login';
 import SearchResults from './components/SearchResults';
+import Store from './components/Store';
+import Tours from './components/Tours';
+import Schools from './components/Schools';
+import Media from './components/Media';
+import AboutMe from './components/AboutMe';
+import Blog from './components/Blog';
 
 import { Provider } from 'react-redux';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
@@ -85,19 +91,24 @@ class App extends Component {
     return (
       <Provider store={createStoreWithMiddleware(reducers)}>
         <BrowserRouter>
-        <div className="App">
-          {/* <Login loginSubmit={this.loginSubmit}/> */}
-          
-            <Navigation logOut={this.logOut}/>
-            <div>
-              <Switch>
-                <Route exact path="/" component={Home} />
-                <Route path="/register" component={(props) => <RegisterForm {...props} 
-                                        registerSubmit={this.registerSubmit}/>} />
-                <Route path="/search" component={SearchResults} />
-              </Switch>
-            </div>
-        </div>
+          <div className="App">
+            {/* <Login loginSubmit={this.loginSubmit}/> */}
+              <Navigation logOut={this.logOut}/>
+              <div>
+                <Switch>
+                  <Route exact path="/" component={Home} />
+                  <Route path="/register" component={(props) => <RegisterForm {...props} 
+                                          registerSubmit={this.registerSubmit}/>} />
+                  <Route path="/search" component={SearchResults} />
+                  <Route path="/store" component={Store} />
+                  <Route path='/tours' component={Tours} />
+                  <Route path='/schools' component={Schools} />
+                  <Route path='/media' component={Media} />
+                  <Route path='/about' component={AboutMe} />
+                  <Route path="/blog" component={Blog} />
+                </Switch>
+              </div>
+          </div>
         </BrowserRouter>
       </Provider>
     );

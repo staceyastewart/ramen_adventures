@@ -98,6 +98,10 @@ hr {
   font-weight: bold;
 }
 
+.logo-banner {
+  display: flex;
+}
+
 .top-middle-container, .bottom-middle-container {
   display: flex;
   align-items: center;
