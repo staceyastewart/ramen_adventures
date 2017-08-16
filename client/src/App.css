@@ -7,11 +7,19 @@ a:visited {
 
 a:link {
   text-decoration: none;
+  color: white;
 }
 
 a:hover {
   color: #C10311;
 }
+
+input::placeholder {
+  color: white;
+  font-size: 13px;
+  padding-left: 10px;
+}
+
 /*------------------------------
       NAVIGATION
 -----------------------------*/
@@ -49,11 +57,7 @@ a:hover {
 
 .top-nav {
   display: flex;
-}
-
-.top-nav {
-  display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .search {
@@ -71,6 +75,7 @@ hr {
 }
 .bottom-nav {
   display: flex;
+  margin-left: 10px;
 }
 
 /*----------------------------
@@ -83,6 +88,16 @@ hr {
 
 .home-container {
   margin-top: 25px;
+}
+
+.top-container { 
+  height: 400px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center; 
+  color: white;
+  font-size: 65px;
+  font-weight: bold;
 }
 
 .top-middle-container, .bottom-middle-container {
@@ -100,21 +115,11 @@ hr {
   width: 50%;
 }
 
-.top-text {
-  text-align: center;
+p.top-text {
+  text-align: center; 
   position: absolute;
   z-index: 10;
   margin-top: 0;
-}
-
-.top-container { 
-  height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 65px;
-  font-weight: bold;
 }
 
 .top-image {
@@ -216,12 +221,14 @@ hr {
  
 .bottom-right {
   width: 50%;
-  align-self: flex-end;
+  align-self: center;
 }
 
  .social-contain { 
   width: 35%;
-  float: right;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
 } 
 
 .social {
@@ -232,5 +239,5 @@ hr {
 .ig {
   height: 51px;
   width: 50px;
-  margin-bottom: 10px;
+  margin-top: 10px;
 }
