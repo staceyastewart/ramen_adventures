@@ -84,10 +84,11 @@ class App extends Component {
   render() {
     return (
       <Provider store={createStoreWithMiddleware(reducers)}>
+        <BrowserRouter>
         <div className="App">
-          <Navigation logOut={this.logOut}/>
           {/* <Login loginSubmit={this.loginSubmit}/> */}
-          <BrowserRouter>
+          
+            <Navigation logOut={this.logOut}/>
             <div>
               <Switch>
                 <Route exact path="/" component={Home} />
@@ -96,8 +97,8 @@ class App extends Component {
                 <Route path="/search" component={SearchResults} />
               </Switch>
             </div>
-          </BrowserRouter>
         </div>
+        </BrowserRouter>
       </Provider>
     );
   }

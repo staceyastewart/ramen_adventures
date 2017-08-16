@@ -86,7 +86,6 @@ class Navigation extends Component {
                     About Me
                 </div>
             </div>
-
         </div>
     )
   }
