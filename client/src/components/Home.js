@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import moment from 'moment';
 import axios from 'axios';
 import blog from '../images/blog.jpg';
 import tour from '../images/tour.jpg';
@@ -48,15 +47,14 @@ class Home extends Component {
   }
 
     render() {
-        let photo1 = this.state.photo;
         return (
             <div className="home home-container">
                 
                 <div className="home top-container">
                     <p className="top-text">A one stop shop for everything Ramen!</p> 
-                    <img src={ltramen} className="top-image" />
-                    <img src={midramen} className="top-image" />
-                    <img src={rtramen} className="top-image" />
+                    <img src={ltramen} className="top-image" alt="bowl of ramen" />
+                    <img src={midramen} className="top-image" alt="bowl of ramen"/>
+                    <img src={rtramen} className="top-image" alt="bowl of ramen"/>
                 </div>
                 <div className="home top-middle-container">
                     <div className="home left">
@@ -68,7 +66,7 @@ class Home extends Component {
                                 Check out my latest posts on my reviews of ramen shops!
                             </p>
                         </div>
-                        <img src={blog} className="home middle-image"/>   
+                        <img src={blog} className="home middle-image" alt="bowl of ramen on restaurant table in Japan with Japanese magazine beside it"/>   
                     </div>
                     <div className="home middle">
                         <div className="home middle-text">
@@ -79,7 +77,7 @@ class Home extends Component {
                                 Book a tour with me to visit my favorite ramen shops!
                             </p>
                         </div>
-                        <img src={tour} className="home middle-image tour"/>
+                        <img src={tour} className="home middle-image tour" alt="black and white of street view in Japan with Ramen shop in frame"/>
                     </div>
                     <div className="home right">
                         <div className="home right-middle-text middle-text">
@@ -90,7 +88,7 @@ class Home extends Component {
                                 Reserve a spot to take a class on how to make ramen!
                             </p>
                         </div>
-                        <img src={school} className="home middle-image school"/>
+                        <img src={school} className="home middle-image school" alt="special large pot for cooking ramen on a stove top"/>
                     </div>
                 </div>
                 <div className="home bottom-middle-container">
@@ -104,9 +102,9 @@ class Home extends Component {
                             </p>
                         </div>
                         <div className="shop-contain">
-                            <img src={book}  className="home bottom-image"/>
-                            <img src={whiteshirt}  className="home bottom-image"/>
-                            <img src={blueshirt}  className="home bottom-image"/>
+                            <img src={book}  className="home bottom-image" alt="cover of Brian's book"/>
+                            <img src={whiteshirt}  className="home bottom-image" alt="white t-shirt with RA logo in red"/>
+                            <img src={blueshirt}  className="home bottom-image" alt="blue tshirt with tokyo spelled in ramen noodles with chopsticks and bownl"/>
                         </div>
                     </div>
                     <div className="home right bottom-middle">
@@ -119,9 +117,9 @@ class Home extends Component {
                             </p>
                         </div>
                         <div className="picks-contain">
-                            <img src={ltpicks}  className="home picks-image"/>
-                            <img src={midpicks}  className="home picks-image"/>
-                            <img src={rtpicks}  className="home picks-image"/>
+                            <img src={ltpicks}  className="home picks-image" alt="bowl of ramen"/>
+                            <img src={midpicks}  className="home picks-image" alt="bowl of ramen"/>
+                            <img src={rtpicks}  className="home picks-image" alt="bowl of ramen"/>
                          </div>
                     </div>
                 </div>
@@ -141,9 +139,9 @@ class Home extends Component {
                     </div>
                     <div className="home bottom-right">
                         <div className="social-contain">
-                            <img className="social" src={yticon}/>
-                            <img className="social" src={fbicon} />
-                            <img className="ig" src={igicon} />
+                            <img className="social" src={yticon} alt="youtube logo"/>
+                            <img className="social" src={fbicon} alt="facebook logo"/>
+                            <img className="ig" src={igicon} alt="instagram logo"/>
                         </div>
                     </div>
                 </div>
