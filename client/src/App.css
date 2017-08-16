@@ -36,7 +36,7 @@ a:hover {
   color: #FB4F21;
   font-size: 55px;
   letter-spacing: 15px;
-   height: 150px; 
+  height: 150px; 
 }
 
 .top-links { 
@@ -57,10 +57,10 @@ a:hover {
 }
 
 .search {
-  border: 1px solid black;
-  height: 2.5vh;
-  width: 25vw;
-  background: #D8D8D8;
+  height: 25px;
+  width: 400px;
+  background: #FB4F21;
+  color: white;
   margin: 10px;
 }
 
@@ -78,7 +78,7 @@ hr {
 ----------------------------*/
 
  .home {
-   border: 1px solid black; 
+   border: 1px solid gray; 
    font-family: 'Roboto', sans-serif;
    
 } 
@@ -118,6 +118,7 @@ hr {
 .top-image {
   height: 400px;
   width: 33.33%;
+  opacity: .7;
   position: relative;
 }
 
@@ -127,7 +128,7 @@ hr {
 
 .middle-image {
   height: 300px;
-   /* background-image: url('./images/blog.jpg');  */
+  width: 100%;
 }
 
  .ramen-text {
@@ -149,9 +150,29 @@ hr {
   text-align: center;
 }
 
+.shop-contain {
+  display: flex;
+}
+
 .bottom-container {
   height: 170px;
   display: flex;
+}
+
+.bottom-image {
+  height: 300px;
+  width: 33.33%;
+}
+
+.picks-contain {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+}
+.picks-image {
+  height: 200px;
+  width: 30%;
 }
 
 .bottom-left {
@@ -161,13 +182,20 @@ hr {
 .bottom-right {
   width: 50%;
   align-self: flex-end;
-} 
+}
 
  .social-contain { 
-  width: 25%;
+  width: 35%;
+  float: right;
 } 
 
 .social {
-  height: 100px;
-  width: 90px;
+  height: 70px;
+  width: 68px;
+}
+
+.ig {
+  height: 51px;
+  width: 50px;
+  margin-bottom: 10px;
 }

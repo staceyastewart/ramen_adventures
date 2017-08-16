@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import moment from 'moment';
 import axios from 'axios';
 import blog from '../images/blog.jpg';
+import tour from '../images/tour.jpg';
+import school from '../images/school.jpg';
 import yticon from '../images/yticon.png';
 import fbicon from '../images/fbicon.png';
 import igicon from '../images/igicon.png';
@@ -11,6 +13,9 @@ import blueshirt from '../images/tshirtbluetokyo.png';
 import rtramen from '../images/bannerrt.jpg';
 import midramen from '../images/bannermid.jpg';
 import ltramen from '../images/bannerlt.jpg';
+import ltpicks from '../images/picksleftround.png';
+import midpicks from '../images/picksmiddle.png';
+import rtpicks from '../images/picksright.png';
 
 class Home extends Component {
     constructor(props) {
@@ -63,8 +68,7 @@ class Home extends Component {
                                 Check out my latest posts on my reviews of ramen shops!
                             </p>
                         </div>
-                        <div className="home middle-image">
-                        </div>
+                        <img src={blog} className="home middle-image"/>   
                     </div>
                     <div className="home middle">
                         <div className="home middle-text">
@@ -75,8 +79,7 @@ class Home extends Component {
                                 Book a tour with me to visit my favorite ramen shops!
                             </p>
                         </div>
-                        <div className="home middle-image">
-                        </div>
+                        <img src={tour} className="home middle-image"/>
                     </div>
                     <div className="home right">
                         <div className="home right-middle-text middle-text">
@@ -87,8 +90,7 @@ class Home extends Component {
                                 Reserve a spot to take a class on how to make ramen!
                             </p>
                         </div>
-                        <div className="home middle-image">
-                        </div>
+                        <img src={school} className="home middle-image"/>
                     </div>
                 </div>
                 <div className="home bottom-middle-container">
@@ -101,7 +103,10 @@ class Home extends Component {
                                 Don't forget to pick up a copy of my book at Top Ramen Shops in Tokyo! I also have t-shirts!
                             </p>
                         </div>
-                        <div className="home middle-image">
+                        <div className="shop-contain">
+                            <img src={book}  className="home bottom-image"/>
+                            <img src={whiteshirt}  className="home bottom-image"/>
+                            <img src={blueshirt}  className="home bottom-image"/>
                         </div>
                     </div>
                     <div className="home right bottom-middle">
@@ -113,8 +118,11 @@ class Home extends Component {
                                 Not sure which shops to choose? Check out my list of top shops!
                             </p>
                         </div>
-                        <div className="home middle-image">
-                        </div>
+                        <div className="picks-contain">
+                            <img src={ltpicks}  className="home picks-image"/>
+                            <img src={midpicks}  className="home picks-image"/>
+                            <img src={rtpicks}  className="home picks-image"/>
+                         </div>
                     </div>
                 </div>
                 <div className="home bottom-container">
@@ -134,7 +142,7 @@ class Home extends Component {
                         <div className="social-contain">
                             <img className="social" src={yticon}/>
                             <img className="social" src={fbicon} />
-                            <img className="social" src={igicon} />
+                            <img className="ig" src={igicon} />
                         </div>
                     </div>
                 </div>
