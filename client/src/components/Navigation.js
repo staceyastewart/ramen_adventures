@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from '../images/orangelogo.svg';
 import Auth from '../modules/Auth';
 import axios from 'axios';
-import { Link } from 'react-router';
+import { Link, IndexLink } from 'react-router-dom';
 
 class Navigation extends Component {
 
@@ -39,7 +39,7 @@ class Navigation extends Component {
     return (
         <div className="nav">
             <div className="top-nav">
-                <img className="logo" src={logo} />
+                <img className="logo" src={logo} alt="Ramen Adventures logo"/>
                 <div className="banner">
                     <p>RAMEN ADVENTURES</p>
                 </div>
@@ -49,7 +49,7 @@ class Navigation extends Component {
                           Log Out
                         </div>
                         <div className="signup top-links">
-                          <a href="/register">Log In/Sign Up</a>
+                          <Link to="/register">Log In/Sign Up</Link>
                         </div>
                         <div className="contact top-links">
                             Contact
