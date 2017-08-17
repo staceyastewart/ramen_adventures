@@ -49,7 +49,7 @@ class Home extends Component {
                     <img src={rtramen} className="top-image" alt="bowl of ramen"/>
                 </div>
                 <div className="home top-middle-container">
-                    <Link to='/blog'>
+                    <Link to='/blog' className="nav-link">
                         <div className="home left">
                             <div className="home left-middle-text middle-text">
                                 <p className="ramen-text title">
@@ -62,7 +62,7 @@ class Home extends Component {
                             <img src={blog} className="home middle-image" alt="bowl of ramen on restaurant table in Japan with Japanese magazine beside it"/>   
                         </div>
                     </Link>
-                    <Link to="/tours">
+                    <Link to="/tours" className="nav-link">
                         <div className="home middle">
                             <div className="home middle-text">
                                 <p className="ramen-text title">
@@ -75,7 +75,7 @@ class Home extends Component {
                             <img src={tour} className="home middle-image tour" alt="black and white of street view in Japan with Ramen shop in frame"/>
                         </div>
                     </Link>
-                    <Link to='/schools'>
+                    <Link to='/schools' className="nav-link">
                         <div className="home right">
                             <div className="home right-middle-text middle-text">
                                 <p className="ramen-text title">
@@ -92,7 +92,7 @@ class Home extends Component {
                 <div className="home bottom-middle-container">
                     <div className="home left bottom-middle">
                          <div className="home left-middle-text">
-                             <Link to="/store">
+                             <Link to="/store" className="nav-link">
                                 <p className="ramen-text title">
                                     Shop
                                 </p>
