@@ -13,6 +13,9 @@ class Footer extends Component {
     }
 
     render() {
+        const youtube = "https://www.youtube.com/channel/UCeKGFXpVg0BaeebrHn4_nkA";
+        const facebook = "https://www.facebook.com/ramenadventure";
+        const insta = "https://www.instagram.com/ramenadventures/";
         return (
             <div>
                 <div className="home bottom-container">
@@ -31,9 +34,15 @@ class Footer extends Component {
                     </div>
                     <div className="home bottom-right">
                         <div className="social-contain">
-                            <img className="social" src={yticon} alt="youtube logo"/>
-                            <img className="social" src={fbicon} alt="facebook logo"/>
-                            <img className="ig" src={igicon} alt="instagram logo"/>
+                            <a href={youtube} target="_blank">
+                                <img className="social" src={yticon} alt="youtube logo"/>
+                            </a>
+                            <a href={facebook} target="_blank">
+                                <img className="social" src={fbicon} alt="facebook logo"/>
+                            </a>
+                            <a href={insta} target="_blank">
+                                <img className="ig" src={igicon} alt="instagram logo"/>
+                            </a>
                         </div>
                     </div>
                 </div>
