@@ -5,13 +5,8 @@ a:visited {
   color: inherit;
 }
 
-a:link {
-  text-decoration: none;
-  color: white;
-}
-
 a:hover {
-  color: #C10311;
+  color: #FB4F21;
 }
 
 input::placeholder {
@@ -38,6 +33,10 @@ input::placeholder {
   color: white;
   height: 35px;
   padding: 0 5px;
+}
+
+.nav-link, .social-link {
+  text-decoration: none;
 }
 
 .banner {
@@ -270,4 +269,57 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/*----------------------
+    about me
+----------------------*/
+
+.connect-container {
+  display: flex;
+}
+
+.photo-container {
+  margin: 0 60px;
+}
+
+.caption {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+ .name-contain {
+    text-align: center;
+    width: 67%;
+}
+
+.brian {
+  height: 500px;
+  width: 750px;
+}
+
+.name {
+  font-size: 60px;
+  margin-bottom: 0;
+}
+
+.contact-me {
+  font-size: 40px;
+}
+
+.email, .social-links {
+  font-size: 25px;
+  color: black;
+}
+
+.bio {
+  margin-left: 40px;
+}
+
+.bio-title {
+  font-size: 35px;
+}
+
+.bio-text {
+  font-size: 23px;
 }
