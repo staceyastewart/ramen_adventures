@@ -65,7 +65,7 @@ class AboutMe extends Component {
                         <h2 className="bio-title">How I Started:</h2>
                         <p className="bio-text">I started off as a video game programmer but I soon came to realize that this was not what I wanted to do. So I decided to take a leap and pack my bags to move to Japan. I discovered many different types of ramen and began to write about them on my blog. From there, I started to gain recognition and somewhat of a following that I was able to land print and media gigs. My blog then expanded to tours and shortly after, to ramen schools to teach people about the process and how much goes into creating this dish.</p>
 
-                        <p className="bio-text">Don't forget to connect with me on social media including my <a href={youtube} target="_blank">Youtube</a> channel and <a href={insta} target="_blank">instagram!</a></p>
+                        <p className="bio-text">Don't forget to connect with me on social media including my <a href={youtube} target="_blank"className="text-link">Youtube</a> channel and <a href={insta} target="_blank" className="text-link">instagram!</a></p>
                     </div>
                 </div>
             </div>

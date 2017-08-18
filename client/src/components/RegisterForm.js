@@ -10,19 +10,49 @@ class RegisterForm extends Component {
 
   render() {
     return (
-      <form onSubmit={(e) => this.props.registerSubmit(e)}>
-        <h3>Create Profile *required fields</h3>
-        <label>First Name:*</label>
-        <input type="text" name="firstName" />
-        <label>Last Name:*</label>
-        <input type="text" name="lastName" />
-        <label>Email:*</label>
-        <input type="email" name="email" />
-        <label>Create Password:* (5-16 characters)</label>
-        <input type="password" name="password" />
-        <label>city</label>
-        <input type="submit" value="Register" name="register" />
-      </form>
+      <div>
+        <form onSubmit={(e) => this.props.registerSubmit(e)}  className="register-contain">
+          <div className="create">
+            <p className="create-profile">Create Profile</p>
+            <p className="required">*required fields</p>
+          </div>
+          <div className="form-field">
+            <div className="label">
+              <label>First Name:*</label>
+            </div>
+            <div className="input">
+                <input type="text" name="firstName" className="input-field first-name" />
+            </div>
+          </div>
+          <div className="form-field">
+            <div className="label">
+              <label>Last Name:*</label>
+            </div>
+            <div className="input">
+              <input type="text" name="lastName" className="input-field last-name" />
+            </div>
+          </div>
+          <div className="form-field">
+            <div className="label">
+              <label>Email:*</label>
+            </div>
+            <div className="input">
+              <input type="email" name="email" className="input-field email" />
+            </div>
+          </div>
+          <div className="form-field">
+            <div className="label">
+              <label>Create Password:* <br/>(5-16 characters)</label>
+            </div>
+            <div className="input">
+              <input type="password" name="password" className="input-field password" />
+            </div>
+          </div>
+          <div className="form-field submit-contain">
+            <input type="submit" value="Register" name="register" className="register" />
+          </div>
+        </form>
+      </div>
     )
   }
 }

@@ -18,10 +18,11 @@ class Footer extends Component {
         const insta = "https://www.instagram.com/ramenadventures/";
         return (
             <div>
+                <hr />
                 <div className="home bottom-container">
                     <div className="home bottom-left">
                         <div>
-                            Sign up to recieve exclusive ramen updates
+                            Sign up to receive exclusive ramen updates
                         </div>
                         <form onSubmit={(e) => this.inputEmail(e)}>
                             <input type="text" 
