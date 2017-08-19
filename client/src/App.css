@@ -415,7 +415,7 @@ hr {
   margin: 187px 0 0 121px;
 }
 
-.signin-register, .forms-contain, .returning, .new-user {
+.signin-register {
   border: 1px solid #D8D8D8;
 }
 
@@ -433,7 +433,21 @@ hr {
 
 .forms-contain {
   display: flex;
-  justify-content: space-around;
   font-size: 20px;
 }
 
+.returning {
+  margin: 56px 0 0 35px;
+}
+
+.new-user {
+  margin: 56px 0 0 150px;
+}
+
+.login-submit {
+  height: 43px;
+  width: 120px;
+  background: #FB4F21;
+  color: white;
+  font-size: 20px;
+}

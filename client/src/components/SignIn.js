@@ -22,15 +22,19 @@ class SignIn extends Component {
                                     <label>Password:</label>
                                     <input type="text"></input>
                                 </div>
-                                <input className="login-submit" type="submit"></input>
+                                <input className="login-submit" type="submit" value="Sign in"></input>
                                 <p>Forgot your password?</p>
                             </form>
                         </div>
                         <div className="new-user">
                             <p>New user registration</p>
-                            <label>Email:</label>
-                            <input type="text"></input>
-                            <input type="submit"></input>
+                            <form>
+                                <div>
+                                    <label>Email:</label>
+                                    <input type="text"></input>
+                                </div>
+                                <input className="login-submit" type="submit" value="Register"></input>
+                            </form>
                         </div>
                     </div>
                 </div>
