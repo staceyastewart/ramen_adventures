@@ -404,3 +404,36 @@ hr {
     sign in/register
 ----------------------*/
 
+.signin-page-container {
+  display: flex;
+}
+
+.signin-container {
+  border: 1px solid #D8D8D8;
+  height: 430px;
+  width: 825px;
+  margin: 187px 0 0 121px;
+}
+
+.signin-register, .forms-contain, .returning, .new-user {
+  border: 1px solid #D8D8D8;
+}
+
+.signin-register {
+  height: 48px;
+  width: 318px;
+  margin: 27px 0 0 18px;
+  background: #FB4F21;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.forms-contain {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
