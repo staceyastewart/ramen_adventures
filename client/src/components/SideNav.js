@@ -1,20 +1,14 @@
 import React, { Component } from 'react';
 
-class BestOfNav extends Component {
+class SideNav extends Component {
     render() {
         return (
             <div className="side-nav-contain">
                 <div className="side-nav">
-                    Best of Tokyo
+                    Profile
                 </div>
                 <div className="side-nav">
-                    Best of Non-Tokyo
-                </div>
-                <div className="side-nav">
-                    Best of Tablelog
-                </div>
-                <div className="side-nav">
-                    Best of Japan
+                    Recent Updates
                 </div>
                 <div className="side-nav">
                     Best of the Best
@@ -24,4 +18,4 @@ class BestOfNav extends Component {
     }
 }
 
-export default BestOfNav;
+export default SideNav;

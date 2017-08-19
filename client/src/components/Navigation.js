@@ -49,7 +49,7 @@ class Navigation extends Component {
                         <div className="top-links" onClick={this.props.logOut}>
                           Log Out
                         </div>
-                        <Link to="/register" className="nav-link">
+                        <Link to="/signin" className="nav-link">
                             <div className="signup top-links">
                                 Log In/Sign Up
                             </div>

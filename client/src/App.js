@@ -13,6 +13,7 @@ import Schools from './components/Schools';
 import Media from './components/Media';
 import AboutMe from './components/AboutMe';
 import Blog from './components/Blog';
+import SignIn from './components/SignIn';
 
 import { Provider } from 'react-redux';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
@@ -104,6 +105,7 @@ class App extends Component {
                   <Route path='/media' component={Media} />
                   <Route path='/about' component={AboutMe} />
                   <Route path="/blog" component={Blog} />
+                  <Route path="/signin" component={SignIn} />
                 </Switch>
               </div>
               <Footer />

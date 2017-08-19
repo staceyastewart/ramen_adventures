@@ -250,15 +250,15 @@ hr {
 }
 
 /*-------------------------
-        best of nav
+        side nav
 -------------------------*/
 
-.best-of-contain {
+.side-nav-contain {
   height: 700px;
   width: 18%;
   display: flex;
   flex-direction: column;
-  border: 1px solid grey;
+  border: 1px solid #D8D8D8;
   color: white;
   font-size: 20px;
   margin-top: 30px;
@@ -273,6 +273,8 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
+  font-size: 20px;
 }
 
 /*----------------------
@@ -397,3 +399,8 @@ hr {
   margin-top: 90px;
 
 }
+
+/*----------------------
+    sign in/register
+----------------------*/
+
