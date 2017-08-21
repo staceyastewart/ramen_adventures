@@ -13,6 +13,7 @@ import Schools from './components/Schools';
 import Media from './components/Media';
 import AboutMe from './components/AboutMe';
 import Blog from './components/Blog';
+import SignIn from './components/SignIn';
 
 import { Provider } from 'react-redux';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
@@ -27,7 +28,9 @@ class App extends Component {
     this.state = {
       auth: Auth.isUserAuthenticated(),
       formRequested: null,
-      id: Auth.idUser()
+      id: Auth.idUser(),
+      email: '',
+      redirectToRegister: false
     }
   }
 
@@ -84,19 +87,32 @@ class App extends Component {
       }).catch(err => console.log(err));
     }
 
+    emailSubmit = (e) => {
+      const email = e.target.email.value;
+      e.preventDefault();
+      this.setState({ email, redirectToRegister: true });
+    }
+
+    resetRedirect = () => {
+      this.setState({ redirectToRegister: false });
+    }
+
 
   render() {
     return (
       <Provider store={createStoreWithMiddleware(reducers)}>
         <BrowserRouter>
           <div className="App">
-            {/* <Login loginSubmit={this.loginSubmit}/> */}
-              <Navigation logOut={this.logOut}/>
+              <Navigation logOut={this.logOut}
+                          resetRedirect={this.resetRedirect}
+              />
               <div>
                 <Switch>
                   <Route exact path="/" component={Home} />
                   <Route path="/register" component={(props) => <RegisterForm {...props} 
-                                          registerSubmit={this.registerSubmit}/>} />
+                                          registerSubmit={this.registerSubmit}
+                                          email={this.state.email}/>} 
+                  />
                   <Route path="/search" component={SearchResults} />
                   <Route path="/store" component={Store} />
                   <Route path='/tours' component={Tours} />
@@ -104,6 +120,12 @@ class App extends Component {
                   <Route path='/media' component={Media} />
                   <Route path='/about' component={AboutMe} />
                   <Route path="/blog" component={Blog} />
+                  <Route path="/signin" component={(props) => <SignIn {...props}
+                                        loginSubmit={this.loginSubmit}
+                                        emailSubmit={this.emailSubmit}
+                                        redirectToRegister={this.state.redirectToRegister}
+                                        resetRedirect={this.resetRedirect} />} 
+                  />
                 </Switch>
               </div>
               <Footer />

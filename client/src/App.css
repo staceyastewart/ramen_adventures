@@ -15,13 +15,16 @@ input::placeholder {
   padding-left: 10px;
 }
 
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 /*------------------------------
       NAVIGATION
 -----------------------------*/
 
 .nav {
   width: 100%;
-  font-family: 'Roboto', sans-serif;
 }
 
 .top-links, .bottom-links {
@@ -37,6 +40,7 @@ input::placeholder {
 
 .nav-link, .social-link {
   text-decoration: none;
+  color: black;
 }
 
 .banner {
@@ -44,6 +48,7 @@ input::placeholder {
   font-size: 55px;
   letter-spacing: 15px;
   height: 150px; 
+  margin-left: 20px;
 }
 
 .top-links { 
@@ -80,10 +85,6 @@ hr {
 /*----------------------------
       HOME
 ----------------------------*/
-
- .home {
-   font-family: 'Roboto', sans-serif;
-} 
 
 .home-container {
   margin-top: 25px;
@@ -134,7 +135,7 @@ hr {
 
 .left, .right, .middle {
   height: 470px;
-  border: 1px solid grey;
+  border: 1px solid #D8D8D8;
 }
 
 .middle-image {
@@ -168,7 +169,6 @@ hr {
 .description {
   font-size: 25px;
   text-align: center;
-  padding: 13px;
 }
 
 .shop-contain {
@@ -200,6 +200,10 @@ hr {
   height: 200px;
   width: 30%;
 }
+
+/*---------------------
+    footer
+--------------------*/
 
 .bottom-container {
   height: 170px;
@@ -246,15 +250,15 @@ hr {
 }
 
 /*-------------------------
-        best of nav
+        side nav
 -------------------------*/
 
-.best-of-contain {
+.side-nav-contain {
   height: 700px;
   width: 18%;
   display: flex;
   flex-direction: column;
-  border: 1px solid grey;
+  border: 1px solid #D8D8D8;
   color: white;
   font-size: 20px;
   margin-top: 30px;
@@ -269,6 +273,8 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
+  font-size: 20px;
 }
 
 /*----------------------
@@ -322,4 +328,154 @@ hr {
 
 .bio-text {
   font-size: 23px;
+}
+
+.text-link {
+  color: black;
+}
+
+/*---------------------
+      register
+---------------------*/
+
+.register-contain {
+  height: 790px;
+  display: flex;
+  flex-direction: column;
+  font-size: 23px;
+}
+
+.create {
+  margin: 40px 0 30px 50px;
+}
+
+.create-profile {
+  margin: 0;
+}
+
+.required {
+  margin: 0 0 0 15px;
+}
+
+.form-field {
+  display: flex;
+}
+
+.label {
+  margin-left: 65px;
+}
+
+.input {
+  margin: 0 0 10px 10px;
+}
+
+.input-field {
+  height: 28px;
+  width: 257px;
+}
+
+.first-name {
+  margin-left: 69px;
+}
+
+.last-name {
+  margin-left: 71px;
+}
+
+.email {
+  margin-left: 128px;
+}
+
+.register {
+  height: 46px;
+  width: 120px;
+  background: #FB4F21;
+  color: white;
+  font-size: 20px;
+}
+
+.submit-contain {
+  justify-content: center;
+  margin-top: 90px;
+
+}
+
+/*----------------------
+    sign in/register
+----------------------*/
+
+.signin-page-container {
+  display: flex;
+}
+
+.signin-container {
+  border: 1px solid #D8D8D8;
+  height: 430px;
+  width: 825px;
+  margin: 150px 0 0 121px;
+}
+
+.signin-register {
+  border: 1px solid #D8D8D8;
+}
+
+.signin-register {
+  height: 48px;
+  width: 318px;
+  margin: 27px 0 0 18px;
+  background: #FB4F21;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.forms-contain {
+  display: flex;
+  font-size: 20px;
+}
+
+.returning {
+  margin: 56px 0 0 35px;
+}
+
+.new-user {
+  margin: 56px 0 0 96px;
+}
+
+.login-submit, .register-submit {
+  height: 43px;
+  width: 120px;
+  background: #FB4F21;
+  color: white;
+  font-size: 20px;
+}
+
+.login-submit {
+  margin: -7px 0 0 195px;
+}
+
+.register-submit {
+  margin: 116px 0 0 146px;
+}
+
+.signin-register-link {
+  text-decoration: none;
+}
+
+.signin-label {
+  margin-right: 40px;
+}
+
+.login-password {
+  margin-top: 30px;
+}
+
+.signin-email {
+  margin-left: 38px;
+}
+
+.signin-email, .signin-password, .signin-register-input {
+  font-size: 20px;
 }

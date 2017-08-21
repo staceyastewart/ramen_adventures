@@ -15,7 +15,7 @@ class AboutMe extends Component {
                 </div>
                 <div className="connect-container">
                     <div className="photo-container">
-                        <img src={brian} className="brian" alt="photo of Brian standing by motorbike in picturesque scene with mountains snow-capped mountains in the background"/>
+                        <img src={brian} className="brian" alt="Brian standing by motorbike in picturesque scene with mountains snow-capped mountains in the background"/>
                         <p className="caption">
                             This image was taken of me back in 2012 when I was traveling abroad in Osaka.
                         </p>
@@ -25,7 +25,11 @@ class AboutMe extends Component {
                             Contact Me:
                         </p>
                         <p className="email">
-                            <a href="mailto:ramenamerican@gmail.com" target="_blank"  className="social-link social-links">
+                            <a  href="mailto:ramenamerican@gmail.com" 
+                                target="_blank"  
+                                rel="noopener noreferrer"
+                                className="social-link social-links"
+                            >
                                 ramenamerican@gmail.com 
                             </a>
                         </p>
@@ -65,7 +69,7 @@ class AboutMe extends Component {
                         <h2 className="bio-title">How I Started:</h2>
                         <p className="bio-text">I started off as a video game programmer but I soon came to realize that this was not what I wanted to do. So I decided to take a leap and pack my bags to move to Japan. I discovered many different types of ramen and began to write about them on my blog. From there, I started to gain recognition and somewhat of a following that I was able to land print and media gigs. My blog then expanded to tours and shortly after, to ramen schools to teach people about the process and how much goes into creating this dish.</p>
 
-                        <p className="bio-text">Don't forget to connect with me on social media including my <a href={youtube} target="_blank">Youtube</a> channel and <a href={insta} target="_blank">instagram!</a></p>
+                        <p className="bio-text">Don't forget to connect with me on social media including my <a href={youtube} target="_blank"className="text-link">Youtube</a> channel and <a href={insta} target="_blank" className="text-link">instagram!</a></p>
                     </div>
                 </div>
             </div>
