@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import SideNav from './SideNav';
 
 class SignIn extends Component {
@@ -13,27 +14,40 @@ class SignIn extends Component {
                     <div className="forms-contain">
                         <div className="returning">
                             <p>Returning user sign in</p>
-                            <form>
+                            <form onSubmit={(e) => this.props.loginSubmit(e)}>
                                 <div className="login-email">
-                                    <label>Email:</label>
-                                    <input type="text"></input>
+                                    <label className="signin-label">Email:</label>
+                                    <input  type="text" 
+                                            name="email" 
+                                            className="signin-email"
+                                    >
+                                    </input>
                                 </div>
                                 <div className="login-password">
-                                    <label>Password:</label>
-                                    <input type="text"></input>
+                                    <label className="signin-label">Password:</label>
+                                    <input  type="password" 
+                                            name="password" 
+                                            className="signin-password"
+                                    >
+                                    </input>
+                                    <p>Forgot your password?</p>
                                 </div>
                                 <input className="login-submit" type="submit" value="Sign in"></input>
-                                <p>Forgot your password?</p>
+                                
                             </form>
                         </div>
                         <div className="new-user">
                             <p>New user registration</p>
                             <form>
                                 <div>
-                                    <label>Email:</label>
-                                    <input type="text"></input>
+                                    <label className="signin-label">Email:</label>
+                                    <input type="text" className="signin-register-input"></input>
                                 </div>
-                                <input className="login-submit" type="submit" value="Register"></input>
+                                <Link to="/register" className="signin-register-link">
+                                    <div className="register-submit">
+                                        Register
+                                    </div>
+                                </Link>
                             </form>
                         </div>
                     </div>

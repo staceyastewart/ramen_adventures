@@ -412,7 +412,7 @@ hr {
   border: 1px solid #D8D8D8;
   height: 430px;
   width: 825px;
-  margin: 187px 0 0 121px;
+  margin: 150px 0 0 121px;
 }
 
 .signin-register {
@@ -441,13 +441,45 @@ hr {
 }
 
 .new-user {
-  margin: 56px 0 0 150px;
+  margin: 56px 0 0 96px;
 }
 
-.login-submit {
+.login-submit, .register-submit {
   height: 43px;
   width: 120px;
   background: #FB4F21;
   color: white;
+  font-size: 20px;
+}
+
+.login-submit {
+  margin: -7px 0 0 195px;
+}
+
+.register-submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  margin: 116px 0 0 146px;
+}
+
+.signin-register-link {
+  text-decoration: none;
+}
+
+.signin-label {
+  margin-right: 40px;
+}
+
+.login-password {
+  margin-top: 30px;
+}
+
+.signin-email {
+  margin-left: 38px;
+}
+
+.signin-email, .signin-password, .signin-register-input {
   font-size: 20px;
 }

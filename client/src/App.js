@@ -91,7 +91,6 @@ class App extends Component {
       <Provider store={createStoreWithMiddleware(reducers)}>
         <BrowserRouter>
           <div className="App">
-            {/* <Login loginSubmit={this.loginSubmit}/> */}
               <Navigation logOut={this.logOut}/>
               <div>
                 <Switch>
@@ -105,7 +104,8 @@ class App extends Component {
                   <Route path='/media' component={Media} />
                   <Route path='/about' component={AboutMe} />
                   <Route path="/blog" component={Blog} />
-                  <Route path="/signin" component={SignIn} />
+                  <Route path="/signin" component={(props) => <SignIn {...props}
+                                        loginSubmit={this.loginSubmit} />} />
                 </Switch>
               </div>
               <Footer />

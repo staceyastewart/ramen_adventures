@@ -15,7 +15,7 @@ class AboutMe extends Component {
                 </div>
                 <div className="connect-container">
                     <div className="photo-container">
-                        <img src={brian} className="brian" alt="photo of Brian standing by motorbike in picturesque scene with mountains snow-capped mountains in the background"/>
+                        <img src={brian} className="brian" alt="Brian standing by motorbike in picturesque scene with mountains snow-capped mountains in the background"/>
                         <p className="caption">
                             This image was taken of me back in 2012 when I was traveling abroad in Osaka.
                         </p>
@@ -25,7 +25,11 @@ class AboutMe extends Component {
                             Contact Me:
                         </p>
                         <p className="email">
-                            <a href="mailto:ramenamerican@gmail.com" target="_blank"  className="social-link social-links">
+                            <a  href="mailto:ramenamerican@gmail.com" 
+                                target="_blank"  
+                                rel="noopener noreferrer"
+                                className="social-link social-links"
+                            >
                                 ramenamerican@gmail.com 
                             </a>
                         </p>
