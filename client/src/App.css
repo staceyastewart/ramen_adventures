@@ -457,10 +457,6 @@ hr {
 }
 
 .register-submit {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid gray;
   margin: 116px 0 0 146px;
 }
 

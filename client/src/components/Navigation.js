@@ -30,9 +30,9 @@ class Navigation extends Component {
         })
     }
     
-    componentDidMount = () => {
-        this.getSearchResults();
-    }
+    // componentDidMount = () => {
+    //     this.getSearchResults();
+    // }
 
   render() {
     return (
@@ -50,7 +50,7 @@ class Navigation extends Component {
                           Log Out
                         </div>
                         <Link to="/signin" className="nav-link">
-                            <div className="signup top-links">
+                            <div className="signup top-links" onClick={this.props.resetRedirect}>
                                 Log In/Sign Up
                             </div>
                         </Link>

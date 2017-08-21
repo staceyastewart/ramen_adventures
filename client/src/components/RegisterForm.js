@@ -37,7 +37,7 @@ class RegisterForm extends Component {
               <label>Email:*</label>
             </div>
             <div className="input">
-              <input type="email" name="email" className="input-field email" />
+              <input type="email" name="email" defaultValue={this.props.email} className="input-field email" />
             </div>
           </div>
           <div className="form-field">

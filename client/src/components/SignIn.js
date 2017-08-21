@@ -1,9 +1,16 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { Redirect } from 'react-router-dom';
 import SideNav from './SideNav';
 
 class SignIn extends Component {
+
     render() {
+        if (this.props.redirectToRegister) {
+            return (
+            <Redirect to="/register"/>
+            )
+          }
+
         return (
             <div className="signin-page-container">
                 <SideNav />
@@ -33,21 +40,22 @@ class SignIn extends Component {
                                     <p>Forgot your password?</p>
                                 </div>
                                 <input className="login-submit" type="submit" value="Sign in"></input>
-                                
                             </form>
                         </div>
                         <div className="new-user">
                             <p>New user registration</p>
-                            <form>
+                            <form onSubmit={(email) => this.props.emailSubmit(email)}>
                                 <div>
                                     <label className="signin-label">Email:</label>
-                                    <input type="text" className="signin-register-input"></input>
+                                    <input  type="text" 
+                                            className="signin-register-input" 
+                                            name="email"
+                                    >
+                                    </input>
                                 </div>
-                                <Link to="/register" className="signin-register-link">
-                                    <div className="register-submit">
-                                        Register
-                                    </div>
-                                </Link>
+                                    <input type="submit" value="Register" className="register-submit" 
+                                    >
+                                    </input>
                             </form>
                         </div>
                     </div>
