@@ -29,53 +29,57 @@ class AboutMe extends Component {
                                 <a  href="mailto:ramenamerican@gmail.com" 
                                     target="_blank"  
                                     rel="noopener noreferrer"
-                                    className="social-link social-links about-email"
+                                    className="social-links about-email"
                                 >
-                                    <i className="fa fa-envelope-open" aria-hidden="true"></i>
-                                    <p className="email-text">ramenamerican@gmail.com</p>
+                                    <i className="fa fa-envelope-open fa-lg" aria-hidden="true"></i>
+                                    <p className="social-text">ramenamerican@gmail.com</p>
                                 </a>
                             </div>
                         </div>
                         <p className="contact-me">
                             Connect With Me:
                         </p>
-                        <div className="social-links">
-                            <p>
+                        <div>
+                            <div>
                                 <a  href={facebook} 
                                     target="_blank" 
                                     rel="noopener noreferrer"
-                                    className="social-link"
+                                    className="social-links"
                                 >
-                                    Facebook/RamenAdventures
+                                <i className="fa fa-facebook-official fa-lg" aria-hidden="true"></i>
+                                    <p className="social-text">Facebook/RamenAdventures</p>
                                 </a>
-                            </p>
-                            <p>
+                            </div>
+                            <div>
                                 <a  href={insta} 
                                     target="_blank" 
                                     rel="noopener noreferrer"
-                                    className="social-link social-links"
+                                    className="social-links"
                                 >
-                                    Instagram/RamenAdventures
+                                <i className="fa fa-instagram fa-lg" aria-hidden="true"></i>
+                                    <p className="social-text">Instagram/RamenAdventures</p>
                                 </a>
-                            </p>
-                            <p>
+                            </div>
+                            <div>
                                 <a  href={youtube} 
                                     target="_blank" 
                                     rel="noopener noreferrer"
-                                    className="social-link social-links"
+                                    className="social-links"
                                 >
-                                    Youtube/RamenAdventures
+                                <i className="fa fa-youtube-square fa-lg" aria-hidden="true"></i>
+                                    <p className="social-text">Youtube/RamenAdventures</p>
                                 </a>
-                            </p>
-                            <p>
+                            </div>
+                            <div>
                                 <a  href={twitter} 
                                     target="_blank" 
                                     rel="noopener noreferrer"
-                                    className="social-link social-links"
+                                    className="social-links"
                                 >
-                                    twitter.com/RamenAdventures
+                                <i className="fa fa-twitter-square fa-lg" aria-hidden="true"></i>
+                                    <p className="social-text">twitter.com/RamenAdventures</p>
                                 </a>
-                            </p>
+                            </div>
                         </div>
                     </div>
                 </div>

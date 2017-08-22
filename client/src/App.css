@@ -38,7 +38,7 @@ body {
   padding: 0 5px;
 }
 
-.nav-link, .social-link {
+.nav-link, .social-links {
   text-decoration: none;
   color: black;
 }
@@ -311,6 +311,7 @@ hr {
 
 .contact-me {
   font-size: 40px;
+  margin: 10px;
 }
 
 .about-email-contain {
@@ -318,21 +319,19 @@ hr {
   margin-left: 9px;
 }
 
-.about-email {
-  display: flex;
+.fa {
+  margin-top: 6px;
 }
 
-.fa-envelope-open {
-  margin-top: 4px;
-}
-
-.email-text {
+.social-text {
   margin: 0 0 0 8px;
 }
 
-.email, .social-links {
+.social-links {
   font-size: 25px;
   color: black;
+  display: flex;
+  margin: 17px;
 }
 
 .bio {
