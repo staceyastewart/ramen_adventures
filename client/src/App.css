@@ -313,6 +313,23 @@ hr {
   font-size: 40px;
 }
 
+.about-email-contain {
+  display: flex;
+  margin-left: 9px;
+}
+
+.about-email {
+  display: flex;
+}
+
+.fa-envelope-open {
+  margin-top: 4px;
+}
+
+.email-text {
+  margin: 0 0 0 8px;
+}
+
 .email, .social-links {
   font-size: 25px;
   color: black;
