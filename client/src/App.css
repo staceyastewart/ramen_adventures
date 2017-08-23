@@ -390,6 +390,7 @@ hr {
 .input-field {
   height: 28px;
   width: 257px;
+  font-size: 20px;
 }
 
 .first-name {

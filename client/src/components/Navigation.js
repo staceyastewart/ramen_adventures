@@ -45,8 +45,8 @@ class Navigation extends Component {
                 </Link>
                 <div className="top-elements">
                     <div className="top-nav">
-                        {Auth.isUserAuthenticated() ? (
-                            <Link to="/logout" className="nav-link">
+                        {(Auth.isUserAuthenticated() && Auth.isTokenDefined()) ? (
+                            <Link to="/" className="nav-link">
                                 <div className="top-links" onClick={this.props.logOut}>
                                     Log Out
                                 </div>

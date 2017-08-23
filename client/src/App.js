@@ -79,7 +79,6 @@ class App extends Component {
             }
          })
           .then(jsonRes => {
-        console.log(jsonRes);
         Auth.deauthenticateUser();
         this.setState({
             auth: Auth.deauthenticateUser(),
