@@ -495,3 +495,40 @@ hr {
 .signin-email, .signin-password, .signin-register-input {
   font-size: 20px;
 }
+
+/*------------------
+        Blog
+------------------*/
+
+.blog-container {
+  display: flex;
+}
+
+/*-------------------
+      Store
+-------------------*/
+
+.store-container {
+  display: flex;
+}
+
+/*------------------
+      Tours
+-------------------*/
+
+.tours-container {
+  display: flex;
+}
+
+/*-----------------
+      Schools
+-----------------*/
+
+.schools-container {
+  display: flex;
+}
+
+.schools-inner-container {
+  display: flex;
+  flex-direction: column;
+}
