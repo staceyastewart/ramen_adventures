@@ -27,6 +27,11 @@ body {
   width: 100%;
 }
 
+.logo-banner {
+  display: flex;
+  margin-right: 52px;
+}
+
 .top-links, .bottom-links {
   font-size: 21px;
   display: flex;
@@ -61,7 +66,8 @@ body {
 
 .top-nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
+  margin-right: 18px;
 }
 
 .search {
@@ -96,10 +102,6 @@ hr {
   color: white;
   font-size: 65px;
   font-weight: bold;
-}
-
-.logo-banner {
-  display: flex;
 }
 
 .top-middle-container, .bottom-middle-container {
