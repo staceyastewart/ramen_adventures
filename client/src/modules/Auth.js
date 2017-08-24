@@ -11,6 +11,10 @@ class Auth {
   static isUserAuthenticated() {
     return localStorage.getItem('token') !== null;
   }
+  
+  static isTokenDefined() {
+    return localStorage.getItem('token') !== "undefined";
+  }
 
   static deauthenticateUser() {
     localStorage.removeItem('token');

@@ -24,39 +24,62 @@ class AboutMe extends Component {
                         <p className="contact-me">
                             Contact Me:
                         </p>
-                        <p className="email">
-                            <a  href="mailto:ramenamerican@gmail.com" 
-                                target="_blank"  
-                                rel="noopener noreferrer"
-                                className="social-link social-links"
-                            >
-                                ramenamerican@gmail.com 
-                            </a>
-                        </p>
+                        <div className="about-email-contain">
+                            <div>
+                                <a  href="mailto:ramenamerican@gmail.com" 
+                                    target="_blank"  
+                                    rel="noopener noreferrer"
+                                    className="social-links about-email"
+                                >
+                                    <i className="fa fa-envelope-open fa-lg" aria-hidden="true"></i>
+                                    <p className="social-text">ramenamerican@gmail.com</p>
+                                </a>
+                            </div>
+                        </div>
                         <p className="contact-me">
                             Connect With Me:
                         </p>
-                        <div className="social-links">
-                            <p>
-                                <a href={facebook} target="_blank" className="social-link">
-                                    Facebook/RamenAdventures
+                        <div>
+                            <div>
+                                <a  href={facebook} 
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                    className="social-links"
+                                >
+                                <i className="fa fa-facebook-official fa-lg" aria-hidden="true"></i>
+                                    <p className="social-text">Facebook/RamenAdventures</p>
                                 </a>
-                            </p>
-                            <p>
-                                <a href={insta} target="_blank" className="social-link social-links">
-                                    Instagram/RamenAdventures
+                            </div>
+                            <div>
+                                <a  href={insta} 
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                    className="social-links"
+                                >
+                                <i className="fa fa-instagram fa-lg" aria-hidden="true"></i>
+                                    <p className="social-text">Instagram/RamenAdventures</p>
                                 </a>
-                            </p>
-                            <p>
-                                <a href={youtube} target="_blank" className="social-link social-links">
-                                    Youtube/RamenAdventures
+                            </div>
+                            <div>
+                                <a  href={youtube} 
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                    className="social-links"
+                                >
+                                <i className="fa fa-youtube-square fa-lg" aria-hidden="true"></i>
+                                    <p className="social-text">Youtube/RamenAdventures</p>
                                 </a>
-                            </p>
-                            <p>
-                                <a href={twitter} target="_blank" className="social-link social-links">
-                                    twitter.com/RamenAdventures
+                            </div>
+                            <div>
+                                <a  href={twitter} 
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                    className="social-links"
+                                >
+                                <i className="fa fa-twitter-square fa-lg" aria-hidden="true"></i>
+                                    <p className="social-text">twitter.com/RamenAdventures</p>
                                 </a>
-                            </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -69,7 +92,7 @@ class AboutMe extends Component {
                         <h2 className="bio-title">How I Started:</h2>
                         <p className="bio-text">I started off as a video game programmer but I soon came to realize that this was not what I wanted to do. So I decided to take a leap and pack my bags to move to Japan. I discovered many different types of ramen and began to write about them on my blog. From there, I started to gain recognition and somewhat of a following that I was able to land print and media gigs. My blog then expanded to tours and shortly after, to ramen schools to teach people about the process and how much goes into creating this dish.</p>
 
-                        <p className="bio-text">Don't forget to connect with me on social media including my <a href={youtube} target="_blank"className="text-link">Youtube</a> channel and <a href={insta} target="_blank" className="text-link">instagram!</a></p>
+                        <p className="bio-text">Don't forget to connect with me on social media including my <a href={youtube} target="_blank" rel="noopener noreferrer" className="text-link">Youtube</a> channel and <a href={insta} target="_blank" rel="noopener noreferrer" className="text-link">Instagram!</a></p>
                     </div>
                 </div>
             </div>

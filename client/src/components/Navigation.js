@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from '../images/orangelogo.svg';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
+import Auth from '../modules/Auth';
 
 class Navigation extends Component {
 
@@ -23,10 +24,8 @@ class Navigation extends Component {
     }
 
     getSearchResults = () => {
-        
         axios.post(`/search`, { q: 'dogen' })
-        .then((res) => {
-            
+        .then((res) => {          
         })
     }
     
@@ -46,14 +45,19 @@ class Navigation extends Component {
                 </Link>
                 <div className="top-elements">
                     <div className="top-nav">
-                        <div className="top-links" onClick={this.props.logOut}>
-                          Log Out
-                        </div>
-                        <Link to="/signin" className="nav-link">
-                            <div className="signup top-links" onClick={this.props.resetRedirect}>
-                                Log In/Sign Up
-                            </div>
-                        </Link>
+                        {(Auth.isUserAuthenticated() && Auth.isTokenDefined()) ? (
+                            <Link to="/" className="nav-link">
+                                <div className="top-links" onClick={this.props.logOut}>
+                                    Log Out
+                                </div>
+                            </Link>
+                        ) : (
+                            <Link to="/signin" className="nav-link">
+                                <div className="signup top-links" onClick={this.props.resetRedirect}>
+                                    Log In/Sign Up
+                                </div>
+                            </Link>
+                        )}
                         <Link to="/about" className="nav-link">
                             <div className="contact top-links">
                                 Contact

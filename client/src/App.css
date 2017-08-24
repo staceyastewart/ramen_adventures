@@ -27,6 +27,11 @@ body {
   width: 100%;
 }
 
+.logo-banner {
+  display: flex;
+  margin-right: 52px;
+}
+
 .top-links, .bottom-links {
   font-size: 21px;
   display: flex;
@@ -38,7 +43,7 @@ body {
   padding: 0 5px;
 }
 
-.nav-link, .social-link {
+.nav-link, .social-links {
   text-decoration: none;
   color: black;
 }
@@ -61,7 +66,8 @@ body {
 
 .top-nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
+  margin-right: 18px;
 }
 
 .search {
@@ -96,10 +102,6 @@ hr {
   color: white;
   font-size: 65px;
   font-weight: bold;
-}
-
-.logo-banner {
-  display: flex;
 }
 
 .top-middle-container, .bottom-middle-container {
@@ -311,11 +313,27 @@ hr {
 
 .contact-me {
   font-size: 40px;
+  margin: 10px;
 }
 
-.email, .social-links {
+.about-email-contain {
+  display: flex;
+  margin-left: 9px;
+}
+
+.fa {
+  margin-top: 6px;
+}
+
+.social-text {
+  margin: 0 0 0 8px;
+}
+
+.social-links {
   font-size: 25px;
   color: black;
+  display: flex;
+  margin: 17px;
 }
 
 .bio {
@@ -372,6 +390,7 @@ hr {
 .input-field {
   height: 28px;
   width: 257px;
+  font-size: 20px;
 }
 
 .first-name {
@@ -478,4 +497,41 @@ hr {
 
 .signin-email, .signin-password, .signin-register-input {
   font-size: 20px;
+}
+
+/*------------------
+        Blog
+------------------*/
+
+.blog-container {
+  display: flex;
+}
+
+/*-------------------
+      Store
+-------------------*/
+
+.store-container {
+  display: flex;
+}
+
+/*------------------
+      Tours
+-------------------*/
+
+.tours-container {
+  display: flex;
+}
+
+/*-----------------
+      Schools
+-----------------*/
+
+.schools-container {
+  display: flex;
+}
+
+.schools-inner-container {
+  display: flex;
+  flex-direction: column;
 }
