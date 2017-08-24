@@ -12,26 +12,26 @@ class Navigation extends Component {
         this.state = {
             search: ''
         }
+        this.search = this.search.bind(this);
+        this.handleSearchChange = this.handleSearchChange.bind(this);
+        this.getSearchResults = this.getSearchResults.bind(this);
     }
 
-    search = (e) => {
+    search(e) {
         e.preventDefault();
         this.getSearchResults();
     }
 
-    handleSearchChange = (event) => {
+    handleSearchChange(event) {
         this.setState({ search: event.target.value })
     }
 
-    getSearchResults = () => {
-        axios.post(`/search`, { q: 'dogen' })
-        .then((res) => {          
+    getSearchResults() {
+        axios.post(`/search`, { q: this.state.search })
+        .then((res) => {    
+            console.log(res);      
         })
     }
-    
-    // componentDidMount = () => {
-    //     this.getSearchResults();
-    // }
 
   render() {
     return (

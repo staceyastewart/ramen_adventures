@@ -16,25 +16,31 @@ import midpicks from '../images/picksmiddle.png';
 import rtpicks from '../images/picksright.png';
 
 class Home extends Component {
+    constructor() {
+        super();
+        this.inputEmail = this.inputEmail.bind(this);
+        this.handleEmailInputChange = this.handleEmailInputChange.bind(this);
+        this.getPhotos = this.getPhotos.bind(this);
+      }
    
-     inputEmail = (e) => {
+     inputEmail(e){
         e.preventDefault();
         //api call to database
         this.setState({ emailInput: '' });
     }
 
-    handleEmailInputChange = (event) => {
+    handleEmailInputChange(event){
         this.setState({ emailInput: event.target.value })
     }
 
-    getPhotos = () => {
+    getPhotos(){
     axios.get('/photos/1313')
       .then((res) => {
         this.setState({ photo: res.data.link });
       })
   }
 
-  componentDidMount = () => {
+  componentDidMount(){
       this.getPhotos();
   }
 
