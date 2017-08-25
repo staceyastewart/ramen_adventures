@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 
 class SearchResults extends Component {
 
+    componentWillUnmount() {
+       this.props.resetIsSearching();
+    }
+
     render() {
         const { query, searchResultsPosts, searchResultsShops } = this.props;
         const totalResults = searchResultsPosts.length + searchResultsShops.length;

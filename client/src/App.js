@@ -30,6 +30,7 @@ class App extends Component {
       id: Auth.idUser(),
       email: '',
       redirectToRegister: false,
+      isSearching: false,
       searchQuery: '',
       searchResultsPosts: [],
       searchResultsShops: []
@@ -43,7 +44,7 @@ class App extends Component {
     this.getSearchResults = this.getSearchResults.bind(this);
     this.search = this.search.bind(this);
     this.handleSearchChange = this.handleSearchChange.bind(this);
-    this.clearSearch = this.clearSearch.bind(this);
+    this.resetIsSearching = this.resetIsSearching.bind(this);
   }
 
   registerSubmit(e) {
@@ -120,22 +121,20 @@ class App extends Component {
       });
     }
 
-
   search(e) {
     e.preventDefault();
     this.getSearchResults(this.state.searchQuery);
+    this.setState({ isSearching: true })
   }
 
   handleSearchChange(event) {
       this.setState({ searchQuery: event.target.value })
   }
 
-  clearSearch() {
-    this.setState({
-      searchQuery: '',
-      searchResultsPosts: [],
-      searchResultsShops: []
-    })
+  resetIsSearching() {
+    if (this.state.isSearching) { 
+    this.setState({ isSearching: false });
+    } 
   }
 
   render() {
@@ -161,7 +160,7 @@ class App extends Component {
                                         searchResultsPosts={this.state.searchResultsPosts}
                                         searchResultsShops={this.state.searchResultsShops}
                                         query={this.state.query}
-                                        clearSearch={this.clearSearch} />}
+                                        resetIsSearching={this.resetIsSearching} />}
                   />
                   <Route path="/store" component={Store} />
                   <Route path='/tours' component={Tours} />
@@ -178,14 +177,7 @@ class App extends Component {
                 </Switch>
               </div>
               <Footer />
-              {(this.state.searchResultsShops.length > 0 || this.state.searchResultsPosts.length > 0) && <Redirect to={{
-                                            pathname: "/search",
-                                            state: {
-                                              searchResultsPosts: this.state.searchResultsPosts,
-                                              searchResultsShops: this.state.searchResultsShops,
-                                              searchQuery: this.state.searchQuery
-                                            }
-              }}                        />}
+              {(this.state.isSearching) && <Redirect to="/search" />}
           </div>
         </BrowserRouter>
       </Provider>

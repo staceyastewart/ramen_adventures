@@ -10,6 +10,19 @@ class Footer extends Component {
         this.state = {
             emailInput: ''
         }
+
+        this.inputEmail = this.inputEmail.bind(this);
+        this.handleEmailInputChange = this.handleEmailInputChange.bind(this);
+    }
+
+    inputEmail(e){
+        e.preventDefault();
+        //api call to database
+        this.setState({ emailInput: '' });
+    }
+
+    handleEmailInputChange(event){
+        this.setState({ emailInput: event.target.value })
     }
 
     render() {
