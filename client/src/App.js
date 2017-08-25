@@ -16,7 +16,7 @@ import Blog from './components/Blog';
 import SignIn from './components/SignIn';
 
 import { Provider } from 'react-redux';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 import { createStore, applyMiddleware } from 'redux';
 import reducers from './reducers';
 import promise from 'redux-promise';
@@ -27,14 +27,26 @@ class App extends Component {
     super();
     this.state = {
       auth: Auth.isUserAuthenticated(),
-      formRequested: null,
       id: Auth.idUser(),
       email: '',
-      redirectToRegister: false
+      redirectToRegister: false,
+      searchQuery: '',
+      searchResultsPosts: [],
+      searchResultsShops: []
     }
+
+    this.registerSubmit = this.registerSubmit.bind(this);
+    this.loginSubmit = this.loginSubmit.bind(this);
+    this.logOut = this.logOut.bind(this);
+    this.emailSubmit = this.emailSubmit.bind(this);
+    this.resetRedirect = this.resetRedirect.bind(this);
+    this.getSearchResults = this.getSearchResults.bind(this);
+    this.search = this.search.bind(this);
+    this.handleSearchChange = this.handleSearchChange.bind(this);
+    this.clearSearch = this.clearSearch.bind(this);
   }
 
-  registerSubmit = (e) => {
+  registerSubmit(e) {
     e.preventDefault();
     axios.post('/users', {
       user: {
@@ -53,7 +65,7 @@ class App extends Component {
     }).catch(err => console.log(err));
   }
 
-  loginSubmit = (e) => {
+  loginSubmit(e) {
     e.preventDefault();
   
     axios.post('/login', {
@@ -71,7 +83,7 @@ class App extends Component {
     }).catch(err => console.log(err));
   }
 
-  logOut = () => {
+  logOut() {
         axios.delete('/logout', {
           headers: {
             'Content-type': 'application/json',
@@ -86,16 +98,45 @@ class App extends Component {
       }).catch(err => console.log(err));
     }
 
-    emailSubmit = (e) => {
+    emailSubmit(e) {
       const email = e.target.email.value;
       e.preventDefault();
       this.setState({ email, redirectToRegister: true });
     }
 
-    resetRedirect = () => {
+    resetRedirect() {
       this.setState({ redirectToRegister: false });
     }
+    
+    getSearchResults(query) {
+      axios.post(`/search`, { q: query })
+      .then((res) => {    
+          this.setState({ 
+            searchResultsPosts: res.data.posts,
+            searchResultsShops: res.data.shops,
+            searchQuery: '',
+            query: query
+          });     
+      });
+    }
 
+
+  search(e) {
+    e.preventDefault();
+    this.getSearchResults(this.state.searchQuery);
+  }
+
+  handleSearchChange(event) {
+      this.setState({ searchQuery: event.target.value })
+  }
+
+  clearSearch() {
+    this.setState({
+      searchQuery: '',
+      searchResultsPosts: [],
+      searchResultsShops: []
+    })
+  }
 
   render() {
     return (
@@ -104,6 +145,10 @@ class App extends Component {
           <div className="App">
               <Navigation logOut={this.logOut}
                           resetRedirect={this.resetRedirect}
+                          getSearchResults={this.getSearchResults}
+                          search={this.search}
+                          handleSearchChange={this.handleSearchChange}
+                          searchQuery={this.state.searchQuery}
               />
               <div>
                 <Switch>
@@ -112,7 +157,12 @@ class App extends Component {
                                           registerSubmit={this.registerSubmit}
                                           email={this.state.email}/>} 
                   />
-                  <Route path="/search" component={SearchResults} />
+                  <Route path="/search" component={(props) => <SearchResults {...props}
+                                        searchResultsPosts={this.state.searchResultsPosts}
+                                        searchResultsShops={this.state.searchResultsShops}
+                                        query={this.state.query}
+                                        clearSearch={this.clearSearch} />}
+                  />
                   <Route path="/store" component={Store} />
                   <Route path='/tours' component={Tours} />
                   <Route path='/schools' component={Schools} />
@@ -128,6 +178,14 @@ class App extends Component {
                 </Switch>
               </div>
               <Footer />
+              {(this.state.searchResultsShops.length > 0 || this.state.searchResultsPosts.length > 0) && <Redirect to={{
+                                            pathname: "/search",
+                                            state: {
+                                              searchResultsPosts: this.state.searchResultsPosts,
+                                              searchResultsShops: this.state.searchResultsShops,
+                                              searchQuery: this.state.searchQuery
+                                            }
+              }}                        />}
           </div>
         </BrowserRouter>
       </Provider>

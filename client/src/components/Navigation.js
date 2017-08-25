@@ -1,37 +1,9 @@
 import React, { Component } from 'react';
 import logo from '../images/orangelogo.svg';
-import axios from 'axios';
 import { Link } from 'react-router-dom';
 import Auth from '../modules/Auth';
 
 class Navigation extends Component {
-
-    constructor(props) {
-    super(props);
-
-        this.state = {
-            search: ''
-        }
-        this.search = this.search.bind(this);
-        this.handleSearchChange = this.handleSearchChange.bind(this);
-        this.getSearchResults = this.getSearchResults.bind(this);
-    }
-
-    search(e) {
-        e.preventDefault();
-        this.getSearchResults();
-    }
-
-    handleSearchChange(event) {
-        this.setState({ search: event.target.value })
-    }
-
-    getSearchResults() {
-        axios.post(`/search`, { q: this.state.search })
-        .then((res) => {    
-            console.log(res);      
-        })
-    }
 
   render() {
     return (
@@ -64,12 +36,12 @@ class Navigation extends Component {
                             </div>
                         </Link>
                     </div>
-                    <form onSubmit={(e) => this.search(e)}>
+                    <form onSubmit={(e) => this.props.search(e)}>
                         <input  type="text"
                                 placeholder="Search"
-                                onChange={this.handleSearchChange}
-                                value={this.state.search}
+                                onChange={this.props.handleSearchChange}
                                 className="search"
+                                value={this.props.searchQuery}
                         />
                     </form>
                 </div>

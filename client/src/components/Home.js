@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import axios from 'axios';
 import { Link } from 'react-router-dom';
 
 import blog from '../images/blog.jpg';
@@ -20,7 +19,7 @@ class Home extends Component {
         super();
         this.inputEmail = this.inputEmail.bind(this);
         this.handleEmailInputChange = this.handleEmailInputChange.bind(this);
-        this.getPhotos = this.getPhotos.bind(this);
+        //this.getPhotos = this.getPhotos.bind(this);
       }
    
      inputEmail(e){
@@ -33,16 +32,12 @@ class Home extends Component {
         this.setState({ emailInput: event.target.value })
     }
 
-    getPhotos(){
-    axios.get('/photos/1313')
-      .then((res) => {
-        this.setState({ photo: res.data.link });
-      })
-  }
-
-  componentDidMount(){
-      this.getPhotos();
-  }
+//     getPhotos(){
+//     axios.get('/photos/1313')
+//       .then((res) => {
+//         this.setState({ photo: res.data.link });
+//       })
+//   }
 
     render() {
         return (
