@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import BestOfNav from './BestOfNav';
+import moment from 'moment';
 
 class SearchResults extends Component {
     constructor() {
@@ -10,12 +11,16 @@ class SearchResults extends Component {
        this.props.resetIsSearching();
     }
 
-    renderPosts () {
+    renderPosts (key) {
         const { searchResultsPosts } = this.props;
-            Object.keys(searchResultsPosts).map((key) => {
-                searchResultsPosts[key].content
-            })
-        
+            return (
+                <li key={key}>
+                    <div>
+                        <p>{moment(searchResultsPosts[key].date).format('MMMM Do YYYY')}</p>
+                        <p>{searchResultsPosts[key].content}</p>
+                    </div>
+                </li>
+            )
     }
 
     render() {
@@ -28,8 +33,8 @@ class SearchResults extends Component {
                 <div className="results-container">
                 <h1>There are {totalResults} results for "{query}"</h1>
                 <ul className="results-posts">
-                    {Object.keys(searchResultsPosts).map((key) => {
-                        return <li key={key}>{searchResultsPosts[key].content}</li>
+                {Object.keys(searchResultsPosts).map((key) => {
+                        return this.renderPosts(key)
                     })}
                 </ul>
                 </div>
