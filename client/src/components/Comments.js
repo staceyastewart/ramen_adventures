@@ -9,28 +9,34 @@ class Comments extends Component {
         this.state = {
             comments: ''
         }
+
+        this.handleCommentsSubmit = this.handleCommentsSubmit.bind(this);
+        this.handleCommentChange = this.handleCommentChange.bind(this);
+        this.handleClick = this.handleClick.bind(this);
+        this.keyPress = this.keyPress.bind(this);
+        this.postCommentData = this.postCommentData.bind(this);
     }
 
-    handleCommentsSubmit = (e) => {
+    handleCommentsSubmit(e) {
         e.preventDefault();
     }
 
-    handleCommentChange = (event) => {
+    handleCommentChange(event){
         this.setState({ comments: event.target.value })
     }
 
-    handleClick = () => {
+    handleClick(){
         this.postCommentData();
         this.setState({ comments: '' });
     }
 
-    keyPress(e) {
+    keyPress(e){
     if (e.charCode === 13) {
       this.handleClick(e);
     }
   }
 
-  postCommentData = () => {
+  postCommentData(){
       axios.post('/comments', {
           comment: { 
             content: this.state.comments,

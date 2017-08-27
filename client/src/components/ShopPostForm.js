@@ -2,8 +2,12 @@ import React, { Component } from 'react';
 import axios from 'axios';
 
 class ShopPostForm extends Component {
+  constructor() {
+    super();
+    this.shopSubmit = this.shopSubmit.bind(this);
+  }
 
-  shopSubmit = (e) => {
+  shopSubmit(e){
     e.preventDefault();
     axios.post('/shops', {
       shop: {

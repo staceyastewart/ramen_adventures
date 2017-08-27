@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import axios from 'axios';
 import { Link } from 'react-router-dom';
 
 import blog from '../images/blog.jpg';
@@ -17,26 +16,12 @@ import rtpicks from '../images/picksright.png';
 
 class Home extends Component {
    
-     inputEmail = (e) => {
-        e.preventDefault();
-        //api call to database
-        this.setState({ emailInput: '' });
-    }
-
-    handleEmailInputChange = (event) => {
-        this.setState({ emailInput: event.target.value })
-    }
-
-    getPhotos = () => {
-    axios.get('/photos/1313')
-      .then((res) => {
-        this.setState({ photo: res.data.link });
-      })
-  }
-
-  componentDidMount = () => {
-      this.getPhotos();
-  }
+//     getPhotos(){
+//     axios.get('/photos/1313')
+//       .then((res) => {
+//         this.setState({ photo: res.data.link });
+//       })
+//   }
 
     render() {
         return (
