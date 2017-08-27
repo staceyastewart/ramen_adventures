@@ -554,3 +554,13 @@ hr {
 .results-container {
   margin: 20px 20px 0 40px;
 }
+
+.results-posts {
+  list-style-type: none;
+  margin: 40px 40px 40px 0;
+  line-height: 25px;
+}
+
+.results-date {
+  font-family: 'Secular One', sans-serif;
+}
