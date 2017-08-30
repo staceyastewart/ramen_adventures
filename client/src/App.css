@@ -29,7 +29,6 @@ body {
 
 .logo-banner {
   display: flex;
-  /* margin-right: 52px; */
 }
 
 .logo {
@@ -579,4 +578,28 @@ hr {
 
 .results-date {
   font-family: 'Secular One', sans-serif;
+}
+
+/*--------------------------
+      media queries
+--------------------------*/
+
+@media (max-width: 500px) {
+  .top-elements {
+    display: none;
+  }
+
+  .logo {
+    height: 114%;
+    width: 21%;
+    margin-left: 3px;
+  }
+
+  .banner {
+    font-size: 22px;
+    width: 100%;
+    margin-left: 18px;
+    height: 90px;
+    letter-spacing: 10px;
+  }
 }
