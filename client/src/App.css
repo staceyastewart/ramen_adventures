@@ -29,7 +29,12 @@ body {
 
 .logo-banner {
   display: flex;
-  margin-right: 52px;
+  /* margin-right: 52px; */
+}
+
+.logo {
+  height: 100%;
+  width: 13%;
 }
 
 .top-links, .bottom-links {
@@ -53,6 +58,7 @@ body {
   font-size: 55px;
   letter-spacing: 15px;
   height: 150px; 
+  width: 967px;
   margin-left: 20px;
 }
 
@@ -467,7 +473,7 @@ hr {
 }
 
 .new-user {
-  margin: 56px 0 0 80px;
+  margin: 56px 0 0 96px;
 }
 
 .login-submit, .register-submit {
