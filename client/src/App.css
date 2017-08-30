@@ -99,7 +99,7 @@ hr {
 
 .top-container { 
   height: 400px;
-  width: 100%;
+  /* width: 100%; */
   color: white;
   font-size: 65px;
   font-weight: bold;
@@ -113,6 +113,7 @@ hr {
 
 .top-middle-container {
   height: 450px;
+  /* width: 100%; */
   margin-top: 35px;
 }
 
@@ -141,9 +142,14 @@ hr {
   border: 1px solid #D8D8D8;
 }
 
+.links-container {
+  width: 33.33%;
+}
+
 .middle-image {
   height: 320px;
   width: 99%;
+  padding: 0;
 }
 
 .tour {
@@ -461,7 +467,7 @@ hr {
 }
 
 .new-user {
-  margin: 56px 0 0 96px;
+  margin: 56px 0 0 80px;
 }
 
 .login-submit, .register-submit {
@@ -498,6 +504,10 @@ hr {
 
 .signin-email, .signin-password, .signin-register-input {
   font-size: 20px;
+}
+
+.signin-register-input {
+  width: 60%;
 }
 
 /*------------------

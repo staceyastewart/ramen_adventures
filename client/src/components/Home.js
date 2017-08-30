@@ -34,7 +34,7 @@ class Home extends Component {
                     <img src={rtramen} className="top-image" alt="bowl of ramen"/>
                 </div>
                 <div className="home top-middle-container">
-                    <Link to='/blog' className="nav-link">
+                    <Link to='/blog' className="nav-link links-container">
                         <div className="home left">
                             <div className="home left-middle-text middle-text">
                                 <p className="ramen-text title">
@@ -47,7 +47,7 @@ class Home extends Component {
                             <img src={blog} className="home middle-image" alt="bowl of ramen on restaurant table in Japan with Japanese magazine beside it"/>   
                         </div>
                     </Link>
-                    <Link to="/tours" className="nav-link">
+                    <Link to="/tours" className="nav-link links-container">
                         <div className="home middle">
                             <div className="home middle-text">
                                 <p className="ramen-text title">
@@ -60,7 +60,7 @@ class Home extends Component {
                             <img src={tour} className="home middle-image tour" alt="black and white of street view in Japan with Ramen shop in frame"/>
                         </div>
                     </Link>
-                    <Link to='/schools' className="nav-link">
+                    <Link to='/schools' className="nav-link links-container">
                         <div className="home right">
                             <div className="home right-middle-text middle-text">
                                 <p className="ramen-text title">
