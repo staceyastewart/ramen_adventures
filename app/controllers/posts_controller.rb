@@ -49,7 +49,7 @@ class PostsController < ApiController
 
     def post_params
       json_params = ActionController::Parameters.new( JSON.parse(request.body.read) )
-      return json_params.require(:post).permit(:content, :date, :shops_id)
+      return json_params.require(:post).permit(:content, :date, :shops_id, :photos, :best_of)
     end
 
 end
