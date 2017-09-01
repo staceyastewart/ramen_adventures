@@ -10189,39 +10189,11 @@ icflickr.com/1513/24669205514_063bf2ff53_c.jpg",
     }
 ]
 
-
-
-
-
-
-blog_data2 = [
-    {
-        "date": "2008-10-30 00:00:00",
-        "pictures": [],
-        "post": " Nekko Ramen Taisho = Cat Ramen BossI don't know any more than that.  I guess it's based on a manga.  Maybe I'll check it out.  I'm going to go on record and say that all recent Japanese popular movies that have any ties to manga are utter crap.  Interesting website though.I can only think of 2 other ramen related movies.The first is the truly excellent Tampopo.  If you've never seen this movie, watch it.The other is Ramen Girl, staring Brittany Murphy.  I haven't seen it yet.Are there any other's that I'm missing?  ",
-        "title": " Cat Ramen Boss Movie? "
-    },
-    {
-        "date": "2008-10-29 00:00:00",
-        "pictures": [
-            "http://lh5.ggpht.com/macduckston/SQgrxwj9eoI/AAAAAAAADuM/YdN-hTKi0cU/s400/DSC_0909.JPG",
-            "http://lh4.ggpht.com/macduckston/SQgruVa6pKI/AAAAAAAADts/Jg1gqMztfPI/s400/DSC_0900.JPG",
-            "http://lh5.ggpht.com/macduckston/SQgrvgqSPeI/AAAAAAAADt0/3JIbkPlKGV4/s400/DSC_0902.JPG",
-            "http://lh5.ggpht.com/macduckston/SQgrwZcjWXI/AAAAAAAADt8/tdE3Q0DATx8/s400/DSC_0903.JPG",
-            "http://lh3.ggpht.com/macduckston/SQgrw0tDr6I/AAAAAAAADuE/vGQsODjkfxk/s400/DSC_0905.JPG"
-        ],
-        "post": " 凪I'm sure I've been here before.  Oh yeah, Nagi is my favorite spot at the NY Ramen Square in Tachikawa.  I hesitated for a second, I was really hoping for something new.  But then I realized, stop thinking and just eat!I'm glad I did.  The first thing you will notice here is the booze.There are sake bottles on the walls, and everyone had a beer in front of them.  The atmosphere is one of a typical 飲み屋, the small drinking establishments that cover Tokyo.  There's even a happy hour type thing where all the drinks are 400￥.  You can order your drink in \"set\" form.  For 800￥, you get your drink and a bowl of menma and grilled pork.  Not a bad way to relax after work (or at lunch (or on the weekend)).The menu is daunting.  I think I see something on there that says ラーメンオムレツ... ramen omelet?!?  Anyways, I asked if this was the same shop as in Tachikawa, and sure enough they are related.  But, I was assured, different taste.  I went with the メガとん, megaton, which although it sounds like some sort of transforming robot was a hearty tonkotsu made with fish in the broth.The noodles are nothing like the thin, firm ones with most tonkotsu ramens.  Curly, fairly soft things that grab this amazing soup.  On the counter is some sort of mystery spice sauce that gives a nice kick as well.The real draw here, besides excellent food, is the atmosphere.  I could easily sit here with friends for a couple hours, drinking shochu and nibbling on random bites.  Is this a ramen izakaya?  It could be.Another thing to watch for, they have a ramen, it's the 4th on the menu, that changes every day.  How awesome is that!  This may become a regular spot for me on Tuesday nights, since I teach a lesson a couple blocks away.Here's a youtube video, Nagi is 3rd one in the video:Official Site HereView Larger Map  ",
-        "title": " 凪 (Nagi in Shibuya) "
-    } ]
-
-
-
-blog_data2.each do |post|
+blog_data.each do |post|
   new_shop = Shop.create(name: post[:title])
   new_post = Post.create(content: post[:post], date: post[:date], shop_id: new_shop.id)
   post[:pictures].each do |photo_link|
     new_post.photos.push(photo_link)
   end
   new_post.save!
-  p new_post
 end
