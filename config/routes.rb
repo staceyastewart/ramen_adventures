@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
-  ActiveAdmin.routes(self)
-  resources :shops
+
+root to: 'posts#show'
+
+devise_for :admin_users, ActiveAdmin::Devise.config
+ActiveAdmin.routes(self)
 
 resources :posts do
   resources :photos, shallow: true

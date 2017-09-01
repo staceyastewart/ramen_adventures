@@ -10189,13 +10189,12 @@ icflickr.com/1513/24669205514_063bf2ff53_c.jpg",
     }
 ]
 
-
-
-
 blog_data.each do |post|
   new_shop = Shop.create(name: post[:title])
   new_post = Post.create(content: post[:post], date: post[:date], shop_id: new_shop.id)
   post[:pictures].each do |photo_link|
-    new_photo = Photo.create(link: photo_link, post_id: new_post.id)
+    new_post.photos.push(photo_link)
   end
+  new_post.save!
 end
+AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password') if Rails.env.development?
