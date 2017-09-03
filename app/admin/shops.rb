@@ -11,5 +11,7 @@ ActiveAdmin.register Shop do
 #   permitted << :other if params[:action] == 'create' && current_user.admin?
 #   permitted
 # end
+    menu priority: 2
+    
     permit_params :name, :address, :recommended, :map
 end

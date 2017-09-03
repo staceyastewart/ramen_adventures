@@ -18,7 +18,7 @@ class PostsController < ApiController
   def create
     @post = Post.new(post_params)
     authorize @post
-    #@post.shop = Shop.find(params[:id])
+    @post.shop = Shop.find(params[:id])
     @post.save!
     if @post.save
        json_response(@post, :created)
