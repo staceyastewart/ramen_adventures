@@ -1,4 +1,4 @@
-ActiveAdmin.register Post do
+ActiveAdmin.register Comment, as: "Post Comment" do
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
 #
@@ -11,5 +11,7 @@ ActiveAdmin.register Post do
 #   permitted << :other if params[:action] == 'create' && current_user.admin?
 #   permitted
 # end
-
+    menu priority: 3
+    
+    permit_params :content, :user_id, :post_id
 end
