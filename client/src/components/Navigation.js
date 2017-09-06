@@ -46,7 +46,8 @@ class Navigation extends Component {
                         />
                     </form>
                 </div>
-            <img className="menu-icon" src={menu} alt="mobile menu" />
+            {/* <img className="menu-icon" src={menu} alt="mobile menu" /> */}
+            <i className="fa fa-bars fa-2x" aria-hidden="true"></i>
             </div>
             <div className="mobile-search">
                     <form onSubmit={(e) => this.props.search(e)}>
