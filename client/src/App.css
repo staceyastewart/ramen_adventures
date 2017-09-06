@@ -75,6 +75,10 @@ body {
   margin-right: 18px;
 }
 
+.fa-bars {
+  display: none;
+}
+
 .search {
   height: 25px;
   width: 400px;
@@ -589,6 +593,10 @@ hr {
 --------------------------*/
 
 @media (max-width: 500px) {
+
+  .side-nav-contain {
+    display: none;
+  }
   /*==============
   Navigaton-mobile
   ==============*/
@@ -625,16 +633,10 @@ hr {
 
   .fa-bars {
     height: 36px;
+    display: block;
     color: #FB4F21;
     margin-top: 38px;
   }
-
-  /* .menu-icon {
-    display: block;
-    height: 55px;
-    width: 55px;
-    margin: 26px -8px 0 0;
-  } */
 
   .mobile-search {
     display: flex;
