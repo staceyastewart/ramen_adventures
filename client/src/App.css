@@ -681,4 +681,20 @@ hr {
   .left, .right, .middle {
     height: 230px;
   }
+  
+  .bottom-image {
+    height: 80px;
+  }
+
+  .picks-contain {
+    margin-top: 18px;
+  }
+
+  .picks-image {
+    height: 49px;
+  }
+
+  .bottom-middle-container {
+    width: 100%;
+  }
 }
