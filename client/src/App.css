@@ -592,6 +592,11 @@ hr {
   /*==============
   Navigaton-mobile
   ==============*/
+
+  hr {
+    margin: 0;
+  }
+
   .top-elements {
     display: none;
   }
@@ -639,6 +644,7 @@ hr {
 
   .home-container {
     width: 100%;
+    margin-top: 0;
   }
 
   .top-container {
@@ -652,7 +658,7 @@ hr {
   }
 
   .top-text {
-    top: 84px;
+    top: 51px;
   }
 
   .top-middle-container {
@@ -695,6 +701,45 @@ hr {
   }
 
   .bottom-middle-container {
+    height: 230px;
     width: 100%;
+    margin: 0;
+  }
+
+  /*=============
+  FOOTER-mobile
+  ==============*/
+
+  .bottom-container {
+    height: 105px;
+    width: 100%;
+  }
+
+  .signup-text {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+
+  .email-input {
+    width: 168px;
+    height: 21px;
+    margin-left: 20px;
+  }
+
+  .social-contain {
+    width: 99%;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .social {
+    height: 43px;
+    width: 44px;
+  }
+
+  .ig {
+    height: 29px;
+    width: 31px;
+    margin: 7px 0 0 6px;
   }
 }
