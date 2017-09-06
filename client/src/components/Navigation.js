@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from '../images/orangelogo.svg';
 import { Link } from 'react-router-dom';
 import Auth from '../modules/Auth';
+import menu from '../images/hamburger.png';
 
 class Navigation extends Component {
 
@@ -12,7 +13,7 @@ class Navigation extends Component {
                 <Link to="/" className="logo-banner nav-link">
                     <img className="logo" src={logo} alt="Ramen Adventures logo"/>
                     <div className="banner">
-                        <p>RAMEN ADVENTURES</p>
+                        <p className="banner-text">RAMEN ADVENTURES</p>
                     </div>
                 </Link>
                 <div className="top-elements">
@@ -45,7 +46,18 @@ class Navigation extends Component {
                         />
                     </form>
                 </div>
+            <img className="menu-icon" src={menu} alt="mobile menu" />
             </div>
+            <div className="mobile-search">
+                    <form onSubmit={(e) => this.props.search(e)}>
+                            <input  type="text"
+                                    placeholder="Search"
+                                    onChange={this.props.handleSearchChange}
+                                    className="search"
+                                    value={this.props.searchQuery}
+                            />
+                    </form>
+                </div>
             <hr />
             <div className="bottom-nav">
                 <Link to="/blog" className="nav-link">

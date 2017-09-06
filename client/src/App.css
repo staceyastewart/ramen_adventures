@@ -94,6 +94,10 @@ hr {
   margin-left: 10px;
 }
 
+.menu-icon {
+  display: none;
+}
+
 /*----------------------------
       HOME
 ----------------------------*/
@@ -585,7 +589,14 @@ hr {
 --------------------------*/
 
 @media (max-width: 500px) {
+  /*==============
+  Navigaton-mobile
+  ==============*/
   .top-elements {
+    display: none;
+  }
+
+  .bottom-nav {
     display: none;
   }
 
@@ -596,10 +607,78 @@ hr {
   }
 
   .banner {
-    font-size: 22px;
+    font-size: 20px;
     width: 100%;
-    margin-left: 18px;
+    margin-left: 10px;
     height: 90px;
     letter-spacing: 10px;
+  }
+
+  .banner-text {
+    margin-top: 31px;
+  }
+
+  .menu-icon {
+    display: block;
+    height: 55px;
+    width: 55px;
+    margin: 26px -8px 0 0;
+  }
+
+  .mobile-search {
+    display: flex;
+    justify-content: center;
+  }
+
+  .search {
+    width: 345px;
+  }
+  /*============
+    HOME-mobile
+  =============*/
+
+  .home-container {
+    width: 100%;
+  }
+
+  .top-container {
+    font-size: 26px;
+    width: 100%;
+    height: 100px;
+  }
+
+  .top-image {
+    height: 100px;
+  }
+
+  .top-text {
+    top: 84px;
+  }
+
+  .top-middle-container {
+    height: 230px;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .title {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .middle-text {
+    padding: 20px 0 0 0;
+  }
+
+  .middle-image {
+    height: 100px;
+  }
+
+  .description {
+    font-size: 12px;
+  }
+
+  .left, .right, .middle {
+    height: 230px;
   }
 }
