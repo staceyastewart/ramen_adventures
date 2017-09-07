@@ -749,6 +749,68 @@ body {
     margin: 0;
   }
 
+  /*==============
+    ABOUT-mobile
+  ==============*/
+
+  .about-contain {
+    width: 100%;
+  }
+
+  .name-contain {
+    width: 99%;
+  }
+  .name {
+    font-size: 30px;
+  }
+
+  .about-description {
+    font-size: 20px;
+  }
+
+  .connect-container {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .photo-container {
+    margin: 0;
+  }
+
+  .brian {
+    width: 99vw;
+    height: 228px;
+  }
+
+  .caption {
+    margin: 0 10px 0 12px;
+  }
+
+  .contact {
+    width: 100%;
+  }
+
+  .contact-me {
+    font-size: 25px;
+  }
+
+  .social-links {
+    font-size: 18px;
+  }
+
+  .bio {
+    margin: 28px;
+  }
+
+  .bio-title {
+    font-size: 28px;
+  }
+
+  .bio-text {
+    font-size: 18px;
+  }
+
   /*=============
   FOOTER-mobile
   ==============*/

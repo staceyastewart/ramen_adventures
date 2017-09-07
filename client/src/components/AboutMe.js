@@ -11,7 +11,7 @@ class AboutMe extends Component {
             <div className="about-contain">
                 <div className="name-contain">
                     <h1 className="name">Brian MacDuckston</h1>
-                    <h2>Ramen Enthusiast | Passionate Photographer | All-around Foodie</h2>
+                    <h2 className="about-description">Ramen Enthusiast | Passionate Photographer | All-around Foodie</h2>
                 </div>
                 <div className="connect-container">
                     <div className="photo-container">
