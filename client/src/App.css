@@ -29,7 +29,11 @@ body {
 
 .logo-banner {
   display: flex;
-  margin-right: 52px;
+}
+
+.logo {
+  height: 100%;
+  width: 13%;
 }
 
 .top-links, .bottom-links {
@@ -53,6 +57,7 @@ body {
   font-size: 55px;
   letter-spacing: 15px;
   height: 150px; 
+  width: 967px;
   margin-left: 20px;
 }
 
@@ -70,6 +75,10 @@ body {
   margin-right: 18px;
 }
 
+.fa-bars {
+  display: none;
+}
+
 .search {
   height: 25px;
   width: 400px;
@@ -79,14 +88,23 @@ body {
   font-size: 20px;
 }
 
-hr {
+.hr-nav {
   border: 0;
   height: 1px;
   border-top: 2px solid #D8D8D8;
 }
+
 .bottom-nav {
   display: flex;
   margin-left: 10px;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.mobile-modal {
+  display: none;
 }
 
 /*----------------------------
@@ -99,7 +117,7 @@ hr {
 
 .top-container { 
   height: 400px;
-  width: 100%;
+  /* width: 100%; */
   color: white;
   font-size: 65px;
   font-weight: bold;
@@ -113,6 +131,7 @@ hr {
 
 .top-middle-container {
   height: 450px;
+  /* width: 100%; */
   margin-top: 35px;
 }
 
@@ -141,9 +160,14 @@ hr {
   border: 1px solid #D8D8D8;
 }
 
+.links-container {
+  width: 33.33%;
+}
+
 .middle-image {
   height: 320px;
   width: 99%;
+  padding: 0;
 }
 
 .tour {
@@ -338,7 +362,8 @@ hr {
 }
 
 .bio {
-  margin-left: 40px;
+  margin: 0 65px 0 55px;
+  text-align: justify;
 }
 
 .bio-title {
@@ -500,6 +525,10 @@ hr {
   font-size: 20px;
 }
 
+.signin-register-input {
+  width: 60%;
+}
+
 /*------------------
         Blog
 ------------------*/
@@ -563,4 +592,264 @@ hr {
 
 .results-date {
   font-family: 'Secular One', sans-serif;
+}
+
+/*--------------------------
+      media queries
+--------------------------*/
+
+@media (max-width: 500px) {
+
+  .side-nav-contain {
+    display: none;
+  }
+  /*==============
+  Navigaton-mobile
+  ==============*/
+
+  .hr-nav{
+    margin: 0;
+  }
+
+  .top-elements {
+    display: none;
+  }
+
+  .bottom-nav {
+    display: none;
+  }
+
+  .top-nav {
+    margin-right: 8px;
+  }
+
+  .logo {
+    height: 114%;
+    width: 21%;
+    margin-left: 3px;
+  }
+
+  .banner {
+    font-size: 20px;
+    width: 100%;
+    margin-left: 10px;
+    height: 90px;
+    letter-spacing: 10px;
+  }
+
+  .banner-text {
+    margin-top: 31px;
+  }
+
+  .fa-bars {
+    height: 36px;
+    display: block;
+    color: #FB4F21;
+    margin-top: 38px;
+  }
+
+  .mobile-modal {
+    display: block;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: 20;
+    background: white;
+  }
+
+  .mobile-menu {
+    height: 100vh;
+    width: 100vw;
+    list-style-type: none;
+    background: white;
+    padding: 0;
+  }
+
+  .mobile-menu-item {
+    margin: 23px 0 23px 40px;
+  }
+
+  .hr-mobile {
+    border-top: 1px solid black;
+  }
+
+  .fa-angle-double-right {
+    margin-left: 10px;
+  }
+
+  .mobile-search {
+    display: flex;
+    justify-content: center;
+  }
+
+  .search {
+    width: 345px;
+  }
+  /*============
+    HOME-mobile
+  =============*/
+
+  .home-container {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .top-container {
+    font-size: 26px;
+    width: 100%;
+    height: 100px;
+  }
+
+  .top-image {
+    height: 100px;
+  }
+
+  .top-text {
+    top: 51px;
+  }
+
+  .top-middle-container {
+    height: 230px;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .title {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .middle-text {
+    padding: 20px 0 0 0;
+  }
+
+  .middle-image {
+    height: 100px;
+  }
+
+  .description {
+    font-size: 12px;
+  }
+
+  .left, .right, .middle {
+    height: 230px;
+  }
+  
+  .bottom-image {
+    height: 80px;
+  }
+
+  .picks-contain {
+    margin-top: 18px;
+  }
+
+  .picks-image {
+    height: 49px;
+  }
+
+  .bottom-middle-container {
+    height: 230px;
+    width: 100%;
+    margin: 0;
+  }
+
+  /*==============
+    ABOUT-mobile
+  ==============*/
+
+  .about-contain {
+    width: 100%;
+  }
+
+  .name-contain {
+    width: 99%;
+  }
+  .name {
+    font-size: 30px;
+  }
+
+  .about-description {
+    font-size: 20px;
+  }
+
+  .connect-container {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .photo-container {
+    margin: 0;
+  }
+
+  .brian {
+    width: 104vw;
+    height: 253px;
+  }
+
+  .caption {
+    margin: 0 10px 0 12px;
+  }
+
+  .contact {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .contact-me {
+    font-size: 25px;
+  }
+
+  .social-links {
+    font-size: 18px;
+  }
+
+  .bio {
+    margin: 28px;
+  }
+
+  .bio-title {
+    font-size: 28px;
+  }
+
+  .bio-text {
+    font-size: 18px;
+  }
+
+  /*=============
+  FOOTER-mobile
+  ==============*/
+
+  .bottom-container {
+    height: 105px;
+    width: 100%;
+  }
+
+  .signup-text {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+
+  .email-input {
+    width: 168px;
+    height: 21px;
+    margin-left: 20px;
+  }
+
+  .social-contain {
+    width: 99%;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .social {
+    height: 43px;
+    width: 44px;
+  }
+
+  .ig {
+    height: 29px;
+    width: 31px;
+    margin: 7px 0 0 6px;
+  }
 }

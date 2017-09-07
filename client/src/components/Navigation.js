@@ -4,6 +4,69 @@ import { Link } from 'react-router-dom';
 import Auth from '../modules/Auth';
 
 class Navigation extends Component {
+    constructor () {
+        super();
+        this.state = {
+            menuClicked: false
+        }
+
+        this.handleMenuClick = this.handleMenuClick.bind(this);
+        this.renderMobileMenu = this.renderMobileMenu.bind(this);
+        this.handleReturnClick = this.handleReturnClick.bind(this);
+    }
+
+    handleMenuClick() {
+        this.setState({ menuClicked: true });
+    }
+
+    handleReturnClick() {
+        this.setState({ menuClicked: false });
+    }
+
+    renderMobileMenu() {
+        if (this.state.menuClicked) {
+            return (
+                <div className="mobile-modal">
+                    <ul className="mobile-menu">
+                        <Link to="/" className="nav-link">
+                            <li className="mobile-menu-item" onClick={this.handleReturnClick}>Home</li>
+                        </Link>
+                        <hr className="hr-mobile" />
+                        <Link to="/blog" className="nav-link">
+                            <li className="mobile-menu-item" onClick={this.handleReturnClick}>Ramen Blog</li>
+                        </Link>
+                        <hr className="hr-mobile"/>
+                        <Link to="/store" className="nav-link">
+                            <li className="mobile-menu-item" onClick={this.handleReturnClick}>Store</li>
+                        </Link>
+                        <hr className="hr-mobile"/>
+                        <Link to="/tours" className="nav-link">
+                            <li className="mobile-menu-item" onClick={this.handleReturnClick}>Ramen Tours</li>
+                        </Link>
+                        <hr className="hr-mobile"/>
+                        <Link to="/schools" className="nav-link">
+                            <li className="mobile-menu-item" onClick={this.handleReturnClick}>Ramen Schools</li>
+                        </Link>
+                        <hr className="hr-mobile"/>
+                        <Link to="/media" className="nav-link">
+                            <li className="mobile-menu-item" onClick={this.handleReturnClick}>Media</li>
+                        </Link>
+                        <hr className="hr-mobile"/>
+                        <Link to="/about" className="nav-link">
+                            <li className="mobile-menu-item" onClick={this.handleReturnClick}>About Me</li>
+                        </Link>
+                        <hr className="hr-mobile"/>
+                        <li className="mobile-menu-item return"
+                            onClick={this.handleReturnClick}
+                        >
+                            Return to site
+                            <i className="fa fa-angle-double-right" aria-hidden="true"></i>
+                        </li>
+                    </ul>
+                </div>
+            )
+        } 
+    }
 
   render() {
     return (
@@ -12,7 +75,7 @@ class Navigation extends Component {
                 <Link to="/" className="logo-banner nav-link">
                     <img className="logo" src={logo} alt="Ramen Adventures logo"/>
                     <div className="banner">
-                        <p>RAMEN ADVENTURES</p>
+                        <p className="banner-text">RAMEN ADVENTURES</p>
                     </div>
                 </Link>
                 <div className="top-elements">
@@ -45,8 +108,20 @@ class Navigation extends Component {
                         />
                     </form>
                 </div>
+                <i className="fa fa-bars fa-2x" aria-hidden="true" onClick={this.handleMenuClick}></i>
+                {this.renderMobileMenu()}
             </div>
-            <hr />
+            <div className="mobile-search">
+                    <form onSubmit={(e) => this.props.search(e)}>
+                            <input  type="text"
+                                    placeholder="Search"
+                                    onChange={this.props.handleSearchChange}
+                                    className="search"
+                                    value={this.props.searchQuery}
+                            />
+                    </form>
+                </div>
+            <hr className="hr-nav"/>
             <div className="bottom-nav">
                 <Link to="/blog" className="nav-link">
                     <div className="blog bottom-links">

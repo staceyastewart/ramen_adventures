@@ -34,7 +34,7 @@ class Footer extends Component {
                 <hr />
                 <div className="home bottom-container">
                     <div className="home bottom-left">
-                        <div>
+                        <div className="signup-text">
                             Sign up to receive exclusive ramen updates
                         </div>
                         <form onSubmit={(e) => this.inputEmail(e)}>
