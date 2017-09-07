@@ -653,19 +653,16 @@ body {
     background: white;
   }
 
-  .mobile-modal-display {
-    display: block;
-  }
-
   .mobile-menu {
     height: 100vh;
     width: 100vw;
     list-style-type: none;
     background: white;
+    padding: 0;
   }
 
   .mobile-menu-item {
-    margin: 23px;
+    margin: 23px 0 23px 40px;
   }
 
   .hr-mobile {

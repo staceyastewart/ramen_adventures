@@ -28,17 +28,33 @@ class Navigation extends Component {
             return (
                 <div className="mobile-modal">
                     <ul className="mobile-menu">
-                        <li className="mobile-menu-item">Ramen Blog</li>
+                        <Link to="/" className="nav-link">
+                            <li className="mobile-menu-item" onClick={this.handleReturnClick}>Home</li>
+                        </Link>
+                        <hr className="hr-mobile" />
+                        <Link to="/blog" className="nav-link">
+                            <li className="mobile-menu-item" onClick={this.handleReturnClick}>Ramen Blog</li>
+                        </Link>
                         <hr className="hr-mobile"/>
-                        <li className="mobile-menu-item">Store</li>
+                        <Link to="/store" className="nav-link">
+                            <li className="mobile-menu-item" onClick={this.handleReturnClick}>Store</li>
+                        </Link>
                         <hr className="hr-mobile"/>
-                        <li className="mobile-menu-item">Ramen Tours</li>
+                        <Link to="/tours" className="nav-link">
+                            <li className="mobile-menu-item" onClick={this.handleReturnClick}>Ramen Tours</li>
+                        </Link>
                         <hr className="hr-mobile"/>
-                        <li className="mobile-menu-item">Ramen Schools</li>
+                        <Link to="/schools" className="nav-link">
+                            <li className="mobile-menu-item" onClick={this.handleReturnClick}>Ramen Schools</li>
+                        </Link>
                         <hr className="hr-mobile"/>
-                        <li className="mobile-menu-item">Media</li>
+                        <Link to="/media" className="nav-link">
+                            <li className="mobile-menu-item" onClick={this.handleReturnClick}>Media</li>
+                        </Link>
                         <hr className="hr-mobile"/>
-                        <li className="mobile-menu-item">About Me</li>
+                        <Link to="/about" className="nav-link">
+                            <li className="mobile-menu-item" onClick={this.handleReturnClick}>About Me</li>
+                        </Link>
                         <hr className="hr-mobile"/>
                         <li className="mobile-menu-item return"
                             onClick={this.handleReturnClick}
