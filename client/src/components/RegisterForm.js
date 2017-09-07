@@ -42,7 +42,7 @@ class RegisterForm extends Component {
           </div>
           <div className="form-field">
             <div className="label">
-              <label>Create Password:* <br/>(5-16 characters)</label>
+              <label>Create <br className="register-br-mobile" />Password:* <br/>(5-16 characters)</label>
             </div>
             <div className="input">
               <input type="password" name="password" className="input-field password" />

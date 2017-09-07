@@ -439,6 +439,10 @@ body {
   font-size: 20px;
 }
 
+.register-br-mobile {
+  display: none;
+}
+
 .submit-contain {
   justify-content: center;
   margin-top: 90px;
@@ -815,6 +819,108 @@ body {
   .bio-text {
     font-size: 18px;
   }
+
+  /*==============
+   SIGN IN-mobile
+  ==============*/
+
+  .signin-page-container {
+    width: 100%;
+  }
+
+  .signin-container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+
+  .forms-contain {
+    width: 100%;
+    flex-direction: column;
+    font-size: 15px;
+  }
+
+  .signin-email, .signin-password, .signin-register-input {
+    font-size: 18px;
+  }
+
+  .returning {
+    margin: 20px 0 0 23px;
+  }
+
+  .signin-email {
+    margin-left: 30px;
+  }
+
+  .signin-title {
+    font-size: 20px;
+  }
+
+  .login-submit {
+    margin: 4px 0 5px 181px;
+  }
+
+  .new-user {
+    margin: 20px 0 0 24px;
+    border-top: 1px solid #D8D8D8;
+  }
+
+  .register-submit {
+    margin: 27px 0 20px 182px;
+  }
+
+  /*==============
+   REGISTER-mobile
+  ==============*/
+
+  .register-contain {
+    height: 100%;
+    width: 100%;
+  }
+
+  .create {
+    font-size: 20px;
+    margin: 30px 0 30px 25px;
+  }
+
+  .label {
+    font-size: 15px;
+    margin-left: 20px;
+  }
+  
+  .input-field {
+    border: 1px solid gray;
+    font-size: 18px;
+  }
+
+  .first-name, .last-name, .email, .password {
+    width: 182px;
+  }
+
+  .first-name {
+    margin: 0 0 8px 20px;
+  }
+
+  .last-name {
+    margin-left: 22px;
+  }
+
+  .email {
+    margin-left: 58px;
+  }
+
+  .register-br-mobile {
+    display: block;
+  }
+
+  .password {
+    margin-left: -7px;
+  }
+
+  .submit-contain {
+    margin: 20px 0 23px 143px;
+  }
+
 
   /*=============
   FOOTER-mobile
