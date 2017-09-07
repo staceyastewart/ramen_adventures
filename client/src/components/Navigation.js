@@ -2,9 +2,55 @@ import React, { Component } from 'react';
 import logo from '../images/orangelogo.svg';
 import { Link } from 'react-router-dom';
 import Auth from '../modules/Auth';
-import menu from '../images/hamburger.png';
 
 class Navigation extends Component {
+    constructor () {
+        super();
+        this.state = {
+            menuClicked: false
+        }
+
+        this.handleMenuClick = this.handleMenuClick.bind(this);
+        this.renderMobileMenu = this.renderMobileMenu.bind(this);
+        this.handleReturnClick = this.handleReturnClick.bind(this);
+    }
+
+    handleMenuClick() {
+        this.setState({ menuClicked: true });
+    }
+
+    handleReturnClick() {
+        this.setState({ menuClicked: false });
+    }
+
+    renderMobileMenu() {
+        if (this.state.menuClicked) {
+            return (
+                <div className="mobile-modal">
+                    <ul className="mobile-menu">
+                        <li className="mobile-menu-item">Ramen Blog</li>
+                        <hr className="hr-mobile"/>
+                        <li className="mobile-menu-item">Store</li>
+                        <hr className="hr-mobile"/>
+                        <li className="mobile-menu-item">Ramen Tours</li>
+                        <hr className="hr-mobile"/>
+                        <li className="mobile-menu-item">Ramen Schools</li>
+                        <hr className="hr-mobile"/>
+                        <li className="mobile-menu-item">Media</li>
+                        <hr className="hr-mobile"/>
+                        <li className="mobile-menu-item">About Me</li>
+                        <hr className="hr-mobile"/>
+                        <li className="mobile-menu-item return"
+                            onClick={this.handleReturnClick}
+                        >
+                            Return to site
+                            <i className="fa fa-angle-double-right" aria-hidden="true"></i>
+                        </li>
+                    </ul>
+                </div>
+            )
+        } 
+    }
 
   render() {
     return (
@@ -46,7 +92,8 @@ class Navigation extends Component {
                         />
                     </form>
                 </div>
-            <i className="fa fa-bars fa-2x" aria-hidden="true"></i>
+                <i className="fa fa-bars fa-2x" aria-hidden="true" onClick={this.handleMenuClick}></i>
+                {this.renderMobileMenu()}
             </div>
             <div className="mobile-search">
                     <form onSubmit={(e) => this.props.search(e)}>
@@ -58,7 +105,7 @@ class Navigation extends Component {
                             />
                     </form>
                 </div>
-            <hr />
+            <hr className="hr-nav"/>
             <div className="bottom-nav">
                 <Link to="/blog" className="nav-link">
                     <div className="blog bottom-links">
