@@ -619,6 +619,10 @@ body {
     display: none;
   }
 
+  .top-nav {
+    margin-right: 8px;
+  }
+
   .logo {
     height: 114%;
     width: 21%;
@@ -779,8 +783,8 @@ body {
   }
 
   .brian {
-    width: 99vw;
-    height: 228px;
+    width: 104vw;
+    height: 253px;
   }
 
   .caption {
@@ -789,6 +793,7 @@ body {
 
   .contact {
     width: 100%;
+    margin-top: 20px;
   }
 
   .contact-me {
