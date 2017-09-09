@@ -32,6 +32,10 @@ class Navigation extends Component {
                             <li className="mobile-menu-item" onClick={this.handleReturnClick}>Home</li>
                         </Link>
                         <hr className="hr-mobile" />
+                        <Link to="/signin" className="nav-link">
+                            <li className="mobile-menu-item" onClick={this.handleReturnClick}>Log In/Sign Up</li>
+                        </Link>
+                        <hr className="hr-mobile" />
                         <Link to="/blog" className="nav-link">
                             <li className="mobile-menu-item" onClick={this.handleReturnClick}>Ramen Blog</li>
                         </Link>

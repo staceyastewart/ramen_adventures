@@ -20,7 +20,7 @@ class SignIn extends Component {
                     </div>
                     <div className="forms-contain">
                         <div className="returning">
-                            <p>Returning user sign in</p>
+                            <p className="signin-title">Returning user sign in</p>
                             <form onSubmit={(e) => this.props.loginSubmit(e)}>
                                 <div className="login-email">
                                     <label className="signin-label">Email:</label>
@@ -42,8 +42,9 @@ class SignIn extends Component {
                                 <input className="login-submit" type="submit" value="Sign in"></input>
                             </form>
                         </div>
+                        {/* <hr className="signin-mobile-hr" /> */}
                         <div className="new-user">
-                            <p>New user registration</p>
+                            <p className="signin-title">New user registration</p>
                             <form onSubmit={(email) => this.props.emailSubmit(email)}>
                                 <div>
                                     <label className="signin-label">Email:</label>
