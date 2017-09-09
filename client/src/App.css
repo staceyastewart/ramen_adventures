@@ -844,6 +844,10 @@ body {
     font-size: 18px;
   }
 
+  .signin-password, .signin-email {
+    width: 182px;
+  }
+
   .returning {
     margin: 20px 0 0 23px;
   }
@@ -889,7 +893,6 @@ body {
   }
   
   .input-field {
-    border: 1px solid gray;
     font-size: 18px;
   }
 
