@@ -1,12 +1,6 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import { fetchUsers } from '../actions';
 
 class RegisterForm extends Component {
-
-  componentDidMount() {
-    this.props.fetchUsers();
-  }
 
   render() {
     return (
@@ -57,8 +51,4 @@ class RegisterForm extends Component {
   }
 }
 
-function mapStateToProps(state) {
-  return { users: state.users };
-}
-
-export default connect(mapStateToProps, { fetchUsers })(RegisterForm);
+export default RegisterForm;
