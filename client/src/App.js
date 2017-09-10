@@ -15,12 +15,7 @@ import AboutMe from './components/AboutMe';
 import Blog from './components/Blog';
 import SignIn from './components/SignIn';
 
-import { Provider } from 'react-redux';
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
-import { createStore, applyMiddleware } from 'redux';
-import reducers from './reducers';
-import promise from 'redux-promise';
-const createStoreWithMiddleware = applyMiddleware(promise)(createStore);
 
 class App extends Component {
   constructor() {
@@ -139,7 +134,6 @@ class App extends Component {
 
   render() {
     return (
-      <Provider store={createStoreWithMiddleware(reducers)}>
         <BrowserRouter>
           <div className="App">
               <Navigation logOut={this.logOut}
@@ -180,7 +174,6 @@ class App extends Component {
               {(this.state.isSearching) && <Redirect to="/search" />}
           </div>
         </BrowserRouter>
-      </Provider>
     );
   }
 }
