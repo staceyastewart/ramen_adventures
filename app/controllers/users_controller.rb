@@ -10,6 +10,7 @@ class UsersController < ApiController
             @user.save!
             if @user.save
               #send email
+              SignupMailer.signup_confirmation(@user).deliver
                 json_response({ token: @user.auth_token })
             else
                 json_response({ :errors => @user.errors.full_messages })
