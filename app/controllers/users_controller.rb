@@ -9,6 +9,7 @@ class UsersController < ApiController
             @user = User.new(user_params)
             @user.save!
             if @user.save
+              #send email
                 json_response({ token: @user.auth_token })
             else
                 json_response({ :errors => @user.errors.full_messages })
