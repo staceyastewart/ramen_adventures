@@ -107,6 +107,10 @@ body {
   display: none;
 }
 
+.mobile-search {
+  display: none;
+}
+
 /*----------------------------
       HOME
 ----------------------------*/
