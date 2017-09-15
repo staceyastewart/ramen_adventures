@@ -8,50 +8,50 @@ class Blog extends Component {
     constructor() {
         super();
         this.state = {
-            photosFirst: [],
-            photosSecond: [],
-            photosThird: []
+            firstPost: [],
+            secondPost: [],
+            thirdPost: []
         }
 
-        this.getPhotosFirst = this.getPhotosFirst.bind(this);
-        this.getPhotosSecond = this.getPhotosSecond.bind(this);
-        this.getPhotosThird = this.getPhotosThird.bind(this);
+        this.getFirstPost = this.getFirstPost.bind(this);
+        this.getSecondPost = this.getSecondPost.bind(this);
+        this.getThirdPost = this.getThirdPost.bind(this);
     }
 
     componentDidMount() {
-        this.getPhotosFirst();
-        this.getPhotosSecond();
-        this.getPhotosThird();
+        this.getFirstPost();
+        this.getSecondPost();
+        this.getThirdPost();
     }
 
-    getPhotosFirst() {
+    getFirstPost() {
         axios.get('/posts')
         .then((res) => {
             for (let i = res.data.length-1; i >= res.data.length - 2; i--) {
                 this.setState(prevState => ({
-                    photosFirst: [...prevState.photosFirst, res.data[i].photos[0]]
+                    firstPost: [...prevState.firstPost, res.data[i]]
                   }));
             }
         });
     }
 
-    getPhotosSecond() {
+    getSecondPost() {
         axios.get('/posts')
         .then((res) => {
             for (let i = res.data.length-3; i >= res.data.length - 4; i--) {
                 this.setState(prevState => ({
-                    photosSecond: [...prevState.photosSecond, res.data[i].photos[0]]
+                    secondPost: [...prevState.secondPost, res.data[i]]
                   }));
             }
         });
     }
 
-    getPhotosThird() {
+    getThirdPost() {
         axios.get('/posts')
         .then((res) => {
             for (let i = res.data.length-5; i >= res.data.length - 6; i--) {
                 this.setState(prevState => ({
-                    photosThird: [...prevState.photosThird, res.data[i].photos[0]]
+                    thirdPost: [...prevState.thirdPost, res.data[i]]
                   }));
             }
         });
@@ -66,9 +66,9 @@ class Blog extends Component {
                     <h2>Recent Posts</h2>
                     <div className="post-container">
                         <Link to="/blogpost">
-                        <BlogPhotos photosFirst={this.state.photosFirst}
-                                    photosSecond={this.state.photosSecond}
-                                    photosThird={this.state.photosThird}/>
+                        <BlogPhotos firstPost={this.state.firstPost}
+                                    secondPost={this.state.secondPost}
+                                    thirdPost={this.state.thirdPost}/>
                         </Link>
                     </div>
                 </div>
