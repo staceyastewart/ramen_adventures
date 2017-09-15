@@ -551,6 +551,20 @@ body {
   margin: 30px 0 0 10px;
 }
 
+.posts {
+  display: flex;
+}
+
+/*--------------------
+      Blog Post
+--------------------*/
+
+.post {
+  height: 480px;
+  width: 574px;
+  border: 1px solid black;
+}
+
 /*-------------------
       Store
 -------------------*/
