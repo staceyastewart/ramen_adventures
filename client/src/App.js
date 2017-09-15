@@ -29,7 +29,10 @@ class App extends Component {
       isSearching: false,
       searchQuery: '',
       searchResultsPosts: [],
-      searchResultsShops: []
+      searchResultsShops: [],
+      firstPost: [],
+      secondPost: [],
+      thirdPost: []
     }
 
     this.registerSubmit = this.registerSubmit.bind(this);
@@ -41,6 +44,9 @@ class App extends Component {
     this.search = this.search.bind(this);
     this.handleSearchChange = this.handleSearchChange.bind(this);
     this.resetIsSearching = this.resetIsSearching.bind(this);
+    this.getFirstPost = this.getFirstPost.bind(this);
+    this.getSecondPost = this.getSecondPost.bind(this);
+    this.getThirdPost = this.getThirdPost.bind(this);
   }
 
   registerSubmit(e) {
@@ -95,27 +101,27 @@ class App extends Component {
       }).catch(err => console.log(err));
     }
 
-    emailSubmit(e) {
-      const email = e.target.email.value;
-      e.preventDefault();
-      this.setState({ email, redirectToRegister: true });
-    }
+  emailSubmit(e) {
+    const email = e.target.email.value;
+    e.preventDefault();
+    this.setState({ email, redirectToRegister: true });
+  }
 
-    resetRedirect() {
-      this.setState({ redirectToRegister: false });
-    }
-    
-    getSearchResults(query) {
-      axios.post(`/search`, { q: query })
-      .then((res) => {    
-          this.setState({ 
-            searchResultsPosts: res.data.posts,
-            searchResultsShops: res.data.shops,
-            searchQuery: '',
-            query: query
-          });     
-      });
-    }
+  resetRedirect() {
+    this.setState({ redirectToRegister: false });
+  }
+  
+  getSearchResults(query) {
+    axios.post(`/search`, { q: query })
+    .then((res) => {    
+        this.setState({ 
+          searchResultsPosts: res.data.posts,
+          searchResultsShops: res.data.shops,
+          searchQuery: '',
+          query: query
+        });     
+    });
+  }
 
   search(e) {
     e.preventDefault();
@@ -131,6 +137,45 @@ class App extends Component {
     if (this.state.isSearching) { 
     this.setState({ isSearching: false });
     } 
+  }
+
+  getFirstPost() {
+    axios.get('/posts')
+    .then((res) => {
+        for (let i = res.data.length-1; i >= res.data.length - 2; i--) {
+            this.setState(prevState => ({
+                firstPost: [...prevState.firstPost, res.data[i]]
+              }));
+        }
+    });
+  }
+
+  getSecondPost() {
+    axios.get('/posts')
+    .then((res) => {
+        for (let i = res.data.length-3; i >= res.data.length - 4; i--) {
+            this.setState(prevState => ({
+                secondPost: [...prevState.secondPost, res.data[i]]
+              }));
+        }
+    });
+  }
+
+  getThirdPost() {
+    axios.get('/posts')
+    .then((res) => {
+        for (let i = res.data.length-5; i >= res.data.length - 6; i--) {
+            this.setState(prevState => ({
+                thirdPost: [...prevState.thirdPost, res.data[i]]
+              }));
+        }
+    });
+  }
+
+  componentDidMount() {
+    this.getFirstPost();
+    this.getSecondPost();
+    this.getThirdPost();
   }
 
   render() {
@@ -162,7 +207,11 @@ class App extends Component {
                   <Route path='/schools' component={Schools} />
                   <Route path='/media' component={Media} />
                   <Route path='/about' component={AboutMe} />
-                  <Route path="/blog" component={Blog} />
+                  <Route path="/blog" component={(props) => <Blog {...props}
+                                      firstPost={this.state.firstPost}
+                                      secondPost={this.state.secondPost}
+                                      thirdPost={this.state.thirdPost} />} 
+                  />
                   <Route path="/blogpost" component={BlogPost} />
                   <Route path="/signin" component={(props) => <SignIn {...props}
                                         loginSubmit={this.loginSubmit}
