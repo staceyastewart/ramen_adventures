@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import BestOfNav from './BestOfNav';
-import BlogPost from './BlogPost';
+import BlogPhotos from './BlogPhotos';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 class Blog extends Component {
     constructor() {
@@ -64,9 +65,11 @@ class Blog extends Component {
                 <div className="posts-container">
                     <h2>Recent Posts</h2>
                     <div className="post-container">
-                        <BlogPost   photosFirst={this.state.photosFirst}
+                        <Link to="/blogpost">
+                        <BlogPhotos photosFirst={this.state.photosFirst}
                                     photosSecond={this.state.photosSecond}
                                     photosThird={this.state.photosThird}/>
+                        </Link>
                     </div>
                 </div>
             </div>

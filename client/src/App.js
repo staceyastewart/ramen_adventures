@@ -13,6 +13,7 @@ import Schools from './components/Schools';
 import Media from './components/Media';
 import AboutMe from './components/AboutMe';
 import Blog from './components/Blog';
+import BlogPost from './components/BlogPost';
 import SignIn from './components/SignIn';
 
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
@@ -162,6 +163,7 @@ class App extends Component {
                   <Route path='/media' component={Media} />
                   <Route path='/about' component={AboutMe} />
                   <Route path="/blog" component={Blog} />
+                  <Route path="/blogpost" component={BlogPost} />
                   <Route path="/signin" component={(props) => <SignIn {...props}
                                         loginSubmit={this.loginSubmit}
                                         emailSubmit={this.emailSubmit}
