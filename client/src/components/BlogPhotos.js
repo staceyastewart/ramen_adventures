@@ -1,14 +1,6 @@
 import React, { Component } from 'react';
 
 class BlogPhotos extends Component {
-    constructor() {
-        super();
-        this.handleImageClick = this.handleImageClick.bind(this);
-    }
-
-    handleImageClick() {
-        console.log("handled");
-    }
 
     render() {
         const { firstPost, secondPost, thirdPost } = this.props;
@@ -22,7 +14,7 @@ class BlogPhotos extends Component {
                                     src={firstPost[i].photos[0]} 
                                     className="post" 
                                     alt=""
-                                    onClick={this.handleImageClick}
+                                    onClick={() => this.props.handleFirstBlogImageClick(i)}
                             />)}
                         )}
                 </div>
@@ -35,6 +27,7 @@ class BlogPhotos extends Component {
                                         src={secondPost[i].photos[0]} 
                                         className="post" 
                                         alt=""
+                                        onClick={() => this.props.handleSecondBlogImageClick(i)}
                                 />)}
                             )}
                 </div>
@@ -47,6 +40,7 @@ class BlogPhotos extends Component {
                                         src={thirdPost[i].photos[0]} 
                                         className="post" 
                                         alt=""
+                                        onClick={() => this.props.handleThirdBlogImageClick(i)}
                                 />)}
                             )}
                 </div>

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import BestOfNav from './BestOfNav';
 import BlogPhotos from './BlogPhotos';
-import axios from 'axios';
 import { Link } from 'react-router-dom';
 
 class Blog extends Component {
@@ -16,7 +15,11 @@ class Blog extends Component {
                         <Link to="/blogpost">
                         <BlogPhotos firstPost={this.props.firstPost}
                                     secondPost={this.props.secondPost}
-                                    thirdPost={this.props.thirdPost} />
+                                    thirdPost={this.props.thirdPost}
+                                    handleFirstBlogImageClick={this.props.handleFirstBlogImageClick}
+                                    handleSecondBlogImageClick={this.props.handleSecondBlogImageClick}
+                                    handleThirdBlogImageClick={this.props.handleThirdBlogImageClick}
+                        />
                         </Link>
                     </div>
                 </div>

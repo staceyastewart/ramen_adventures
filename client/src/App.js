@@ -47,6 +47,9 @@ class App extends Component {
     this.getFirstPost = this.getFirstPost.bind(this);
     this.getSecondPost = this.getSecondPost.bind(this);
     this.getThirdPost = this.getThirdPost.bind(this);
+    this.handleFirstBlogImageClick = this.handleFirstBlogImageClick.bind(this);
+    this.handleSecondBlogImageClick = this.handleSecondBlogImageClick.bind(this);
+    this.handleThirdBlogImageClick = this.handleThirdBlogImageClick.bind(this);
   }
 
   registerSubmit(e) {
@@ -172,6 +175,35 @@ class App extends Component {
     });
   }
 
+  handleFirstBlogImageClick(i) {   
+      this.setState({ 
+        postToDisplay: this.state.firstPost[i].id,
+        contentToDisplay: this.state.firstPost[i].content,
+        photoToDisplay: this.state.firstPost[i].photos[0],
+        dateToDisplay: this.state.firstPost[i].date
+      });    
+  }
+
+  handleSecondBlogImageClick(i) {   
+    this.setState({ 
+      postToDisplay: this.state.secondPost[i].id,
+      contentToDisplay: this.state.secondPost[i].content,
+      photoToDisplay: this.state.secondPost[i].photos[0],
+      dateToDisplay: this.state.secondPost[i].date
+    });    
+  }
+
+  handleThirdBlogImageClick(i) {   
+    this.setState({ 
+      postToDisplay: this.state.thirdPost[i].id,
+      contentToDisplay: this.state.thirdPost[i].content,
+      photoToDisplay: this.state.thirdPost[i].photos[0],
+      dateToDisplay: this.state.thirdPost[i].date
+    });    
+  }
+
+
+
   componentDidMount() {
     this.getFirstPost();
     this.getSecondPost();
@@ -210,9 +242,19 @@ class App extends Component {
                   <Route path="/blog" component={(props) => <Blog {...props}
                                       firstPost={this.state.firstPost}
                                       secondPost={this.state.secondPost}
-                                      thirdPost={this.state.thirdPost} />} 
+                                      thirdPost={this.state.thirdPost}
+                                      handleFirstBlogImageClick={this.handleFirstBlogImageClick}
+                                      handleSecondBlogImageClick={this.handleSecondBlogImageClick}
+                                      handleThirdBlogImageClick={this.handleThirdBlogImageClick} />} 
                   />
-                  <Route path="/blogpost" component={BlogPost} />
+                  <Route path="/blogpost" component={(props) => <BlogPost {...props}
+                                          firstPost={this.state.firstPost}
+                                          secondPost={this.state.secondPost}
+                                          thirdPost={this.state.thirdPost}
+                                          contentToDisplay={this.state.contentToDisplay}
+                                          photoToDisplay={this.state.photoToDisplay}
+                                          dateToDisplay={this.state.dateToDisplay} />}
+                  />
                   <Route path="/signin" component={(props) => <SignIn {...props}
                                         loginSubmit={this.loginSubmit}
                                         emailSubmit={this.emailSubmit}
