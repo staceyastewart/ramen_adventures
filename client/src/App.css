@@ -681,6 +681,12 @@ body {
   font-family: 'Secular One', sans-serif;
 }
 
+.spinner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /*--------------------------
       media queries
 --------------------------*/
