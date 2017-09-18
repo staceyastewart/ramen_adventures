@@ -202,8 +202,6 @@ class App extends Component {
     });    
   }
 
-
-
   componentDidMount() {
     this.getFirstPost();
     this.getSecondPost();

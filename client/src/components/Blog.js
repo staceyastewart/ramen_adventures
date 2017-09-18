@@ -10,7 +10,7 @@ class Blog extends Component {
             <div className="blog-container">
                 <BestOfNav />
                 <div className="posts-container">
-                    <h2>Recent Posts</h2>
+                    <h2 className="recent-posts-header">Recent Posts:</h2>
                     <div className="post-container">
                         <Link to="/blogpost">
                         <BlogPhotos firstPost={this.props.firstPost}

@@ -9,6 +9,10 @@ a:hover {
   color: #FB4F21;
 }
 
+a:link {
+  text-decoration: none;
+}
+
 input::placeholder {
   color: white;
   font-size: 13px;
@@ -551,19 +555,43 @@ body {
   margin: 30px 0 0 10px;
 }
 
+.recent-posts-header {
+  margin-left: 30px;
+  font-size: 30px;
+}
+
 .posts {
   display: flex;
 }
 
 /*--------------------
-      Blog Post
+      Blog Photos
 --------------------*/
+
+.blog-post-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 .post {
   height: 320px;
   width: 574px;
   border: 1px solid black;
 }
+
+.post-text {
+  height: 138px;
+  width: 99%;
+  background: #FB4F21;
+  color: white;
+  font-size: 20px;
+}
+
+.blog-post-date, .blog-post-teaser {
+  margin: 15px 25px 5px 35px;
+}
+
 
 /*-------------------
       Store
