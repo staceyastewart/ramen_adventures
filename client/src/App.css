@@ -1007,9 +1007,9 @@ body {
     margin: 20px 0 23px 143px;
   }
 
-  /*==============
-     BLOG-mobile
-  ==============*/
+/*================
+    BLOG-mobile
+================*/
 
   .posts-container {
     width: 100%;
@@ -1027,6 +1027,25 @@ body {
   
   .post-text {
     width: 100%;
+  }
+
+/*=================
+  BLOG POST-mobile
+=================*/
+
+  .single-blog-post {
+    width: 100%;
+  }
+
+  .blog-image-container {
+    height: 280px;
+    width: 100%;
+  }
+
+  .blog-post-content {
+    font-size: 18px;
+    line-height: 35px;
+    margin: 0 25px 12px 25px;
   }
 
   /*=============
