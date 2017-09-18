@@ -16,11 +16,11 @@ class BlogPost extends Component {
                 <div className="single-blog-post">
                     <div className="post-date">{moment(dateToDisplay).format('dddd, MMMM Do, YYYY')}</div>
                     <div className="image-content">
-                        <Carousel showThumbs={false} showArrows={true} className="blog-image" dynamicHeight emulateTouch>
+                        <Carousel showThumbs={false} showArrows={true} className="blog-image-container" dynamicHeight emulateTouch>
                             {photoToDisplay.map((photo, i) => {
                                 return (
-                                    <div key={i} className="blog-image">
-                                        <img src={photoToDisplay[i]} alt="" />
+                                    <div key={i}>
+                                        <img className="blog-image" src={photoToDisplay[i]} alt="" />
                                     </div>
                                 )
                             })}
