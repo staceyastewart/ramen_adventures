@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import  './Carousel.css';
 import axios from 'axios';
 import Auth from './modules/Auth';
 import RegisterForm from './components/RegisterForm';
@@ -175,11 +176,11 @@ class App extends Component {
     });
   }
 
-  handleFirstBlogImageClick(i) {   
+  handleFirstBlogImageClick(i) { 
       this.setState({ 
         postToDisplay: this.state.firstPost[i].id,
         contentToDisplay: this.state.firstPost[i].content,
-        photoToDisplay: this.state.firstPost[i].photos[0],
+        photoToDisplay: this.state.firstPost[i].photos,
         dateToDisplay: this.state.firstPost[i].date
       });    
   }
@@ -188,16 +189,16 @@ class App extends Component {
     this.setState({ 
       postToDisplay: this.state.secondPost[i].id,
       contentToDisplay: this.state.secondPost[i].content,
-      photoToDisplay: this.state.secondPost[i].photos[0],
+      photoToDisplay: this.state.secondPost[i].photos,
       dateToDisplay: this.state.secondPost[i].date
-    });    
+    });   
   }
 
   handleThirdBlogImageClick(i) {   
     this.setState({ 
       postToDisplay: this.state.thirdPost[i].id,
       contentToDisplay: this.state.thirdPost[i].content,
-      photoToDisplay: this.state.thirdPost[i].photos[0],
+      photoToDisplay: this.state.thirdPost[i].photos,
       dateToDisplay: this.state.thirdPost[i].date
     });    
   }
