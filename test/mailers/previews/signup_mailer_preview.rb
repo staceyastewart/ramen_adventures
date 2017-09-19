@@ -6,4 +6,7 @@ class SignupMailerPreview < ActionMailer::Preview
     SignupMailer.signup_confirmation(User.first)
   end
 
+  # ENV["PASSWORD"]
+  # ENV["EMAIL"]
+
 end
