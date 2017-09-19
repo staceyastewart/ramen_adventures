@@ -8,6 +8,10 @@
   </head>
 
   <body>
-    <%= yield %>
+    <h3>Hi <%= @user.first_name %>,</h3>
+    <p>
+      Thank you for signing up for Ramen Adventures!
+    </p>
+    <%= image_tag("ramen_adventures_email.jpg") %>
   </body>
 </html>
