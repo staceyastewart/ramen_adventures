@@ -634,10 +634,18 @@ body {
   font-size: 23px;
   display: flex;
   float: right;
+  background: #FB4F21;
+  color: white;
+  padding-left: 18px;
+  border-radius: 5px;
+  height: 70px;
+  align-items: center;
 }
 
 .return:hover {
+  background: white;
   color: #FB4F21;
+  border: 1px solid #FB4F21;
 }
 
 .blogpost-arrow {
@@ -1066,6 +1074,14 @@ body {
     font-size: 18px;
     line-height: 35px;
     margin: 0 25px 12px 25px;
+  }
+
+  .post-date {
+    font-size: 21px;
+  }
+
+  .return {
+    font-size: 19px;
   }
 
   /*=============
