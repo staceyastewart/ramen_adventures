@@ -36,7 +36,8 @@ class App extends Component {
       thirdPost: [],
       contentToDisplay: "",
       photoToDisplay: [],
-      dateToDisplay: ""
+      dateToDisplay: "",
+      isOnSearchResult: false
     }
 
     this.registerSubmit = this.registerSubmit.bind(this);
@@ -56,7 +57,8 @@ class App extends Component {
     this.handleThirdBlogImageClick = this.handleThirdBlogImageClick.bind(this);
     this.handleSearchResultClick = this.handleSearchResultClick.bind(this);
     this.resetSearchResultClicked = this.resetSearchResultClicked.bind(this);
-    this.resetPostInfo = this.resetPostInfo.bind(this);
+    this.resetIsOnSearchResult = this.resetIsOnSearchResult.bind(this);
+    this.handleReturnToSearchClick = this.handleReturnToSearchClick.bind(this);
   }
 
   registerSubmit(e) {
@@ -138,8 +140,8 @@ class App extends Component {
     this.setState({ isSearching: true })
   }
 
-  handleSearchChange(event) {
-      this.setState({ searchQuery: event.target.value })
+  handleReturnToSearchClick() {
+    this.setState({ isSearching: true });
   }
 
   resetIsSearching() {
@@ -148,9 +150,20 @@ class App extends Component {
     } 
   }
 
+  resetIsOnSearchResult() {
+    if (this.state.isOnSearchResult) {
+      this.setState({ isOnSearchResult: false });
+    }
+  }
+
+  handleSearchChange(event) {
+      this.setState({ searchQuery: event.target.value })
+  }
+
   handleSearchResultClick(post) {
     this.setState({ 
       isSearchResultClicked: true,
+      isOnSearchResult: true,
       contentToDisplay: post.content,
       photoToDisplay: post.photos,
       dateToDisplay: post.date
@@ -160,12 +173,6 @@ class App extends Component {
   resetSearchResultClicked() {
     if (this.state.isSearchResultClicked) {
       this.setState({ isSearchResultClicked: false });
-    }
-  }
-
-  resetPostInfo() {
-    if (this.state.photoToDisplay) { 
-      this.setState({ photoToDisplay: [] })
     }
   }
 
@@ -280,7 +287,9 @@ class App extends Component {
                                           contentToDisplay={this.state.contentToDisplay}
                                           photoToDisplay={this.state.photoToDisplay}
                                           dateToDisplay={this.state.dateToDisplay}
-                                          resetPostInfo={this.resetPostInfo} />}
+                                          resetIsOnSearchResult={this.resetIsOnSearchResult}
+                                          isOnSearchResult={this.state.isOnSearchResult}
+                                          handleReturnToSearchClick={this.handleReturnToSearchClick} />}
                   />
                   <Route path="/signin" component={(props) => <SignIn {...props}
                                         loginSubmit={this.loginSubmit}

@@ -125,7 +125,6 @@ body {
 
 .top-container { 
   height: 400px;
-  /* width: 100%; */
   color: white;
   font-size: 65px;
   font-weight: bold;
@@ -139,7 +138,6 @@ body {
 
 .top-middle-container {
   height: 450px;
-  /* width: 100%; */
   margin-top: 35px;
 }
 
@@ -616,6 +614,7 @@ body {
 .post-date {
   font-size: 23px;
   margin: 30px;
+  float: left;
  }
 
 .image-content {
@@ -628,6 +627,21 @@ body {
   font-size: 22px;
   line-height: 38px;
   margin: 40px 148px 40px 148px;
+}
+
+.return {
+  margin: 7px 30px 30px 30px;
+  font-size: 23px;
+  display: flex;
+  float: right;
+}
+
+.return:hover {
+  color: #FB4F21;
+}
+
+.blogpost-arrow {
+  margin: 30px 30px 30px 10px;
 }
 
 /*-------------------
