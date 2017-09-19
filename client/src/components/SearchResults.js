@@ -27,10 +27,10 @@ class SearchResults extends Component {
         }
     }
 
-    renderPosts (key) {
+    renderPosts (post, key) {
         const { searchResultsPosts, handleSearchResultClick } = this.props;
             return (
-                <li key={key} onClick={() => handleSearchResultClick()}>
+                <li key={key} onClick={() => handleSearchResultClick(post)}>
                     <div className="results-post">
                         <p> 
                             <span className="results-date">
@@ -56,7 +56,7 @@ class SearchResults extends Component {
                     {this.renderHeader()}
                     <ul className="results-posts">
                         {searchResultsPosts.map((post, key) => {
-                                return this.renderPosts(key);
+                                return this.renderPosts(post, key);
                             })}
                     </ul>
                 </div>

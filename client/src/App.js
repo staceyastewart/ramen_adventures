@@ -30,9 +30,13 @@ class App extends Component {
       isSearching: false,
       isSearchResultClicked: false,
       searchQuery: '',
+      searchResultsPosts: [],
       firstPost: [],
       secondPost: [],
-      thirdPost: []
+      thirdPost: [],
+      contentToDisplay: "",
+      photoToDisplay: [],
+      dateToDisplay: ""
     }
 
     this.registerSubmit = this.registerSubmit.bind(this);
@@ -143,8 +147,14 @@ class App extends Component {
     } 
   }
 
-  handleSearchResultClick() {
-    this.setState({ isSearchResultClicked: true });
+  handleSearchResultClick(post) {
+    this.setState({ 
+      isSearchResultClicked: true,
+      contentToDisplay: post.content,
+      photoToDisplay: post.photo,
+      dateToDisplay: post.date
+    });
+    console.log(post.content)
   }
 
   resetSearchResultClicked() {

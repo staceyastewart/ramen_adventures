@@ -7,7 +7,7 @@ class BlogPost extends Component {
 
     render() {
         const { contentToDisplay, photoToDisplay, dateToDisplay } = this.props;
-        if (!photoToDisplay) {
+        if (!photoToDisplay || !dateToDisplay || !contentToDisplay) {
             return null;
         }
         return (
