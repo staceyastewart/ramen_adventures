@@ -28,12 +28,16 @@ class App extends Component {
       email: '',
       redirectToRegister: false,
       isSearching: false,
+      isSearchResultClicked: false,
       searchQuery: '',
       searchResultsPosts: [],
-      searchResultsShops: [],
       firstPost: [],
       secondPost: [],
-      thirdPost: []
+      thirdPost: [],
+      contentToDisplay: "",
+      photoToDisplay: [],
+      dateToDisplay: "",
+      isOnSearchResult: false
     }
 
     this.registerSubmit = this.registerSubmit.bind(this);
@@ -51,6 +55,10 @@ class App extends Component {
     this.handleFirstBlogImageClick = this.handleFirstBlogImageClick.bind(this);
     this.handleSecondBlogImageClick = this.handleSecondBlogImageClick.bind(this);
     this.handleThirdBlogImageClick = this.handleThirdBlogImageClick.bind(this);
+    this.handleSearchResultClick = this.handleSearchResultClick.bind(this);
+    this.resetSearchResultClicked = this.resetSearchResultClicked.bind(this);
+    this.resetIsOnSearchResult = this.resetIsOnSearchResult.bind(this);
+    this.handleReturnToSearchClick = this.handleReturnToSearchClick.bind(this);
   }
 
   registerSubmit(e) {
@@ -120,7 +128,6 @@ class App extends Component {
     .then((res) => {    
         this.setState({ 
           searchResultsPosts: res.data.posts,
-          searchResultsShops: res.data.shops,
           searchQuery: '',
           query: query
         });     
@@ -133,14 +140,40 @@ class App extends Component {
     this.setState({ isSearching: true })
   }
 
-  handleSearchChange(event) {
-      this.setState({ searchQuery: event.target.value })
+  handleReturnToSearchClick() {
+    this.setState({ isSearching: true });
   }
 
   resetIsSearching() {
     if (this.state.isSearching) { 
     this.setState({ isSearching: false });
     } 
+  }
+
+  resetIsOnSearchResult() {
+    if (this.state.isOnSearchResult) {
+      this.setState({ isOnSearchResult: false });
+    }
+  }
+
+  handleSearchChange(event) {
+      this.setState({ searchQuery: event.target.value })
+  }
+
+  handleSearchResultClick(post) {
+    this.setState({ 
+      isSearchResultClicked: true,
+      isOnSearchResult: true,
+      contentToDisplay: post.content,
+      photoToDisplay: post.photos,
+      dateToDisplay: post.date
+    });
+  }
+
+  resetSearchResultClicked() {
+    if (this.state.isSearchResultClicked) {
+      this.setState({ isSearchResultClicked: false });
+    }
   }
 
   getFirstPost() {
@@ -229,9 +262,10 @@ class App extends Component {
                   />
                   <Route path="/search" component={(props) => <SearchResults {...props}
                                         searchResultsPosts={this.state.searchResultsPosts}
-                                        searchResultsShops={this.state.searchResultsShops}
                                         query={this.state.query}
-                                        resetIsSearching={this.resetIsSearching} />}
+                                        resetIsSearching={this.resetIsSearching}
+                                        handleSearchResultClick={this.handleSearchResultClick}
+                                        resetSearchResultClicked={this.resetSearchResultClicked} />}
                   />
                   <Route path="/store" component={Store} />
                   <Route path='/tours' component={Tours} />
@@ -252,7 +286,10 @@ class App extends Component {
                                           thirdPost={this.state.thirdPost}
                                           contentToDisplay={this.state.contentToDisplay}
                                           photoToDisplay={this.state.photoToDisplay}
-                                          dateToDisplay={this.state.dateToDisplay} />}
+                                          dateToDisplay={this.state.dateToDisplay}
+                                          resetIsOnSearchResult={this.resetIsOnSearchResult}
+                                          isOnSearchResult={this.state.isOnSearchResult}
+                                          handleReturnToSearchClick={this.handleReturnToSearchClick} />}
                   />
                   <Route path="/signin" component={(props) => <SignIn {...props}
                                         loginSubmit={this.loginSubmit}
@@ -264,6 +301,7 @@ class App extends Component {
               </div>
               <Footer />
               {(this.state.isSearching) && <Redirect to="/search" />}
+              {(this.state.isSearchResultClicked) && <Redirect to="/blogpost" />}
           </div>
         </BrowserRouter>
     );

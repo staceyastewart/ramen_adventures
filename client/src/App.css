@@ -125,7 +125,6 @@ body {
 
 .top-container { 
   height: 400px;
-  /* width: 100%; */
   color: white;
   font-size: 65px;
   font-weight: bold;
@@ -139,7 +138,6 @@ body {
 
 .top-middle-container {
   height: 450px;
-  /* width: 100%; */
   margin-top: 35px;
 }
 
@@ -616,6 +614,7 @@ body {
 .post-date {
   font-size: 23px;
   margin: 30px;
+  float: left;
  }
 
 .image-content {
@@ -628,6 +627,29 @@ body {
   font-size: 22px;
   line-height: 38px;
   margin: 40px 148px 40px 148px;
+}
+
+.return {
+  margin: 7px 30px 30px 30px;
+  font-size: 23px;
+  display: flex;
+  float: right;
+  background: #FB4F21;
+  color: white;
+  padding-left: 18px;
+  border-radius: 5px;
+  height: 70px;
+  align-items: center;
+}
+
+.return:hover {
+  background: white;
+  color: #FB4F21;
+  border: 1px solid #FB4F21;
+}
+
+.blogpost-arrow {
+  margin: 30px 30px 30px 10px;
 }
 
 /*-------------------
@@ -677,8 +699,18 @@ body {
   line-height: 25px;
 }
 
+.results-post-text:hover {
+  color: #FB4F21;
+}
+
 .results-date {
   font-family: 'Secular One', sans-serif;
+}
+
+.spinner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /*--------------------------
@@ -1006,7 +1038,24 @@ body {
   .submit-contain {
     margin: 20px 0 23px 143px;
   }
+/*=================
+   SEARCH-mobile
+=================*/
 
+  .search-results-container {
+    width: 100%;
+  }
+
+  .search-results-header {
+    font-size: 19px;
+    width: 100%;
+  }
+
+  .results-posts {
+    padding: 0;
+    width: 100%;
+    margin: 40px 0 40px 0;
+  }
 /*================
     BLOG-mobile
 ================*/
@@ -1046,6 +1095,14 @@ body {
     font-size: 18px;
     line-height: 35px;
     margin: 0 25px 12px 25px;
+  }
+
+  .post-date {
+    font-size: 21px;
+  }
+
+  .return {
+    font-size: 19px;
   }
 
   /*=============

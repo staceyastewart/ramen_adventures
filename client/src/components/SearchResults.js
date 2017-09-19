@@ -6,18 +6,33 @@ class SearchResults extends Component {
     constructor() {
         super();
         this.renderPosts = this.renderPosts.bind(this);
-        this.renderShops = this.renderShops.bind(this);
-    }
-    componentWillUnmount() {
-       this.props.resetIsSearching();
     }
 
-    renderPosts (key) {
-        const { searchResultsPosts } = this.props;
+    componentWillUnmount() {
+       this.props.resetIsSearching();
+       this.props.resetSearchResultClicked();
+    }
+
+    renderHeader() {
+        const { query, searchResultsPosts  } = this.props;
+        if (!searchResultsPosts) {
             return (
-                <li key={key}>
+                <div className="spinner-container">
+                    <h1 className="search-results-header">Loading results...</h1>
+                    <i className="fa fa-spinner fa-pulse fa-3x fa-fw"></i> 
+                </div>
+            )
+        } else {
+            return <h1 className="search-results-header">There are {searchResultsPosts.length} results for "{query}"</h1>
+        }
+    }
+
+    renderPosts (post, key) {
+        const { searchResultsPosts, handleSearchResultClick } = this.props;
+            return (
+                <li key={key} onClick={() => handleSearchResultClick(post)}>
                     <div className="results-post">
-                        <p> 
+                        <p className="results-post-text"> 
                             <span className="results-date">
                                 Posted on: {moment(searchResultsPosts[key].date).format('MMMM Do YYYY')} -
                             </span>
@@ -28,36 +43,22 @@ class SearchResults extends Component {
             )
     }
 
-    renderShops(key) {
-        const { searchResultsShops } = this.props;
-        return (
-            <li key={key}>
-                <div className="results-post">
-                    <p>{searchResultsShops[key].name}</p>
-                </div>
-            </li>
-        )
-    }
-
     render() {
-        const { query, searchResultsPosts, searchResultsShops } = this.props;
-        const totalResults = searchResultsPosts.length + searchResultsShops.length;
-       
+        const { searchResultsPosts } = this.props;
+        if (!searchResultsPosts) {
+            return null;
+        }
+
         return (
             <div className="search-results-container">
                 <BestOfNav />
                 <div className="results-container">
-                <h1>There are {totalResults} results for "{query}"</h1>
-                <ul className="results-posts">
-                    {Object.keys(searchResultsPosts).map((key) => {
-                            return this.renderPosts(key);
-                        })}
-                </ul>
-                <ul className="results-posts">
-                    {Object.keys(searchResultsShops).map((key) => {
-                        return this.renderShops(key);
-                    })}
-                </ul>
+                    {this.renderHeader()}
+                    <ul className="results-posts">
+                        {searchResultsPosts.map((post, key) => {
+                                return this.renderPosts(post, key);
+                            })}
+                    </ul>
                 </div>
             </div>
         );
