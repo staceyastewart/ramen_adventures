@@ -4,12 +4,13 @@ import BestOfNav from './BestOfNav';
 import { Carousel } from 'react-responsive-carousel';
 
 class BlogPost extends Component {
-
+    componentWillUnmount() {
+        console.log('unmounting')
+    }
+    
     render() {
         const { contentToDisplay, photoToDisplay, dateToDisplay } = this.props;
-        if (!photoToDisplay || !dateToDisplay || !contentToDisplay) {
-            return null;
-        }
+        
         return (
             <div className="single-post-container">
                 <BestOfNav />

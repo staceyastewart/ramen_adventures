@@ -56,6 +56,7 @@ class App extends Component {
     this.handleThirdBlogImageClick = this.handleThirdBlogImageClick.bind(this);
     this.handleSearchResultClick = this.handleSearchResultClick.bind(this);
     this.resetSearchResultClicked = this.resetSearchResultClicked.bind(this);
+    this.resetPostInfo = this.resetPostInfo.bind(this);
   }
 
   registerSubmit(e) {
@@ -151,15 +152,20 @@ class App extends Component {
     this.setState({ 
       isSearchResultClicked: true,
       contentToDisplay: post.content,
-      photoToDisplay: post.photo,
+      photoToDisplay: post.photos,
       dateToDisplay: post.date
     });
-    console.log(post.content)
   }
 
   resetSearchResultClicked() {
     if (this.state.isSearchResultClicked) {
       this.setState({ isSearchResultClicked: false });
+    }
+  }
+
+  resetPostInfo() {
+    if (this.state.photoToDisplay) { 
+      this.setState({ photoToDisplay: [] })
     }
   }
 
@@ -273,7 +279,8 @@ class App extends Component {
                                           thirdPost={this.state.thirdPost}
                                           contentToDisplay={this.state.contentToDisplay}
                                           photoToDisplay={this.state.photoToDisplay}
-                                          dateToDisplay={this.state.dateToDisplay} />}
+                                          dateToDisplay={this.state.dateToDisplay}
+                                          resetPostInfo={this.resetPostInfo} />}
                   />
                   <Route path="/signin" component={(props) => <SignIn {...props}
                                         loginSubmit={this.loginSubmit}
