@@ -32,7 +32,7 @@ class SearchResults extends Component {
             return (
                 <li key={key} onClick={() => handleSearchResultClick(post)}>
                     <div className="results-post">
-                        <p> 
+                        <p className="results-post-text"> 
                             <span className="results-date">
                                 Posted on: {moment(searchResultsPosts[key].date).format('MMMM Do YYYY')} -
                             </span>

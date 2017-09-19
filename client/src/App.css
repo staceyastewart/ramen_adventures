@@ -699,6 +699,10 @@ body {
   line-height: 25px;
 }
 
+.results-post-text:hover {
+  color: #FB4F21;
+}
+
 .results-date {
   font-family: 'Secular One', sans-serif;
 }
