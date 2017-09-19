@@ -18,12 +18,12 @@ class SearchResults extends Component {
         if (!searchResultsPosts) {
             return (
                 <div className="spinner-container">
-                    <h1>Loading results...</h1>
+                    <h1 className="search-results-header">Loading results...</h1>
                     <i className="fa fa-spinner fa-pulse fa-3x fa-fw"></i> 
                 </div>
             )
         } else {
-            return <h1>There are {searchResultsPosts.length} results for "{query}"</h1>
+            return <h1 className="search-results-header">There are {searchResultsPosts.length} results for "{query}"</h1>
         }
     }
 

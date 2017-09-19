@@ -1034,7 +1034,24 @@ body {
   .submit-contain {
     margin: 20px 0 23px 143px;
   }
+/*=================
+   SEARCH-mobile
+=================*/
 
+  .search-results-container {
+    width: 100%;
+  }
+
+  .search-results-header {
+    font-size: 19px;
+    width: 100%;
+  }
+
+  .results-posts {
+    padding: 0;
+    width: 100%;
+    margin: 40px 0 40px 0;
+  }
 /*================
     BLOG-mobile
 ================*/
