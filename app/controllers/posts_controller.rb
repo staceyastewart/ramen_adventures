@@ -21,9 +21,11 @@ class PostsController < ApiController
     @post.shop = Shop.find(params[:id])
     @post.save!
     if @post.save
-       json_response(@post, :created)
+      #send email with new post to subscribed users
+
+      json_response(@post, :created)
     else
-       json_response({:errors => @post.errors.full_messages})
+      json_response({:errors => @post.errors.full_messages})
     end
   end
 
