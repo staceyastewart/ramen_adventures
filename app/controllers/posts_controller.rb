@@ -22,7 +22,9 @@ class PostsController < ApiController
     @post.save!
     if @post.save
       #send email with new post to subscribed users
-
+      # needs to find only subscribed users
+      users = User.all
+      UserMailer.post_mailer(users, @post).deliver
       json_response(@post, :created)
     else
       json_response({:errors => @post.errors.full_messages})
