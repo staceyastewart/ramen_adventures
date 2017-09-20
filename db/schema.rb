@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170903173843) do
+ActiveRecord::Schema.define(version: 20170920220244) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -73,6 +73,7 @@ ActiveRecord::Schema.define(version: 20170903173843) do
     t.integer  "shop_id"
     t.text     "photos",     default: [],              array: true
     t.boolean  "best_of"
+    t.string   "title"
     t.index ["shop_id"], name: "index_posts_on_shop_id", using: :btree
   end
 
