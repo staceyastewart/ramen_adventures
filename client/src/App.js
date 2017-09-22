@@ -16,6 +16,7 @@ import AboutMe from './components/AboutMe';
 import Blog from './components/Blog';
 import BlogPost from './components/BlogPost';
 import SignIn from './components/SignIn';
+import Unsubscribe from './components/Unsubscribe';
 
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 
@@ -297,6 +298,7 @@ class App extends Component {
                                         redirectToRegister={this.state.redirectToRegister}
                                         resetRedirect={this.resetRedirect} />} 
                   />
+                  <Route path="/unsubscribe" component={Unsubscribe} />
                 </Switch>
               </div>
               <Footer />
