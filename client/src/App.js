@@ -298,12 +298,12 @@ class App extends Component {
                                         redirectToRegister={this.state.redirectToRegister}
                                         resetRedirect={this.resetRedirect} />} 
                   />
-                  <Route path="/unsubscribe" component={Unsubscribe} />
                 </Switch>
               </div>
               <Footer />
               {(this.state.isSearching) && <Redirect to="/search" />}
               {(this.state.isSearchResultClicked) && <Redirect to="/blogpost" />}
+              <Route path="/unsubscribe" component={Unsubscribe} />
           </div>
         </BrowserRouter>
     );
