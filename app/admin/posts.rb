@@ -14,6 +14,7 @@ ActiveAdmin.register Post do
             input :content
             input :photos
         end
+        actions
     end
 
     permit_params :content, :date, :shop_id, :best_of, :photos

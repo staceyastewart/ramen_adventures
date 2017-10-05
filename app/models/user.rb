@@ -1,6 +1,6 @@
 class User < ApplicationRecord
-    has_many :comments
-    has_many :usershops
+    has_many :comments, dependent: :destroy
+    has_many :usershops, dependent: :destroy
 
     has_secure_password
     has_secure_token :auth_token
