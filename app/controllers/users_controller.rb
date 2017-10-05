@@ -37,6 +37,12 @@ class UsersController < ApiController
         end
     end
 
+    def destroy
+        @user = current_user
+        authorize @user
+        @user.destroy!
+    end
+
     private
 
     def user_params

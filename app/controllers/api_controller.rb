@@ -1,6 +1,6 @@
 class ApiController < ActionController::API
-    include ActionController::HttpAuthentication::Token::ControllerMethods
     include Pundit
+    include ActionController::HttpAuthentication::Token::ControllerMethods
     include Response
 
     rescue_from Pundit::NotAuthorizedError, with: :user_not_authorized
@@ -11,12 +11,16 @@ class ApiController < ActionController::API
         authenticate_token || render_unauthorized("Access Denied")
     end
 
+    def pundit_user
+        @current_user ||= authenticate_token
+    end
+
     def current_user
         @current_user ||= authenticate_token
     end
 
     def user_not_authorized
-        json_response("You must be an administrator to complete this action.")
+        json_response("You are not authorized to complete this action.")
     end
 
     def no_record_found
