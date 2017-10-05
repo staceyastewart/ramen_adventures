@@ -1,7 +1,8 @@
 class CommentsController < ApiController
-    include Response
-
+    include Pundit
     before_action :require_login, only: [:create, :update, :destroy]
+    after_action :verify_authorized, only: [:update]
+
 
     def show
         @comment = Comment.find(params[:id])
@@ -9,9 +10,10 @@ class CommentsController < ApiController
     end
 
     def create
-        @comment = Comment.create!(comment_params)
+        @comment = Comment.new(comment_params)
         @comment.post = Post.find(params[:post_id])
-        if @comment.save
+        @comment.user_id = current_user.id
+        if @comment.save!
             json_response(@comment, :created)
         else
             json_response({:errors => @comment.errors.full_messages})
@@ -19,8 +21,10 @@ class CommentsController < ApiController
     end
 
     def update
-        @comment = Comment.update(comment_params)
-        head :no_content
+        @comment = Comment.find(params[:id])
+        authorize @comment
+        @comment.update(comment_params)
+        json_response(@comment)
     end
 
     def destroy
@@ -32,6 +36,6 @@ class CommentsController < ApiController
 
     def comment_params
         json_params = ActionController::Parameters.new( JSON.parse(request.body.read) )
-        return json_params.require(:comment).permit(:content, :posts_id, :users_id)
+        return json_params.require(:comment).permit(:content, :post_id, :user_id)
     end
 end

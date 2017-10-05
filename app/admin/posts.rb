@@ -14,7 +14,8 @@ ActiveAdmin.register Post do
             input :content
             input :photos
         end
+        f.actions
     end
 
-    permit_params :content, :date, :shop_id, :best_of, :photos
+    permit_params :id, :content, :date, :shop_id, :best_of, :photos
 end

@@ -1,9 +1,13 @@
 class UserPolicy < ApplicationPolicy
     def show?
-        user == resource
+        user == record
     end
-    
+
     def update?
-        user == resource
+        user == record
+    end
+
+    def destroy?
+        user == record
     end
 end
