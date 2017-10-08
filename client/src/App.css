@@ -613,6 +613,11 @@ body {
   width: 852px;
 }
 
+.blog-image {
+  height: 567px;
+  width: 852px;
+}
+
 .post-date {
   font-size: 23px;
   margin: 30px;
@@ -1090,6 +1095,11 @@ body {
   }
 
   .blog-image-container {
+    height: 280px;
+    width: 100%;
+  }
+
+  .blog-image {
     height: 280px;
     width: 100%;
   }

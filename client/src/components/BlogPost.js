@@ -16,8 +16,8 @@ class BlogPost extends Component {
     }
 
     componentDidMount() {
-        let id = this.state.blogId;
-        axios.get(`/posts/${id}`)
+        let { blogId } = this.state;
+        axios.get(`/posts/${blogId}`)
         .then((res) => {
             this.setState({
                 dateToDisplay: res.data.date,
@@ -65,7 +65,7 @@ class BlogPost extends Component {
                             })}
                         </Carousel> */}
                         {photoToDisplay? 
-                        <div className="blog-image">
+                        <div className="blog-image-container">
                             <img className="blog-image" src={photoToDisplay[0]} alt="" />
                         </div>: null}
                         <div className="blog-post-content">{contentToDisplay}</div>
