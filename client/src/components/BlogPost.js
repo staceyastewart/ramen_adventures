@@ -2,12 +2,34 @@ import React, { Component } from 'react';
 import moment from 'moment';
 import BestOfNav from './BestOfNav';
 import { Carousel } from 'react-responsive-carousel';
+import axios from 'axios';
 
 class BlogPost extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            dateToDisplay: '',
+            photoToDisplay: [],
+            contentToDisplay: "",
+            blogId: props.match.params.id
+        }
+    }
+
+    componentDidMount() {
+        let id = this.state.blogId;
+        axios.get(`/posts/${id}`)
+        .then((res) => {
+            this.setState({
+                dateToDisplay: res.data.date,
+                photoToDisplay: res.data.photos,
+                contentToDisplay: res.data.content
+            });
+        });
+    }
 
     componentWillUnmount() {
-        console.log('unmounting')
         this.props.resetIsOnSearchResult();
+        this.props.resetIsBlogPostClicked();
     }
 
     renderReturnButton() {
@@ -22,7 +44,7 @@ class BlogPost extends Component {
     }
     
     render() {
-        const { contentToDisplay, photoToDisplay, dateToDisplay } = this.props;
+        const { contentToDisplay, photoToDisplay, dateToDisplay } = this.state;
         
         return (
             <div className="single-post-container">
@@ -33,7 +55,7 @@ class BlogPost extends Component {
                         {this.renderReturnButton()}
                     </div>
                     <div className="image-content">
-                        <Carousel showThumbs={false} showArrows={true} className="blog-image-container" dynamicHeight emulateTouch>
+                        {/* <Carousel showThumbs={false} showArrows={true} className="blog-image-container" dynamicHeight emulateTouch>
                             {photoToDisplay.map((photo, i) => {
                                 return (
                                     <div key={i}>
@@ -41,7 +63,11 @@ class BlogPost extends Component {
                                     </div>
                                 )
                             })}
-                        </Carousel>
+                        </Carousel> */}
+                        {photoToDisplay? 
+                        <div className="blog-image">
+                            <img className="blog-image" src={photoToDisplay[0]} alt="" />
+                        </div>: null}
                         <div className="blog-post-content">{contentToDisplay}</div>
                     </div>
                 </div>
