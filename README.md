@@ -9,3 +9,13 @@ Below are a few photos of the blog before the rebuild, while still hosted and ma
 >![photoOfOurApp](app/assets/images/press.png)
 
 >![photoOfOurApp](app/assets/images/ramen_school.png)
+
+Our amazing UX designers conducted user research and interviews, created personas and created wireframes for the dev team to implement.
+
+Below is a photo of the Home Page wireframe:
+
+>![photoOfOurApp](app/assets/images/HomePage_wireframe.jpg)
+
+Below is a photo of the About Me wireframe:
+
+>![photoOfOurApp](app/assets/images/About_wireframe.jpg)

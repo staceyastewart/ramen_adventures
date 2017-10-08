@@ -6,9 +6,10 @@ class UserMailer < ApplicationMailer
   #
   #   en.user_mailer.post_mailer.subject
   #
-  def post_mailer(user, post)
+  def post_mailer(user, post, unsubscribe)
     @user = user
     @post = post
+    @unsubscribe = unsubscribe
     mail to: @user.email, subject: "Ramen Adventures New Post!"
   end
 end
