@@ -1,7 +1,6 @@
 class ApplicationController < ActionController::Base
     include Pundit
     protect_from_forgery with: :null_session
-    rescue_from NotFoundException, :with => :not_found
 
     def not_found
         respond_to do |format|
