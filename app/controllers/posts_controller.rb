@@ -53,14 +53,14 @@ class PostsController < ApiController
 
     private
 
-    def send_notice(@post)
-      # should only be users that are subscribed
-      users = User.all
-      users.each do |user|
-        @unsubscribe = Rails.application.message_verifier(:unsubscribe).generate(user.id)
-        EventMailer.post_mailer(user, @post, @unsubscribe).deliver_later
-      end
-    end
+    # def send_notice(@post)
+    #   # should only be users that are subscribed
+    #   users = User.all
+    #   users.each do |user|
+    #     @unsubscribe = Rails.application.message_verifier(:unsubscribe).generate(user.id)
+    #     EventMailer.post_mailer(user, @post, @unsubscribe).deliver_later
+    #   end
+    # end
 
     def post_params
       json_params = ActionController::Parameters.new( JSON.parse(request.body.read) )

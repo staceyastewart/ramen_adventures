@@ -17,6 +17,7 @@ import Blog from './components/Blog';
 import BlogPost from './components/BlogPost';
 import SignIn from './components/SignIn';
 import Unsubscribe from './components/Unsubscribe';
+import Error from './components/Error';
 
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 
@@ -296,6 +297,7 @@ class App extends Component {
                                         redirectToRegister={this.state.redirectToRegister}
                                         resetRedirect={this.resetRedirect} />} 
                   />
+                  <Route component={Error} />
                 </Switch>
               </div>
               <Footer />
