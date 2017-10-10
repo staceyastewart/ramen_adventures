@@ -55,7 +55,9 @@ class BlogPost extends Component {
                         {this.renderReturnButton()}
                     </div>
                     <div className="image-content">
-                        {/* <Carousel showThumbs={false} showArrows={true} className="blog-image-container" dynamicHeight emulateTouch>
+                        {photoToDisplay.length ? 
+                        <div className="blog-image-container">
+                        <Carousel showThumbs={false} showArrows={true} dynamicHeight emulateTouch>
                             {photoToDisplay.map((photo, i) => {
                                 return (
                                     <div key={i}>
@@ -63,11 +65,11 @@ class BlogPost extends Component {
                                     </div>
                                 )
                             })}
-                        </Carousel> */}
-                        {photoToDisplay? 
+                        </Carousel></div> : null}
+                        {/* {photoToDisplay? 
                         <div className="blog-image-container">
                             <img className="blog-image" src={photoToDisplay[0]} alt="" />
-                        </div>: null}
+                        </div>: null} */}
                         <div className="blog-post-content">{contentToDisplay}</div>
                     </div>
                 </div>
