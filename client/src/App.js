@@ -71,8 +71,8 @@ class App extends Component {
         last_name: e.target.lastName.value,
         email: e.target.email.value,
         password: e.target.password.value,
-    }
-    }).then(jsonRes => {
+        subscription: e.target.subscribed.checked
+    }}).then(jsonRes => {
       if (jsonRes.token !== undefined) {
         Auth.authenticateUser(jsonRes.token);
       }
@@ -261,7 +261,9 @@ class App extends Component {
                   <Route exact path="/" component={Home} />
                   <Route path="/register" component={(props) => <RegisterForm {...props} 
                                           registerSubmit={this.registerSubmit}
-                                          email={this.state.email}/>} 
+                                          email={this.state.email}
+                                          subscribeChecked={this.state.subscribeChecked}
+                                          handleSubscribeCheckChange={this.handleSubscribeCheckChange}/>} 
                   />
                   <Route path="/search" component={(props) => <SearchResults {...props}
                                         searchResultsPosts={this.state.searchResultsPosts}
