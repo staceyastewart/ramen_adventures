@@ -22,6 +22,12 @@ end
   post "/search" => "search#index"
 
   root to: "root#index"
+  
+  get '*path', :to => 'application#not_found'
+
+  # routes below for ActionMailer unsubscribe
+  get 'settings/unsubscribe'
+  patch 'settings/update'
 
   # routes below for ActionMailer unsubscribe
   get 'settings/unsubscribe'

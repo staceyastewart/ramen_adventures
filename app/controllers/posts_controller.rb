@@ -23,10 +23,7 @@ class PostsController < ApiController
     if @post.save
       #send email with new post to subscribed users
       # needs to find only subscribed users
-      users = User.all
-      users.each do |user|
-        UserMailer.post_mailer(user, @post).deliver
-      end
+      send_post_email(@post)
       json_response(@post, :created)
     else
       json_response({:errors => @post.errors.full_messages})
@@ -53,14 +50,16 @@ class PostsController < ApiController
 
     private
 
-    # def send_notice(@post)
-    #   # should only be users that are subscribed
-    #   users = User.all
-    #   users.each do |user|
-    #     @unsubscribe = Rails.application.message_verifier(:unsubscribe).generate(user.id)
-    #     EventMailer.post_mailer(user, @post, @unsubscribe).deliver_later
-    #   end
-    # end
+    def send_post_email(post)
+      # should only be users that are subscribed
+      @users = User.all
+      @post = post
+      @users.each do |user|
+        @user = user
+        @unsubscribe = Rails.application.message_verifier(:unsubscribe).generate(user.id)
+        UserMailer.post_mailer(@user, @post, @unsubscribe).deliver_later
+      end
+    end
 
     def post_params
       json_params = ActionController::Parameters.new( JSON.parse(request.body.read) )
