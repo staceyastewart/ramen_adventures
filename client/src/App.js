@@ -16,6 +16,8 @@ import AboutMe from './components/AboutMe';
 import Blog from './components/Blog';
 import BlogPost from './components/BlogPost';
 import SignIn from './components/SignIn';
+import Unsubscribe from './components/Unsubscribe';
+import Error from './components/Error';
 
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 
@@ -34,10 +36,9 @@ class App extends Component {
       firstPost: [],
       secondPost: [],
       thirdPost: [],
-      contentToDisplay: "",
-      photoToDisplay: [],
-      dateToDisplay: "",
-      isOnSearchResult: false
+      postToDisplay: "",
+      isOnSearchResult: false,
+      isBlogPostClicked: false
     }
 
     this.registerSubmit = this.registerSubmit.bind(this);
@@ -59,6 +60,7 @@ class App extends Component {
     this.resetSearchResultClicked = this.resetSearchResultClicked.bind(this);
     this.resetIsOnSearchResult = this.resetIsOnSearchResult.bind(this);
     this.handleReturnToSearchClick = this.handleReturnToSearchClick.bind(this);
+    this.resetIsBlogPostClicked = this.resetIsBlogPostClicked.bind(this);
   }
 
   registerSubmit(e) {
@@ -166,7 +168,8 @@ class App extends Component {
       isOnSearchResult: true,
       contentToDisplay: post.content,
       photoToDisplay: post.photos,
-      dateToDisplay: post.date
+      dateToDisplay: post.date,
+      postToDisplay: post.id
     });
   }
 
@@ -211,29 +214,29 @@ class App extends Component {
 
   handleFirstBlogImageClick(i) { 
       this.setState({ 
-        postToDisplay: this.state.firstPost[i].id,
-        contentToDisplay: this.state.firstPost[i].content,
-        photoToDisplay: this.state.firstPost[i].photos,
-        dateToDisplay: this.state.firstPost[i].date
+        isBlogPostClicked: true,
+        postToDisplay: this.state.firstPost[i].id
       });    
   }
 
   handleSecondBlogImageClick(i) {   
     this.setState({ 
-      postToDisplay: this.state.secondPost[i].id,
-      contentToDisplay: this.state.secondPost[i].content,
-      photoToDisplay: this.state.secondPost[i].photos,
-      dateToDisplay: this.state.secondPost[i].date
+      isBlogPostClicked: true,
+      postToDisplay: this.state.secondPost[i].id
     });   
   }
 
   handleThirdBlogImageClick(i) {   
     this.setState({ 
-      postToDisplay: this.state.thirdPost[i].id,
-      contentToDisplay: this.state.thirdPost[i].content,
-      photoToDisplay: this.state.thirdPost[i].photos,
-      dateToDisplay: this.state.thirdPost[i].date
+      isBlogPostClicked: true,
+      postToDisplay: this.state.thirdPost[i].id
     });    
+  }
+
+  resetIsBlogPostClicked() {
+    if (this.state.isBlogPostClicked) {
+      this.setState({ isBlogPostClicked: false });
+    }
   }
 
   componentDidMount() {
@@ -273,6 +276,7 @@ class App extends Component {
                   <Route path='/media' component={Media} />
                   <Route path='/about' component={AboutMe} />
                   <Route path="/blog" component={(props) => <Blog {...props}
+                                      postToDisplay={this.state.postToDisplay}
                                       firstPost={this.state.firstPost}
                                       secondPost={this.state.secondPost}
                                       thirdPost={this.state.thirdPost}
@@ -280,16 +284,12 @@ class App extends Component {
                                       handleSecondBlogImageClick={this.handleSecondBlogImageClick}
                                       handleThirdBlogImageClick={this.handleThirdBlogImageClick} />} 
                   />
-                  <Route path="/blogpost" component={(props) => <BlogPost {...props}
-                                          firstPost={this.state.firstPost}
-                                          secondPost={this.state.secondPost}
-                                          thirdPost={this.state.thirdPost}
-                                          contentToDisplay={this.state.contentToDisplay}
-                                          photoToDisplay={this.state.photoToDisplay}
-                                          dateToDisplay={this.state.dateToDisplay}
+                  <Route path="/blogpost/:id" component={(props) => <BlogPost {...props}
+                                          postToDisplay={this.state.postToDisplay}
                                           resetIsOnSearchResult={this.resetIsOnSearchResult}
                                           isOnSearchResult={this.state.isOnSearchResult}
-                                          handleReturnToSearchClick={this.handleReturnToSearchClick} />}
+                                          handleReturnToSearchClick={this.handleReturnToSearchClick}
+                                          resetIsBlogPostClicked={this.resetIsBlogPostClicked} />}
                   />
                   <Route path="/signin" component={(props) => <SignIn {...props}
                                         loginSubmit={this.loginSubmit}
@@ -297,11 +297,14 @@ class App extends Component {
                                         redirectToRegister={this.state.redirectToRegister}
                                         resetRedirect={this.resetRedirect} />} 
                   />
+                  <Route component={Error} />
                 </Switch>
               </div>
               <Footer />
               {(this.state.isSearching) && <Redirect to="/search" />}
-              {(this.state.isSearchResultClicked) && <Redirect to="/blogpost" />}
+              {(this.state.isSearchResultClicked) && <Redirect to={`/blogpost/${this.state.postToDisplay}`}/>}
+              {(this.state.isBlogPostClicked) && <Redirect to={`/blogpost/${this.state.postToDisplay}`}/>}
+              <Route path="/unsubscribe" component={Unsubscribe} />
           </div>
         </BrowserRouter>
     );

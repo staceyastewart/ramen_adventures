@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../images/orangelogo.svg';
+import logo from '../images/favicon.ico';
 import { Link } from 'react-router-dom';
 import Auth from '../modules/Auth';
 

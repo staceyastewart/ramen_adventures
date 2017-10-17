@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import BestOfNav from './BestOfNav';
 import BlogPhotos from './BlogPhotos';
-import { Link } from 'react-router-dom';
 
 class Blog extends Component {
 
@@ -12,7 +11,6 @@ class Blog extends Component {
                 <div className="posts-container">
                     <h2 className="recent-posts-header">Recent Posts:</h2>
                     <div className="post-container">
-                        <Link to="/blogpost">
                         <BlogPhotos firstPost={this.props.firstPost}
                                     secondPost={this.props.secondPost}
                                     thirdPost={this.props.thirdPost}
@@ -20,7 +18,6 @@ class Blog extends Component {
                                     handleSecondBlogImageClick={this.props.handleSecondBlogImageClick}
                                     handleThirdBlogImageClick={this.props.handleThirdBlogImageClick}
                         />
-                        </Link>
                     </div>
                 </div>
             </div>
