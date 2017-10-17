@@ -25,7 +25,9 @@ end
   
   get '*path', :to => 'application#not_found'
 
+  # routes below for ActionMailer unsubscribe
+  get 'settings/unsubscribe'
+  patch 'settings/update'
+
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
-
-
