@@ -1,6 +1,20 @@
 import React, { Component } from 'react';
 
 class RegisterForm extends Component {
+  constructor() {
+    super();
+    this.state = { checked: true }
+    this.handleChange = this.handleChange.bind(this);
+
+  }
+
+  handleChange() {
+    if (this.state.checked) { 
+      this.setState({ checked: false });
+    } else {
+      this.setState({ checked: true });
+    }
+  }
 
   render() {
     return (
@@ -40,6 +54,19 @@ class RegisterForm extends Component {
             </div>
             <div className="input">
               <input type="password" name="password" className="input-field password" />
+            </div>
+            </div>
+          <div className="form-field">
+            <div className="label">
+              <label>Click here to receive updates</label>
+            </div>
+            <div className="input subscribe-wrapper">
+              <input  type="checkbox"  
+                      className="filled-in"
+                      id="filled-in-box" 
+                      checked={this.state.checked} 
+                      onChange={this.handleChange}
+              />
             </div>
           </div>
           <div className="form-field submit-contain">
