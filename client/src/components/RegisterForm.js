@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import 'icheck/skins/all.css';
+import { Checkbox } from 'react-icheck';
 
 class RegisterForm extends Component {
 
@@ -42,17 +44,18 @@ class RegisterForm extends Component {
               <input type="password" name="password" className="input-field password" />
             </div>
             </div>
-          <div className="form-field">
+          <div className="form-field subscribe-wrapper">
             <div className="label">
               <label>Click here to receive updates</label>
             </div>
-            <div className="input subscribe-wrapper">
-              <input  type="checkbox"  
-                      className="filled-in"
-                      id="filled-in-box" 
-                      checked={this.props.subscribeChecked} 
-                      onChange={this.props.handleSubscribeCheckChange}
-              />
+            <div className="input">
+            <Checkbox
+                checkboxClass="icheckbox_square-red"
+                className="checkbox"
+                increaseArea="20%" 
+                name="subscribed"
+                defaultChecked={true}
+            />
             </div>
           </div>
           <div className="form-field submit-contain">

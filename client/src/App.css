@@ -456,6 +456,18 @@ body {
   margin-top: 90px;
 }
 
+.subscribe-wrapper {
+  margin-top: 21px;
+}
+
+.icheckbox_square-red:hover {
+  border: 2px solid #FB4F21;
+}
+
+.checkbox {
+  color: #FB4F21;
+}
+
 /*----------------------
     sign in/register
 ----------------------*/
