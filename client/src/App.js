@@ -28,6 +28,7 @@ class App extends Component {
       auth: Auth.isUserAuthenticated(),
       id: Auth.idUser(),
       email: '',
+      subscribeChecked: true,
       redirectToRegister: false,
       isSearching: false,
       isSearchResultClicked: false,
@@ -61,6 +62,7 @@ class App extends Component {
     this.resetIsOnSearchResult = this.resetIsOnSearchResult.bind(this);
     this.handleReturnToSearchClick = this.handleReturnToSearchClick.bind(this);
     this.resetIsBlogPostClicked = this.resetIsBlogPostClicked.bind(this);
+    this.handleSubscribeCheckChange = this.handleSubscribeCheckChange.bind(this);
   }
 
   registerSubmit(e) {
@@ -71,8 +73,9 @@ class App extends Component {
         last_name: e.target.lastName.value,
         email: e.target.email.value,
         password: e.target.password.value,
-    }
-    }).then(jsonRes => {
+        subscription: this.state.subscribeChecked
+    }}).then(jsonRes => {
+      console.log(jsonRes);
       if (jsonRes.token !== undefined) {
         Auth.authenticateUser(jsonRes.token);
       }
@@ -80,6 +83,15 @@ class App extends Component {
         auth: Auth.isUserAuthenticated()
       });
     }).catch(err => console.log(err));
+  }
+
+
+  handleSubscribeCheckChange() {
+    if (this.state.subscribeChecked) { 
+      this.setState({ subscribeChecked: false });
+    } else {
+      this.setState({ subscribeChecked: true });
+    }
   }
 
   loginSubmit(e) {
@@ -261,7 +273,9 @@ class App extends Component {
                   <Route exact path="/" component={Home} />
                   <Route path="/register" component={(props) => <RegisterForm {...props} 
                                           registerSubmit={this.registerSubmit}
-                                          email={this.state.email}/>} 
+                                          email={this.state.email}
+                                          subscribeChecked={this.state.subscribeChecked}
+                                          handleSubscribeCheckChange={this.handleSubscribeCheckChange}/>} 
                   />
                   <Route path="/search" component={(props) => <SearchResults {...props}
                                         searchResultsPosts={this.state.searchResultsPosts}
