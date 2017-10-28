@@ -33,7 +33,6 @@ class App extends Component {
       isSearchResultClicked: false,
       searchQuery: '',
       searchParam: '',
-      searchResultsPosts: [],
       firstPost: [],
       secondPost: [],
       thirdPost: [],
@@ -258,7 +257,6 @@ class App extends Component {
                                           handleSubscribeCheckChange={this.handleSubscribeCheckChange}/>} 
                   />
                   <Route path="/search/:query" component={(props) => <SearchResults {...props}
-                                        searchResultsPosts={this.state.searchResultsPosts}
                                         resetIsSearching={this.resetIsSearching}
                                         handleSearchResultClick={this.handleSearchResultClick}
                                         resetSearchResultClicked={this.resetSearchResultClicked} />}

@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React, { PureComponent, Component } from 'react';
 import BestOfNav from './BestOfNav';
 import moment from 'moment';
 import axios from 'axios';
 
-class SearchResults extends Component {
+class SearchResults extends PureComponent {
     constructor(props) {
         super(props);
         this.state = {
@@ -19,6 +19,17 @@ class SearchResults extends Component {
         this.getSearchResults(this.state.query);
     }
 
+    // shouldComponentUpdate(nextProps, nextState) {
+    //     console.log("this.props:", this.props);
+    //     console.log('nextprops:', nextProps.searchQuery);
+    //     console.log('nextstate:', nextState.query)
+    //     return (this.props.searchQuery === nextState.query);
+    // }
+
+    // shouldComponentUpdate(nextProps) {
+    //     return (this.props.messages !== nextProps.messages);
+    // }
+
     componentWillUnmount() {
        this.props.resetIsSearching();
        this.props.resetSearchResultClicked();
@@ -26,8 +37,11 @@ class SearchResults extends Component {
 
     getSearchResults(query) {
         axios.post(`/search`, { q: query })
-        .then((res) => {    
-            this.setState({ searchResultsPosts: res.data.posts });     
+        .then((res) => {  
+            //ref check to prevent setState on unmounted component error.
+            if (this.refs.myRef) {
+                this.setState({ searchResultsPosts: res.data.posts }); 
+            }     
         });
       }
 
@@ -69,7 +83,7 @@ class SearchResults extends Component {
         }
 
         return (
-            <div className="search-results-container">
+            <div className="search-results-container" ref="myRef">
                 <BestOfNav />
                 <div className="results-container">
                     {this.renderHeader()}
