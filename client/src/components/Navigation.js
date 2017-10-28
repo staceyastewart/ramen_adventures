@@ -120,7 +120,6 @@ class Navigation extends Component {
                                     placeholder="Search"
                                     onChange={this.props.handleSearchChange}
                                     className="search"
-                                    value={this.props.searchQuery}
                             />
                     </form>
                 </div>

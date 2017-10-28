@@ -7,7 +7,8 @@ class SearchResults extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            query: props.match.params.query
+            query: props.match.params.query,
+            searchResultsPosts: []
         }
 
         this.renderPosts = this.renderPosts.bind(this);
@@ -26,16 +27,12 @@ class SearchResults extends Component {
     getSearchResults(query) {
         axios.post(`/search`, { q: query })
         .then((res) => {    
-            this.setState({ 
-              searchResultsPosts: res.data.posts,
-              searchQuery: '',
-              query: query
-            });     
+            this.setState({ searchResultsPosts: res.data.posts });     
         });
       }
 
     renderHeader() {
-        const { query, searchResultsPosts  } = this.props;
+        const { query, searchResultsPosts  } = this.state;
         if (!searchResultsPosts) {
             return (
                 <div className="spinner-container">
