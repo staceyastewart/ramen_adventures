@@ -46,7 +46,7 @@ class App extends Component {
     this.logOut = this.logOut.bind(this);
     this.emailSubmit = this.emailSubmit.bind(this);
     this.resetRedirect = this.resetRedirect.bind(this);
-    this.getSearchResults = this.getSearchResults.bind(this);
+    //this.getSearchResults = this.getSearchResults.bind(this);
     this.search = this.search.bind(this);
     this.handleSearchChange = this.handleSearchChange.bind(this);
     this.resetIsSearching = this.resetIsSearching.bind(this);
@@ -124,21 +124,10 @@ class App extends Component {
   resetRedirect() {
     this.setState({ redirectToRegister: false });
   }
-  
-  getSearchResults(query) {
-    axios.post(`/search`, { q: query })
-    .then((res) => {    
-        this.setState({ 
-          searchResultsPosts: res.data.posts,
-          searchQuery: '',
-          query: query
-        });     
-    });
-  }
 
   search(e) {
     e.preventDefault();
-    this.getSearchResults(this.state.searchQuery);
+    //this.getSearchResults(this.state.searchQuery);
     this.setState({ isSearching: true })
   }
 
@@ -265,7 +254,7 @@ class App extends Component {
                                           subscribeChecked={this.state.subscribeChecked}
                                           handleSubscribeCheckChange={this.handleSubscribeCheckChange}/>} 
                   />
-                  <Route path="/search" component={(props) => <SearchResults {...props}
+                  <Route path="/search/:query" component={(props) => <SearchResults {...props}
                                         searchResultsPosts={this.state.searchResultsPosts}
                                         query={this.state.query}
                                         resetIsSearching={this.resetIsSearching}
@@ -303,7 +292,7 @@ class App extends Component {
                 </Switch>
               </div>
               <Footer />
-              {(this.state.isSearching) && <Redirect to="/search" />}
+              {(this.state.isSearching) && <Redirect to={`/search/${this.state.searchQuery}`} />}
               {(this.state.isSearchResultClicked) && <Redirect to={`/blogpost/${this.state.postToDisplay}`}/>}
               {(this.state.isBlogPostClicked) && <Redirect to={`/blogpost/${this.state.postToDisplay}`}/>}
               <Route path="/unsubscribe" component={Unsubscribe} />

@@ -1,17 +1,38 @@
 import React, { Component } from 'react';
 import BestOfNav from './BestOfNav';
 import moment from 'moment';
+import axios from 'axios';
 
 class SearchResults extends Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
+        this.state = {
+            query: props.match.params.query
+        }
+
         this.renderPosts = this.renderPosts.bind(this);
+        this.getSearchResults = this.getSearchResults.bind(this);
+    }
+
+    componentDidMount() {
+        this.getSearchResults(this.state.query);
     }
 
     componentWillUnmount() {
        this.props.resetIsSearching();
        this.props.resetSearchResultClicked();
     }
+
+    getSearchResults(query) {
+        axios.post(`/search`, { q: query })
+        .then((res) => {    
+            this.setState({ 
+              searchResultsPosts: res.data.posts,
+              searchQuery: '',
+              query: query
+            });     
+        });
+      }
 
     renderHeader() {
         const { query, searchResultsPosts  } = this.props;
@@ -28,7 +49,8 @@ class SearchResults extends Component {
     }
 
     renderPosts (post, key) {
-        const { searchResultsPosts, handleSearchResultClick } = this.props;
+        const { searchResultsPosts } = this.state;
+        const { handleSearchResultClick } = this.props;
             return (
                 <li key={key} onClick={() => handleSearchResultClick(post)}>
                     <div className="results-post">
@@ -44,7 +66,7 @@ class SearchResults extends Component {
     }
 
     render() {
-        const { searchResultsPosts } = this.props;
+        const { searchResultsPosts } = this.state;
         if (!searchResultsPosts) {
             return null;
         }
@@ -66,5 +88,3 @@ class SearchResults extends Component {
 }
 
 export default SearchResults;
-
-//comment for heroku update
