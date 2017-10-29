@@ -252,13 +252,6 @@ body {
   align-items: center;
   font-size: 24px;
 }
-
-.email-input {
-  width: 370px;
-  height: 30px;
-  background: #FB4F21;
-  margin: 10px;
-}
  
 .bottom-right {
   width: 50%;
@@ -280,6 +273,10 @@ body {
 .ig {
   height: 51px;
   width: 50px;
+  margin-top: 10px;
+}
+
+.footer-signup-button {
   margin-top: 10px;
 }
 
@@ -1191,12 +1188,6 @@ body {
   .signup-text {
     font-size: 12px;
     margin-left: 10px;
-  }
-
-  .email-input {
-    width: 168px;
-    height: 21px;
-    margin-left: 20px;
   }
 
   .social-contain {
