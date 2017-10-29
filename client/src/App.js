@@ -32,7 +32,7 @@ class App extends Component {
       isSearching: false,
       isSearchResultClicked: false,
       searchQuery: '',
-      searchResultsPosts: [],
+      searchParam: '',
       firstPost: [],
       secondPost: [],
       thirdPost: [],
@@ -46,7 +46,6 @@ class App extends Component {
     this.logOut = this.logOut.bind(this);
     this.emailSubmit = this.emailSubmit.bind(this);
     this.resetRedirect = this.resetRedirect.bind(this);
-    this.getSearchResults = this.getSearchResults.bind(this);
     this.search = this.search.bind(this);
     this.handleSearchChange = this.handleSearchChange.bind(this);
     this.resetIsSearching = this.resetIsSearching.bind(this);
@@ -124,22 +123,14 @@ class App extends Component {
   resetRedirect() {
     this.setState({ redirectToRegister: false });
   }
-  
-  getSearchResults(query) {
-    axios.post(`/search`, { q: query })
-    .then((res) => {    
-        this.setState({ 
-          searchResultsPosts: res.data.posts,
-          searchQuery: '',
-          query: query
-        });     
-    });
-  }
 
   search(e) {
     e.preventDefault();
-    this.getSearchResults(this.state.searchQuery);
-    this.setState({ isSearching: true })
+    this.setState({ 
+      isSearching: true,
+      searchQuery: '',
+      searchParam: e.target.children[0].value
+    });
   }
 
   handleReturnToSearchClick() {
@@ -159,7 +150,7 @@ class App extends Component {
   }
 
   handleSearchChange(event) {
-      this.setState({ searchQuery: event.target.value })
+      this.setState({ searchQuery: event.target.value });
   }
 
   handleSearchResultClick(post) {
@@ -265,9 +256,7 @@ class App extends Component {
                                           subscribeChecked={this.state.subscribeChecked}
                                           handleSubscribeCheckChange={this.handleSubscribeCheckChange}/>} 
                   />
-                  <Route path="/search" component={(props) => <SearchResults {...props}
-                                        searchResultsPosts={this.state.searchResultsPosts}
-                                        query={this.state.query}
+                  <Route path="/search/:query" component={(props) => <SearchResults {...props}
                                         resetIsSearching={this.resetIsSearching}
                                         handleSearchResultClick={this.handleSearchResultClick}
                                         resetSearchResultClicked={this.resetSearchResultClicked} />}
@@ -291,7 +280,8 @@ class App extends Component {
                                           resetIsOnSearchResult={this.resetIsOnSearchResult}
                                           isOnSearchResult={this.state.isOnSearchResult}
                                           handleReturnToSearchClick={this.handleReturnToSearchClick}
-                                          resetIsBlogPostClicked={this.resetIsBlogPostClicked} />}
+                                          resetIsBlogPostClicked={this.resetIsBlogPostClicked}
+                                          searchParam={this.state.searchParam} />}
                   />
                   <Route path="/signin" component={(props) => <SignIn {...props}
                                         loginSubmit={this.loginSubmit}
@@ -303,7 +293,7 @@ class App extends Component {
                 </Switch>
               </div>
               <Footer />
-              {(this.state.isSearching) && <Redirect to="/search" />}
+              {(this.state.isSearching) && <Redirect to={`/search/${this.state.searchParam}`} />}
               {(this.state.isSearchResultClicked) && <Redirect to={`/blogpost/${this.state.postToDisplay}`}/>}
               {(this.state.isBlogPostClicked) && <Redirect to={`/blogpost/${this.state.postToDisplay}`}/>}
               <Route path="/unsubscribe" component={Unsubscribe} />
