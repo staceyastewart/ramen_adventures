@@ -280,82 +280,211 @@ class Media extends Component {
                     <div className="media-listing">
                         <p className="media-title">Tokyo Eye</p>
                         <p className="media-text">
-                            I took part in a ramen special over at NHK World. Great program in English. We ate at Kabochan, Kikanbo, and Soranoiro. Available online over at the NHK World site from February 3rd.
+                            I took part in a ramen special over at NHK World. Great program in English. We ate at <a className="media-link" href="/search/Kabochan" target="_blank" rel="noopener noreferrer">Kabochan</a>, <a className="media-link" href="/search/Kikanbo" target="_blank" rel="noopener noreferrer">Kikanbo</a>, and <a className="media-link" href="/search/Soranoiro" target="_blank" rel="noopener noreferrer">Soranoiro</a>. Available online over at the NHK World site from February 3rd.
                         </p>
                     </div>
                     <div className="media-listing">
-                        <p className="media-title"></p>
+                        <p className="media-title">東京クラッソ</p>
                         <p className="media-text">
+                            Tokyo Crasso is a show about various life-in-Tokyo stories. They profiled me and we went to some great ramen shops. Aired January 230th, 2015 on <a className="media-link" href="http://s.mxtv.jp/tokyo_crasso/" target="_blank" rel="noopener noreferrer">Tokyo MX</a>.
                         </p>
                     </div>
                     <div className="media-listing">
-                        <p className="media-title"></p>
+                        <p className="media-title">Rachel Khoo</p>
                         <p className="media-text">
+                            I helped out famous UK food personality <a className="media-link" href="http://www.rachelkhoo.com/" target="_blank" rel="noopener noreferrer">Rachel Khoo</a> for a piece she did with the Telegraph UK. Even though I was out of town for most of her trip, I hooked up a ramen tour and day at the ramen school for her. Check it out <a className="media-link" href="http://www.telegraph.co.uk/travel/destinations/asia/japan/articles/Rachel-Khoo-on-the-rise-of-ramen-and-why-you-must-slurp/" target="_blank" rel="noopener noreferrer">here.</a>
                         </p>
                     </div>
                     <div className="media-listing">
-                        <p className="media-title"></p>
+                        <p className="media-title">Food and Wine</p>
                         <p className="media-text">
+                            Interviewed for an article about where to eat in Tokyo. Check it <a className="media-link" href="http://www.foodandwine.com/fwx/food/where-eat-ramen-tokyo" target="_blank" rel="noopener noreferrer">here.</a> November 13, 2014
                         </p>
                     </div>
                     <div className="media-listing">
-                        <p className="media-title"></p>
+                        <p className="media-title">外国人が好きなあなたの知らないNIPPON</p>
                         <p className="media-text">
+                            Interviewed for a 4-page article in the MOOK (Magazine+Book) What Foreigners Love About Japan that You Don't Know. Available on bookshelves and <a className="media-link" href="https://books.rakuten.co.jp/rb/12978173/" target="_blank" rel="noopener noreferrer">online</a> in Japan from October, 2014.
                         </p>
                     </div>
                     <div className="media-listing">
-                        <p className="media-title"></p>
+                        <p className="media-title">CNN Travel</p>
                         <p className="media-text">
+                            Wrote an article about various styles of ramen around Japan for the CNN website. Read it <a className="media-link" href="http://www.cnn.com/travel/article/cnngo-japan-ramen/index.html" target="_blank" rel="noopener noreferrer">here.</a> October, 2014.
                         </p>
                     </div>
                     <div className="media-listing">
-                        <p className="media-title"></p>
+                        <p className="media-title">NHK投稿Do画</p>
                         <p className="media-text">
+                            Ramen Adventures YouTube channel was featured on a program about foreigners in Japan. Aired August 18th, 2014.
                         </p>
                     </div>
                     <div className="media-listing">
-                        <p className="media-title"></p>
+                        <p className="media-title">Fuji TV Super News</p>
                         <p className="media-text">
+                            Segment about foreigners in Japan doing things to promote Japanese culture. They followed me to a couple shops, shot me speaking with one of my English students about ramen, and showed me doing a ramen food tour. Aired July 14th, 2014.
                         </p>
                     </div>
                     <div className="media-listing">
-                        <p className="media-title"></p>
+                        <p className="media-title">GO!オスカル! X21</p>
                         <p className="media-text">
+                            Toured ramen shops with some of the girls of <a className="media-link" href="http://www.tv-asahi.co.jp/x21/" target="_blank" rel="noopener noreferrer">X21</a>, a junior idol group in Tokyo. The concept was "English Only", and they had to make  food commentary using English. A fun show. Airs Friday nights at 1:30am on Asahi TV. Ramen Adventures helped with shows in February, March, April, and May of 2014. Ongoing.
                         </p>
                     </div>
                     <div className="media-listing">
-                        <p className="media-title"></p>
+                        <p className="media-title">Ramenomania</p>
                         <p className="media-text">
+                            Appeared on the excellent <a className="media-link" href="http://www.discoverychannelasia.com/shows/super-japan/" target="_blank" rel="noopener noreferrer">Discovery Asia</a> show about ramen. Follows the stories of 5 people involved in ramen culture in Japan. Aired in March, 2014.
                         </p>
                     </div>
                     <div className="media-listing">
-                        <p className="media-title"></p>
+                        <p className="media-title">お願い！ランキング</p>
                         <p className="media-text">
+                            A late night ranking show. <a className="media-link" href="http://www.tv-asahi.co.jp/onegai/" target="_blank" rel="noopener noreferrer">Onegai! Ranking</a> covers any topic you can think of. We talked about out recommendations for the upcoming 2013 Grand Tsukemen Fest. Aired 10/25/13 on TV Asahi.
                         </p>
                     </div>
                     <div className="media-listing">
-                        <p className="media-title"></p>
+                        <p className="media-title">ありえへん世界</p>
                         <p className="media-text">
+                            A TV show called <a className="media-link" href="http://www.tv-tokyo.co.jp/ariehen/" target="_blank" rel="noopener noreferrer">Ariehen Sekai</a> on TV Tokyo. It aired sometime in 2013 at 4:30am. We took the crew to a couple great ramen shops in Tokyo and Chiba.
                         </p>
                     </div>
                     <div className="media-listing">
-                        <p className="media-title"></p>
+                        <p className="media-title">ココ週</p>
                         <p className="media-text">
+                            A morning show in Japan. I took the crew to the new <a className="media-link" href="search/Nagi" target="_blank" rel="noopener noreferrer">Nagi</a> in Shinjuku. Aired 9/5/13.
                         </p>
                     </div>
                     <div className="media-listing">
-                        <p className="media-title"></p>
+                        <p className="media-title">Newsweek Japan</p>
                         <p className="media-text">
+                            Interviewed in the 8/13/13 issue of Newsweek Japan. The article is about foreigners doing interesting things related to Japanese culture in Japan.
                         </p>
                     </div>
                     <div className="media-listing">
-                        <p className="media-title"></p>
+                        <p className="media-title">今、この顔がスゴい！</p>
                         <p className="media-text">
+                        <a className="media-link" href="http://www.tbs.co.jp/imakonokao/" target="_blank" rel="noopener noreferrer">Now, That's an Amazing Face!</a> is a show on TBS. A showcase of interesting people doing interesting things. Aired 7/13/13 on TBS.
                         </p>
                     </div>
                     <div className="media-listing">
-                        <p className="media-title"></p>
+                        <p className="media-title">スクール革命</p>
                         <p className="media-text">
+                            Popular Sunday afternoon TBS TV show. The entire hour was all about foreigners and Japanese culture. Spent the day with talent Shinyama Akinobu eating ramen. Aired May 2013.
+                        </p>
+                    </div>
+                    <div className="media-listing">
+                        <p className="media-title">日本テレビ News Every</p>
+                        <p className="media-text">
+                            Took the announcer from this daily news show to a few shops where we talked about ramen. Aired May 2013.
+                        </p>
+                    </div>
+                    <div className="media-listing">
+                        <p className="media-title">Metropolis Magazine</p>
+                        <p className="media-text">
+                            Wrote a feature for this Tokyo English magazine. 10 excellent shops along the Yamanote train line. See it <a className="media-link" href="https://metropolisjapan.com/" target="_blank" rel="noopener noreferrer">here.</a> April 2013
+                        </p>
+                    </div>
+                    <div className="media-listing">
+                        <p className="media-title">Travel and Leisure</p>
+                        <p className="media-text">
+                            Helped out writer Adam Sachs in his hunt for tonkotsu ramen. Article <a className="media-link" href="http://www.travelandleisure.com/articles/quest-for-japans-best-ramen" target="_blank" rel="noopener noreferrer">here.</a> April 2013.
+                        </p>
+                    </div>
+                    <div className="media-listing">
+                        <p className="media-title">AERA</p>
+                        <p className="media-text">
+                            Interviewed at one of my favorite shops for an article about ラヲタ, ramen otaku. <a className="media-link" href="https://dot.asahi.com/aera/2013032700049.html" target="_blank" rel="noopener noreferrer">Here.</a> April 2013.
+                        </p>
+                    </div>
+                    <div className="media-listing">
+                        <p className="media-title">Japan Times</p>
+                        <p className="media-text">
+                            Helped with an article about people who eat more ramen than me. See it <a className="media-link" href="https://www.japantimes.co.jp/life/2013/03/22/food/running-with-the-ramen-hunters/" target="_blank" rel="noopener noreferrer">here.</a> March 2013.
+                        </p>
+                    </div>
+                    <div className="media-listing">
+                        <p className="media-title">HOGSALT</p>
+                        <p className="media-text">
+                            Interviewed for Chicago-based food-culture website <a className="media-link" href="http://www.hogsalt.com/wp-hogsalt/" target="_blank" rel="noopener noreferrer">HOGSALT</a>. I also helped them while they were in Japan with reservations and ramen logistics.
+                        </p>
+                    </div>
+                    <div className="media-listing">
+                        <p className="media-title">Tokyo MX</p>
+                        <p className="media-text">
+                            Helped with the TV show <a className="media-link" href="http://www.mxtv.co.jp/tokyoboy/" target="_blank" rel="noopener noreferrer">Tokyo Boy</a>. On the show, I take a French friend who I haven't seen in a while to one of my favorite ramen shops, Soranoiro. Aired February 3rd, 2013 at 8pm. Tokyo MX is a local channel in Tokyo.
+                        </p>
+                    </div>
+                    <div className="media-listing">
+                        <p className="media-title">Kansai Scene</p>
+                        <p className="media-text">
+                            I gave advice to a reporter who ate 3 bowls in one day; in Kyoto, Osaka, and Kobe.  She also visited the Osaka Instant Noodle Museum.  Kansai Scene is a free English language magazine for the west side of Japan.  The article is online <a className="media-link" href="https://www.kansaiscene.com/2012/11/feeding-an-obsession/" target="_blank" rel="noopener noreferrer">here.</a>
+                        </p>
+                    </div>
+                    <div className="media-listing">
+                        <p className="media-title">知っとこ</p>
+                        <p className="media-text">
+                            Appeared on the morning show <a className="media-link" href="http://www.mbs.jp/shittoko/" target="_blank" rel="noopener noreferrer">Shittoko</a> to talk about ramen and took the talent <a className="media-link" href="http://shigemorisatomi.cocolog-nifty.com/blog/" target="_blank" rel="noopener noreferrer">重盛さと美</a> to some ramen shops.  Aired on October 20th, 2012 at 8am.
+                        </p>
+                    </div>
+                    <div className="media-listing">
+                        <p className="media-title">NHK World</p>
+                        <p className="media-text">
+                            Gave comments on the state of ramen for a piece about a Texan who is opening a ramen shop in the near future.
+                        </p>
+                    </div>
+                    <div className="media-listing">
+                        <p className="media-title">Hiragana Times</p>
+                        <p className="media-text">
+                            Wrote a 2 page piece entitled Adventures in Ramen - ラーメン探訪 for the May 2012 issue of the <a className="media-link" href="http://www.hiraganatimes.com/" target="_blank" rel="noopener noreferrer">Hiragana Times.</a>
+                        </p>
+                    </div>
+                    <div className="media-listing">
+                        <p className="media-title">Weekly Playboy</p>
+                        <p className="media-text">
+                            Weekly column focusing on 2 Americans and our views of the ramen scene in Japan.  October 2011 until ??? Still going strong after over 2 years!
+                        </p>
+                    </div>
+                    <div className="media-listing">
+                        <p className="media-title">CNNGo</p>
+                        <p className="media-text">
+                            Contributed to the 2010 Best Eats awards on CNNGo.  Great articles, not just for ramen but for most popular food styles in some top Asian cities.
+                        </p>
+                    </div>
+                    <div className="media-listing">
+                        <p className="media-title">ニホンでセカイGO!!</p>
+                        <p className="media-text">
+                            Nihon de Sekai Go!! featured Ramen Adventures in it's special about foreign views of ramen.  Aired on NHK, September 29th, 2011.
+                        </p>
+                    </div>
+                    <div className="media-listing">
+                        <p className="media-title">ズームイン!!SUPER</p>
+                        <p className="media-text">
+                            Zoom In!! SUPER featured Ramen Adventures on their ramen special.  I took the crew around to some of my favorite shops.  Aired on Nihon Terebi, December 2nd, 2010.
+                        </p>
+                    </div>
+                    <div className="media-listing">
+                        <p className="media-title">Bento.com</p>
+                        <p className="media-text">
+                            I am happy to be the <a className="media-link" href="http://bento.com/" target="_blank" rel="noopener noreferrer">Bento.com</a> Ramen Editor.  Check out the site for not only my <a className="media-link" href="http://bento.com/rev/tokyoramen.html" target="_blank" rel="noopener noreferrer">ramen reviews</a>, but info (in English) on thousands of restaurants in the Tokyo area.
+                        </p>
+                    </div>
+                    <div className="media-listing">
+                        <p className="media-title">Time Out Tokyo</p>
+                        <p className="media-text">
+                            One page ramen writeup in the 2010 (6th edition) of the popular guidebook.
+                        </p>
+                    </div>
+                    <div className="media-listing">
+                        <p className="media-title">Courrier Japon</p>
+                        <p className="media-text">
+                            A Japanese magazine that focuses mainly on translating foreign media's coverage of Japanese interest stories.  They translated the NYT article and used some of my original photography for the article.  April 2010.
+                        </p>
+                    </div>
+                    <div className="media-listing">
+                        <p className="media-title">New York Times</p>
+                        <p className="media-text">
+                            Helped guide the Frugal Traveler Mat Gross around Tokyo for his <a className="media-link" href="http://www.nytimes.com/2010/01/31/travel/31ramen.html?pagewanted=all" target="_blank" rel="noopener noreferrer">excellent piece</a> on ramen in Tokyo. January 26th, 2010.
                         </p>
                     </div>
                 </div>

@@ -33,7 +33,9 @@ class BlogPost extends Component {
     }
 
     renderReturnButton() {
-        if (this.props.isOnSearchResult) {
+        //only allow a return to search button if the user got to this blogpost via search AND if the search param
+        //persists in state. Otherwise there won't be a search to return to.
+        if (this.props.isOnSearchResult && this.props.searchParam) {
             return (
                 <div className="return" onClick={this.props.handleReturnToSearchClick}>
                     <p className="blogpost-return">Return to Search Results</p>
@@ -47,7 +49,7 @@ class BlogPost extends Component {
         const { contentToDisplay, photoToDisplay, dateToDisplay } = this.state;
         
         return (
-            <div className="single-post-container">
+            <div className="single-post-container" ref="myRef">
                 <BestOfNav />
                 <div className="single-blog-post">
                     <div className="blogpost-top-contain">

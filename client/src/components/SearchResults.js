@@ -1,4 +1,4 @@
-import React, { PureComponent, Component } from 'react';
+import React, { PureComponent } from 'react';
 import BestOfNav from './BestOfNav';
 import moment from 'moment';
 import axios from 'axios';
@@ -18,17 +18,6 @@ class SearchResults extends PureComponent {
     componentDidMount() {
         this.getSearchResults(this.state.query);
     }
-
-    // shouldComponentUpdate(nextProps, nextState) {
-    //     console.log("this.props:", this.props);
-    //     console.log('nextprops:', nextProps.searchQuery);
-    //     console.log('nextstate:', nextState.query)
-    //     return (this.props.searchQuery === nextState.query);
-    // }
-
-    // shouldComponentUpdate(nextProps) {
-    //     return (this.props.messages !== nextProps.messages);
-    // }
 
     componentWillUnmount() {
        this.props.resetIsSearching();

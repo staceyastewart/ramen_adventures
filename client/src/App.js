@@ -150,7 +150,7 @@ class App extends Component {
   }
 
   handleSearchChange(event) {
-      this.setState({ searchQuery: event.target.value })
+      this.setState({ searchQuery: event.target.value });
   }
 
   handleSearchResultClick(post) {
@@ -280,7 +280,8 @@ class App extends Component {
                                           resetIsOnSearchResult={this.resetIsOnSearchResult}
                                           isOnSearchResult={this.state.isOnSearchResult}
                                           handleReturnToSearchClick={this.handleReturnToSearchClick}
-                                          resetIsBlogPostClicked={this.resetIsBlogPostClicked} />}
+                                          resetIsBlogPostClicked={this.resetIsBlogPostClicked}
+                                          searchParam={this.state.searchParam} />}
                   />
                   <Route path="/signin" component={(props) => <SignIn {...props}
                                         loginSubmit={this.loginSubmit}
