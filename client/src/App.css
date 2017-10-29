@@ -1198,4 +1198,25 @@ body {
     width: 31px;
     margin: 7px 0 0 6px;
   }
+
+/*================
+   MEDIA-mobile
+================*/
+
+  .media-wrapper {
+    margin: 0;
+    width: 100%;
+  }
+
+  .media-container {
+    margin: 0 20px 25px 20px;
+  }
+
+  .media-header {
+    font-size: 45px;
+  }
+
+  .media-subheader {
+    font-size: 20px;
+  }
 }
