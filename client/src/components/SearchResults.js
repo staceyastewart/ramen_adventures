@@ -1,11 +1,22 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import BestOfNav from './BestOfNav';
 import moment from 'moment';
+import axios from 'axios';
 
-class SearchResults extends Component {
-    constructor() {
-        super();
+class SearchResults extends PureComponent {
+    constructor(props) {
+        super(props);
+        this.state = {
+            query: props.match.params.query,
+            searchResultsPosts: []
+        }
+
         this.renderPosts = this.renderPosts.bind(this);
+        this.getSearchResults = this.getSearchResults.bind(this);
+    }
+
+    componentDidMount() {
+        this.getSearchResults(this.state.query);
     }
 
     componentWillUnmount() {
@@ -13,8 +24,18 @@ class SearchResults extends Component {
        this.props.resetSearchResultClicked();
     }
 
+    getSearchResults(query) {
+        axios.post(`/search`, { q: query })
+        .then((res) => {  
+            //ref check to prevent setState on unmounted component error.
+            if (this.refs.myRef) {
+                this.setState({ searchResultsPosts: res.data.posts }); 
+            }     
+        });
+      }
+
     renderHeader() {
-        const { query, searchResultsPosts  } = this.props;
+        const { query, searchResultsPosts  } = this.state;
         if (!searchResultsPosts) {
             return (
                 <div className="spinner-container">
@@ -28,7 +49,8 @@ class SearchResults extends Component {
     }
 
     renderPosts (post, key) {
-        const { searchResultsPosts, handleSearchResultClick } = this.props;
+        const { searchResultsPosts } = this.state;
+        const { handleSearchResultClick } = this.props;
             return (
                 <li key={key} onClick={() => handleSearchResultClick(post)}>
                     <div className="results-post">
@@ -44,13 +66,13 @@ class SearchResults extends Component {
     }
 
     render() {
-        const { searchResultsPosts } = this.props;
+        const { searchResultsPosts } = this.state;
         if (!searchResultsPosts) {
             return null;
         }
 
         return (
-            <div className="search-results-container">
+            <div className="search-results-container" ref="myRef">
                 <BestOfNav />
                 <div className="results-container">
                     {this.renderHeader()}
@@ -66,5 +88,3 @@ class SearchResults extends Component {
 }
 
 export default SearchResults;
-
-//comment for heroku update

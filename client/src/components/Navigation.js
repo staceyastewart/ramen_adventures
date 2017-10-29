@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
 import logo from '../images/favicon.ico';
-import { Link } from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
 import Auth from '../modules/Auth';
 
 class Navigation extends Component {
-    constructor () {
-        super();
+    constructor (props) {
+        super(props);
         this.state = {
             menuClicked: false
         }
-
         this.handleMenuClick = this.handleMenuClick.bind(this);
         this.renderMobileMenu = this.renderMobileMenu.bind(this);
         this.handleReturnClick = this.handleReturnClick.bind(this);
@@ -163,4 +162,4 @@ class Navigation extends Component {
   }
 }
 
-export default Navigation;
+export default withRouter(Navigation);

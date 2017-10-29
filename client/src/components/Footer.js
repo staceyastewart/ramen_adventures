@@ -2,29 +2,10 @@ import React, { Component } from 'react';
 import yticon from '../images/yticon.png';
 import fbicon from '../images/fbicon.png';
 import igicon from '../images/igicon.png';
+import { Link } from 'react-router-dom';
 
 class Footer extends Component {
-    constructor(props) {
-    super(props);
-
-        this.state = {
-            emailInput: ''
-        }
-
-        this.inputEmail = this.inputEmail.bind(this);
-        this.handleEmailInputChange = this.handleEmailInputChange.bind(this);
-    }
-
-    inputEmail(e){
-        e.preventDefault();
-        //api call to database
-        this.setState({ emailInput: '' });
-    }
-
-    handleEmailInputChange(event){
-        this.setState({ emailInput: event.target.value })
-    }
-
+   
     render() {
         const youtube = "https://www.youtube.com/channel/UCeKGFXpVg0BaeebrHn4_nkA";
         const facebook = "https://www.facebook.com/ramenadventure";
@@ -37,14 +18,9 @@ class Footer extends Component {
                         <div className="signup-text">
                             Sign up to receive exclusive ramen updates
                         </div>
-                        <form onSubmit={(e) => this.inputEmail(e)}>
-                            <input type="text" 
-                                    placeholder="Enter Email" 
-                                    onChange={this.handleEmailInputChange} 
-                                    value={this.state.emailInput}
-                                    className="email-input"
-                            />
-                        </form>
+                        <Link to="/register" className="nav-link">
+                            <input type="submit" value="Sign Up!" className="register footer-signup-button" />
+                        </Link>
                     </div>
                     <div className="home bottom-right">
                         <div className="social-contain">

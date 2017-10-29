@@ -252,13 +252,6 @@ body {
   align-items: center;
   font-size: 24px;
 }
-
-.email-input {
-  width: 370px;
-  height: 30px;
-  background: #FB4F21;
-  margin: 10px;
-}
  
 .bottom-right {
   width: 50%;
@@ -280,6 +273,10 @@ body {
 .ig {
   height: 51px;
   width: 50px;
+  margin-top: 10px;
+}
+
+.footer-signup-button {
   margin-top: 10px;
 }
 
@@ -341,6 +338,11 @@ body {
 .name {
   font-size: 60px;
   margin-bottom: 0;
+  font-weight: 600;
+}
+
+.about-description {
+  font-weight: 600;
 }
 
 .contact-me {
@@ -383,7 +385,7 @@ body {
 
 .text-link {
   color: black;
-  text-decoration: underline !important;
+  border-bottom: 2px solid #FB4F21;
 }
 
 /*---------------------
@@ -569,6 +571,7 @@ body {
 .recent-posts-header {
   margin-left: 30px;
   font-size: 30px;
+  font-weight: 600;
 }
 
 .posts {
@@ -731,6 +734,50 @@ body {
   align-items: center;
 }
 
+/*----------------------
+          Media
+----------------------*/
+
+.media-wrapper {
+  border: 2px solid #D8D8D8;
+  margin: 40px 100px 50px 50px;
+}
+
+.media-container {
+  margin: 50px 150px 100px 100px;
+}
+
+.media-header {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.media-subheader {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.media-title {
+  font-weight: 700;
+}
+
+.media-link {
+  border-bottom: 2px solid #FB4F21;
+}
+
+.media-image {
+  max-height: 20%;
+  max-width: 20%;
+}
+
+.media-img-carousel {
+  max-height: 40%;
+  max-width: 40%;
+}
+
+.media-img-div {
+  background: white;
+}
 /*--------------------------
       media queries
 --------------------------*/
@@ -1143,12 +1190,6 @@ body {
     margin-left: 10px;
   }
 
-  .email-input {
-    width: 168px;
-    height: 21px;
-    margin-left: 20px;
-  }
-
   .social-contain {
     width: 99%;
     margin: 0 auto;
@@ -1164,5 +1205,26 @@ body {
     height: 29px;
     width: 31px;
     margin: 7px 0 0 6px;
+  }
+
+/*================
+   MEDIA-mobile
+================*/
+
+  .media-wrapper {
+    margin: 0;
+    width: 100%;
+  }
+
+  .media-container {
+    margin: 0 20px 25px 20px;
+  }
+
+  .media-header {
+    font-size: 45px;
+  }
+
+  .media-subheader {
+    font-size: 20px;
   }
 }
