@@ -1,5 +1,15 @@
 import React, { Component } from 'react';
 import badgeTop from '../images/badge-top-25.jpg';
+import nstar from '../images/mediaimages/nstar.jpg';
+import motonavi from '../images/mediaimages/motonavi.jpg';
+import brianramen from '../images/mediaimages/brianeyes.jpg';
+import nhk from '../images/mediaimages/NHK.jpg';
+import schoolrev from '../images/mediaimages/schoolrevolution.jpg';
+import scrncap from '../images/mediaimages/screencap1.jpg';
+import tbs from '../images/mediaimages/tbs.jpg';
+import zoom from '../images/mediaimages/zoomin.jpg';
+import inbook from '../images/mediaimages/inabook.jpg';
+import { Carousel } from 'react-responsive-carousel';
 
 class Media extends Component {
     render() {
@@ -60,12 +70,14 @@ class Media extends Component {
                         <p className="media-text">
                             I appeared twice in one week on the daily news show N-Star on TBS. Once was an interview at the Ramen Museum, and the other was showcasing foreigner YouTubers in Japan. March, 2017.
                         </p>
+                        <img className="media-image" src={nstar} alt="screen capture of Brian on N-Star program" />
                     </div>
                     <div className="media-listing">
                         <p className="media-title">MOTO NAVI</p>
                         <p className="media-text">
                             4-page spread about motorcycles and ramen in Japan's #1 bike magazine. you can grab a copy of the April, 2017 issue <a className="media-link" href="http://amzn.to/2l7r0wd" target="_blank" rel="noopener noreferrer">here.</a>
                         </p>
+                        <img className="media-image" src={motonavi} alt="cover of April 2017 edition of Moto Navi magazine depicts a woman and a motorcyle" />
                     </div>
                     <div className="media-listing">
                         <p className="media-title">Singapore Airlines</p>
@@ -122,7 +134,7 @@ class Media extends Component {
                         </p>
                     </div>
                     <div className="media-listing">
-                        <a className="media-link" href="https://japaneseup.com/best-japan-blogs/" target="_blank" rel="noopener noreferrer"><img className="media-title" src={badgeTop} alt=""/></a>
+                        <a href="https://japaneseup.com/best-japan-blogs/" target="_blank" rel="noopener noreferrer"><img className="media-title" src={badgeTop} alt=""/></a>
                         <p className="media-text">
                             Named a Top 25 Japan Blog. August, 2016.
                         </p>
@@ -487,6 +499,29 @@ class Media extends Component {
                             Helped guide the Frugal Traveler Mat Gross around Tokyo for his <a className="media-link" href="http://www.nytimes.com/2010/01/31/travel/31ramen.html?pagewanted=all" target="_blank" rel="noopener noreferrer">excellent piece</a> on ramen in Tokyo. January 26th, 2010.
                         </p>
                     </div>
+                    <Carousel showThumbs={true} showArrows={true} dynamicHeight emulateTouch>
+                        <div className="media-img-div">
+                            <img className="media-img-carousel" src={brianramen} alt="" />
+                        </div>
+                        <div className="media-img-div">
+                            <img className="media-img-carousel" src={nhk} alt="" />
+                        </div>
+                        <div className="media-img-div">
+                            <img className="media-img-carousel" src={schoolrev} alt="" />
+                        </div>
+                        <div className="media-img-div">
+                            <img className="media-img-carousel" src={scrncap} alt="" />
+                        </div>
+                        <div className="media-img-div">
+                            <img className="media-img-carousel" src={tbs} alt="" />
+                        </div>
+                        <div className="media-img-div">
+                            <img className="media-img-carousel" src={zoom} alt="" />
+                        </div>
+                        <div className="media-img-div">
+                            <img className="media-img-carousel" src={inbook} alt="" />
+                        </div>
+                    </Carousel>
                 </div>
             </div>
         );
