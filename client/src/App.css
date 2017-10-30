@@ -681,14 +681,6 @@ body {
   display: flex;
 }
 
-/*------------------
-      Tours
--------------------*/
-
-.tours-container {
-  display: flex;
-}
-
 /*-----------------
       Schools
 -----------------*/
@@ -778,6 +770,43 @@ body {
 .media-img-div {
   background: white;
 }
+
+/*------------------------
+          Tours
+-------------------------*/
+
+.tours-container {
+  margin: 0 150px 100px 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tours-wrapper {
+  border: 2px solid #D8D8D8;
+  margin: 40px 100px 50px 50px;
+}
+
+.tours-header { 
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.tours-note {
+  margin-top: 35px;
+}
+
+.tours-image {
+  max-height: 70%;
+  max-width: 70%;
+  align-self: center;
+  margin-bottom: 30px;
+}
+
+.tours-listing {
+  margin-top: 20px;
+}
+
 /*--------------------------
       media queries
 --------------------------*/
@@ -1207,6 +1236,12 @@ body {
     margin: 7px 0 0 6px;
   }
 
+  .footer-signup-button {
+    height: 30px;
+    width: 105px;
+    font-size: 17px;
+  }
+
 /*================
    MEDIA-mobile
 ================*/
@@ -1226,5 +1261,26 @@ body {
 
   .media-subheader {
     font-size: 20px;
+  }
+
+/*==================
+   TOURS-mobile
+==================*/
+
+  .tours-wrapper {
+    margin: 0;
+    width: 100%;
+  }
+
+  .tours-container {
+    margin: 0 20px 25px 20px;
+  }
+
+  .tours-header {
+    font-size: 45px;
+  }
+
+  .tours-note {
+    margin-top: 0;
   }
 }
