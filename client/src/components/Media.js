@@ -17,7 +17,6 @@ class Media extends Component {
             <div className="media-wrapper">
                 <div  className="media-container">
                     <h1 className="media-header">Print & Media</h1>
-
                     <h2 className="media-subheader">Ramen Adventures has worked on, contributed to, or been featured in the following:</h2>
                     <div className="media-listing">
                         <p className="media-title">Ramen Kagetsu Arashi</p>
