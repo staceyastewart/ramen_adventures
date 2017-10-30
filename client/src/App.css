@@ -263,7 +263,7 @@ body {
   margin: auto;
   display: flex;
   justify-content: space-between;
-} 
+}
 
 .social {
   height: 70px;
@@ -1215,6 +1215,7 @@ body {
   }
 
   .signup-text {
+    text-align: center;
     font-size: 12px;
     margin-left: 10px;
   }
