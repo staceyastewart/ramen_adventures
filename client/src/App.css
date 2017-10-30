@@ -589,8 +589,10 @@ body {
 }
 
 .post {
-  height: 320px;
-  width: 574px;
+  max-height: 100%;
+  max-width: 100%;
+  /* height: 320px;
+  width: 574px; */
   border: 1px solid black;
 }
 
@@ -1311,5 +1313,5 @@ media queries - large scrn
 
   .logo-banner {
     margin-right: 335px;
-  }
+  } 
 }
