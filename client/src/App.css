@@ -816,7 +816,7 @@ body {
 }
 
 /*--------------------------
-      media queries
+  media queries - mobile
 --------------------------*/
 
 @media (max-width: 500px) {
@@ -1296,5 +1296,20 @@ body {
 
   .tours-note {
     margin-top: 0;
+  }
+}
+
+
+/*------------------------
+media queries - large scrn
+------------------------*/
+@media (min-width: 115em) {
+
+/*=================
+  NAV - large scrn
+==================*/
+
+  .logo-banner {
+    margin-right: 335px;
   }
 }
