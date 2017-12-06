@@ -9,7 +9,11 @@ a:hover {
   color: #FB4F21;
 }
 
-a:link {
+a:active,
+a:hover,
+a:visited,
+a:link
+ {
   text-decoration: none;
 }
 
@@ -23,10 +27,10 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-/*------------------------------
+/* ------------------------------
       NAVIGATION
 -----------------------------*/
-
+/*
 .nav {
   width: 100%;
 }
@@ -115,6 +119,8 @@ body {
 .mobile-search {
   display: none;
 }
+*/
+
 
 /*----------------------------
       HOME
@@ -314,6 +320,7 @@ body {
 
 .connect-container {
   display: flex;
+  justify-content: center;
 }
 
 .photo-container {
@@ -683,14 +690,6 @@ body {
   margin: 30px 30px 30px 10px;
 }
 
-/*-------------------
-      Store
--------------------*/
-
-.store-container {
-  display: flex;
-}
-
 /*-----------------
       Schools
 -----------------*/
@@ -817,11 +816,46 @@ body {
   margin-top: 20px;
 }
 
+/*---------------------
+         Store
+---------------------*/
+
+.store-container {
+  margin: 45px 150px 100px 100px;
+  border: 2px solid #D8D8D8;
+}
+
+.store-header {
+  margin-left: 30px;
+  font-size: 30px;
+  font-weight: 600;
+}
+/* .store-wrapper {
+  
+  margin: 40px 100px 50px 50px;
+} */
+
+/* .store-bookcover {
+  max-height: 50%;
+  max-width: 50%;
+} */
+.store-bookcover {
+  height: 400px;
+}
+.store-top-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.store-img-container {
+  text-align: center;
+}
+
 /*--------------------------
   media queries - mobile
 --------------------------*/
 
-@media (max-width: 500px) {
+@media only screen and (max-width: 500px) {
 
   .side-nav-contain {
     display: none;
@@ -838,22 +872,21 @@ body {
     display: none;
   }
 
-  .bottom-nav {
+  div.bottom-nav {
     display: none;
   }
 
-  .top-nav {
+  div.top-nav {
     margin-right: 8px;
   }
 
-  .logo {
-    height: 81%;
-    width: 21%;
+  img.logo {
+    max-height: 50%;
     margin-left: 3px;
     margin-top: 18px;
   }
 
-  .banner {
+  div.banner {
     font-size: 20px;
     width: 100%;
     margin-left: 10px;
@@ -865,14 +898,14 @@ body {
     margin-top: 31px;
   }
 
-  .fa-bars {
+  i.fa-bars {
     height: 36px;
     display: block;
     color: #FB4F21;
     margin-top: 38px;
   }
 
-  .mobile-modal {
+  div.mobile-modal {
     display: block;
     height: 100vh;
     width: 100vw;
@@ -881,7 +914,7 @@ body {
     background: white;
   }
 
-  .mobile-menu {
+  div.mobile-menu {
     height: 100vh;
     width: 100vw;
     list-style-type: none;
@@ -901,12 +934,12 @@ body {
     margin-left: 10px;
   }
 
-  .mobile-search {
+  div.mobile-search {
     display: flex;
     justify-content: center;
   }
 
-  .search {
+  div.search {
     width: 345px;
   }
   /*============
@@ -1305,7 +1338,7 @@ body {
 /*------------------------
 media queries - large scrn
 ------------------------*/
-@media (min-width: 115em) {
+@media only screen and (min-width: 115em) {
 
 /*=================
   NAV - large scrn
