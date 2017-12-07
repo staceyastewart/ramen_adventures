@@ -830,18 +830,13 @@ body {
   font-size: 30px;
   font-weight: 600;
 }
-/* .store-wrapper {
-  
-  margin: 40px 100px 50px 50px;
-} */
 
-/* .store-bookcover {
-  max-height: 50%;
-  max-width: 50%;
-} */
 .store-bookcover {
-  height: 400px;
+  max-height: 70%;
+  max-width: 70%;
+  margin: 0 0 15px 0;
 }
+
 .store-top-div {
   display: flex;
   justify-content: space-around;
@@ -849,6 +844,17 @@ body {
 
 .store-img-container {
   text-align: center;
+}
+
+.store-book-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.store-book-container p {
+  margin: 2px;
+  font-size: 18px;
 }
 
 /*--------------------------
