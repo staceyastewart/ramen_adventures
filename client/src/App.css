@@ -1414,4 +1414,26 @@ media queries - large scrn
   .logo-banner {
     margin-right: 335px;
   } 
+
+/*==================
+ STORE - large scrn
+===================*/
+
+  .store-bookcover {
+    max-height: 70%;
+    max-width: 70%;
+  }
+
+  .store-sub-header {
+    font-size: 20px;
+    margin: 30px 20px 40px 30px;
+  }
+
+  .store-book-container p {
+    font-size: 20px;
+  }
+
+  .store-t-shirt-div img {
+    max-height: 550px;
+  }
 }
