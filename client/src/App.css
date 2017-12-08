@@ -837,7 +837,7 @@ body {
   margin: 30px 20px 70px 30px;
 }
 
-.store-bookcover {
+img.store-bookcover {
   max-height: 66%;
   max-width: 66%;
   margin: 0 0 15px 0;
@@ -1365,42 +1365,41 @@ body {
   .tours-note {
     margin-top: 0;
   }
-}
 
 /*=================
     STORE-mobile
 =================*/
 
-.store-container {
-  margin: 0;
-  border: none;
-}
+  .store-container {
+    margin: 0;
+    border: none;
+  }
 
-.store-header {
-  margin-left: 30px;
-}
+  .store-header {
+    margin-left: 30px;
+  }
 
-.store-sub-header{
-  text-align: justify;
-  margin: 30px 20px 20px 30px;
-}
+  .store-sub-header{
+    text-align: justify;
+    margin: 30px 20px 20px 30px;
+  }
 
-.store-bookcover {
-  max-height: 43%;
-}
+  img.store-bookcover {
+    max-height: 45%;
+  }
 
-.store-book-container p {
-  font-size: 15px;
-}
+  .store-book-container p {
+    font-size: 15px;
+  }
 
-.store-book-amazon {
-  padding-right: 10px;
-}
+  .store-book-amazon {
+    padding-right: 10px;
+  }
 
-.store-book-paypal {
-  padding-left: 10px;
+  .store-book-paypal {
+    padding-left: 10px;
+  }
 }
-
 
 /*------------------------
 media queries - large scrn
@@ -1419,7 +1418,7 @@ media queries - large scrn
  STORE - large scrn
 ===================*/
 
-  .store-bookcover {
+  img.store-bookcover {
     max-height: 70%;
     max-width: 70%;
   }
