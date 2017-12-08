@@ -1390,6 +1390,7 @@ body {
 
   .store-book-container p {
     font-size: 15px;
+    text-align: center
   }
 
   .store-book-amazon {
