@@ -73,16 +73,16 @@ class Navigation extends Component {
 
   render() {
     return (
-        <div className="nav">
+        <header className="nav">
             <div className="top-nav">
-                <Link to="/" className="logo-banner nav-link">
+                <Link to="/" className="logo-banner">
                     <img className="logo" src={logo} alt="Ramen Adventures logo"/>
                     <div className="banner">
-                        <p className="banner-text">RAMEN ADVENTURES</p>
+                        <p>RAMEN ADVENTURES</p>
                     </div>
                 </Link>
                 <div className="top-elements">
-                    <div className="top-nav">
+                    <div className="right-nav">
                         {(Auth.isUserAuthenticated() && Auth.isTokenDefined()) ? (
                             <Link to="/" className="nav-link">
                                 <div className="top-links" onClick={this.props.logOut}>
@@ -126,38 +126,38 @@ class Navigation extends Component {
                 </div>
             <hr className="hr-nav"/>
             <div className="bottom-nav">
-                <Link to="/blog" className="nav-link">
+                <Link to="/blog">
                     <div className="blog bottom-links">
                         Ramen Blog
                     </div>
                 </Link>
-                <Link to="/store" className="nav-link">
+                <Link to="/store">
                     <div className="books bottom-links">
                         Store [Books & Tshirts]
                     </div>
                 </Link>
-                <Link to="/tours" className="nav-link">
+                <Link to="/tours">
                     <div className="tours bottom-links">
                         Ramen Tours
                     </div>
                 </Link>
-                <Link to="/schools" className="nav-link">
+                <Link to="/schools">
                     <div className="schools bottom-links">
                         Ramen Schools
                     </div>
                 </Link>
-                <Link to="/media" className="nav-link">
+                <Link to="/media">
                     <div className="media bottom-links">
                         Media
                     </div>
                 </Link>
-                <Link to='/about' className="nav-link">
+                <Link to='/about'>
                     <div className="about bottom-links">
                         About Me
                     </div>
                 </Link>
             </div>
-        </div>
+        </header>
     )
   }
 }
