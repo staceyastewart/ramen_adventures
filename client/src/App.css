@@ -1267,11 +1267,6 @@ body {
     width: 100%;
   }
 
-  /* .blog-image {
-    height: 280px;
-    width: 100%;
-  } */
-
   .blog-image {
     max-height: 90%;
     max-width: 90%;
@@ -1370,6 +1365,40 @@ body {
   .tours-note {
     margin-top: 0;
   }
+}
+
+/*=================
+    STORE-mobile
+=================*/
+
+.store-container {
+  margin: 0;
+  border: none;
+}
+
+.store-header {
+  margin-left: 30px;
+}
+
+.store-sub-header{
+  text-align: justify;
+  margin: 30px 20px 20px 30px;
+}
+
+.store-bookcover {
+  max-height: 43%;
+}
+
+.store-book-container p {
+  font-size: 15px;
+}
+
+.store-book-amazon {
+  padding-right: 10px;
+}
+
+.store-book-paypal {
+  padding-left: 10px;
 }
 
 

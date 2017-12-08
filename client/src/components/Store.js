@@ -24,9 +24,9 @@ class Store extends Component {
                    
                     <div className="store-book-container">
                         <img className="store-bookcover" src={book} alt="cover of brian's guidebook" />
-                            <p>Not in Japan?</p>
-                            <p>I'll ship you the book for $25!</p>
-                            <p>Click on the paypal button and enter your information.</p>
+                            <p className="store-book-paypal">Not in Japan?</p>
+                            <p className="store-book-paypal">I'll ship you the book for $25!</p>
+                            <p className="store-book-paypal">Click on the paypal button and enter your information.</p>
                             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                                 <input type="hidden" name="cmd" value="_s-xclick"/>
                                 <input type="hidden" name="encrypted" 
