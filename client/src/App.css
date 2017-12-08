@@ -826,15 +826,25 @@ body {
 }
 
 .store-header {
-  margin-left: 30px;
-  font-size: 30px;
+  margin-left: 114px;
+  font-size: 45px;
   font-weight: 600;
 }
 
+.store-sub-header {
+  font-size: 17px;
+  margin: 30px;
+  margin: 30px 20px 70px 30px;
+}
+
 .store-bookcover {
-  max-height: 70%;
-  max-width: 70%;
+  max-height: 66%;
+  max-width: 66%;
   margin: 0 0 15px 0;
+}
+
+.store-book-amazon {
+  text-align: center;
 }
 
 .store-top-div {
@@ -855,6 +865,26 @@ body {
 .store-book-container p {
   margin: 2px;
   font-size: 18px;
+  font-weight: 600;
+}
+
+.store-bottom-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.store-link {
+  border-bottom: 2px solid #FB4F21;
+}
+
+.store-t-shirt-div {
+  text-align: center;
+  margin: 20px;
+}
+
+.store-t-shirt-div img {
+  max-height: 400px;
 }
 
 /*--------------------------
