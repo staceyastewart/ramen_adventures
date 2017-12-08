@@ -15,13 +15,6 @@ import midpicks from '../images/picksmiddle.png';
 import rtpicks from '../images/picksright.png';
 
 class Home extends Component {
-   
-//     getPhotos(){
-//     axios.get('/photos/1313')
-//       .then((res) => {
-//         this.setState({ photo: res.data.link });
-//       })
-//   }
 
     render() {
         return (

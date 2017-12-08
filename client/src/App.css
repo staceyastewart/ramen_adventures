@@ -9,7 +9,11 @@ a:hover {
   color: #FB4F21;
 }
 
-a:link {
+a:active,
+a:hover,
+a:visited,
+a:link
+ {
   text-decoration: none;
 }
 
@@ -23,10 +27,10 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-/*------------------------------
+/* ------------------------------
       NAVIGATION
 -----------------------------*/
-
+/*
 .nav {
   width: 100%;
 }
@@ -115,6 +119,8 @@ body {
 .mobile-search {
   display: none;
 }
+*/
+
 
 /*----------------------------
       HOME
@@ -314,6 +320,7 @@ body {
 
 .connect-container {
   display: flex;
+  justify-content: center;
 }
 
 .photo-container {
@@ -589,8 +596,10 @@ body {
 }
 
 .post {
-  height: 320px;
-  width: 574px;
+  max-height: 100%;
+  max-width: 100%;
+  /* height: 320px;
+  width: 574px; */
   border: 1px solid black;
 }
 
@@ -628,8 +637,12 @@ body {
 }
 
 .blog-image {
-  height: 567px;
-  width: 852px;
+  max-height: 60%;
+  max-width: 60%;
+}
+
+.blog-image-div {
+  background: white;
 }
 
 .post-date {
@@ -642,6 +655,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.control-arrow {
+  background: #FB4F21 !important;
 }
 
 .blog-post-content {
@@ -671,14 +688,6 @@ body {
 
 .blogpost-arrow {
   margin: 30px 30px 30px 10px;
-}
-
-/*-------------------
-      Store
--------------------*/
-
-.store-container {
-  display: flex;
 }
 
 /*-----------------
@@ -807,11 +816,82 @@ body {
   margin-top: 20px;
 }
 
+/*---------------------
+         Store
+---------------------*/
+
+.store-container {
+  margin: 45px 150px 100px 100px;
+  border: 2px solid #D8D8D8;
+}
+
+.store-header {
+  margin-left: 114px;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.store-sub-header {
+  font-size: 17px;
+  margin: 30px;
+  margin: 30px 20px 70px 30px;
+}
+
+.store-bookcover {
+  max-height: 66%;
+  max-width: 66%;
+  margin: 0 0 15px 0;
+}
+
+.store-book-amazon {
+  text-align: center;
+}
+
+.store-top-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.store-img-container {
+  text-align: center;
+}
+
+.store-book-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.store-book-container p {
+  margin: 2px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.store-bottom-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.store-link {
+  border-bottom: 2px solid #FB4F21;
+}
+
+.store-t-shirt-div {
+  text-align: center;
+  margin: 20px;
+}
+
+.store-t-shirt-div img {
+  max-height: 400px;
+}
+
 /*--------------------------
-      media queries
+  media queries - mobile
 --------------------------*/
 
-@media (max-width: 500px) {
+@media only screen and (max-width: 500px) {
 
   .side-nav-contain {
     display: none;
@@ -820,7 +900,7 @@ body {
   Navigaton-mobile
   ==============*/
 
-  .hr-nav{
+  .hr-nav {
     margin: 0;
   }
 
@@ -828,50 +908,50 @@ body {
     display: none;
   }
 
-  .bottom-nav {
+  div.bottom-nav {
     display: none;
   }
 
-  .top-nav {
-    margin-right: 8px;
+  div.top-nav {
+    margin: 0 8px 0 0;
   }
 
-  .logo {
-    height: 81%;
-    width: 21%;
+  img.logo {
+    max-height: 48%;
     margin-left: 3px;
     margin-top: 18px;
   }
 
-  .banner {
-    font-size: 20px;
+  div.banner {
+    font-size: 18px;
     width: 100%;
-    margin-left: 10px;
+    margin-left: 2px;
     height: 90px;
     letter-spacing: 10px;
   }
 
-  .banner-text {
-    margin-top: 31px;
+  div.banner p {
+    margin-top: 2em;
   }
 
-  .fa-bars {
+  i.fa-bars {
     height: 36px;
     display: block;
     color: #FB4F21;
     margin-top: 38px;
   }
 
-  .mobile-modal {
+  div.mobile-modal {
     display: block;
     height: 100vh;
     width: 100vw;
+    margin: 0 0 -9vh 0;
     position: absolute;
     z-index: 20;
     background: white;
   }
 
-  .mobile-menu {
+  div.mobile-menu {
     height: 100vh;
     width: 100vw;
     list-style-type: none;
@@ -891,13 +971,14 @@ body {
     margin-left: 10px;
   }
 
-  .mobile-search {
+  div.mobile-search {
     display: flex;
     justify-content: center;
+    margin-top: -3.5em;
   }
 
-  .search {
-    width: 345px;
+  input.search {
+    width: 92vw;
   }
   /*============
     HOME-mobile
@@ -1182,19 +1263,19 @@ body {
   }
 
   .blog-image-container {
-    height: 280px;
+    /* height: 280px; */
     width: 100%;
   }
 
   .blog-image {
-    height: 280px;
-    width: 100%;
+    max-height: 90%;
+    max-width: 90%;
   }
 
   .blog-post-content {
     font-size: 18px;
     line-height: 35px;
-    margin: 0 25px 12px 25px;
+    margin: -50px 25px 12px 25px;
   }
 
   .post-date {
@@ -1283,5 +1364,76 @@ body {
 
   .tours-note {
     margin-top: 0;
+  }
+}
+
+/*=================
+    STORE-mobile
+=================*/
+
+.store-container {
+  margin: 0;
+  border: none;
+}
+
+.store-header {
+  margin-left: 30px;
+}
+
+.store-sub-header{
+  text-align: justify;
+  margin: 30px 20px 20px 30px;
+}
+
+.store-bookcover {
+  max-height: 43%;
+}
+
+.store-book-container p {
+  font-size: 15px;
+}
+
+.store-book-amazon {
+  padding-right: 10px;
+}
+
+.store-book-paypal {
+  padding-left: 10px;
+}
+
+
+/*------------------------
+media queries - large scrn
+------------------------*/
+@media only screen and (min-width: 115em) {
+
+/*=================
+  NAV - large scrn
+==================*/
+
+  .logo-banner {
+    margin-right: 335px;
+  } 
+
+/*==================
+ STORE - large scrn
+===================*/
+
+  .store-bookcover {
+    max-height: 70%;
+    max-width: 70%;
+  }
+
+  .store-sub-header {
+    font-size: 20px;
+    margin: 30px 20px 40px 30px;
+  }
+
+  .store-book-container p {
+    font-size: 20px;
+  }
+
+  .store-t-shirt-div img {
+    max-height: 550px;
   }
 }

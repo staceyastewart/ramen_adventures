@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import './header.css';
 import  './Carousel.css';
 import axios from 'axios';
 import Auth from './modules/Auth';
