@@ -141,7 +141,7 @@ class Navigation extends Component {
                         Ramen Tours
                     </div>
                 </Link>
-                <Link to="/schools">
+                <Link to="/tokyo-school">
                     <div className="schools bottom-links">
                         Ramen Schools
                     </div>
