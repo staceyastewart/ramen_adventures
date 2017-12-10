@@ -59,7 +59,7 @@ class BlogPost extends Component {
                     <div className="image-content">
                         {photoToDisplay.length ? 
                         <div className="blog-image-container">
-                            <Carousel showThumbs={false} showArrows={true} dynamicHeight emulateTouch>
+                            <Carousel showThumbs={false} showArrows={true} dynamicHeight emulateTouch useKeyboardArrows>
                                 {photoToDisplay.map((photo, i) => {
                                     return (
                                         <div key={i} className="blog-image-div">
