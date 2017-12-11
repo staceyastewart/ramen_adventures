@@ -977,6 +977,42 @@ body {
   font-size: 17px;
 }
 
+.osaka-details {
+  margin-top: 60px;
+}
+
+.osaka-school-details {
+  display: flex;
+}
+
+.osaka-school-details-text {
+  border: 1px solid #D8D8D8;
+  padding: 10px 20px;
+  width: 75%;
+}
+
+.question-box {
+  width: 13%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.osaka-bold {
+  font-weight: 700;
+  margin: 10px 15px;
+}
+.osaka-faq-div {
+  margin: 30px 0;
+}
+
+.osaka-a, .osaka-q {
+  display: flex;
+}
+
+.osaka-answer-text {
+  margin: 10px 0;
+}
 
 /*--------------------------
   media queries - mobile
