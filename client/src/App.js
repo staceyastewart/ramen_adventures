@@ -13,6 +13,7 @@ import Store from './components/Store';
 import Tours from './components/Tours';
 import Schools from './components/Schools';
 import TokyoSchool from './components/TokyoSchool';
+import OsakaSchool from './components/OsakaSchool';
 import Media from './components/Media';
 import AboutMe from './components/AboutMe';
 import Blog from './components/Blog';
@@ -267,6 +268,7 @@ class App extends Component {
                   <Route path='/tours' component={Tours} />
                   <Route path='/schools' component={Schools} />
                   <Route path='/tokyo-school' component={TokyoSchool} />
+                  <Route path='/osaka-school' component={OsakaSchool} />
                   <Route path='/media' component={Media} />
                   <Route path='/about' component={AboutMe} />
                   <Route path="/blog" component={(props) => <Blog {...props}

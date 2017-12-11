@@ -896,19 +896,18 @@ body {
 
 .tokyo-school-container {
   margin: 50px 150px 100px 100px;
+  font-size: 20px;
+  line-height: 32px;
 }
 
 .tokyo-school-header {
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 600;
+  margin-bottom: 55px;
 }
 
 .tokyo-school-subheader {
   margin-top: 50px;
-}
-
-.tokyo-school-carousel-container {
-  background: white;
 }
 
 .tokyo-school-image-div {
@@ -934,6 +933,50 @@ body {
   justify-content: center;
   margin: 30px 0 30px 0;
 }
+
+/*-----------------------
+      Osaka School
+-----------------------*/
+
+.osaka-school-wrapper {
+  border: 2px solid #D8D8D8;
+  margin: 40px 100px 50px 50px;
+}
+
+.osaka-school-container {
+  margin: 50px 150px 100px 100px;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.osaka-school-header {
+  font-size: 55px;
+  font-weight: 600;
+  margin-bottom: 55px;
+}
+
+.osaka-school-subheader {
+  font-weight: 600;
+}
+
+.osaka-school-image-div {
+  background: white;
+}
+
+.osaka-school-big-image {
+  max-height: 40%;
+  max-width: 40%;
+}
+
+.osaka-school-image {
+  max-height: 70%;
+  max-width: 70%;
+}
+
+#legend {
+  font-size: 17px;
+}
+
 
 /*--------------------------
   media queries - mobile

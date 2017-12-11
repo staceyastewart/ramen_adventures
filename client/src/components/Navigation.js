@@ -143,7 +143,12 @@ class Navigation extends Component {
                 </Link>
                 <Link to="/tokyo-school">
                     <div className="schools bottom-links">
-                        Ramen Schools
+                        Tokyo Ramen School
+                    </div>
+                </Link>
+                <Link to="/osaka-school">
+                    <div className="schools bottom-links">
+                        Osaka Ramen School
                     </div>
                 </Link>
                 <Link to="/media">
