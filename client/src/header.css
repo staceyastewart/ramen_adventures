@@ -27,13 +27,14 @@
 
 .top-links, 
 .bottom-links {
-  font-size: 21px;
+  font-size: 19px;
   display: flex;
   justify-content: center;
   align-items: center;
   background: #FB4F21;
   color: white;
   height: 35px;
+  width: 205px;
   padding: 0 5px;
 }
 
@@ -114,6 +115,11 @@ div.mobile-modal {
 
 .mobile-search {
   display: none;
+}
+
+.drop-down {
+  position: absolute;
+  z-index: 10;
 }
 
 @media only screen and (max-width: 64em) {

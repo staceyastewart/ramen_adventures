@@ -206,6 +206,19 @@ class OsakaSchool extends Component {
                             </div>
                         </div>            
                     </div>
+                    <h2 className="osaka-school-subheader">Professional Classes:</h2>
+                    <p>We can do classes that are less casual than this one. These are designed for students with restaurant experience who are looking to incorporate ramen into their overseas ventures. Information on the school site:
+                    <a className="tokyo-school-link" href="http://ramenschool.jp/ramenadventures/" target="_blank" rel="noopener noreferrer"> http://ramenschool.jp/ramenadventures/</a></p>
+                    <h2 className="osaka-school-subheader">Additional Links:</h2>
+                    <p>Here is an interview with Miyajima-sensei in English:</p>
+                    <p><a className="tokyo-school-link" href="http://www.kansaiscene.com/2014/01/thank-god-noodles-r-amen/" target="_blank" rel="noopener noreferrer">http://www.kansaiscene.com/2014/01/thank-god-noodles-r-amen/</a></p>
+                    <p>Read about student experiences here:</p>
+                    <p><a className="tokyo-school-link" href="http://www.friendsinramen.com/2012/10/ramen-school.html" target="_blank" rel="noopener noreferrer">http://www.friendsinramen.com/2012/10/ramen-school.html</a></p>
+                    <p><a className="tokyo-school-link" href="http://likeafishinwater.com/2013/11/21/osaka-ramen-school/" target="_blank" rel="noopener noreferrer">http://likeafishinwater.com/2013/11/21/osaka-ramen-school/</a></p>
+                    <p><a className="tokyo-school-link" href="http://www.seriouseats.com/2016/03/ramen-school-osaka-how-ramen-is-made.html" target="_blank" rel="noopener noreferrer">http://www.seriouseats.com/2016/03/ramen-school-osaka-how-ramen-is-made.html</a></p>
+                    <div className="osaka-video-wrapper">
+                        <iframe width="640" height="360" src="https://www.youtube.com/embed/YAEyj4-cXFw" frameBorder="0" allowFullScreen title="ramen lesson at Tokyo ramen school"></iframe>
+                    </div>
                 </div> 
             </div>
         );

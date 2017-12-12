@@ -1014,6 +1014,11 @@ body {
   margin: 10px 0;
 }
 
+.osaka-video-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 /*--------------------------
   media queries - mobile
 --------------------------*/

@@ -2,16 +2,23 @@ import React, { Component } from 'react';
 import logo from '../images/favicon.ico';
 import { Link, withRouter } from 'react-router-dom';
 import Auth from '../modules/Auth';
+import SchoolDropDown from './SchoolDropDown';
 
 class Navigation extends Component {
     constructor (props) {
         super(props);
         this.state = {
-            menuClicked: false
+            menuClicked: false,
+            isSchoolHovered: false,
+            isDropDownHovered: false
         }
         this.handleMenuClick = this.handleMenuClick.bind(this);
         this.renderMobileMenu = this.renderMobileMenu.bind(this);
         this.handleReturnClick = this.handleReturnClick.bind(this);
+        this.handleSchoolsHover = this.handleSchoolsHover.bind(this);
+        this.handleSchoolsOut = this.handleSchoolsOut.bind(this);
+        this.handleDropDownMouseOver = this.handleDropDownMouseOver.bind(this);
+        this.handleDropDownMouseOut = this.handleDropDownMouseOut.bind(this);
     }
 
     handleMenuClick() {
@@ -20,6 +27,25 @@ class Navigation extends Component {
 
     handleReturnClick() {
         this.setState({ menuClicked: false });
+    }
+
+    handleSchoolsHover() {
+        this.setState({ 
+            isSchoolHovered: true,
+            isDropDownHovered: true
+        });
+    }
+
+    handleSchoolsOut() {
+        this.setState({ isSchoolHovered: false });
+    }
+
+    handleDropDownMouseOver() {
+        this.setState({ isDropDownHovered: true });
+    }
+
+    handleDropDownMouseOut() {
+        this.setState({ isDropDownHovered: false });
     }
 
     renderMobileMenu() {
@@ -141,16 +167,18 @@ class Navigation extends Component {
                         Ramen Tours
                     </div>
                 </Link>
-                <Link to="/tokyo-school">
-                    <div className="schools bottom-links">
-                        Tokyo Ramen School
+                <div className="schools-dropdown-wrapper">
+                    <div    className="schools bottom-links"
+                            onMouseOver={this.handleSchoolsHover}
+                    >
+                        Schools
                     </div>
-                </Link>
-                <Link to="/osaka-school">
-                    <div className="schools bottom-links">
-                        Osaka Ramen School
-                    </div>
-                </Link>
+                    <SchoolDropDown isSchoolHovered={this.state.isSchoolHovered}
+                                    isDropDownHovered={this.state.isDropDownHovered}
+                                    handleDropDownMouseOut={this.handleDropDownMouseOut}
+                                    handleDropDownMouseOver={this.handleDropDownMouseOver}
+                                    />
+                </div>
                 <Link to="/media">
                     <div className="media bottom-links">
                         Media
