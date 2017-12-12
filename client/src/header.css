@@ -109,12 +109,12 @@ a.logo-banner.nav-link {
   display: none;
 }
 
-div.mobile-modal {
+.mobile-search {
   display: none;
 }
 
-.mobile-search {
-  display: none;
+.mobile-menu {
+  list-style-type: none;
 }
 
 .drop-down {

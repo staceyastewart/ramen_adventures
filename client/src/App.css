@@ -1075,7 +1075,7 @@ body {
 
   div.mobile-modal {
     display: block;
-    height: 100vh;
+    height: 145vh;
     width: 100vw;
     margin: 0 0 -9vh 0;
     position: absolute;
@@ -1395,7 +1395,6 @@ body {
   }
 
   .blog-image-container {
-    /* height: 280px; */
     width: 100%;
   }
 
@@ -1416,6 +1415,12 @@ body {
 
   .return {
     font-size: 19px;
+    margin: -5px 80px 0 0;
+    padding-right: 10px;
+  }
+
+  .mobile-menu {
+    padding: 0;
   }
 
   /*=============
