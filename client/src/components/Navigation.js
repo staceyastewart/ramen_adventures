@@ -8,17 +8,11 @@ class Navigation extends Component {
     constructor (props) {
         super(props);
         this.state = {
-            menuClicked: false,
-            isSchoolHovered: false,
-            isDropDownHovered: false
+            menuClicked: false
         }
         this.handleMenuClick = this.handleMenuClick.bind(this);
         this.renderMobileMenu = this.renderMobileMenu.bind(this);
         this.handleReturnClick = this.handleReturnClick.bind(this);
-        this.handleSchoolsHover = this.handleSchoolsHover.bind(this);
-        this.handleSchoolsOut = this.handleSchoolsOut.bind(this);
-        this.handleDropDownMouseOver = this.handleDropDownMouseOver.bind(this);
-        this.handleDropDownMouseOut = this.handleDropDownMouseOut.bind(this);
     }
 
     handleMenuClick() {
@@ -27,25 +21,6 @@ class Navigation extends Component {
 
     handleReturnClick() {
         this.setState({ menuClicked: false });
-    }
-
-    handleSchoolsHover() {
-        this.setState({ 
-            isSchoolHovered: true,
-            isDropDownHovered: true
-        });
-    }
-
-    handleSchoolsOut() {
-        this.setState({ isSchoolHovered: false });
-    }
-
-    handleDropDownMouseOver() {
-        this.setState({ isDropDownHovered: true });
-    }
-
-    handleDropDownMouseOut() {
-        this.setState({ isDropDownHovered: false });
     }
 
     renderMobileMenu() {
@@ -168,16 +143,10 @@ class Navigation extends Component {
                     </div>
                 </Link>
                 <div className="schools-dropdown-wrapper">
-                    <div    className="schools bottom-links"
-                            onMouseOver={this.handleSchoolsHover}
-                    >
+                    <div className="schools bottom-links">
                         Schools
                     </div>
-                    <SchoolDropDown isSchoolHovered={this.state.isSchoolHovered}
-                                    isDropDownHovered={this.state.isDropDownHovered}
-                                    handleDropDownMouseOut={this.handleDropDownMouseOut}
-                                    handleDropDownMouseOver={this.handleDropDownMouseOver}
-                                    />
+                    <SchoolDropDown />
                 </div>
                 <Link to="/media">
                     <div className="media bottom-links">

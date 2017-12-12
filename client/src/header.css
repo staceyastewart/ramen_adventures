@@ -120,6 +120,24 @@ div.mobile-modal {
 .drop-down {
   position: absolute;
   z-index: 10;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: visibility 0s, opacity 0.5s linear;
+  -moz-transition: visibility 0s, opacity 0.5s linear;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+
+.schools-dropdown-wrapper:hover > .drop-down {
+  visibility: visible;
+  opacity: 1;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
 }
 
 @media only screen and (max-width: 64em) {
