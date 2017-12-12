@@ -48,8 +48,12 @@ class Navigation extends Component {
                             <li className="mobile-menu-item" onClick={this.handleReturnClick}>Ramen Tours</li>
                         </Link>
                         <hr className="hr-mobile"/>
-                        <Link to="/schools" className="nav-link">
-                            <li className="mobile-menu-item" onClick={this.handleReturnClick}>Ramen Schools</li>
+                        <Link to="/tokyo-school" className="nav-link">
+                            <li className="mobile-menu-item" onClick={this.handleReturnClick}>Tokyo Ramen School</li>
+                        </Link>
+                        <hr className="hr-mobile" />
+                        <Link to="/osaka-school" className="nav-link">
+                            <li className="mobile-menu-item" onClick={this.handleReturnClick}>Osaka Ramen School</li>
                         </Link>
                         <hr className="hr-mobile"/>
                         <Link to="/media" className="nav-link">
