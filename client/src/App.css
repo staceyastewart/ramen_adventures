@@ -227,8 +227,8 @@ body {
 }
 
 .bottom-image {
-  height: 290px;
-  width: 30%;
+  height: 25vh;
+  width: 9vw;
 }
 
 .picks-contain {
@@ -627,6 +627,7 @@ body {
 
 .single-post-container {
   display: flex;
+  justify-content: center;
 }
 
 .single-blog-post {
@@ -1186,7 +1187,8 @@ body {
   }
   
   .bottom-image {
-    height: 80px;
+    height: 73px;
+    width: 44px;
   }
 
   .picks-contain {
