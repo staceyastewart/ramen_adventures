@@ -498,7 +498,7 @@ class Media extends Component {
                             Helped guide the Frugal Traveler Mat Gross around Tokyo for his <a className="media-link" href="http://www.nytimes.com/2010/01/31/travel/31ramen.html?pagewanted=all" target="_blank" rel="noopener noreferrer">excellent piece</a> on ramen in Tokyo. January 26th, 2010.
                         </p>
                     </div>
-                    <Carousel showThumbs={true} showArrows={true} dynamicHeight emulateTouch>
+                    <Carousel showThumbs={true} showArrows={true} dynamicHeight emulateTouch useKeyboardArrows>
                         <div className="media-img-div">
                             <img className="media-img-carousel" src={brianramen} alt="" />
                         </div>

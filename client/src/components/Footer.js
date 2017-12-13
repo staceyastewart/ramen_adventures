@@ -18,7 +18,7 @@ class Footer extends Component {
                         <div className="signup-text">
                             Sign up to receive exclusive ramen updates
                         </div>
-                        <Link to="/register" className="nav-link">
+                        <Link to="/register" className="footer-signup-button-link">
                             <input type="submit" value="Sign Up!" className="register footer-signup-button" />
                         </Link>
                     </div>
