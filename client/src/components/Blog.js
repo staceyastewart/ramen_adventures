@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import BestOfNav from './BestOfNav';
 import BlogPhotos from './BlogPhotos';
 
 class Blog extends Component {
@@ -7,7 +6,6 @@ class Blog extends Component {
     render() {
         return (
             <div className="blog-container">
-                <BestOfNav />
                 <div className="posts-container">
                     <h2 className="recent-posts-header">Recent Posts:</h2>
                     <div className="post-container">

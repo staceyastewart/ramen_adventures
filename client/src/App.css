@@ -122,6 +122,7 @@ body {
 */
 
 
+
 /*----------------------------
       HOME
 ----------------------------*/
@@ -257,6 +258,11 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 24px;
+}
+
+.footer-signup-button-link {
+  display: flex;
+  justify-content: center;
 }
  
 .bottom-right {
@@ -571,7 +577,7 @@ body {
 
 .posts-container {
   border: 1px solid #D8D8D8;
-  width: 80%;
+  width: 100%;
   margin: 30px 0 0 10px;
 }
 
@@ -583,6 +589,7 @@ body {
 
 .posts {
   display: flex;
+  justify-content: center;
 }
 
 /*--------------------
@@ -593,12 +600,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  width: 40%;
 }
 
 .post {
-  max-height: 100%;
-  max-width: 100%;
-  border: 1px solid black;
+  height: 50vh;
+  width: 39vw;
 }
 
 .post-text {
