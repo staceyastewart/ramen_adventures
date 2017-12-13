@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from '../images/favicon.ico';
 import { Link, withRouter } from 'react-router-dom';
 import Auth from '../modules/Auth';
+import SchoolDropDown from './SchoolDropDown';
 
 class Navigation extends Component {
     constructor (props) {
@@ -47,8 +48,12 @@ class Navigation extends Component {
                             <li className="mobile-menu-item" onClick={this.handleReturnClick}>Ramen Tours</li>
                         </Link>
                         <hr className="hr-mobile"/>
-                        <Link to="/schools" className="nav-link">
-                            <li className="mobile-menu-item" onClick={this.handleReturnClick}>Ramen Schools</li>
+                        <Link to="/tokyo-school" className="nav-link">
+                            <li className="mobile-menu-item" onClick={this.handleReturnClick}>Tokyo Ramen School</li>
+                        </Link>
+                        <hr className="hr-mobile" />
+                        <Link to="/osaka-school" className="nav-link">
+                            <li className="mobile-menu-item" onClick={this.handleReturnClick}>Osaka Ramen School</li>
                         </Link>
                         <hr className="hr-mobile"/>
                         <Link to="/media" className="nav-link">
@@ -141,11 +146,12 @@ class Navigation extends Component {
                         Ramen Tours
                     </div>
                 </Link>
-                <Link to="/schools">
+                <div className="schools-dropdown-wrapper">
                     <div className="schools bottom-links">
-                        Ramen Schools
+                        Schools
                     </div>
-                </Link>
+                    <SchoolDropDown />
+                </div>
                 <Link to="/media">
                     <div className="media bottom-links">
                         Media

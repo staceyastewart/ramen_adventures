@@ -53,7 +53,7 @@ class Home extends Component {
                             <img src={tour} className="home middle-image tour" alt="black and white of street view in Japan with Ramen shop in frame"/>
                         </div>
                     </Link>
-                    <Link to='/schools' className="nav-link links-container">
+                    <Link to='/tokyo-school' className="nav-link links-container">
                         <div className="home right">
                             <div className="home right-middle-text middle-text">
                                 <p className="ramen-text title">
@@ -69,16 +69,16 @@ class Home extends Component {
                 </div>
                 <div className="home bottom-middle-container">
                     <div className="home left bottom-middle">
-                         <div className="home left-middle-text">
-                             <Link to="/store" className="nav-link">
+                        <Link to="/store" className="nav-link">
+                            <div className="home left-middle-text">
                                 <p className="ramen-text title">
                                     Shop
                                 </p>
-                            </Link>
-                            <p className="ramen-text description">
-                                Don't forget to pick up a copy of my book at Top Ramen Shops in Tokyo! I also have t-shirts!
-                            </p>
-                        </div>
+                                <p className="ramen-text description">
+                                    Don't forget to pick up a copy of my book at Top Ramen Shops in Tokyo! I also have t-shirts!
+                                </p>
+                            </div>
+                        </Link>
                         <div className="shop-contain">
                             <img src={book}  className="home bottom-image" alt="cover of Brian's book"/>
                             <img src={whiteshirt}  className="home bottom-image" alt="white t-shirt with RA logo in red"/>

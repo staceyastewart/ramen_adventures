@@ -122,6 +122,7 @@ body {
 */
 
 
+
 /*----------------------------
       HOME
 ----------------------------*/
@@ -226,8 +227,8 @@ body {
 }
 
 .bottom-image {
-  height: 290px;
-  width: 30%;
+  height: 25vh;
+  width: 9vw;
 }
 
 .picks-contain {
@@ -257,6 +258,11 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 24px;
+}
+
+.footer-signup-button-link {
+  display: flex;
+  justify-content: center;
 }
  
 .bottom-right {
@@ -571,7 +577,7 @@ body {
 
 .posts-container {
   border: 1px solid #D8D8D8;
-  width: 80%;
+  width: 100%;
   margin: 30px 0 0 10px;
 }
 
@@ -583,6 +589,7 @@ body {
 
 .posts {
   display: flex;
+  justify-content: center;
 }
 
 /*--------------------
@@ -593,14 +600,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  width: 40%;
 }
 
 .post {
-  max-height: 100%;
-  max-width: 100%;
-  /* height: 320px;
-  width: 574px; */
-  border: 1px solid black;
+  height: 50vh;
+  width: 39vw;
 }
 
 .post-text {
@@ -621,6 +627,7 @@ body {
 
 .single-post-container {
   display: flex;
+  justify-content: center;
 }
 
 .single-blog-post {
@@ -664,7 +671,7 @@ body {
 .blog-post-content {
   font-size: 22px;
   line-height: 38px;
-  margin: 40px 148px 40px 148px;
+  margin: 225px 148px 40px 148px;
 }
 
 .return {
@@ -887,6 +894,155 @@ img.store-bookcover {
   max-height: 400px;
 }
 
+/*----------------------
+      Tokyo School
+----------------------*/
+
+.tokyo-school-wrapper {
+  border: 2px solid #D8D8D8;
+  margin: 40px 100px 50px 50px;
+}
+
+.tokyo-school-container {
+  margin: 50px 150px 100px 100px;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.tokyo-school-header {
+  font-size: 55px;
+  font-weight: 600;
+  margin-bottom: 55px;
+}
+
+.tokyo-school-subheader {
+  margin-top: 50px;
+}
+
+.tokyo-school-image-div {
+  background: white;
+}
+
+.tokyo-school-image {
+  max-height: 70%;
+  max-width: 70%;
+}
+
+.tokyo-school-paragraph-intro {
+  font-weight: 600;
+}
+
+.tokyo-school-link {
+  color: black;
+  border-bottom: 2px solid #FB4F21;
+}
+
+.tokyo-school-video-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0 30px 0;
+}
+
+.tokyo-school-video {
+   width: 640px;
+   height: 360px;
+}
+
+/*-----------------------
+      Osaka School
+-----------------------*/
+
+.osaka-school-wrapper {
+  border: 2px solid #D8D8D8;
+  margin: 40px 100px 50px 50px;
+}
+
+.osaka-school-container {
+  margin: 50px 150px 100px 100px;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.osaka-school-header {
+  font-size: 55px;
+  font-weight: 600;
+  margin-bottom: 55px;
+}
+
+.osaka-school-subheader {
+  font-weight: 600;
+}
+
+.osaka-school-image-div {
+  background: white;
+}
+
+.osaka-school-big-image {
+  max-height: 40%;
+  max-width: 40%;
+}
+
+.osaka-school-image {
+  max-height: 70%;
+  max-width: 70%;
+}
+
+#legend {
+  font-size: 17px;
+}
+
+.osaka-details {
+  margin-top: 60px;
+}
+
+.osaka-school-details {
+  display: flex;
+}
+
+.osaka-school-details-text {
+  border: 1px solid #D8D8D8;
+  padding: 10px 20px;
+  width: 75%;
+}
+
+.question-box {
+  width: 13%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.osaka-bold {
+  font-weight: 700;
+  margin: 10px 15px;
+}
+.osaka-faq-div {
+  margin: 30px 0;
+}
+
+.osaka-a, .osaka-q {
+  display: flex;
+}
+
+.osaka-answer-text {
+  margin: 10px 0;
+}
+
+.osaka-video-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.osaka-school-video {
+   width: 640px;
+   height: 360px;
+}
+
+.osaka-carousel-mobile {
+  display: none;
+}
+
+
 /*--------------------------
   media queries - mobile
 --------------------------*/
@@ -943,7 +1099,7 @@ img.store-bookcover {
 
   div.mobile-modal {
     display: block;
-    height: 100vh;
+    height: 145vh;
     width: 100vw;
     margin: 0 0 -9vh 0;
     position: absolute;
@@ -1031,7 +1187,8 @@ img.store-bookcover {
   }
   
   .bottom-image {
-    height: 80px;
+    height: 73px;
+    width: 44px;
   }
 
   .picks-contain {
@@ -1263,7 +1420,6 @@ img.store-bookcover {
   }
 
   .blog-image-container {
-    /* height: 280px; */
     width: 100%;
   }
 
@@ -1284,6 +1440,12 @@ img.store-bookcover {
 
   .return {
     font-size: 19px;
+    margin: -5px 80px 0 0;
+    padding-right: 10px;
+  }
+
+  .mobile-menu {
+    padding: 0;
   }
 
   /*=============
@@ -1384,12 +1546,13 @@ img.store-bookcover {
     margin: 30px 20px 20px 30px;
   }
 
-  img.store-bookcover {
-    max-height: 45%;
+  .store-bookcover {
+    max-height: 43%;
   }
 
   .store-book-container p {
     font-size: 15px;
+    text-align: center
   }
 
   .store-book-amazon {
@@ -1398,6 +1561,100 @@ img.store-bookcover {
 
   .store-book-paypal {
     padding-left: 10px;
+  }
+
+/*===================
+    TOKYO - mobile 
+===================*/
+
+  .tokyo-school-container, .tokyo-school-wrapper {
+    width: 100%;
+    margin: 0;
+    text-align: justify;
+  }
+
+  .tokyo-school-header {
+    margin: 30px;
+    font-size: 25px;
+  }
+
+  .tokyo-school-subheader {
+    font-size: 20px;
+    margin: 40px 0 30px 30px;
+    width: 98%;
+  }
+
+  .tokyo-text {
+    margin: 17px 25px;
+    font-size: 17px;
+  }
+
+  .tokyo-school-paragraph-intro {
+    margin: 23px;
+  }
+
+  .tokyo-school-video {
+    height: 180px;
+    width: 300px;
+  }
+/*====================
+    OSAKA-mobile
+====================*/
+
+.osaka-school-container, .osaka-school-wrapper {
+    width: 100%;
+    margin: 0;
+    text-align: justify;
+    font-size: 16px
+  }
+
+  .osaka-school-wrapper {
+    width: 100%;
+  }
+
+  .osaka-school-header {
+    font-size: 25px;
+    width: 100%;
+    margin: 17px 20px;
+  }
+
+  .osaka-school-subheader {
+    font-size: 20px;
+    width: 80%;
+    margin: 40px 0 40px 20px;
+  }
+
+  .osaka-details {
+    margin-bottom: 10px;
+  }
+
+  .osaka-school-video {
+    height: 180px;
+    width: 300px;
+  }
+
+  .osaka-school-faq-container {
+    width: 89%;
+  }
+
+  .osaka-bottom-container {
+    margin: 0 20px;
+  }
+
+  .osaka-link {
+    font-size: 4.0vw;
+  }
+
+  .osaka-carousel-container {
+    display: none;
+  }
+
+  .osaka-carousel-mobile {
+    display: block;
+  }
+
+  #legend {
+    margin: 20px;
   }
 }
 

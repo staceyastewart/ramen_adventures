@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import moment from 'moment';
-import BestOfNav from './BestOfNav';
 import { Carousel } from 'react-responsive-carousel';
 import axios from 'axios';
 
@@ -50,7 +49,6 @@ class BlogPost extends Component {
         
         return (
             <div className="single-post-container" ref="myRef">
-                <BestOfNav />
                 <div className="single-blog-post">
                     <div className="blogpost-top-contain">
                         <div className="post-date">{moment(dateToDisplay).format('dddd, MMMM Do, YYYY')}</div>
@@ -59,7 +57,7 @@ class BlogPost extends Component {
                     <div className="image-content">
                         {photoToDisplay.length ? 
                         <div className="blog-image-container">
-                            <Carousel showThumbs={false} showArrows={true} dynamicHeight emulateTouch>
+                            <Carousel showThumbs={false} showArrows={true} dynamicHeight emulateTouch useKeyboardArrows>
                                 {photoToDisplay.map((photo, i) => {
                                     return (
                                         <div key={i} className="blog-image-div">
