@@ -1024,6 +1024,16 @@ body {
   justify-content: center;
 }
 
+.osaka-school-video {
+   width: 640px;
+   height: 360px;
+}
+
+.osaka-carousel-mobile {
+  display: none;
+}
+
+
 /*--------------------------
   media queries - mobile
 --------------------------*/
@@ -1553,28 +1563,88 @@ body {
     text-align: justify;
   }
 
-  .tokyo-school-wrapper {
-    padding: 20px;
-  }
-
   .tokyo-school-header {
-    font-size: 20px;
+    margin: 30px;
+    font-size: 25px;
   }
 
   .tokyo-school-subheader {
     font-size: 20px;
-    margin-top: 40px;
-    width: 100%;
+    margin: 40px 0 30px 30px;
+    width: 98%;
   }
 
   .tokyo-text {
-    width: 100%;
+    margin: 17px 25px;
     font-size: 17px;
+  }
+
+  .tokyo-school-paragraph-intro {
+    margin: 23px;
   }
 
   .tokyo-school-video {
     height: 180px;
     width: 300px;
+  }
+/*====================
+    OSAKA-mobile
+====================*/
+
+.osaka-school-container, .osaka-school-wrapper {
+    width: 100%;
+    margin: 0;
+    text-align: justify;
+    font-size: 16px
+  }
+
+  .osaka-school-wrapper {
+    width: 100%;
+  }
+
+  .osaka-school-header {
+    font-size: 25px;
+    width: 100%;
+    margin: 17px 20px;
+  }
+
+  .osaka-school-subheader {
+    font-size: 20px;
+    width: 80%;
+    margin: 40px 0 40px 20px;
+  }
+
+  .osaka-details {
+    margin-bottom: 10px;
+  }
+
+  .osaka-school-video {
+    height: 180px;
+    width: 300px;
+  }
+
+  .osaka-school-faq-container {
+    width: 89%;
+  }
+
+  .osaka-bottom-container {
+    margin: 0 20px;
+  }
+
+  .osaka-link {
+    font-size: 4.0vw;
+  }
+
+  .osaka-carousel-container {
+    display: none;
+  }
+
+  .osaka-carousel-mobile {
+    display: block;
+  }
+
+  #legend {
+    margin: 20px;
   }
 }
 
