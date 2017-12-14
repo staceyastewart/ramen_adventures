@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import moment from 'moment';
 import { Carousel } from 'react-responsive-carousel';
 import axios from 'axios';
+import CommentForm from './CommentForm';
 
 class BlogPost extends Component {
     constructor(props) {
@@ -68,6 +69,7 @@ class BlogPost extends Component {
                             </Carousel></div> : null}
                         <div className="blog-post-content">{contentToDisplay}</div>
                     </div>
+                    <CommentForm blogId={this.state.blogId} />
                 </div>
             </div>
         );

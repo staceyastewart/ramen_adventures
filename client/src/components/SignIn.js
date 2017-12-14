@@ -42,7 +42,6 @@ class SignIn extends Component {
                                 <input className="login-submit" type="submit" value="Sign in"></input>
                             </form>
                         </div>
-                        {/* <hr className="signin-mobile-hr" /> */}
                         <div className="new-user">
                             <p className="signin-title">New user registration</p>
                             <form onSubmit={(email) => this.props.emailSubmit(email)}>
