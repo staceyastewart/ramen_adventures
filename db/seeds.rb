@@ -10198,3 +10198,4 @@ blog_data.each do |post|
   new_post.save!
 end
 #AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password') if Rails.env.development?
+AdminUser.create!(email: 'brian@ramenadventures.com', password: 'BigRamen1200', password_confirmation: 'BigRamen1200')
