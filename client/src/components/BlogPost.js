@@ -58,17 +58,16 @@ class BlogPost extends Component {
                     <div className="image-content">
                         {photoToDisplay.length ? 
                         <div className="blog-image-container">
-                            <Carousel showThumbs={false} showArrows={true} dynamicHeight emulateTouch useKeyboardArrows>
-                                {photoToDisplay.map((photo, i) => {
-                                    return (
-                                        <div key={i} className="blog-image-div">
-                                            <img className="blog-image" src={photoToDisplay[i]} alt="" />
-                                        </div>
-                                    )
-                                })}
-                            </Carousel></div> : null}
-                        <div className="blog-post-content">{contentToDisplay}</div>
+                            {photoToDisplay.map((photo, i) => {
+                                return (
+                                    <div key={i} className="blog-image-div">
+                                        <img className="blog-image" src={photoToDisplay[i]} alt="" />
+                                    </div>
+                                )
+                            })}
+                        </div> : null}
                     </div>
+                    <div className="blog-post-content">{contentToDisplay}</div>
                     <CommentForm blogId={this.state.blogId} />
                 </div>
             </div>

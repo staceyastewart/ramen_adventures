@@ -152,6 +152,11 @@ class Navigation extends Component {
                     </div>
                     <SchoolDropDown />
                 </div>
+                <Link to='/map'>
+                    <div className="about bottom-links">
+                        Ramen Map
+                    </div>
+                </Link>
                 <Link to="/media">
                     <div className="media bottom-links">
                         Media
