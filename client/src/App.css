@@ -633,23 +633,24 @@ body {
 .single-blog-post {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 90%;
   border: 1px solid #D8D8D8;
   margin: 30px 0 0 10px;
 }
 
-.blog-image-container {
-  /* height: 567px; */
+/* .blog-image-container {
+  height: 567px;
   width: 852px;
-}
-
+} */
+/* 
 .blog-image {
   max-height: 60%;
   max-width: 60%;
-}
+} */
 
 .blog-image-div {
   background: white;
+  margin-bottom: 7vh;
 }
 
 .post-date {
@@ -671,7 +672,7 @@ body {
 .blog-post-content {
   font-size: 22px;
   line-height: 38px;
-  margin: 225px 148px 40px 148px;
+  margin: 30px 148px 40px 148px;
 }
 
 .return {
