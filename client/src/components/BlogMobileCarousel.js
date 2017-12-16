@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import { Carousel } from 'react-responsive-carousel';
 
 class BlogMobileCarousel extends Component {
     render() {
+        const { photoToDisplay } = this.props;
         return (
-            <div>
+            <div className="image-content-mobile">
                 {photoToDisplay.length ?
                     <div className="blog-image-container">
                         <Carousel showThumbs={false} showArrows={true} dynamicHeight emulateTouch useKeyboardArrows>

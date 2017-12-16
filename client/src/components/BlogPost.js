@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import moment from 'moment';
-import { Carousel } from 'react-responsive-carousel';
 import axios from 'axios';
 import CommentForm from './CommentForm';
+import BlogMobileCarousel from './BlogMobileCarousel';
 
 class BlogPost extends Component {
     constructor(props) {
@@ -55,7 +55,7 @@ class BlogPost extends Component {
                         <div className="post-date">{moment(dateToDisplay).format('dddd, MMMM Do, YYYY')}</div>
                         {this.renderReturnButton()}
                     </div>
-                    <div className="image-content">
+                    <div className="image-content-desktop">
                         {photoToDisplay.length ? 
                         <div className="blog-image-container">
                             {photoToDisplay.map((photo, i) => {
@@ -67,6 +67,7 @@ class BlogPost extends Component {
                             })}
                         </div> : null}
                     </div>
+                    <BlogMobileCarousel photoToDisplay={this.state.photoToDisplay} />
                     <div className="blog-post-content">{contentToDisplay}</div>
                     <CommentForm blogId={this.state.blogId} />
                 </div>
