@@ -60,6 +60,7 @@ ActiveRecord::Schema.define(version: 20170921171818) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer  "user_id"
+    t.text     "users_id"
     t.integer  "post_id"
     t.index ["post_id"], name: "index_comments_on_post_id", using: :btree
     t.index ["user_id"], name: "index_comments_on_user_id", using: :btree
@@ -87,8 +88,7 @@ ActiveRecord::Schema.define(version: 20170921171818) do
   end
 
   create_table "users", force: :cascade do |t|
-    t.string   "first_name"
-    t.string   "last_name"
+    t.string   "username"
     t.string   "auth_token"
     t.string   "email"
     t.string   "password_digest"
@@ -111,4 +111,5 @@ ActiveRecord::Schema.define(version: 20170921171818) do
   add_foreign_key "comments", "posts"
   add_foreign_key "posts", "shops"
   add_foreign_key "usershops", "shops"
+  add_foreign_key "usershops", "users"
 end
