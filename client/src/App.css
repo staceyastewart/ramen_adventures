@@ -648,6 +648,11 @@ body {
   max-width: 60%;
 } */
 
+.blogpost-top-contain {
+  display: flex;
+  flex-direction: column;
+}
+
 .blog-image-div {
   background: white;
   margin-bottom: 7vh;
@@ -658,7 +663,11 @@ body {
 .post-date {
   font-size: 23px;
   margin: 30px;
-  float: left;
+ }
+
+ .post-title {
+   font-size: 25px;
+   margin: 30px;
  }
 
 .image-content-desktop {
@@ -1484,6 +1493,10 @@ body {
 
   .post-date {
     font-size: 21px;
+  }
+
+  .post-title {
+    font-size: 22px;
   }
 
   .image-content-desktop {

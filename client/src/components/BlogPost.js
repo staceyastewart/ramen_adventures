@@ -11,6 +11,7 @@ class BlogPost extends Component {
             dateToDisplay: '',
             photoToDisplay: [],
             contentToDisplay: "",
+            titleToDisplay: '',
             blogId: props.match.params.id
         }
     }
@@ -22,7 +23,8 @@ class BlogPost extends Component {
             this.setState({
                 dateToDisplay: res.data.date,
                 photoToDisplay: res.data.photos,
-                contentToDisplay: res.data.content
+                contentToDisplay: res.data.content,
+                titleToDisplay: res.data.title
             });
         });
     }
@@ -53,6 +55,7 @@ class BlogPost extends Component {
                 <div className="single-blog-post">
                     <div className="blogpost-top-contain">
                         <div className="post-date">{moment(dateToDisplay).format('dddd, MMMM Do, YYYY')}</div>
+                        <div className="post-title">{this.state.titleToDisplay}</div>
                         {this.renderReturnButton()}
                     </div>
                     <div className="image-content-desktop">
