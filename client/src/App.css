@@ -713,6 +713,11 @@ body {
   margin: 30px 30px 30px 10px;
 }
 
+.blog-loading {
+  font-size: 25px;
+  margin: 30px;
+}
+
 /*-----------------
       Schools
 -----------------*/
