@@ -21,10 +21,12 @@ class CommentForm extends Component {
     }
 
     getComments() {
+        console.log('this is blogId:',this.props.blogId)
         axios.get(`/posts/${this.props.blogId}/comments`)
         .then(response => {
+            console.log(response);
             this.setState({ 
-                comments: response.data,
+                comments: response.data.comments,
              });
         })
     }
@@ -67,13 +69,18 @@ class CommentForm extends Component {
                     <input type="submit" />
                 </form>
                 <h2>Comments:</h2> 
-                {this.state.comments ? 
+                {/* {this.state.comments ? 
                 this.state.comments.map((comment, i) => {
                     //allow type conversion to compare string to int
                     if (this.props.blogId == comment.post_id) {
                         return <div key={i}>{comment.content}</div>
                     }
-                }) : null}          
+                }) : null}           */}
+                {this.state.comments ?
+                    this.state.comments.map((comment, i) => {
+                        //allow type conversion to compare string to int
+                            return <div key={i}>{comment.content}</div>
+                    }) : null}
             </div>
         );
     }
