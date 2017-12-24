@@ -22,6 +22,7 @@ import User from './components/User';
 import Unsubscribe from './components/Unsubscribe';
 import Error from './components/Error';
 import RamenMap from './components/RamenMap';
+import BestOf from './components/BestOf';
 
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 
@@ -277,6 +278,7 @@ class App extends Component {
                                       handleSecondBlogImageClick={this.handleSecondBlogImageClick}
                                       handleThirdBlogImageClick={this.handleThirdBlogImageClick} />} 
                   />
+                  <Route path="/best-of" component={BestOf} />
                   <Route path="/map" component={RamenMap} />
                   <Route path="/blogpost/:id" component={(props) => <BlogPost {...props}
                                           postToDisplay={this.state.postToDisplay}

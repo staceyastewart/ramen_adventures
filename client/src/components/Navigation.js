@@ -136,6 +136,11 @@ class Navigation extends Component {
                         Ramen Blog
                     </div>
                 </Link>
+                <Link to="/best-of">
+                    <div className="bottom-links">
+                        Best of the Best
+                    </div>
+                </Link>
                 <Link to="/store">
                     <div className="books bottom-links">
                         Store [Books & Tshirts]
