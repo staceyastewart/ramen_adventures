@@ -11146,7 +11146,7 @@ icflickr.com/1513/24669205514_063bf2ff53_c.jpg",
 
 blog_data.each do |post|
   new_shop = Shop.create(name: post[:title])
-  new_post = Post.create(title: post[:title], content: post[:post], date: post[:date], shop_id: new_shop.id)
+  new_post = Post.create(title: post[:title], content: post[:post], date: post[:date], best_of: post[:best_of], shop_id: new_shop.id)
   post[:pictures].each do |photo_link|
     new_post.photos.push(photo_link)
   end
