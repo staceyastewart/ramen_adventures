@@ -60,7 +60,8 @@ blog_data = [
             "http://lh6.ggpht.com/macduckston/SPhd33MGWxI/AAAAAAAADig/LDRO9D0AzTg/s400/DSC_0656.JPG"
         ],
         "post": " I'm back to my Top 30 From Some Random TV Show hunt.不如帰Hototogisu translates to \"the lesser cookoo bird\".  To be more specific Cuculus poliocephalus.  Fascinating.  So here we are, #8 in Japan according to the list.  It's been a few months since I tried anything new from my Top 30 list, mainly because of my mission to eat lots of Tachikawa ramen.  Well I'm done in Tachikawa (done eating at new restaraunts, never done with ramen) so it's back to the grand adventure.  I only have like 6 or 7 more to go in Tokyo, which shouldn't be much of a task.  Plenty of ramen lovers hit multiple places a day, so why is it taking me months?I think it's the weather.  The mad heat of summer and bitter cold of winter make going out a pain.  But now it's the 2 or 3 weeks of nice weather between the seasons.  Some may call it autumn.  Let's eat!It's in a little alley off from the main shopping street.  There was reggae on the stereo and spot lights shining on stainless steel.  It's a nice shop.The recommended bowl was the shoyu ramen.  The little bits are carmalized onions.  Amazing taste.  Imagine a nice French onion soup gets fed to a pig.  This pig then has sex with a chicken.  The resulting mutant beast is slaughtered and somehow made into ramen.Definitely unique.  On the weekend the master makes a special ramen from some sort of French quail.  Unfortunately, I went on a weekday, so there was no obscure ramen to be had.  I'll be  back though.More Info HereView Larger Map  ",
-        "title": " ばんから (Bankara in Tachikawa) "
+        "best_of": true,
+        "title": "不如帰 (Hototogisu in Hatagaya)"
     },
     {
         "date": "2008-10-23 00:00:00",
@@ -77,6 +78,7 @@ blog_data = [
             "http://lh5.ggpht.com/macduckston/SPWtOV92oQI/AAAAAAAADhY/r8XMNjEobwA/s400/DSC_9588.JPG"
         ],
         "post": " 一蘭Ichiran is an interesting place.  You are presented with a very simple ticket ordering machine.It's pretty much only 1 choice.  Ramen.  The other buttons are for extra pork or eggs.  Get some eggs, they are great here.But actually, this shop is the most customizable ramen you can have.  Before you go in, check the seating chart outside the shop.  It lights up when a seat is available.  See an open seat, go on in.  And zip those lips.You will first notice that it is totally silent in here.  And the seats have dividers, like little tiny cubicles.  So sit down in your isolation chamber and get ready for the test.7 questions... multiple choice.  The next 15 minutes of you life depends on this moment.You can choose all aspects of your ramen.  Noodle size, noodle tenderness, soup flavor strength, spice level, garlic, with or without pork, and how oily you want it.  Go for the middle choice all the way down if you want to be safe, or mix it up.Ichiran fares from Kyushu, so expect a bowl of tonkotsu style.  A totally average bowl that is.  When you get your food, the door in front of you closes and you are in complete oneness with normality.  The beige ramen zone.Also... I was totally crammed in the little booth.  The seat doesn't move, so my knees were jammed up against the counter and my ass was hanging halfway off the back.  I was holding on to the counter with one hand, eating ramen with the other.  At any moment I could have slipped and ended up on the floor in a heap of noodles and pork broth.  Not the best way to go... but not the worst either.Check out this excellent video of Ichiran.There are Ichiran shops in many places in Tokyo.  I'd say it's one of the most popular bowls of Kyushu style you can find.  But the cramped seating means I won't go back (even though I did).  By the way, I'm 6'4\" (192cm) so this isn't really a problem for most people.They are open late, so it is an acceptable post-drunk-party bowl.  But if you want to really enjoy ramen, search out something a bit more special.Official Site HereView Larger Map  ",
+        "best_of": true,
         "title": " 不如帰 (Hototogisu in Hatagaya) "
     },
     {
@@ -482,6 +484,7 @@ blog_data = [
             "http://farm4.static.flickr.com/3306/3486416129_10b5c7268a.jpg"
         ],
         "post": " Bassanova   (from Shindaita station make a right out the exit.  It's about a minute up on the other side of the street)  This place was recommended a while back by Keizo over at GoRamen.  Since he was in town, it was a perfect excuse to check it out.  We also met up with another English ramen blogger Nate from Waseda-Ramen.  Rolling 3 deep, we went on the attack.    Basanova does the fusion thing, with a highly recommended green curry ramen and tom yum ramen on the menu.  The green curry is Keizo's staple here.    I've had some \"Thai\" style ramen before, and it usually just tastes like reused curry broth poured over noodles.  This often doesn't work because curry or tom yum soup is meant to be eaten differently, with rice balancing out the intense heat.  Noodles don't really take the edge off of the spice as well.  But this one was very well balanced.  More of a tangy spice than a burning pain spice.  Excellent.    I asked the chef what he recommends for a first time, and had the tondatsu wadasisoba.  1st item on the menu.    Very solid bowl, worthy of an extra serving of noodles.  Luckily I didn't go for that option, because we weren't done with the ramen for the evening...      More Shop Info Here       ",
+        "best_of": true,
         "title": " Bassanova in Shindaita "
     },
     {
@@ -495,7 +498,7 @@ blog_data = [
             "http://farm4.static.flickr.com/3588/3478595441_6a9f50a2ee.jpg"
         ],
         "post": " 麺処 ZERO(North exit of Tachikawa station.  It's on the other side of the Isetan building)There was a copy of Tachikawa Walker at my school, so I checked out the ramen section.  The Walker series of publications shows you, basically, how to spend your money in a certain area.  I'm kind of put off by this style of consumerism, but that's a topic for my other blog.  Anyways, there is always a ramen section.  The number 1 ranking for the Tachikawa edition was Kyoka, which I went to the other week.  Number 2 was Zero Ramen.Go down the stairs into this funky little place.  What the heck is Jumpin' Junk noodles?Only one way to find out.The salt ramen was the おすすめ, and here it is.  I was proper good.A lot of chicken taste in this one.  The stewed-in-soy pork was decadent.But I never did find out what was so jumping or junky about this stuff.  Me thinks I'll return here again, after I finish with #3, #4, and #5.More Shop Info Here  ",
-        "title": " Bassanova in Shindaita "
+        "title": "麺処 ZERO (Zero in Tachikawa)"
     },
     {
         "date": "2009-04-22 00:00:00",
@@ -711,6 +714,7 @@ blog_data = [
             "http://farm4.static.flickr.com/3362/3618937675_fbf4cba561.jpg"
         ],
         "post": " 井の庄 Back to my Top 30 list, and it's a special one.  This place is seriously only about 20 minutes by bicycle from me, but I'd been avoiding it.  Why?  Have a look.Good lord, it looks like tomato sauce or something.  Is this spaghetti ramen?Nope, it's 辛辛魚らーめん, double spicy fish ramen.  The red?  That's concentrated fire.  In powder form.But spicy ramen isn't anything new, and certainly just making a comically spicy bowl wouldn't warrant a spot halfway up a Top 30 list, would it?  Let's go under the spice and see what we have.Hella fish, that's what.  The soup is made from fish and spice, and the powder on top is ground up fish powder and more spice.  It's good, real good... but...It's thick as all hell.  As soon as you mix in the powder, that oily fish kicks up the viscosity to used motor oil status.  A few reluctant sips of the left over soup was all that could be done.  As I said to Nate, I wanted to take home the extra soup and use it as a base for a curry.  It totally would have worked.  What's the deal, can I start pouring left over soup into tupperware containers?Check out a TV spot featuring some spicy ramen in Tokyo.  Inosho is the first one.Shop Info  ",
+        "best_of": true,
         "title": " 井の庄  (Inosho in Shakujikoen, #16 in Japan) "
     },
     {
@@ -872,6 +876,22 @@ blog_data = [
         ],
         "post": " 白山ラーメンRamen has many facets in Japan.  Of course there is the food itself, but I think the atmosphere plays a huge roll.  A beautifully reconstructed old Japanese warehouse converted into a ramen shop, a steamy shop filled with salarymen, an hour long line for a little hole in the wall... these things make it magic.Enter Hakusan ramen.  My photos, I realize, don't portray what I want to.  Let me explain, and offer a promise to revisit in the near future.The shop opens at 9pm.  It closes at something like 4am.  This is a spot for the night crowd.  But Hakusan isn't near any sort of night life.  You could walk here in about 20 minutes from Tokyo Dome after seeing a ball game... I guess.  You could take the train way out of your way... I guess.  Or you could drive up, order some ramen, and eat in your car.  Or sit on the curb.  Or stand.  There are only 2 chairs available for the 30 or so people there.This is the reality of the place, everyone orders their ramen, either with or without egg as there are only 2 menu items, waits 20 minutes, then just sits on the curb to eat.  The curb of a semi-busy Tokyo road.  The crowd is a mix of college students (big surprise), drunk salarymen, and a host or two.  It's completely rad.  And only a 2 minute bicycle ride from my apartment.So I really really really wanted to love this ramen.  Yeah, I'm saying the first bowl did disappoint.  It was way greasy, even the bottom of the bowl had grease on it, and the chashu pork was like eating concentrated soy sauce.Maybe I jinxed it, as I had planned on going here with fellow ramen blogger Nate, but jumped the gun when a friend was visiting from out of town.  I also had high hopes, as this place is loved over at Yo! Japan.So I'll play a little game of \"fool me once shame on you, fool me twice shame on me\" and head back here soon.Shop info here  ",
         "title": " さんぱち (Sanpachi in Monbetsu) "
+    },
+    {
+        "date": "2009-09-19 00:00:00",
+        "pictures": [
+            "http://farm3.static.flickr.com/2624/3933182031_f29411e263.jpg",
+            "http://farm4.static.flickr.com/3523/3933184847_2e21b7846a.jpg",
+            "http://farm3.static.flickr.com/2510/3933190305_c62a19f0ff.jpg",
+            "http://farm4.static.flickr.com/3437/3933975476_15dd701a19.jpg",
+            "http://farm3.static.flickr.com/2623/3933194353_6c72a1de3c.jpg"
+        ],
+        "post": "Leaving the veritable mecca of ramen that is Kichijoji, I packed my bags and moved to the Sengoku area of Bunkyo-ku. I put some photos of my new place on my other stupid blog. It's not as happening here in Sengoku, but surely there has to be some local ramen... right? Right indeed!
+        Not just any shop, but a shop named after the local 1km radius of Sengoku. Most Tokyo people don't even know where Sengoku is. I have to say I live near Sugamo, the next stop over.
+
+        I lined up with Nate around the noontime rush. This is ramen for the working masses. And for people to actually line up for 20 minutes on their lunch break from a construction site, gas station, or in my case, the local girl's high school, you know it's got to hold up. I saw the kanji for meat, in front of the katakana for ramen, and knew exactly what I was getting. A mountain of roasted pork on top of the thick noodles and tonkotso soy soup. I was a little worried that it would be too strong, with too much floating abura. I had to go back and talk to a bunch of 17 year olds, and didn't want to be reeking of the stuff. But it was just right. There's about half a dozen good looking shops in the vicinity, so I'll be hitting those up next. But it's always good to know there is a solid bowl nearby. Labels: オススメ",
+        "best_of": true,
+        "title": "千石自慢 (Sengoku Jiman in Sengoku)"
     },
     {
         "date": "2009-10-27 00:00:00",
@@ -1205,6 +1225,22 @@ blog_data = [
         "title": " 5 Bowls, 1 Day "
     },
     {
+        "date": "2009-12-01 00:00:00",
+        "pictures": [
+            "http://farm3.static.flickr.com/2701/4151863137_982023e986.jpg",
+            "http://farm3.static.flickr.com/2745/4152618908_6aa791434b.jpg",
+            "http://farm3.static.flickr.com/2596/4152611972_c580644568.jpg",
+            "http://farm3.static.flickr.com/2804/4151854105_5640aa210f.jpg",
+            "http://farm3.static.flickr.com/2790/4151848027_a784741644.jpg",
+            "http://farm3.static.flickr.com/2578/4151860293_c265c55206.jpg",
+            "http://farm3.static.flickr.com/2493/4152621500_0b738b8b01.jpg"
+
+        ],
+        "post": "Bring on the champ! Hajime was awarded the #1 new ramen shop title by infamous Walker magazine. This publication is your one stop shop for everything you might want to do, eat, and see in an area of interest. Walker comes in a million flavors, from the self explanatory Tokyo Walker to the more niche 1000 yen Expressway Trips Walker. Ramen is always a topic in these magazines. Hasune station is about 15 minutes away from my apartment by train. So on a sunny Wednesday afternoon I hopped on my bicycle and headed north. There was no wait to get a seat, but this place gets crowded and runs out of soup on the weekends (as I recently found out). The special salt ramen is a winner. The chef uses Mongolian rock salt to bring out the flavors in his simple chicken broth. It's this simple, heartful soup that really brings out the toppings. Great pork, great chicken meatballs, and great menma. Be sure to add some yuzu seasoning to the broth.
+        It seems like the clientelle here, during the lunch hours at least, are all locals or people on road bikes who made the trek like me. Seeing a bicycle helmet in a ramen shop is a very rare encounter. Today I saw 3. Even though the shop is literally 30 seconds from the station, you might have some trouble finding it. It's down a small side street. If you can't find it, ask a local, they will know. Labels: オススメ",
+        "title": "らあめん元 (Hajime in Hasune)"
+    },
+    {
         "date": "2010-01-29 00:00:00",
         "pictures": [
             "http://farm5.static.flickr.com/4068/4313992458_67227513df.jpg",
@@ -1308,7 +1344,31 @@ blog_data = [
             "http://farm5.static.flickr.com/4060/4274119900_a920582362.jpg"
         ],
         "post": " こうかいぼうFinding a great shop can be an adventure, or a complete cinch.  The easiest way to eat good is to simply look at a reputable magazine or website's ranking, and pick a top shop.  This time it was the #4 ramen from ultra database Supleks.jp.  Not to be confused with Bret Hart's signature suplex finishing move.The rankings can be misleading though, especially in Japan.  I'm not sure about the supleks ranking logistics, but if a shop is mentioned by someone famous on TV, it will suddenly be everyone's favorite.  If a member of AKB48 says she likes even the worst of ramen shops, you can bet the next day every otaku in town will be there.All that said, I'm a sucker for rankings.  I read them all, and make notes in my Tokyo street atlas.  That's how I got to Kokaibo, which is near a lesson I teach.Made from pork, chicken, konbu, fish, and many many vegetables.  That may sound like the recipe at 90% of shops, but it's the proportions that count.  I love that they list this stuff out for me.  They even mention that the water is from a Seagull IV, which sounds horrible, but is just a type of water purification system.The set comes with a small rice and raw egg.  There was also a set with a bowl of fried pork rice, which looked really good.The ramen was a simple thing, reminding me a lot of Ikaruga.  I had my first taste.Perfect.  Some sweetness to it.  Then... something was different.  Not wrong, but different.The soup has almost no aftertaste.  I've never, in all my bowls, been left with the taste of... water.  My bowl of similar looking ramen the day before lingered for hours.  This one had been suplexed, and was down for the count.The whole lack of aftertaste thing works great here.  You really taste the noodles.  And the subtle initial flavors aren't crushed by a garlicky power.  Ramen rankers of Supleks, well ranked.More Shop Info Here  ",
-        "title": " 月島ロック (Tsukishima Rock in Tsukishima) "
+        "best_of": true,
+        "title": "こうかいぼう (Kokaibo in Kiyosumi)"
+    },
+    {
+        "date": "2010-01-07 00:00:00",
+        "pictures": [
+            "http://farm3.static.flickr.com/2800/4252780577_e2354a3e39.jpg",
+            "http://farm5.static.flickr.com/4017/4252781771_d2f761b960.jpg",
+            "http://farm3.static.flickr.com/2799/4253552308_84ce32a1b1.jpg",
+            "http://farm5.static.flickr.com/4027/4252784895_92819840b0.jpg",
+            "http://farm5.static.flickr.com/4009/4253556338_fd92e022a0.jpg",
+            "http://farm5.static.flickr.com/4062/4253557256_5b18a67985.jpg"
+        ],
+        "post": "Just look at that storefront. A mass of black tarp, with only a bone hanging by a chain to let you know that anything could possibly exist there. Deja vu, but more on that later. Nate from www.ramenate.com had written about this place before, but I had never really given it a second thought. Takadanobaba has upwards of 100 ramen shops, so finding the gems can be tough.
+
+        But, if you are reading this, you have been told. You need to go here.
+
+        Push back the black tarp door, and have a seat at one of the 5 stools in the shop. Did I mention that this shop is sometimes closed because \"the soup isn't perfect today.\" This is serious ramen. Perfection. It's a shio soup. I had the one flavored with a little shrimp oil. Deja vu... more on that later.
+
+        There are some other options, like one topped with gyoza instead of the pork. Get the pork. Eat half your bowl, then add some spice. Minced green chilies. It's a perfect match. I want to go back tomorrow. On the wall is a photo of the founder of this family of shops. Speaking of family, there is a family tree type chart of all the shops.
+        Most are in the Tokyo area (apparently at one the staff wear Mexican wrestling masks). But one is in Osaka. Hmmm, I went to Osaka once. About two and a half years ago. Let me search out my trip. Sure enough, I had been to the Osaka branch. Who could forget that giant bone hanging in front. And who could forget the simple, amazing soup.
+
+        I thought about it some more, and realized it. This was the shop that inspired me. I was alone in Osaka, sitting in my cheap business hotel room, watching TV. A local celebrity eating food type show came on, and they ate at a ramen shop with a crazy facade, the bone hanging out front a black shop. I literally had nothing to do, why not find this place. It would be good for a photo at lease. I recognized a nearby building and spent about 4 hours the next day trying to find it based on visuals only. Something only an obsessed ramen fanatic would do. Something I had never done before. Something I would do many many times in the future. Labels: オススメ",
+        "best_of": true,
+        "title": "がんこラーメン (Ganko in Takadanobaba)"
     },
     {
         "date": "2010-02-24 00:00:00",
@@ -1421,6 +1481,30 @@ blog_data = [
         "title": " 中本 (Nakamoto in Shinjuku) "
     },
     {
+        "date": "2010-02-06 00:00:00",
+        "pictures": [
+            "http://farm3.static.flickr.com/2763/4320567079_21b96a9e0f.jpg",
+            "http://farm5.static.flickr.com/4068/4320541821_a8ffceb8ce.jpg",
+            "http://farm3.static.flickr.com/2736/4320534749_d005fb62f2.jpg",
+            "http://farm5.static.flickr.com/4046/4320537713_64e43f2b97.jpg",
+            "http://farm5.static.flickr.com/4030/4320561943_2e5e0f1971.jpg",
+            "http://farm3.static.flickr.com/2685/4320549683_ebca688b73.jpg",
+            "http://farm5.static.flickr.com/4035/4320553141_cbd231d50e.jpg",
+            "http://farm3.static.flickr.com/2677/4320556111_6d35178b72.jpg",
+            "http://farm3.static.flickr.com/2751/4320550625_97c679d4c9.jpg",
+            "http://farm5.static.flickr.com/4016/4321291216_e4921f4a16.jpg",
+            "http://farm5.static.flickr.com/4016/4321291216_e4921f4a16.jpg",
+            "http://farm5.static.flickr.com/4059/4320572907_118e920608.jpg"
+        ],
+        "post": "The latest release from a ramen collective by the name of Bond of Hearts. A lot of shops in Tokyo, though they are definitely not a chain, are part of some sort of group. This works out for the shops in a few ways. One of those is support from the ramen community. Just check out all the welcoming flower bouquets from other shops: Nagi has close ties. I was actually invited to this shop by Nishio-san, who runs Nishio Ramen, which is directly connected to Nagi. Ivan lent his support. Ivan and fellow blogger Keizo beat me there a few days before.
+
+        So on a warm winter's day (don't worry, it snowed 24 hours later), I embarked on a massive adventure with blogger Daniel from http://howtojaponese.com/ and rode the bicycle a full 5 minutes from my apartment to eat this. Another in the W-soup trend. Different soups take different steps to make, and using two different soups, prepared independent of each other, should theoretically make a better bowl of ramen. The prep was very unique. They used coffee siphons to heat the soup, in the process filtering it through dried fish flakes. Really cool to watch, but was it necessary? You bet! You are given a choice of 4 toppings. Osusume, what do you recommend, got me this. Pretty good bowl, though not as awesome as some of the other double soups I've had recently. The noodles looked really amazing, but were a little too far cooked. Cut some time off of the boil and it would be much better.
+
+        To find this shop, you can refer to my image below. It's down there... somewhere. This was actually the first time to meet Daniel. We'd been exchanging emails for quite some time, planning on an eventual ramen project. Daniel is into making short videos, and excels in the editing skills. So I present... Collaboramen Episode 1!",
+        "best_of": true,
+        "title": "中華そば 魚雷 (Gyorai in Bunkyo)"
+    },
+    {
         "date": "2010-03-25 00:00:00",
         "pictures": [
             "http://farm3.static.flickr.com/2681/4470302696_4d8782f93c.jpg",
@@ -1477,7 +1561,8 @@ blog_data = [
             "http://farm5.static.flickr.com/4003/4444665296_4a3fce93bb.jpg"
         ],
         "post": " 麺屋吉左右Only open for lunch, closed 2 days a week, lines reaching close to triple digit minute waits, and a location that is kind of hard to find.  I finally made it to Menya Kissou!Took me long enough!  This is the #1 ranked shop on the supleks ramen database, which I link to at the bottom of every post.  But Japanese ranking systems are often skewed, and the domino effect is in full force.  A shop gets on TV, the next day the line is around the block, then the ranking goes up, regardless of actual quality.  But the English ramen blogging world, albeit is reserved for half a dozen people, might have insight that I actually listen to.Keizo of goramen loved it!Exile Kiss agreed with the #1 ranking.Ramen Otaku is down.Ramen Tokyo liked it but thought it was over rated.Rameniac was in the Ramen Tokyo boat.Regardless of the positives and the negatives, I at least had to go once.The menu is simple.  Ramen or tsukemen.  Big or small.  Normal toppings (egg, nori, menma, and pork).  You can get an overpriced beer if you want.45 minutes later, I was sitting inside, camera ready.Everything about this bowl is fantastic.  Everything.  The soup is a thick combination of pork and fish, but not too thick.  The noodles are handmade.  The pork melts.  The egg is perfect.Look at those.  Even though I had just eaten the champion noodles at Rokurinsha, these I have no problem with.Every review talks about how great the egg is.  It's like the common denominator in Kissou reviews.  I'll bow out of the discussion I guess, because almost every hanjitsu tamago I've had in the past month has been to my liking.  But on a simple thumbs up or thumbs down, you know which way it is.For someone like me, waiting in hour lines a few times a week is no problem.  I kind of enjoy it even.  But for a traveler to Tokyo who wants to do anything besides eat noodles in soup, I totally understand how this sort of thing could be a pain.  If I had to choose 1 shop with an insanely long lone (hour+), I'd recommend TETSU.  No second thought.An email from ramenadventure fan Dave led me to finally make the adventure out to this shop. Thanks for the bowl!  Dave is the 3rd or 4th person to email me out of the blue to hang out and eat ramen.  If' I've got the time (I usually do), let's slurp!More Shop Info HereView Larger Map  ",
-        "title": " ひるがお 東京ラーメンストリー (Hirugao at Tokyo Ramen Street) "
+        "best_of": true,
+        "title": "吉左右 (Menya Kissou in Kiba)"
     },
     {
         "date": "2010-03-16 00:00:00",
@@ -1667,6 +1752,7 @@ blog_data = [
             "http://farm5.static.flickr.com/4039/4614344692_0f4dc0495d.jpg"
         ],
         "post": " 凪 ゴールデン街店Recently, a few fellow adventurers have joined me on my hunt for great ramen in Tokyo.  I get random emails from blog readers who plan on a Tokyo visit, and I'm always happy to meet.  I wanted to take today's new friends, a couple of girls from Texas, to Fuunji.  But then...\"We want to drink in Golden Gai!\"I can't argue with that logic.  Golden Gai, the drinkinest street in Shinjuku, is also home to one of the best ramen shops in Town.  Nagi!A note of caution, this isn't delicious (it's an ashtray).  The ramen on the other hand...Wonderful!Rich!Perfection!Today I ordered a side of sansho pepper oil.  More than just spicy rayu, these are sometimes known as numbing pepper.I didn't get this in previous visits.I will get it in the future.Being Golden Gai, might as well have a drink with your noodles.Official Site Here (good design)View Larger Map  ",
+        "best_of": true,
         "title": " 凪 ゴールデン (Nagi Golden Gai in Shinjuku) "
     },
     {
@@ -1680,6 +1766,7 @@ blog_data = [
             "http://farm5.static.flickr.com/4070/4614298590_d074abdc80.jpg"
         ],
         "post": " 背脂煮干濃厚醤油 どっかんI went to Gamushara some time back.  It's a Niigata style shop that is actually 3 shops in 1.  Late night, it turns into Dokkan, a seabura ramen shop.  Seabura, the chunks of fat that can make or break an adventure.How does it look?A few people had recommended this bowl to me, and now I'm sold.  Usually, seabura is silky smooth, but this one was a bit more substantial.  Just enough texture to know that you are eating something, but not enough to know that you are eating chunks of pork fat.The soup had a lot of onion in it, which left a sweet aftertaste.This is the hangover killer here.  For the residents of Hatagaya, out on a late night binge, the perfect tisane is infused with fat.Feel free to add extra tare if you want some more flavor.Though it doesn't really need it.Official SiteView Larger Map  ",
+        "best_of": true,
         "title": " どっかん (Dokkan in Hatagaya) "
     },
     {
@@ -1814,6 +1901,31 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
         "title": " 虎龍 (Kotatsu in Shinjuku) "
     },
     {
+        "date": "2010-06-11 00:00:00",
+        "pictures": [
+            "http://farm5.static.flickr.com/4024/4669505296_0a8cbc72d5.jpg",
+            "http://farm5.static.flickr.com/4070/4668838303_ab0b394d5a.jpg",
+            "http://farm5.static.flickr.com/4066/4669464706_fd6c48dcb2.jpg",
+            "http://farm5.static.flickr.com/4009/4668858713_287c3b6e45.jpg",
+            "http://farm5.static.flickr.com/4057/4668848125_b10a9f7cf2.jpg",
+            "http://farm5.static.flickr.com/4038/4669478916_8d3a366436.jpg",
+            "http://farm5.static.flickr.com/4012/4669475622_5c54e4fe38.jpg",
+            "http://farm5.static.flickr.com/4052/4668862623_bb7a7d1b03.jpg",
+            "http://farm5.static.flickr.com/4072/4668870433_cbeeef2a9c.jpg",
+            "http://farm5.static.flickr.com/4054/4668874729_d3d3d25874.jpg",
+            "http://farm5.static.flickr.com/4057/4668878977_73ed6b878e.jpg"
+        ],
+        "post": "A 30 minute bicycle ride north of my apartment in Tokyo is Akabane. It was a simple enough adventure; have a couple drinks, chat with a friend, and head home. Until I got punked! パンクする, pankusuru, doesn't mean that Ashton Kutcher switched my shoyu tare with habanero chili oil. It means I got a punctured tire on my bicycle. So there I was, 7km from home, in a bind. But the June weather is fantastic at night, and I didn't have to be up early the next day. So I walked.
+
+        If I have the time, and I see a random ramen shop with a huge line, I stop. Fujimaru had over 20 people in line. On a Thursday night. Way in the countryside. And of those 20, 4 were ladies. I'll be honest, I don't go for the fat heavy manly ramen that attracts a 99.99% male customer base. Jiro, I'm looking at you. To make a long story about a long line short, after a 45 minute wait I found out that this chain is directly related to Jiro. Go figure. I should have known it when I spied from my bench outside the foot high pile of bean sprouts being served. But I needed fuel for the long walk ahead. And the sign boasting fresh, homemade noodles was inviting. I got the ramen with an extra hard boiled egg. For anything even remotely related to Jiro, tread lightly. Speaking of noodles... wow. And speaking of ramen... wow! This was intense. Do you see how the bowl is brimming with soup? I actually had to sip it down before taking it from the counter and putting it on my table. Trust me, you will too. You don't want to spill this. In fact, everyone sitting at the counter went through the same routine. Stand, sip, sit, eat. The pork was phenomenal. Tender and so salty from the shops secret soy sauce blend.
+
+        And these were some of the best noodles I've slurped. Robust. The soup is so rich that I could only finish a bit of it. But, like the original bowl, I was brimming with pork and noodles and about 3 cloves of garlic by this point.
+
+        Go here, fans of extreme ramen. There are 5 branches scattered around the extremities of Tokyo. And come hungry. Labels: オススメ",
+        "best_of": true,
+        "title": "富士丸 (Fujimaru in Kamiya)"
+    },
+    {
         "date": "2010-07-18 00:00:00",
         "pictures": [
             "http://farm5.static.flickr.com/4101/4804476009_41f02a6729.jpg",
@@ -1852,6 +1964,7 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
             "http://farm5.static.flickr.com/4140/4756668860_b39d7658be.jpg"
         ],
         "post": " おやじI have a new job (that makes 4 sources on income now) that sends me all over the greater Tokyo area.  I was out in Ebina that other day, and passed Machida on the hour long train ride.  Isn't ramen loving Yo! Japan's favorite shop there?  A quick text message and reply later, and I knew where my adventure for the night would be.Sapporo style miso is the deal here, and if you get the Oyaji set, you'll get just that with a side of gyoza.Ok, so this miso is really really good.  The general consensus with miso is that it needs to have a huge first impact the second you taste that soup.  Oyaji delivers.  Using imported dutch lard and a variety of vegetable, it tastes a bit like buttered corn dipped in pork broth.The noodles, pork, and toppings are simple, letting the soup stand out.The gyoza were fine, but it was a bit too much food for me.  If you went with a friend, maybe one of you could get the set.  Good luck getting a friend to go to Machida, though, it's a bit of a trek, out on the border of countryside Tokyo and Kanagawa.Along with Kururi and Tsujida, this is definitely a place to get your miso fix.More Shop Info HereView Larger Map  ",
+        "best_of": true,
         "title": " おやじ (Oyaji in Machida) "
     },
     {
@@ -1938,6 +2051,26 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
         ],
         "post": " 支那そば屋 こうやRamenate has a knack for meeting eccentric Japanese people.  A large portion of that group tends to be as a result of late night drinking in Golden Gai, Shinjuku's shady yet colorful drinking district.  Months ago he met an ancient ramen master, and we'd been itching to get to this shop since.  Goramen was along for the adventure as well.In their inebriated states, Nate and the master spoke about how he takes random trips across the globe in the name of research.  A few weeks in Cambodia to check out the local peppers?  Sure, why not.The won ton ramen looked perfect.  Some of the biggest I've had in Tokyo.  Everything is solid at Koya.  Not just the food, but the vibe as well.The atmosphere is great.  This shop is massive, with seats for up to 80 people.  It's also staffed by half a dozen elderly ramen veterans.  The waitress, somewhere in her late 60s, warned Nate about his bowl in the best English she could muster.\"Very hot\"Sure enough, those mysterious spices from far away lands were abundant in the spicy ramen.  We speculated some sort of habanero.By the way, there is a more complicated dinner menu.  I'll be back to try some of the more unique creations.  And stay tuned to Ramenate for a more detailed, properly researched writeup... someday!More Shop Info HereView Larger Map  ",
         "title": " 鶏の穴 (Torinoana in Ikebukuro) "
+    },
+    {
+        "date": "2010-08-06 00:00:00",
+        "pictures": [
+            "http://farm5.static.flickr.com/4081/4864923318_da25c15150.jpg",
+            "http://farm5.static.flickr.com/4080/4864307257_63d8dfb260.jpg",
+            "http://farm5.static.flickr.com/4099/4864928808_d54c4dff6b.jpg",
+            "http://farm5.static.flickr.com/4122/4864312479_946a3524fb.jpg",
+            "http://farm5.static.flickr.com/4093/4864315109_daeb83f73e.jpg",
+            "http://farm5.static.flickr.com/4121/4864937472_bb56dfd360.jpg",
+            "http://farm5.static.flickr.com/4143/4864325351_ee10533424.jpg",
+            "http://farm5.static.flickr.com/4117/4864337761_f62cc5f02f.jpg",
+            "http://farm5.static.flickr.com/4121/4864961000_dc3dee6554.jpg"
+        ],
+        "post": "Ramenate and I headed out to Kanda on what would be one of our last ramen adventures together for the near future. We've got to make every bowl count! 
+        With a friendly looking oni (Japanese demon) above the door, this place is pretty inviting. By the way, the name of the shop refers to the metal club that the oni bashes you senseless with. What, in the world of ramen ingredients, could bash your head in with a giant metal rod?How about not just one crazy spice, but two. Choose your level of kara, the regular hot, and your level of shibi, the shop's special sanshou mix. Sanshou is also known as numbing pepper. It's illegal in some states in America. It's really good. More oni. They are watching you. 
+        Amazing. This bowl is regular spice, extra numbing. Good choice for someone who can handle a little heat, but still wants to taste the soup. Nate went with oni-level of both spices. Reader beware. The numbing spice actually kills a lot of the initial heat, which creeps up a few minutes later. This is dangerous (and delicious) stuff. Kikanbou gets a high rating in my book. I'll even say that if you are a fan of miso and/or spice, it's a must visit.
+        Labels: オススメ",
+        "best_of": true,
+        "title": "鬼金棒 (Kikanbou in Kanda)"
     },
     {
         "date": "2010-08-07 00:00:00",
@@ -2265,6 +2398,22 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
         "title": " ようちゃん (Yuchan a.k.a. Gyoza Power in Ibaraki) "
     },
     {
+        "date": "2010-11-03 00:00:00",
+        "pictures": [
+            "http://farm5.static.flickr.com/4040/5142694219_52010c1c2d.jpg",
+            "http://farm2.static.flickr.com/1190/5143306764_3523b8fbe4.jpg",
+            "http://farm2.static.flickr.com/1160/5142699145_4167cb8cbf.jpg",
+            "http://farm2.static.flickr.com/1153/5143308986_70d34c5165.jpg",
+            "http://farm2.static.flickr.com/1170/5143319074_344083a00f.jpg",
+            "http://farm2.static.flickr.com/1170/5143319074_344083a00f.jpg"
+        ],
+        "post": "Fuunji, the lonely adventurer, has been on my list for ages, and I rolled up at 3:30pm on a Tuesday afternoon. As someone who often ventures out as a lonely adventurer, I'm no stranger to arriving at a closed shop. Sure enough, Fuunji is closed from 3:00 to 5:00 for preparation. With a lesson at 6, I had the easy task of killing time in Shinjuku. The downside is that now I want a $5000 3D plasma television.
+        I went back a little early, with plans of sitting in a nearby park until the shop reopened. Twenty minutes before opening, there were already a dozen people in line. This would expand to almost 30.
+        No hesitation ordering the tsukemen. How would Fuunji stack up to my favorite shops, TETSU and Rokurinsha? Bested. This is my new favorite tsukemen shop. It does justice to the massive line and rave reviews. The soup is layers upon layers of fish flavors. The essence of roasted fish skin gave this the gold for me. I'll be back, if I have the time. Labels: オススメ",
+        "best_of": true,
+        "title": "風雲児 (Fuunji in Shinuku)"
+    },
+    {
         "date": "2010-12-28 00:00:00",
         "pictures": [
             "http://farm6.static.flickr.com/5010/5299541333_d435529dde.jpg",
@@ -2421,6 +2570,7 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
             "http://farm6.static.flickr.com/5091/5392510162_a288ef00ab.jpg"
         ],
         "post": " 頑者        Work out in Saitama gave me an excuse to check out Mega Ganja in Kawagoe.  But time was of the essence, as I was meeting one of my site followers with just enough time to eat and make my lesson.        I wasn't in that much of a rush.        So when we arrived at Mega Ganja, it was closed.  Finding this place was quite an adventure, though I think it would be a bit easier with the massive line that I'm sure is prevalent during business hours.  I quickly went to plan B.  Ganja.  Didn't you just say Ganja?  No, I said Mega Ganja.  I'll explain later, things are looking bad on the wristwatch.        Ganja had, as expected, a massive line.  They do things like the recently closed Rokurinsha.  Empty every seat, then bring in the next 11 people.  Only when they finish will the next batch of customers be allowed in.  It's a bit slower than normal, but an interesting way to run a shop.  We waited about a 45 minutes.        The tsukemen is good, it's your standard tonkotsu gyokai style.  A bit fishier than most, and not quite as thick.  Definitely well made.  I always say that there are too many of these types of shops, but up in countryside Saitama, this is probably the only shop for miles around.        Ganja has actually been around for a while, but recently has really blown up.  They took their success, evident with their inclusion at the Yokohama Raumen Museum, and opened a few other shops in Kawagoe.  The one I really want to see is called Mega Ganja, a junk style stop with mounds of pork fat piled on top of your cheese noodles.  You'll just have to wait!    Oh, I ate this bowl in record speed, ran to the station, caught an express train, ran to my lesson, and made it with 4 minutes to spare.  Nice!    Official Site Here   View Larger Map         ",
+        "best_of": true,
         "title": " 頑者 (Ganja in Kawagoe) "
     },
     {
@@ -2478,6 +2628,22 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
         "title": " 悪代官 (Akudaikan in Koiwa) "
     },
     {
+        "date": "2011-01-01 00:00:00",
+        "pictures": [
+            "http://farm6.static.flickr.com/5167/5312627399_e5d539a08b.jpg",
+            "http://farm6.static.flickr.com/5286/5312613127_c2e553f81a.jpg",
+            "http://farm6.static.flickr.com/5006/5312618675_61cb073e0a.jpg",
+            "http://farm6.static.flickr.com/5245/5312621599_5e14a208d9.jpg",
+            "http://farm6.static.flickr.com/5284/5312624359_f8d7e03f5e.jpg",
+            "http://farm6.static.flickr.com/5283/5312615377_056b099ea8.jpg",
+            "http://farm6.static.flickr.com/5047/5312636323_065686543f.jpg"
+        ],
+        "post": "On an end of the year shopping adventure into Ikebukuro, ramen is a must. There are so many quality shops that it can be hard to choose. Luckily, King Kong is in every publication on the subject of ramen, due in part to their rookie status. An August opening gets you noticed, but its the quality that keeps you going. So how about that quality. Will King Kong be climbing it's way up the ramen ranking towers? You bet. Everything about this tsukemen deserves consideration. I went with the king sized \"King\" version, which comes loaded with everything you could want. The herb grilled pork is succulent, and the extra pieces were devoured duly. A lot of tonkotsu gyokai, fish and pork blends, have the same taste. King Kong's soup is on the sweet side, thanks to the addition, of all things, blueberries in the soup. 
+        It's a subtleness that I've never seen before. Other fruits and berries are used as well. And even the tableside vinegar gets kicked up with lemon and apple. The other aspect of fine ramen is of course the noodles. King Kong sources theirs from a good local spot. How local? Local enough to be delivered by an old guy riding a bicycle. I'll be back to this block soon. Next door was another tsukemen shop, with an even bigger line. Labels: オススメ",
+        "best_of": true,
+        "title": "池麺 KING KONG (King Kong in Ikebukuro)"
+    },
+    {
         "date": "2011-02-24 00:00:00",
         "pictures": [],
         "post": " 山手線A first trip to Tokyo can be daunting.  Shinjuku Station, to use the most extreme example, services close to 4 million people every day.  A single train from Tokyo Station can take you non-stop to the northern reaches of Aomori; another down south to the island of Kyushu (sorry ramen fans, there still isn't a direct link from Asahikawa to Kumamoto).  But one thing is simple and constant in this city; that lime green Yamanote line.A train comes every 3 minutes.  It takes an hour to loop the city.  It stops at almost every ramen hub in town.  Here are my top 5 ramen shops within a stone's throw of this iconic line.風雲児 - FuunjiFuunji's smoky fish flavored soup is rich and satisfying.  At first, I mistakingly thought it was a standard pork bone broth mixed with fish powders, with a few secret ingredients thrown in.  But it's actually made with chicken bones.  How they get so much thick umami out of that I don't know, but it's great.  Expect lines.My full writeup is here.Exit the JR Shinjuku Station South Exit and turn right on the main road.  Continue past the 1st large intersection.  At the next signal, cross the street and go down the road there.  You should pass a Starbucks coffee and police box on your right.  Fuunji is just past that on the right.Open 11-15, 17-21 Closed Sundays東京都渋谷区代々木2-14-3Tokyo, Shibuya-ku, Yoyogi 2-14-3鬼金棒 - KikanbouThe fiery bowl at Kikanbou gives you no choices, yet many.  By choosing your level of both their signature 10-spice kara mix and numbing sansho pepper shibi mix you can go from safe (and delicious) to dangerous (and delicious) as you will.My full writeup is here.Exit the Kanda Station and walk north along the tracks for a minute or 2.  Cross at the signal and turn right.  Walk another minute.  It's on a corner.Or watch this video.Open 11-16, 17:30-21Saturdays 11-16Closed Sundays東京都千代田区鍛冶町2-10-10Tokyo, Chiyoda-ku, Kajicho 2-10-10AFURIAt the forefront of the cafe-style ramen trend in Tokyo is AFURI.  The simple shio and shoyu soups, kissed with fresh yuzu citrus, pull in both hardened salarymen and health conscious ladies alike.Full writeup here.From Ebisu Station West Exit turn right on the major road.  Walk past the first signal and turn right on a smaller street.  You should see AFURI there.Open 11am-late (about 4am)東京都渋谷区恵比寿1-1-7Tokyo, Shibuya-ku, Ebisu 1-1-7西尾中華そば - NishioA relative newcomer, Nishio won a lot of praise for his shoyu ramen.  Using corn meal in the noodle making process and mixing both chicken and fish stocks for the soup isn't very traditional, but it works wonderfully.Full review here.From Komagome Station, turn right on the main road.  Walk down the hill.  Just before the intersection at the bottom is an alley to the left.  Nishio is just down there.Open 11:30-15:30, 17:30-22東京都北区西ヶ原1-54-1Tokyo, Kita-ku, Nishigahara 1-54-1The Tokyo Ramen StreetA great selection of 8 different shops convene in the undergrounds of Tokyo Station.  This is your one-stop-shop to try some  of the best.  You could come here every day for a week and still tell your friends that you experienced some of the best noodling in the city.Now, there are only 4 shops, but from April 2011, there will be 8.  Shops on these ramen streets change, here are the 4 as of writing.KeisukeRokurinshaHirugaoMutsumiyaFrom Tokyo Station, look for signs, ask a station attendant, or just wander until you find it.  It's not hard, but hard to describe!Open 11-22I made a google map of these shops, but it doesn't always display correctly:http://maps.google.com/maps/ms?ie=UTF8&hl=en&msa=0&msid=210923266256800335446.00049d03e8a19979bf444&z=13Yes, this list is flawed as there are no tonkotsu shops.  I was stumped for great tonkotsu that is within sight of the Yamanote.  ",
@@ -2496,6 +2662,7 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
             "http://farm6.static.flickr.com/5179/5472811135_b73a6f63b1.jpg"
         ],
         "post": " ajito        I still get asked occasionally about the ice cream ramen I ate some time last year.  These people asking me surely aren't searching for the best bowl of noodles in town.  You can search for the perfect bowl, or you can search for the weirdest bowl.  It's your adventure!        Personally, I'm a big fan of the strange and unusual.  So when I heard of a hidden gem in the suburbs of Oimachi that served a pizza mazemen, it went on the list.        ajito is a bit hard to find.  I had a few travelling ramen fans from Singapore (by the way, check out my friend's blog for a Japanese ramen master's life in the city: Noodleholic) so the pressure was on.  The shop is very nondescript, the English lettering being the only way we would have found it without consulting the local police department (they always know).        Two choices, standard and butatama.  You can choose 3 sizes.  Go with the small size.  Medium was too much.        The butatama version, as slurped by my friends.        And the standard.  That is a pile of anchovy powder on top.  Freshly cut yellow and green peppers, onion, and tomato add a bit of health to the mix.  The salami was a great touch, they could have easily gone with some sort of sausage topping and still called it the same thing.  Noodles are standard tsukemen style, thick and heavy.  Again, heed the shop masters warning that the M is けっこ大き - a little big.  Oh, and there is a big pile of cheese under it all.        Fun stuff.      I made a video with AKB48 member Rena. Check it out!         View Larger Map    More Info Here  ",
+        "best_of": true,
         "title": " ajito (Pizza Mazemen at ajito in Oimachi) "
     },
     {
@@ -2667,7 +2834,8 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
             "http://farm6.static.flickr.com/5138/5511648736_116045f62c.jpg"
         ],
         "post": " 無鉄砲    Muteppo is highly ranked.  Sure, there are a dozen or so publications and websites with ramen rankings, but when your shop is on almost all of them, there's got to be something special about it.    Less than 6 months old, they already have a devout following.  All I knew going in was that it is a tonkotsu shop.  I was expecting creamy white soup with the standard toppings.    The staff asked how I wanted my noodles cooked.  A usual question.  But then, they asked if seiabura, back fat, was ok.  That is definitely not a standard tonkotsu question.  Of course, I accepted.    Wow.  Intense hardly describes what is going on here.    The shop uses over 300kg of roasted pork bones a day.  You can bet the impact is there.  This is the definition of kotteri, thick and rich.    Top it with some soy marinated garlic slices.    My apologies to anyone sitting next to me on the train.    Another bonus, you can order a free side of light soup to add.  Choose from either a fish broth or a light tonkotsu broth.    For certain one of the most intense tonkotsu ramens out there.    By the way, according to their website, they have a branch in Sydney.  Any ramen adventurers down under?  I'd love to here about it.  Check out my video review here!      View Larger Map  Official Site  More Info Here        ",
-        "title": " 新 東京らーめんチャンピオン (New Tokyo Ramen Champion) "
+        "best_of": true,
+        "title": "無鉄砲 (Muteppo in Nakano)"
     },
     {
         "date": "2011-04-11 00:00:00",
@@ -2820,6 +2988,7 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
             "http://farm6.static.flickr.com/5270/5726684194_6f5ea87374.jpg"
         ],
         "post": " 八雲Yakumo lies on the rarely visited outskirts of the giant concrete river in Nakameguro.  There are a few good ramen shops along said river, but it's in your best interests to keep walking until you reach this shop.Since opening in 1999, this shop has garnered a lot of praise for it's product.  The soup is an excellent mix of the standard fare, with a choice of white or black shoyu, or a hidden choice of mix.  Ask for it at the counter.But what really sets Yakumo above the bar are the wontons.  The shop makes both standard pork dumplings and shrimp dumplings.  Ordering the wantanmen will get you 6, a very generous amount in this day and age.Again, go for the mix.  Mix soup, mix wontons.  View Larger Map東京都目黒区大橋1-7-2 オリエンタル青葉台2階Tokyo, Meguro-ku, Ohashi 1-7-2 on the 2nd floorNearest station: IkejiriohashiOpen 11:30-15:30, 17:00-21:00Closed Tuesdays  ",
+        "best_of": true,
         "title": " 八雲 (Yakumo in Nakameguro) "
     },
     {
@@ -2929,7 +3098,8 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
             "http://farm6.static.flickr.com/5022/5819486609_815a67960e.jpg"
         ],
         "post": "  中華蕎麦 とみ田        Tomita ranks in at #1 on many ramen lover's lists.  But more notable than any single individual's taste is the coveted #1 spot on the Japanese supleks database.  I've never been disappointed by a highly ranked (90+) shop on that database.  At the time of writing, Tomita is sitting at 97.396. The supleks database leans far left, with liberal party being traditional shoyu and green party being new, robust pork soups.  Tonkotsu gyokai tsukemen in particular tends to be ranked high.    Matsudo is surprisingly closer to Tokyo than I thought.  Often, a shop in a neighboring prefecture requires a few hours of dedicated time.  At less than 20 minutes from the Yamanote line, Tomita is closer than many inner city shops.        Expect to wait.  One staff member is on duty full time, letting you know when and where to sit in line, when to buy your ticket, and when to enter the store.  A lot of people bought a take home pack.  No wait for that one.        Here it is, the coveted tonkotsu gyokai tsukemen from Tomita.  Any popular tsukemen will have something about it.  Something extra.  Most shops of this kind are just good.  Rising above \"just good\", Tomita's soup is a little grainy, with tiny flecks of fish and pork bits sticking to everything that comes in contact.          Superb.  Little details, like the last minute splash of boiling soup to keep it the right temperature, were noted.        The shop will try and serve everyone at once, so that the master can focus on one thing at a time.        Mr. Tomita may only cook ramen for 5 hours a day at lunch, but he also oversees the handmade noodles, and apparently operates a few other restaurants in the neighborhood.  I think if he were to walk down the street here in Matsudo, every local greet him with praise.  Perhaps he isn't seen walking down the street too often though, as he lives just upstairs according to this video:            When you ask for it, the soup owari, broth added to the soup after your noodles are finished, is the best I've had in Japan.        At a typical shop, it's just clear broth.  Tomita adds that broth, along with ground pork and fresh yuzu peel.  You'll leave refreshed, and likely thinking about the next time you can make it back.        Official Site Here (Japanese)     View Larger Map     千葉県松戸市松戸1339 高橋ビル1F Chiba, Matsudo-shi, Matsudo 1339 Nearest station: Matsudo  Open 11:00-16:00 Closed Wednesdays  ",
-        "title": " はやし (Hayashi in Shibuya) "
+        "best_of": true,
+        "title": "とみ田 (Tomita in Matsudo)"
     },
     {
         "date": "2011-06-11 00:00:00",
@@ -3073,6 +3243,39 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
         "title": " 辰屋 (Tatsuya in Setagaya) "
     },
     {
+        "date": "2011-09-07 00:00:00",
+        "pictures": [
+            "http://farm7.static.flickr.com/6064/6123153949_0a4305ac82_z.jpg",
+            "http://farm7.static.flickr.com/6187/6123695212_c91aa000ee_z.jpg",
+            "http://farm7.static.flickr.com/6210/6123154971_bf686d0ec1_z.jpg",
+            "http://farm7.static.flickr.com/6191/6123699860_6c4b9b3dc2_z.jpg",
+            "http://farm7.static.flickr.com/6181/6123159345_f9604f8162_z.jpg",
+            "http://farm7.static.flickr.com/6197/6123697890_dd53b0a71d_z.jpg",
+            "http://farm7.static.flickr.com/6085/6123700904_3fa30372f4_z.jpg",
+            "http://farm7.static.flickr.com/6073/6123702570_f71ee05a79_z.jpg"
+        ],
+        "post": "What is ramen? What is a ramen adventure? The later question is a personal one, and to me just skipping down the street can turn into an adventure featuring ramen. The first question is a difficult one. Or is it a simple one?
+
+        What I am getting at is that sometimes on the ramen scene in Japan, someone works at a famous shop, then goes and gets crazy, and we all ponder what has just been created.
+
+        It should not take much to figure out what you will find in this ramen. It pops up everywhere in the shop. Why not?
+
+        Why not make a shio ramen with pineapple juice?
+
+        Why not top it with chunks of pineapple?
+
+        Why not soak the half-cooked egg in pineapple juice, offer pineapple-infused vinegar for flavor, or serve your ramen with pineapple flavored wine to drink? Despite what seems like a risky business venture (nothing on the menu is pineapple-less), this is an interesting bowl. Roasted pineapple flavors mingling with salty is nothing unheard of, though this is a far cry from Hawaiian style pizza or a teriyaki burger.
+
+        Every flavor is light in the bowl. I went with the cold shio version to help me with the 35 degree battle outside. I think hot would be a better choice. Hot would be like flavoring ramen with pineapple. Cold was like flavoring pineapple with ramen. There is a difference there.
+        The egg is a ball of flavors. Order one. The madman, Haruda-san, comes by way of respected ramen shop Kai. I might not be craving this again anytime soon, but it is certainly somewhere that any ramen nut living in Tokyo should check out. 東京都杉並区西荻南3-12-1
+        Tokyo, Suginami-ku, Nishiogiminami 3-12-1
+        Closest station: Nishi Ogikubo
+
+        Open 11:00-21:00",
+        "best_of": true,
+        "title": "パパパパパイン (Papapapa Pine in Nishi Ogikubo)"
+    },
+    {
         "date": "2011-10-28 00:00:00",
         "pictures": [
             "http://farm7.static.flickr.com/6230/6288425849_3213f9493e_z.jpg",
@@ -3153,7 +3356,8 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
             "http://farm7.static.flickr.com/6160/6245544200_00f7c33128_z.jpg"
         ],
         "post": " 中華蕎麦 蘭鋳\"Best of\" lists are commonplace on the Japanese ramen scene.  The grand daddy of all ramen sites, the Supleks Database, has dozens of ways to sort through the best three of any category.  Their's is based on scientific formulas; statistics gathered from hundreds of reviews.  Mine is a bit less formal.  Word of mouth, most of the time.  Which is why I had to make it to Ranchu.I have often said that Shichisai, in the northwestern burb of Nerima, has the absolute best chashu in the city.  A few friends, independent of each other, both told me that Shichisai should come in with a respectable silver.  The gold going to Ranchu.Without a doubt I ordered the nikusoba.Before we get to the pork, the rest of this bowl is spectacular.  Most people ordered it with an extra helping of menma, as theirs is great.  Something about this bowl felt... special.  Maybe it was the suburban location, maybe it was the odd hours that are kept.  A must-eat for anyone out on the west side.And the pork.  From the picture, you can judge how rich and meaty it was.  Definitely on the podium, but I still like Shichisai's a bit more.  They are a bit more delicate and tender.  Ranchu is more robust, and a lot larger.  Why not try them both?  If you are on a bicycle, you could ride between the two in less than a half hour.View Larger Map東京都杉並区堀ノ内2-13-13Tokyo, Suginami-ku, Horinouchi 2-13-13Closest station: HonanchoOpen 12:00-14:00, 18:00-21:00Saturdays 12:00-15:00Closed Sundays and holidays  ",
-        "title": " 神名備 (Kamunabi in Nishi-Nippori) "
+        "best_of": true,
+        "title": "蘭鋳 (Ranchu in Honancho)"
     },
     {
         "date": "2011-10-17 00:00:00",
@@ -3267,8 +3471,9 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
             "http://farm7.staticflickr.com/6040/6356563079_8680a00777_z.jpg",
             "http://farm7.staticflickr.com/6044/6356564981_7864546df0_z.jpg"
         ],
-        "post": " 味噌麺処 花道Research is often an afterthought on the ramen adventure.  Note down a shop, maybe look up their hours, and when the time and location is good, eat.  Hanamichi's research taught me that the chef worked for both Inosho and Nakamoto, 2 of the hottest bowls around.  Of course, this research was done after I ate their standard, spiceless bowl of miso ramen.Free garlic, fresh and raw.This is one thick bowl of miso.  Intense and creamy, it would make a great backdrop for some spice.  If I had done my research.I bet these noodles, eggy and cooked firm, would have held onto just the right amount of fire.Regrets aside, this miso is a contender.  I'll be back.Official Site HereView Larger Map東京都中野区野方6-23-12Tokyo, Nakano-ku, Nogata 6-23-12Closest station: NogataOpen 10:30-15:30. 18:00-22:30Weekends 10:30-21:30Closed Tuesdays  ",
-        "title": " 笑梟 (Fukuro in Nishi-Shinjuku) "
+        "post": " 味噌麺処 花道 Research is often an afterthought on the ramen adventure.  Note down a shop, maybe look up their hours, and when the time and location is good, eat.  Hanamichi's research taught me that the chef worked for both Inosho and Nakamoto, 2 of the hottest bowls around.  Of course, this research was done after I ate their standard, spiceless bowl of miso ramen.Free garlic, fresh and raw.This is one thick bowl of miso.  Intense and creamy, it would make a great backdrop for some spice.  If I had done my research.I bet these noodles, eggy and cooked firm, would have held onto just the right amount of fire.Regrets aside, this miso is a contender.  I'll be back.Official Site HereView Larger Map東京都中野区野方6-23-12Tokyo, Nakano-ku, Nogata 6-23-12Closest station: NogataOpen 10:30-15:30. 18:00-22:30Weekends 10:30-21:30Closed Tuesdays  ",
+        "best_of": true,
+        "title": "花道 (Hanamichi in Nakano)"
     },
     {
         "date": "2011-11-23 00:00:00",
@@ -3296,6 +3501,36 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
         ],
         "post": " 中村屋@WeST PArK CaFEWeST PArk CaFE is a popular burger joint in Kichijoji.  Classy burger joints are a theme in this part of Tokyo, as are all manner of chic eateries.Nakamuraya is the renowned ramen shop from Ebina.  Sometime last year they teamed up, and the result is one of the most popular shops in the area.A burger?!?  What is the meaning of this!That's better.  The shio is dusted with yuzu peel.  Great stuff, very fitting of the atmosphere.Speaking of atmosphere, this shop's second floor is a bit of a book cafe.  What sort of reading is appropriate?Irony never tasted so good.Dr. Atkins approves!  Go ahead and eat as much ramen as you want, and watch those kilograms disappear.View Larger Map東京都武蔵野市吉祥寺本町2-19-7Tokyo, Musashino-shi, Kichijojihonchome 2-19-7Closest station: KichijojiOpen 11:30-22:00Weekends and holidays until 23:00  ",
         "title": " 花道 (Hanamichi in Nakano) "
+    },
+    {
+        "date": "2011-11-20 00:00:00",
+        "pictures": [
+            "http://farm7.staticflickr.com/6240/6356527767_51673f5029_z.jpg",
+            "http://farm7.staticflickr.com/6095/6356525303_12e5ce73d5_z.jpg",
+            "http://farm7.staticflickr.com/6058/6356518555_c85ae76fa8_z.jpg",
+            "http://farm7.staticflickr.com/6060/6356523283_e14660c48c_z.jpg",
+            "http://farm7.staticflickr.com/6219/6356509587_61ee291922_z.jpg",
+            "http://farm7.staticflickr.com/6240/6356513733_a59066bbb1_z.jpg",
+            "http://farm7.staticflickr.com/6213/6356507367_6488f0d2b0_z.jpg",
+            "http://farm7.staticflickr.com/6119/6356516461_0e6c217709_z.jpg"
+        ],
+        "post": "Ever since En was elected as the best rookie shop of 2009, it has been the talk of the town. But this small town known as Tokyo is geographically skewed. Though most shops of note can be found via a short train ride, some are a bit of a trek. Many many people live out west in the Hachioji area, but it can be a tough journey for the rest of us.
+        As is the norm with most shops that determine their hours based on soup availability, I have been to En a few times, only to be turned away.
+        
+        This time I was there early. I didn't even have to wait in a line, though those arriving mere minutes later wouldn't be so lucky. The shop offers 3 bowls of note. Niboshi, mukashinagara, and shio. The mukashinagara, which roughly translates to old school, was tempting, but the niboshi was chosen. You can see why this would be a top shop. Every aspect of the bowl is top-notch. I can't recommend it enough.
+
+        The niboshi taste is lighter than other popular shops, and finishing the entire meal is no problem. An omori size would be no problem.
+        I'm not the biggest fan of raw egg on rice, but when I saw how En does it, the draw was too appealing. For 300 yen, you get your pick of fresh eggs. Choices vary daily, and this time duck, Araucana, and brown Cochin were presented. How neat is that!
+        
+        Like I said, I'm not the biggest fan of raw egg on rice, but this fresh duck egg was great. As with everything at En, supplies are limited. Get there early. 東京都八王子市横山町21-21
+        Tokyo, Hachioji-shi, Yokoyamacho 21-21
+        Closest station: Hachioji
+
+        Open 11:00-about 14:00, 17:00-about 19:30
+        Closed Wednesday
+        Labels: オススメ",
+        "best_of": true,
+        "title": "圓 (En in Hachioji)"
     },
     {
         "date": "2011-12-31 00:00:00",
@@ -3328,6 +3563,7 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
             "http://farm8.staticflickr.com/7156/6557645391_a31a982f34_z.jpg"
         ],
         "post": " ソラノイロ japanese soup noodle free        Soranoiro, which probably means the color of the sky, is a recent winner of a whole stack of awards.  November is ramen magazine month in Japan, for some reason.  Ramen no Hon, Sugoi Ramen, Kami Ramen, and Ramen Walker, to name a few.  It seems like the names behind all of these magazines get together and crown a few winners the following month.        Soranoiro took home accolades in a few categories.  Their shoyu based chukasoba was lauded as excellent.  As usual, I tried the more interesting menu item, a vegetable based bowl.  You can read all about the differences here:        To sum it up, the chukasoba is standard, using very high quality ingredients.  The veggie, on the other hand, gets all crazy.  The noodles use paprika to give a bright orange hue.  And the soup is pureed with a few things, though the carrot was the dominant taste.  Subtle undertones of scallop and salt are there, but really the carrot is what you will taste.        Expect a wait.  And with over 50% of the menu being lighter, healthy choices, expect an even ratio of men to women.          Someone let me know how the standard shoyu is!      Check out my video review!    And this one!      Official Site Here     View Larger Map   東京都千代田区平河町1-3-10 Tokyo, Chioda-ku, Hirakawacho 1-3-10 Closest station: Kojimachi)  Open 11:00-14:30, 17:00-21:30 Saturday 11:00-15:00 Closed Sundays  ",
+        "best_of": true,
         "title": " ソラノイロ (Soranoiro in Kojimachi) "
     },
     {
@@ -3400,7 +3636,8 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
             "http://farm8.staticflickr.com/7165/6471415005_3a221249be_z.jpg"
         ],
         "post": " つけ麺 五ノ神製作所つけ麺 五ノ神製作所Go no kami seisakujo.Five's God Factory for those of you without a dictionary on hand.  This has got to be a reference to something.  Language buffs help me out here!Despite the cryptic name, this shop is hot on the ramen scene.  They boast one thing, and one thing alone.Shrimp.  The place positively reeks of shrimp.  Reek, reek, it rhymes with good eats.  There is a lot of draw in that sweet smell.The menu is on the large side, with a shrimp miso and a shrimp tomato tsukemen being the top sellers.If the aroma of the shop wasn't a dead giveaway, the taste sure is.  Pure shrimp goodness.  Artfully topped with a dollop of pesto and sliced baguette, this is another bowl that is trying to break into new territory.  And with one of the recent ramen magazines declaring 2012 as the year of shrimp ramen, Gonokamiseisakujo is poised to be one of the top shops in town.  Or maybe it's just a fad.  Last year's declaration of \"beef ramen\" was a bust, and I'm sure next year's \"turkey noodles\" will be no more than a 4 page magazine spread.View Larger Map東京都渋谷区千駄ヶ谷5-33-16Tokyo, Shibuya-ku, Sendagaya 5-33-16Closest station: ShinjukuOpen 11:00-15:00, 17:00-21:00Saturday 11:00-21:00  ",
-        "title": " きむら (Kimura in Gunma) "
+        "best_of": true,
+        "title": "五ノ神製作所 (Gonokamiseisakujo in Shinjuku)"
     },
     {
         "date": "2011-12-07 00:00:00",
@@ -3413,7 +3650,8 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
             "http://farm8.staticflickr.com/7024/6471393283_e7df44aa7d_z.jpg"
         ],
         "post": " 麺や 河野A recent adventure to booze-spiked Koshi had me wanting more.  More alcohol in my ramen!Kono's original draw was just that.  Forget the noodles, just look at this menu.For a mere 300 or 500 yen, you can have a glass of choice tequilla.  Nice price!  And in a country that doesn't know the difference between blanco and anejo, this selection is amazing.Being 11 in the morning, I abstained.Sort of.  The shop's special bowl, the R-20, includes a shot of the stuff.  Sorry kids and drivers!Yeah, you should be skeptical of this bowl at first.  Seems like a gimmick.But the tequilla, the cilantro, the lime... it melds with the shio broth perfectly.  Any other soup, shoyu or miso for example, would be too much.  And I think tonkotsu-gyokai would pair better with a nice scotch.It's hard to review this bowl without making wise-cracks, so I'll just say that it was great.And yeah, I felt tipsy after eating this.  A shot of booze in the morning will do that!View Larger Map東京都練馬区中村3-13-10Tokyo, Nerima-ku, Nakamura 3-13-10Closest station: NakamurabashiOpen 11:30-13:30, 17:00-20:00Closed Tuesday  ",
-        "title": " 五ノ神製作所 (Gonokamiseisakujo in Shinjuku) "
+        "best_of": true,
+        "title": "河野 (Kono in Nerima)"
     },
     {
         "date": "2012-01-30 00:00:00",
@@ -3448,6 +3686,7 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
             "http://farm8.staticflickr.com/7143/6725467719_2abe0e8b46_z.jpg"
         ],
         "post": " 牛骨らぁ麺 マタドールAll the ramen celebrity eaters have been here.And heaps of congratulation letters cover the wall.This is what happens when you land your newly opened shop on the cover of the annual TRY magazine.  Tokyo Ramen of the Year. I like this magazine.  It's not so great as a guidebook, but it gives a nice insight into which shops are making waves.  Matador sits on the podium for both their shoyu and their originality.The 贅沢焼牛らぁ麺 (luxirious roast beef ramen) is as good as it looks.  Giant slabs of roast beef, local green onion, extremely high grade shoyu and mirin; I usually feel that 1000 yen for a bowl is too high, but in this case it's almost too low.Since the soup is made from nontraditional beef bones, expect a much sweeter bowl here than your average.No word on whether any real matadors were employed in the creation of this bowl.View Larger Map東京都足立区千住東2-4-17 中村ビル1FTokyo, Adachi-ku, Senjuazuma 2-4-17Closest station: Kita-SenjuOpen 11:30-14:30, 18:00-soup runs outWeekends 11:30-soup runs outClosed Mondays  ",
+        "best_of": true,
         "title": " マタドール (Matador in Kita-Senju) "
     },
     {
@@ -3515,6 +3754,28 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
         ],
         "post": "  The Ramen Americans weekly column is going strong.  As always, each week we pick a theme and talk about it.  As always, you can grab a copy at your local bookstore, convenience store, or anywhere fine magazines are sold (in Japan!).Cover-girl of the week is Watanabe Miyu, with promises of a solo photo-shoot inside.  You'll also find articles about asbestos disposal in the disaster area and a cardigan buyers guide.  Did you forget how random this magazine is?Our article this week talks about some tonkotsu gyokai tsukemen shops we like.  Our main idea is that most shops of this style are very similar, and it doesn't take much to be simply \"good\". Something extra is needed to make an impact.  We both love Fuunji, hands down.The cover is graced by 21 year old Nakamura Miu.  As you can guess, it's not a work-safe photo spread.  Inside the mag are articles about the pirate Blackbeard, and a write-up about Japanese sake that is popular overseas.  Wow, a whole page on my favorite sake brewer, Masuichi!  This is in no way a sake expert's site, but I highly recommend their Hekiiken.  A dry brew that always gets compliments.The article talks Abram's recent trip to Osaka to be on a morning show there.  And, yes, I know our weekly English comment is less than correct grammatically.Kashiwagi Yuki, you can't leave the house in Japan without seeing her and her fellow AKB48 members these days.  There is a nice lesson on Chinese in this issue, with some useful phrases like このミカンマークではなく、アップルのiPhone4Sをください.  We talk about Abram's Kansai trip in more detail this time.  Tokyo is king, but there are some really interesting looking spots out west. Oshima Yuko.  Didn't think you could learn about so many AKB48 girls on a ramen website?  Think again!  Also there is a photo-shoot where cute girls recreate キン肉マン fight moves. Don't believe the hype!  There are quite a few shops in Tokyo that are hyped beyond belief.  We lay the smack down kinnikuman style.  Sapporo Junrei?  Go back to Hokkaido.  Ichiran?  Never.  What about Jiro?  We are split on that one, but you won't see any reviews of that artery clogging spot here!See you next time!  ",
         "title": " ラーメンアメリカ人 4-7 (Ramen Americans Month Two) "
+    },
+    {
+        "date": "2012-01-14 00:00:00",
+        "pictures": [
+            "http://farm8.staticflickr.com/7156/6678074715_7a3297f1b6_z.jpg",
+            "http://farm8.staticflickr.com/7014/6678088651_2715ae11aa_z.jpg",
+            "http://farm8.staticflickr.com/7170/6678084597_3e7b82d610_z.jpg",
+            "http://farm8.staticflickr.com/7024/6678070973_d483978bfa_z.jpg",
+            "http://farm8.staticflickr.com/7013/6678078857_6dd98c975d_z.jpg",
+            "http://farm8.staticflickr.com/7022/6678081297_51e7627767_z.jpg",
+            "http://farm8.staticflickr.com/7031/6678086549_043a2bf4d2_z.jpg"
+        ],
+        "post": "The search for great tantanmen in Tokyo continues. Through a website comment on the last, rather unsatisfactory bowl the stuff, I was led to somewhere that was certainly off my radar. Lashohan in Kanda... never heard of it! But now you have. And if spicy Si Chuan style noodles covered with shibi pepper is your thing, you should check it out. As did VVV6, a popular food ranking show in Tokyo, where attractive TV personalities go around ranking the topic of the day. A couple years ago the topic was tantanmen, and the coveted #1 spot led to 6 months of lines at the tiny shop. Almost 3 years later, you probably won't face a long line, but the soup might be out if you come late in the day. The premium Si Chuan (プレミアム正宗担々麺) is almost a mazemen, with just a little bit of soup. It also came with a warning. Although I don't consider tounge-numbing sansho to be spicy per se, it can be on the same level of destructive spices as a fiery pepper. So be warned, if you aren't a huge fan of the stuff, go with the regular Si Chuan. But you should really go for the premium. This bowl was intense. Okada-san, after slaving away as a salaryman in Hong Kong, eating spicy noodles everyday, did what any sane person would do: moved to Tokyo and opened a shop. He said he gets a few foreigners in his shop, most likely due to it being next to a university. He also gets a few ramen maniacs, who almost always come for the above mentioned bowl. 東京都千代田区神田錦町1-4-8
+        Tokyo, Chioda-ku, Kanda Nishikicho 1-4-8
+        Closest station: Ogawamachi
+
+        Open 11:00-15:00, 17:00-21:30
+        Saturdays 11:00-14:00
+        Closed Sundays
+        Labels: オススメ",
+        "best_of": true,
+        "title": "辣椒漢 (Lashohan in Kanda)"
     },
     {
         "date": "2012-02-25 00:00:00",
@@ -3936,6 +4197,7 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
             "http://farm8.staticflickr.com/7080/7156861891_bcfb67a906_z.jpg"
         ],
         "post": " 千里眼Jiro-kei time!Sure, the rare review of a Jiro style shop is usually met with disdain on this site, but the search goes on!  Senrigan was a recommended shop from from a reader of the site.  Thanks are in order, this one was one of the better bowls (of Jiro-kei) I've had.You want garlic?It's the question that gets asked at every Jiro-kei shop (kei means style or type, Jiro is a popular family of ramen shops in the Tokyo area).  Have your quick response ready, or the busy staff will be on your case like bean sprouts on this bowl.Ninniku and karaage was my answer this time.  Garlic and spicy bits of fried batter drippings.  Also available is the Fuji-sized mountain of vegetables, mounds of pork fat, and spice.  Ask for them by name.  Mashi mashi if you're feeling bold.Not too intense, as can be the case at a shop like this.  The pork was tender and moist, another thing which I find isn't standard.I feel a bit under-qualified to review this style.  I haven't even been to the original Jiro shop in Tokyo.  And my reviews are always skewed based on what I did that day.  If I was being lazy, drinking and sitting around the apartment, Jiro doesn't work for me.  But if I exerted myself with a bit of exercise, this stuff goes down great.  On Senrigan's day, I had cycled about 40 kilometers out west and back for some work.  Famished, I devoured this bowl with ease.I should also note that after every bowl of this sort, this one included, my stomach felt like I had made a mistake within an hour.Twenty minute wait at nine pm on a weeknight.  I still think I'm the only person not obsessed with Jiro.I was touring a stateside ramen lover around, and couldn't let him go home without sampling this side of ramen in Tokyo.  Senrigan, or maybe Fujimaru or Tatsuya, will probably be part of any future ramen food tours that I do.  For the sake of the traveler.  Like I said, I'm the only person not obsessed with it.Facebook site hereView Larger Map東京都目黒区駒場4-6-8Tokyo, Meguro-ku, Komaba 4-6-8Closest station: HigashikitazawaOpen 11:30-14:30, 17:00-22:00Sundays 11:30-14:30, 17:00-21:00Closed Mondays  ",
+        "best_of": true,
         "title": " 千里眼 (Senrigan in Kitazawa) "
     },
     {
@@ -3964,6 +4226,7 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
             "http://farm8.staticflickr.com/7079/7156774873_6b98301c58_z.jpg"
         ],
         "post": " 厚木本丸亭Ramen Adventures has covered just shy of 500 shops in Tokyo.  Quite a feat for an overseas native, perhaps, but this number pales in comparison to some people I've met around town.  One such guy was at a recent one-day-only ramen collaboration.  A ramen-data encyclopedia who had visited in the thousands, I asked him for some recommendations near stations I would be working at in the coming month.  Stations far, far away.Hon-Atsugi station is about an hour west of Shinjuku.  I've been here a few times, but always remained seated as my train sped past.It may be far off, but good ramen can be found anywhere in Japan.Good ramen indeed.Shio is a tough nut to crack.  There is a reason noodles in clear chicken soup is reserved for cheap cans; the delicate flavors simply don't work when slurping.  At least, they don't work as well as something thicker in viscosity or stronger in taste.  But every so often, shio is done right.  The toppings usually stand out as top quality, the noodles are just right, and the aroma is unmistakably umami.One of the best in town.  Too bad it's so far out there.I've had a lot of great recommendations lately.  Keep em coming!Official Site HereView Larger Map神奈川県厚木市幸町4-10Kanagawa, Atsugi-shi, Saiwaicho 4-10Closest station: Hon-AtsugiOpen 11:00-15:50, 18:00-22:30  ",
+        "best_of": true,
         "title": " 本丸亭 (Honmarutei in Hon-Atsugi) "
     },
     {
@@ -4190,6 +4453,7 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
             "http://farm9.staticflickr.com/8156/7575693222_5d5a266a5d_z.jpg"
         ],
         "post": " 田中商店Here it is . . . Tanaka Shoten.  This is perhaps the most famous shop in the greater Tokyo area for Nagahama-style tonkotsu ramen.  I say Tokyo area because, though it is technically within the city limits, this place is a trek to get to.  But more often than not, the trek can elevate a bowl from normal to extraordinary.  Tanaka Shoten is the perfect example.For me, from Shinjuku, it took about 30 minutes racing along on my motorcycle. By train it is much more of an endeavor.  From my station it is about an hour with five line changes on the way.  On the map, it is just off the 318, a road that circumnavigates the entire Tokyo area.  Check it out!Is Tanaka Shoten is the most revered Hakata-style tonkotsu ramen outside of Kyushu? It is as traditional as it gets, down to the open-late mentality.  Four in the morning is the last order.The shop is stinky, the line is long but quick, and the menu is small.Of course, I went with the standard.  Not that I had much choice.  I could have had it with more pork, or more green onion, or more of whatever topping I wanted.  All bowl come with the same soup and noodles, and that is what I was concerned with.The only outlying option here is the 赤オニ, red devil spice mix.  A tangy dollop of spiced ground pork.A good bowl, though the trek could either make or break your opinion of it.  If you travel solo far out of your way for this bowl, you will be disappointed.  But if you make an adventure out of it, this is a great bowl of destination ramen in Tokyo.Official Site HereView Larger Map東京都足立区一ツ家2-14-6Tokyo, Adachi-ku, Hitotsuya 2-14-6Closest station: RokuchoOpen 18:00-4:00am  ",
+        "best_of": true,
         "title": " 田中商店 - Tanaka Shouten in Adachi-ku "
     },
     {
@@ -4692,6 +4956,7 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
             "http://farm9.staticflickr.com/8331/8370083398_7f258ebb72.jpg"
         ],
         "post": " 裏不如帰    Not really a 限定 (limited offering), but Hototogisu in Hatagaya becomes Ura (opposite) on Thursdays.    The soup is made with three kinds of niboshi, and the line is always long.  This was great, but I wasn't blown away. I absolutely love their regular bowl, though. So I'm going to be all ura myself and say that the rest of the week is better.    My original (very old) review of Hototogisu is here.  ",
+        "best_of": true,
         "title": " 裏不如帰 (Ura-Hototogisu in Hatagaya) "
     },
     {
@@ -4814,6 +5079,7 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
             "http://farm9.staticflickr.com/8095/8470081906_739afe2029_z.jpg"
         ],
         "post": " ごたる    Simple, creamy, and inexpensive describe the Hakata ramen at Gotaru. The chashu is especially buttery, and it almost melts in your mouth. This bowl goes on the short-list of great tonkotsu ramen shops in Tokyo.     View Larger Map  東京都中野区新井3-38-10 Tokyo, Nakano-ku, Arai 3-38-10 Closest station: Numabukuro  Open 11:30-14:30, 17:00-23:00 Weekends 11:30-23:00 Closed Mondays  ",
+        "best_of": true,
         "title": " ごたる (Gotaru in Numabukuro) "
     },
     {
@@ -4910,6 +5176,7 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
             "http://farm9.staticflickr.com/8365/8430427049_fe99fc1a2d_z.jpg"
         ],
         "post": " 蔦  Thanks for coming to this page. It is getting a lot of hits with the new Michelin news. Please read my latest post if you are planning to check out this amazing ramen shop.  http://www.ramenadventures.com/2015/12/how-to-get-bowl-of-michelin-starred.html      Tsuta is the new king in town. Given the coveted #1 spot in the only ranking that really matters, Tokyo Ramen of the Year (TRY) magazine, for new shops.    This is shoyu perfection. Until now, shoyu at this level was only available at En and 69 n' Roll One; both shops about an hour from central Tokyo. Tsuta is only a minute walk from Sugamo Station on the Yamanote line. Super convenient.    It's all about the minor details. Tsuta's tare is made from a blend of three different soy sauces. The main is from Shodoshima (小豆島), a small island in the middle of Japan's Seto Inland Sea. The others are 生揚げ, raw unpasteurized soy sauces, from Ibaraki and Wakayama.  Sorry, no Kikkoman here.  The resulting taste is an intense, slightly sweet mix that suddenly puts Sugamo on the ramen map.    I work here in Sugamo once a week, so this is good news indeed.     View Larger Map   東京都豊島区巣鴨1-14-1 Tokyo, Toshima-ku, Sugamo 1-14-1 Closest station: Sugamo  Open 11:30-14:30, 18:00-20:00 Thursdays and Sundays 11:30-14:30 Closed Mondays  ",
+        "best_of": true,
         "title": " 蔦 (Tsuta in Sugamo) "
     },
     {
@@ -5052,6 +5319,27 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
         "title": " 永盛楼 (Eiseiro in Nagasaki) "
     },
     {
+        "date": "2013-03-10 00:00:00",
+        "pictures": [
+            "http://farm9.staticflickr.com/8383/8470240370_650ca05aa8_z.jpg",
+            "http://farm9.staticflickr.com/8381/8469146721_310cab762d_z.jpg",
+            "http://farm9.staticflickr.com/8380/8470239358_84cbb4c4a3_z.jpg",
+            "http://farm9.staticflickr.com/8529/8470093002_e1615c690a_z.jpg",
+        ],
+        "post": "100% chicken soup isn't too common in the ramen scene. Most shops, from the champion b-kyu gourmet winners to the empty chukka place on the corner, they all mix pork and chicken bones to make their stock. Yamaguchi's torisoba, despite a couple pieces pork chashu on the top, is all cluck and no oink.
+
+        Coming from a chicken soup obsessed culture (America) can make it tough to recommend a bowl of chicken soup ramen. If it tastes like the stuff I can make at home, why bother? Yamaguchi's soy tare makes this unique. A seriously good blend of soy sauces and umami-rich ingredients add the impact that puts this bowl in probably the top five of its class. And the chicken chashu on top. I will be ordering the extra serving of it from now on, no doubt. 東京都新宿区西早稲田2丁目11- 13
+        Tokyo, Shinjuku-ku, Nishi-Waseda 2-11-13
+        Closest station: Nishi-Waseda
+
+        Open 11:30-15:00, 17:30-21:00
+        Sundays 11:30-17:00
+        Closed Mondays
+        Labels: オススメ",
+        "best_of": true,
+        "title": "やまぐち (Yamaguchi in Waseda)"
+    },
+    {
         "date": "2013-04-29 00:00:00",
         "pictures": [
             "http://farm9.staticflickr.com/8385/8635673369_1ae3fc6603_z.jpg",
@@ -5137,6 +5425,7 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
             "http://farm9.staticflickr.com/8251/8614770767_11f17d80b0_z.jpg"
         ],
         "post": " 篝    I need to make a new best-of. Kagari needs to be on people's hit list.    Only a few weeks old, this shop looks more like a pricey sushi bar than a ramen joint. The nondescript back-alley can barely contain the line, which draws stares from the passersby, most on their way to buy a new LV handbag or Jimmy Choos.    The seasonal vegetable topping is a necessary addition to the silky rich tori paitan. Creamy and refined, this shop is at home among the high end upper crust that is Ginza.    The niboshi ramen and tsukemen are highly praised as well.  Bonus! I shot a TV show with AKB48 member Rena Nozawa here. Check it out!       View Larger Map   東京都中央区銀座4-4-1 Tokyo, Chuo-ku, Ginza 4-4-1 Closest station: Ginza  Open 11:00-15:30, 17:00-22:30 Saturday until 21:00 Closed Sundays  ",
+        "best_of": true,
         "title": " 篝 (Kagari in Ginza) "
     },
     {
@@ -5272,6 +5561,43 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
         "title": " IKEMEN at the Shin-Yokohama Raumen Museum "
     },
     {
+        "date": "2013-05-01 00:00:00",
+        "pictures": [
+            "http://farm9.staticflickr.com/8521/8667033807_c22646c99d_z.jpg",
+            "http://farm9.staticflickr.com/8543/8667032763_14fbec3227_z.jpg",
+            "http://farm9.staticflickr.com/8545/8667031981_8c96fd115d_z.jpg",
+            "http://farm9.staticflickr.com/8541/8668136346_4cb83d6e66_z.jpg",
+            "http://farm9.staticflickr.com/8523/8667034675_7320284da0_z.jpg",
+            "http://farm9.staticflickr.com/8533/8668138136_a133ba0f5b_z.jpg",
+            "http://farm9.staticflickr.com/8530/8668139916_11f86fbc2a_z.jpg",
+            "http://farm9.staticflickr.com/8535/8668134588_049c28a3da_z.jpg"
+        ],
+        "post": "Hanabi, in the outskirts of Nagoya, came highly recommended.
+        I say outskirts, but to be honest, I know almost nothing about Nagoya. What is famous here? What are the people like? Why is this city Japan's 3rd largest? I do know, though, that Nagoya gets a bad rap. My coworkers joked that in a national ranking of beautiful women, Nagoya comes in dead last.
+
+        Ouch.
+
+        Despite often muttered shots like this, Nagoya does have one thing going for it, at least. Taiwan Ramen. Shoyu ramen with a kick. A kick of spice and a kick of vinegar. Hanabi's menu has it, somewhere on that giant page. Yeah, this shop is a repeater. Too bad I was just there for one night. What to get? When the noodle master has on a mazemen t-shirt, you order the mazemen. Taiwan mazemen.
+        Like I said, I can't attest to the beauties of my human species, but this bowl is definitely gorgeous.
+
+        Maze maze it up! Delicious. This ranks up with Junk Garage as one of the best maze style bowls in Japan. If you find yourself with a couple free hours in Nagoya, do yourself a favor.
+        The downside? Yeah, there is one.
+
+        A 10 minute train ride from Nagoya station. A 9 minute walk from the station. And then the line. Over 50 people were waiting on a Saturday night.
+
+        I had just finished doing about eight hours of cardio workout level kid's shows (my non-ramen job!), and wanted nothing more than a bath, a beer, and bed at the hotel. An hour and a half standing in the cold was unpleasant to say the least. Downright torture if I feel like over-exaggeration of this story. Followed by a 2500 yen taxi back to the hotel.
+
+        So was it worth it? Yeah, it kind of was. 愛知県名古屋市中川区高畑1-170
+        Aichi-ken, Nagoya-shi, Nakagawa-ku, Takahata 1-170
+        Closest station: Arako
+
+        Open 11:30-14:00, 18:00-21:15
+        Closed Monday and some Tuesdays
+        Labels: オススメ",
+        "best_of": true,
+        "title": "麺屋はなび (Hanabi in Nagoya)"
+    },
+    {
         "date": "2013-06-30 00:00:00",
         "pictures": [
             "http://farm8.staticflickr.com/7359/9014641823_981a6c6893_c.jpg",
@@ -5337,6 +5663,29 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
         ],
         "post": " 丸長    Tokyo is saturated with thick, porky, Rokurinsha-style tsukemen. Though I love the stuff, it gets a little tiring trying to find subtle differences in a tonkotsu-gyokai soup.  Enter Marucho. An instant top 5.    The soup, though thinner than the other styles, is full of meat and onion bits. So much so that every bit of noodles includes a fair share of umami chunks.    And the soup-owari. Refreshing, with a kick of spicy and vinegary.    As expected, a lunch only spot. The only one of the four branches to be open later is way out at Tskuba University, an hour or so away by express train.        東京都新宿区下落合3-19-4 Tokyo, Shinjuku-ku, Shimoochia 3-19-4 Closest station: Meijiro  Open 11:00-15:00 Closed Sundays  ",
         "title": " 丸長 (Marucho in Meijiro) "
+    },
+    {
+        "date": "2013-06-04 00:00:00",
+        "pictures": [
+            "http://farm8.staticflickr.com/7379/8920787241_eac23ecda7_c.jpg",
+            "http://farm9.staticflickr.com/8256/8920796119_a4a0813d70_c.jpg",
+            "http://farm9.staticflickr.com/8546/8920791695_a17afa4a11_c.jpg",
+            "http://farm9.staticflickr.com/8117/8920785969_622e26f463_c.jpg",
+            "http://farm8.staticflickr.com/7356/8921405150_2c47594dc0_c.jpg",
+            "http://farm3.staticflickr.com/2872/8921406396_46273d940d_c.jpg",
+            "http://farm4.staticflickr.com/3764/8921410346_fa40c41004_c.jpg"
+        ],
+        "post": "3SO (read as mi-so) is another out-of-the-way winner. Maybe rent in Machida is much lower than the rest of Tokyo. I can safely say that Machida is the best spot outside of central Tokyo for good ramen. I went with the zenbunose (topped with everything), and then added the fried cheese topping as a last minute impulse. More on this later. 3SO boasts that practically everything that can be made in shop is made in shop. Noodles, eggs, chashu, even the spicy rayu is homemade. 
+        All the toppings, all that pork, combined with the buttery-smooth miso that is a cut above the rest, plus that cheese . . . this was an umami overload. Shockingly good, this was an instant winner. Too much of a good thing? Not really. I would gladly return here anytime I was in the area, though I might just go with the standard bowl plus egg. Looking at the ticket machine, that is what is recommended. As usual, if a shop has an おすすめ on the menu, stick with that the first time. If 3SO were closer to town, this soup wouldn't last past midday. It is that good. Top 5 miso I have ever had, though I have yet to do a proper tour of Sapporo.
+        東京都町田市木曽西4-1-31
+        Tokyo, Machidashi, Kisonishi 4-1-31
+        Closest station: Kobuchi
+
+        Open 11:30-14:30, 18:30-21:00
+        Closed Tuesdays and some Mondays
+        Labels: オススメ",
+        "best_of": true,
+        "title": "3SO in Machida"
     },
     {
         "date": "2013-07-30 00:00:00",
@@ -5435,6 +5784,58 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
         "title": " 塚田農場 (Tsukada Nojo in Shinbashi) "
     },
     {
+        "date": "2013-07-16 00:00:00",
+        "pictures": [
+            "http://farm3.staticflickr.com/2861/9162432847_8c7e0e5893_c.jpg",
+            "http://farm8.staticflickr.com/7287/9164648472_db64ed3e34_c.jpg",
+            "http://farm8.staticflickr.com/7386/9164649412_725ce9f039_c.jpg",
+            "http://farm8.staticflickr.com/7413/9162433779_63f9b25629_c.jpg",
+            "http://farm4.staticflickr.com/3737/9164651196_0fb45be768_c.jpg",
+            "http://farm8.staticflickr.com/7303/9164653778_a2fb887806_c.jpg",
+            "http://farm8.staticflickr.com/7456/9164658188_3bd6fcb40a_c.jpg",
+            "http://farm6.staticflickr.com/5480/9164652016_23112acf4c_c.jpg",
+            "http://farm4.staticflickr.com/3686/9162431131_62c7788231_c.jpg",
+            "http://farm8.staticflickr.com/7379/9162437441_d8c4781645_c.jpg",
+            "http://farm8.staticflickr.com/7414/9162425291_1dcccc8757_c.jpg"
+        ],
+        "post": "Yeah, the shop name is actually \"Ramen Bar Snack Izakaya\", but this place is only known by one name.
+
+        The oppai ramen shop. And ramen definitely isn't the main reason we first heard about it. But let's talk about the ramen. The spot is a bar, and this is a bowl to have with your drinks. Heavy on the aosa seaweed, and heavy on the external flavors. A lime and some spicy yuzu all get in the bowl. Add in some katsuo oil and things are bordering on overpowered. Just at the border is where you want to be with bar food, though. The result is a strong ocean taste that matches well with a few beers, a glass of shochu, and some cocktails. I think we had a tequila shot in there as well. I'm sure 90% of the readers just scrolled past the ramen to get to the oppai. Japanese lesson for you. Oppai means . . . ummm . . . . . . Miss Takako Hayakawa runs this one-woman show. Between lighting cigarettes and pouring drinks, toasting and chatting, she is making the ramen.
+
+        After spending her teens and twenties working as a hostess, she made the jump to her own place. And her own place just had a one-year anniversary. Congrats. This shop is in a rather subdued building that looks like it could be someone's home. Someone's home, with each room divided into thirds, and each third belong to a separate bar. Yeah, this building is home to anywhere from half a dozen to more than ten bars.
+        Only in Japan. 東京都目黒区目黒本町4-3-14
+        Tokyo, Meguro-ku, Megurohoncho 4-3-14
+        Closest station: Musashikoyama
+
+        Open evenings until late",
+        "best_of": true,
+        "title": "おっぱいラーメン (Oppai Ramen! in Meguro)"
+    },
+    {
+        "date": "2013-07-06 00:00:00",
+        "pictures": [
+            "http://farm9.staticflickr.com/8354/8270575229_62bcf1d213.jpg",
+            "http://farm9.staticflickr.com/8483/8270554775_07d4329230.jpg",
+            "http://farm9.staticflickr.com/8364/8271632152_b46a8856a3.jpg",
+            "http://farm9.staticflickr.com/8081/8270559989_3d8d041075.jpg",
+            "http://farm9.staticflickr.com/8198/8270573833_fbd9752691.jpg",
+            "http://farm9.staticflickr.com/8221/8271637600_e422236b84.jpg",
+            "http://farm9.staticflickr.com/8478/8271642178_cc80483f8a.jpg"
+        ],
+        "post": "How can such a simple looking bowl be up there in many reviewer's top ten lists? Just soup and noodles, nothing more. Sure, they offer a nikusoba option, a bowl with a bit of chashu on top, but the recommended option, the one that everyone goes for, it is just soup, noodles, and a scattering of chopped green onion. At Ito, it is all about that soup. So much so that they have a menu option for soupmashi. Fans of Jiro might know ninnikumashi, those magic words that get you a triple-size scoop of intense raw garlic.  Here the mashi in question will get you extra soup.
+
+        If a ticket machine has an option for extra soup, you should get extra soup.
+        Refinement beyond expectations. This is a bowl that could be served to royalty alongside a kaiseki course. Very beautiful. Very flavorful. Very balanced. The lack of toppings is the only downfall for this bowl. I can't help but think that this, plus some high quality trimmings, could be even better. 東京都北区赤羽1-2-4
+        Tokyo, Kita-ku, Akabane 1-2-4
+        Closest station: Akabane
+
+        Open Weekdays 11:00-24:00
+        Saturdays 11:00-23:00
+        Sundays 11:00-21:00 Labels: オススメ",
+        "best_of": true,
+        "title": "伊藤 (Ito in Akabane)"
+    },
+    {
         "date": "2013-08-31 00:00:00",
         "pictures": [
             "http://dai-tsukemen-haku.com/en/img/logo_main.png"
@@ -5513,6 +5914,30 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
         "pictures": [],
         "post": " Congratulations to the winners of the 2013 Grand Tsukemen Fest preliminary voting. The winners are from all over the country, so I haven't been to most of their shops. Stay tuned for a lot more info, but for now . . .  Are you hungry?    These are the 24 that you can sample at this years Grand Tsukemen Fest in Tokyo!  ",
         "title": " 2013 Grand Tsukemen Fest List Announced! "
+    },
+    {
+        "date": "2013-08-11 00:00:00",
+        "pictures": [
+            "http://farm6.staticflickr.com/5341/9339361831_5a23c53c2c_c.jpg",
+            "http://farm8.staticflickr.com/7341/9339360711_492931bee3_c.jpg",
+            "http://farm8.staticflickr.com/7379/9339366743_1a40605b60_c.jpg",
+            "http://farm4.staticflickr.com/3693/9342152086_4a99129776_c.jpg",
+            "http://farm4.staticflickr.com/3710/9339362973_535d4972eb_c.jpg",
+            "http://farm6.staticflickr.com/5503/9339369213_73eb4476c9_c.jpg",
+            "http://farm4.staticflickr.com/3722/9339370941_6edb2bc787_c.jpg",
+            "http://farm8.staticflickr.com/7281/9339375217_e5c6846f4e_c.jpg"
+        ],
+        "post": "This is perhaps the most lauded shop in the Kyoto area among ramen fans. I'm sure they will be on the 2013 winner's list as well. Going to Ore No Ramen Appare (roughly translated to my ramen is awesome) is an ordeal. Driving from Kyoto (no, you won't be taking any trains or buses here) was 40km of traffic on a hot summer day. Thirty minutes before they opened, there were 25 people in line. Significant. By the way, Ore No Ramen is only open for about three hours a day. And yeah, it is worth it. The golden soup, touched with just a little gyokai, makes up for any previous discomfort. If you like your creamy soups, Ore No Ramen is a top five, easy.
+        While the bulk of the early line-uppers ordered the 20-a-day tsukemen, the chashu looked irresistible. Seven slices of rare pork, seasoned with just enough pepper to give a bit of a kick. The presentation alone had everyone snapping photos before digging in. If I lived out here, this would be a monthly excursion. It turns out that the route I drove, the most direct from Kyoto City to the shop, was a bad choice. Going back along the river, up to lake Biwa was both beautiful and fast.
+        俺の日あっぱれ。 京都府城陽市奈島下小路11-34
+        Kyōto-fu, Jōyō-shi, Nashima, Shimonokōji 11-34
+        Closest station: None
+
+        Open 11:30-14:30
+        Closed Sundays and some Saturdays
+        Labels: オススメ",
+        "best_of": true,
+        "title": "俺のラーメンあっぱれ (Ore no Ramen Appare in Kyoto)"
     },
     {
         "date": "2013-09-30 00:00:00",
@@ -5676,7 +6101,8 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
             "https://www.google.co.jp/maps/vt/data=VLHX1wd2Cgu8wR6jwyh-km8JBWAkEzU4,wRECOwiHCWmueZyJoZeMwZqT-F17r9apUfZ3c9XrZs_Tmn6PXkTIeCJM_cef5RiA76r7B7RvjxD5wpqMFHiQ8N2g747X3NLDtn8Ic61IxOI-TLupqXRrrto"
         ],
         "post": " GACHI 油そば    I like when successful shops open another branch. I like it even more when each new branch is a totally different concept. Shono, an awesome tonkotsu place just east of Shinjuku, gave way to Gachi, a fried-chicken-tsukemen spot in the middle of Shinjuku's gay-bar neighborhood. Next came Gotsubo, a tiny shop serving vege-centric noodles, next to Shinjuku's famous park. The latest, Gachi Aburasoba, goes with nothing but soupless noodles. Yes, in Shinjuku.    I live in Shinjuku, which made the wheelchair commute less painful than it could have been.    The concept of aburasoba is simple. Just leave out the soup, add a little extra tare seasoning sauce, and make sure there is plenty of high quality abura, fat, to bring the dish together.    Aburasoba can be hit or miss. Without the soup, the noodles need to be extra special. The larger aburasoba chain shops in Tokyo source their noodles from a factory. Not good.  Gachi makes theirs in the back. The thick ones, futomen, are outstanding. The noodle chef bills them as nama-pasta-chuka; fresh pasta Chinese style. Some of the best I've had.    And the oils. 太白胡麻油, sesame oil, and 亜麻仁油, flax seed oil, are both healthy and delicate. Not something you see much at ramen shops.    Add on a dollop of homemade seabura, pork back fat, and mix away.    Also on hand was a thin noodle version. Not bad, but it paled in comparison with those thick ones. Some of the best in town.    They opened on October 1st, so check it out if you have time for lunch in Shinjuku.  Check out my video for GACHI Aburasoba!        新宿区住吉町７－１０ Shinjuku, Sumiyoshicho 7-10 Closest station: Akebonobashi  Open 11:00-16:00  ",
-        "title": " みそ味専門マタドール(Matador Miso in Kita-Senju) "
+        "best_of": true,
+        "title": "GACHI 油そば (GACHI Aburasoba in Akebonobashi)"
     },
     {
         "date": "2013-11-28 00:00:00",
@@ -5832,6 +6258,7 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
             "https://www.google.co.jp/maps/vt/data=VLHX1wd2Cgu8wR6jwyh-km8JBWAkEzU4,tLvr3Rl_G-DQEK9dvDeLTd6SFYXMWzYETt8U_VegyjFC8KOKUc1-gTHxzDJs-IA3KIjD7MFi25ZVb6Ylq3UeoHd2gnr9eTvaqU8QmFQLYrP3eJ62u9PLTXw"
         ],
         "post": " 長尾中華そば 西バイパス本店    8:00am - Haneda Airport. 9:30am - Aomori Airport. 10:00am - Taxi to the performance hall. 4:00pm - Work is done, with exactly two hours of free time until the train to the next city.  Perfect timing to grab the most famous bowl in Aomori Prefecture.    I wasn't the first ramen nut to come to Nagao.    And some locals come here almost every week! There are bowls labeled with people's names all over the shop. If you sign up for a members card and get 1000 points, you get you own bowl. That's about 150 bowls. Dedication.    But I was just in town for a minute, with just enough time for one.  From the 裏メニュー, the secret menu. Sure, you can go with a standard item, like the light asari ramen, or even the heavier kotteri, bu if you ask for the ura-menu, you'll get the max amount of niboshi possible.  Nagao made their name with heavy niboshi flavors, a trend that is all the rage in Tokyo these days.    Intense.    The idea of dried sardines as the main flavor in a bowl of ramen might sound off-putting to some foodies. Sardines, of course, are one of the most fishy smelling flavors of the sea. But by drying them, and boiling them for just the right amount of time, you get a smoky richness that is unparalleled in the food world.  And due to strict laws about importing dried fish from Japan to America, you aren't likely to find a bowl like this anytime soon. As was explained to me, dried fish needs to have all the guts removed to make it into the States, an impossibility for niboshi. Take advantage if you are in Japan. And if you can't make it up to Aomori, Nagi in Shinjuku does a good one.    Official Site Here      青森県青森市三好2-3-5 ガーラタウン内 Aomori-ken, Aomori-shi, Miyoshi 2-3-5 Closest station: Shin-Aomori  Open 7:00-22:00 Friday 11:00-22:00  ",
+        "best_of": true,
         "title": " 長尾中華そば (Nagao in Aomori) "
     },
     {
@@ -6183,6 +6610,31 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
         "title": " 鳥空海 (Torikukai in Kawaguchi) "
     },
     {
+        "date": "2014-03-06 00:00:00",
+        "pictures": [
+            "http://farm4.staticflickr.com/3767/12852562213_a634bed6d2_c.jpg",
+            "http://farm4.staticflickr.com/3703/12852929034_3f3459ac86_c.jpg",
+            "http://farm3.staticflickr.com/2821/12852502095_ff0ec6de7d_c.jpg",
+            "http://farm4.staticflickr.com/3789/12852573883_884a3c1056_c.jpg",
+            "http://farm3.staticflickr.com/2830/12852510245_dcb73b05f6_c.jpg",
+            "http://farm3.staticflickr.com/2865/12852525415_840cfce3d0_c.jpg",
+            "http://farm4.staticflickr.com/3701/12852588993_f1c2aab70e_c.jpg"
+        ],
+        "post": "Kuroki should make any traveler's list of ramen shops. Many amazing shops are a trek away from convenience, and someone with only a few days in the capital city might be hard pressed to spend half a day in search of ramen. But Kuroki is a short walk from Akihabara, the electronics / video games / otaku center of the universe. Do yourself a favor and head east, towards Asakusabashi, and hit this place up.
+        The special shio ramen (just hit the upper left button on the ticket machine) just knocked someone off my best-of list. This is a near perfect bowl. You'll see bags and bags of dried seafood scattered around the store, all of which make their way into the soup at Kuroki. Pike, flying fish, mackerel, and bonito all end up in the broth. Toppings are decadent. Slow roasted pork, chicken chashu, shrimp wontons. The tiny dried fish sitting on the top are the icing on the cake. Oh, fresh menma and homemade noodles. Don't forget about the homemade noodles. 
+        That kanji, 饗, motenashi, means banquet. A banquet in a bowl.
+        東京都千代田区神田和泉町2-15
+        Tokyo, Chioda-ku, Kanda-Izumicho 2-15
+        Closest station: Akihabara
+
+        Open 11:30-15:00, 18:00-21:00
+        Wednesdays 11:30-15:00
+        Closed Fridays and Sundays
+        Labels: オススメ",
+        "best_of": true,
+        "title": "饗 くろ㐂 (Motenashi Kuroki in Akihabara)"
+    },
+    {
         "date": "2014-04-28 00:00:00",
         "pictures": [
             "https://farm8.staticflickr.com/7396/13978525686_78a799d1e9_c.jpg",
@@ -6194,6 +6646,7 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
             "https://www.google.co.jp/maps/vt/data=VLHX1wd2Cgu8wR6jwyh-km8JBWAkEzU4,CBU7fpKwZkhN9nujP4or6k9BFKz_2YG1aKdloFeOAo0R0bIHHaN2zDiCQLl8f7NkxtS04Lnky2ojOrQbM21VAKhnl-SlTn7sSso3iBaENsAzJSVWM_d8aoA"
         ],
         "post": " 晴    Beautiful. Haru, over on Tokyo's east side, is one of those bowls that tastes as good as it looks. Simple, but screaming in terms of impact and umami flavors.    Located just a few minutes from Uguisudani Station, that one station on the famed Yamanote Line that no one ever uses.    It is a typical light soup of niboshi (dried fish), pork, and chicken. While the rest of the world seems to be going crazier and crazier with their soups, I'm liking this Tokyo trend of simple and light.    Slow roasted chashu and quality menma on top.    While this spot is on the opposite side of town for anyone in Shinjuku or Shibuya, residents or tourists over in the east might find a journey to Haru to be a nice detour.      東京都台東区下谷1-11-7 Tokyo, Taito-ku, Shitaya 1-11-7 Closest station: Uguisudani  Open 11:30-14:30, 18:00-22:00 Sundays 11:00-15:00, 18:00-21:00 Closed Saturdays  ",
+        "best_of": true,
         "title": " 晴 (Haru in Uguisudani) "
     },
     {
@@ -6479,6 +6932,39 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
         "title": " 1/20 in Arakawa "
     },
     {
+        "date": "2014-06-05 00:00:00",
+        "pictures": [
+            "https://farm4.staticflickr.com/3815/14284676743_bb99339541_c.jpg",
+            "https://farm3.staticflickr.com/2938/14241378016_15a98308c8_c.jpg",
+            "https://farm3.staticflickr.com/2910/14077851488_c8faae1bd1_c.jpg",
+            "https://farm4.staticflickr.com/3818/14077854048_2bc216eab3_c.jpg",
+            "https://farm4.staticflickr.com/3769/14241385326_606a615be7_c.jpg",
+            "https://farm3.staticflickr.com/2909/14264116614_cf0ac9746c_c.jpg",
+            "https://farm4.staticflickr.com/3705/14264504165_712b53484d_c.jpg",
+            "https://farm4.staticflickr.com/3737/14241397866_d5d26de11a_c.jpg",
+            "https://farm6.staticflickr.com/5031/14264097714_cbe2679014_c.jpg"
+        ],
+        "post": "This is it folks. The hottest new shop in Tokyo! And, like another recent winner - Kagari - this one is in Ginza as well.
+
+        I've been many times (as of 2016), and even made a video for Japanese TV. Check it out! I'll be honest, when I first heard that Mugitooribu was \"clam ramen\", I was skeptical. Sure, clams are often used to flavor soup, but putting it up there on your shop's board is a bit bold. Boy was I wrong. Don't even doubt this one in the least. And don't worry, this isn't Clam Ramen with a capital C, more like perfection with many amazing points, one of which is the clams. Before we get to the signature dish, the mazemen is worth mentioning. Mazemen is all about the noodles and, in this case, the egg. The noodles are sourced from a famous Kyoto noodle maker, and that egg is known as the best in Japan. The same one you can find at Apple Basic, this egg is almost neon orange in color. And before you make some offhand nuclear disaster remark, that color is all natural.
+        Amazing. But the real draw is the triple soup. One part chicken broth, one part niboshi broth, and one part clam broth. All tied together with a deep shoyu tare. 
+        This is a balance to rival anything out there. Mega-deep impact with a smooth, clam-flavored aftertaste.
+        Topped with copious amounts of clams, chicken chashu, a fish cake knot (?!?), and fried potato.
+
+        Expect lines, but so far they haven't reached the length they should be at.
+
+        東京都中央区銀座6-12-12
+        Tokyo, Chuo-ku, Ginza 6-12-12
+        Closest station: Ginza
+
+        Open 11:30-22:00
+        Saturdays 11:30-21:00
+        Closed Sundays
+        Labels: オススメ",
+        "best_of": true,
+        "title": "むぎとオリーブ (Mugitooribu in Ginza)"
+    },
+    {
         "date": "2014-07-31 00:00:00",
         "pictures": [
             "https://farm3.staticflickr.com/2938/14414553110_c7de414ff5_c.jpg",
@@ -6574,6 +7060,29 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
         ],
         "post": " We (Abram and I, aka ラーメンアメリカ人) cracked out a ranking for our last week with the magazine*. This is in no way definitive, but I think we came up with a pretty solid list that could keep anyone busy for a few months. The lists are grouped in general categories. Click the shop names to be taken to a page, if I've written about it. Most shops are in Tokyo, a couple are far, far away.    TOP5 Salt (塩ラーメン)  1. 麺や河野    2. 牛骨らぁ麺マタドール本店    3. 厚木本丸亭    4. 饗くろ㐂    5. ぜんや  (sorry, I haven't gone)     TOP5 Miso (味噌ラーメン)  1. カラシビ味噌らー麺鬼金棒    2. 味噌麺処花道    3. 金竜  (sorry, I haven't gone! This spot is a bit out of the way in Chiba)  4. 3SO    5. ラーメンおやじ本店       TOP5 Light Soy (淡麗系醤油)  1. 煮干鰮らーめん圓    2. 一汁三煮干裏不如帰    3. むぎとオリーブ    4. らぁ麺やまぐち    5. 本枯中華そば魚雷       Thick Style (濃厚系ラーメン)  1. 麺屋吉左右    2. 燦燦斗    3. 無鉄砲大阪店    4. 長尾中華そば西バイパス本店    5. 俺のラーメンあっぱれ屋       Tsukemen (つけ麺)  1. 風雲児    2. 中華蕎麦とみ田    3. 俺のラーメンあっぱれ屋  (I didn't have the tsukemen)  4. 頑者    5. べんてん  (sorry, I haven't been)     TOP5 Soupless Noodles (汁なし油そば系)  1. 担々麺本舗 辣椒漢    2. 麺屋はなび高畑本店    3. むぎとオリーブ    4. 油そば専門店GACHI    5. ajito ism       Extreme Style (エクストリーム系)  1. 麺や河野    2. パイナップルラーメン屋さんパパパパパイン    3. 千里眼    4. ラーメン凪新宿煮干ゴールデン街店    5. ラーメンBARスナック、居酒屋  * The magazine in question is Weekly Playboy (週刊プレイボーイ or just 週プレイ). It's a weekly men's interest magazine available everywhere, especially at your local convenience store. Just look for the bikini-clad idol on the cover. Our article, Ramen Americans, ran for about two and a half years on a weekly basis.A huge thanks is in order to all of our readers.   ",
         "title": " Tokyo's Best Ramen According to Weekly Playboy Magazine "
+    },
+    {
+        "date": "2014-07-08 00:00:00",
+        "pictures": [
+            "https://farm3.staticflickr.com/2909/14597895731_78290a7623_c.jpg",
+            "https://farm4.staticflickr.com/3915/14414767477_fd6601ca23_c.jpg",
+            "https://farm4.staticflickr.com/3917/14601171605_3bab7f24e3_c.jpg",
+            "https://farm3.staticflickr.com/2939/14414528820_b2d1dc1de3_c.jpg",
+            "https://farm6.staticflickr.com/5581/14600555282_0d3c6cd8ef_c.jpg",
+            "https://farm4.staticflickr.com/3842/14599210174_782f0e4a5a_c.jpg",
+            "https://farm3.staticflickr.com/2911/14414530970_614a67fc5b_c.jpg"
+        ],
+        "post": "Sansanto is considered one of the best tonkotsu shoyu bowls in Tokyo. And tough I am very late to the game on this one, I have to agree; this is one of the best bowls in town. Just a few seconds from Higashi-Jujo, a station that is central enough to be considered convenient, but far enough that there isn't much around. Just a ramen shop and a shopping street that would only appeal to locals.
+        Homemade noodles. Always a good sign. Keep in mind, Sansanto is open from 6pm until around 8:30pm. That is only two and a half hours a day. It boggles the mind that a shop this good wouldn't double their service and double their profits, but that is just another aspect of the Tokyo ramen scene that I love. The small bowl of otsumami that comes with a beer is a preview of things to come. Some of the most tender, flavorful chashu in town. Shockingly good. The ramen. This is a bowl to hunt out. Definitely in the Top 5 of it's style. Possible in the Top 5 overall bowls in Tokyo. People pointed to Kisso as the champ in the past, but this bowl at Sansanto is my personal winner. A slow-cooked soup, made from pork and chicken, blended with heaps of dried fish. Perfect noodles.
+
+        The chashu, previewed with the beer, is as good as it can get. 東京都北区中十条3-16-15
+        Tokyo, Kita-ku, Nakajujo 3-16-15
+        Closest station: Higashi-Jujo
+
+        Open 18:00-20:30
+        Closed Mondays and Thursdays",
+        "best_of": true,
+        "title": "燦燦斗 (Sansanto in Higashi-Jujo)"
     },
     {
         "date": "2014-08-28 00:00:00",
@@ -6967,6 +7476,7 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
             "https://www.google.co.jp/maps/vt/data=U4aSnIyhBFNIJ3A8fCzUmaVIwyWq6RtIfB4QKiGq_w,zmr5Wfh2fp7iLa90wM8cDUuyEBu9PeJqNHjq9dFsvmnmnLctGxbApWI_eUMIXkQMURxywg7cSuzqyyPx3KkMFm0s1buOewbsSKDXxw4g51MHtY43P4FBTgqvAs80gNdN"
         ],
         "post": " 中華そば 四つ葉    Another edition of Ramen Riders, our gang of ramen-hunting, motorcycle-riding, trouble-causing dudes (and a pretty girl this time!) was much needed. Despite having a list of far-off shops to trek to, Yotsuba was just up the road in Saitama. And Yotsuba commands an insane score of 97.6 at the ramen database. That puts it at #3 in the country for new shops.    We had to go. It isn't even that far. But due to it being the start of a long weekend, the traffic just to get out there made it feel like a trek. Ugh, I can't begin to describe how bad traffic in Japan can get.  We arrived at the spot, somewhere along national route 254, somewhere in the middle of rice paddies and factories.    There it is. We sampled both the ramen and the mazesoba. Both are top notch, with copious amounts of slow-cooked pork and solid noodles.    Both also remind me specifically of Mugitooribu in Ginza. Actually, it reminds me so much of their soup blend (also a mix of chicken and clams) that I would say, unless you are a motorcycle rider with plans to be in the area, you might want to give this one a miss.  I'm conflicted.  If you live in Saitama, this one might be closer.    The shop is also a sushi-ya. I believe the story is that the ramen master's father made sushi here for some years. Keeping with the roots of the shop, there will be a daily nigiri that you can order. The aji - horse mackerel - of the day was excellent.    Good luck, and let me know if you make it out here.      埼玉県比企郡川島町伊草298-20 Saitama-ken, Hiki-gun, Kawajimamachi, Igusa 298-20 Closest station: Kawagoe, though it is quite far  Open 11:00-15:00, 17:00-21:00 Closed Tuesdays  ",
+        "best_of": true,
         "title": " 四つ葉 (Yotsuba in Saitama) "
     },
     {
@@ -7456,6 +7966,7 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
             "https://www.google.co.jp/maps/vt/data=U4aSnIyhBFNIJ3A8fCzUmaVIwyWq6RtIfB4QKiGq_w,h3B_FeJu2XtIKVRNS_4F8JbugjbscObu0DAjYGS8HAtGHxNOSBDVc1nG2vVA9Wz8xZ4XdJeHKxqT7-SvcfioaXDPmC2KGIuhJ-w0rVZkIjiU120Y6fwhl0JU9o_O6F-C"
         ],
         "post": " らぁ麺 すぎ本    I have a list of shops to visit, sitting at 29 at the time of writing. It was 30, but I finally made it to Sugimoto. This one was for a TV shoot, and they insisted on visiting somewhere I hadn't been. This is a risky move, as I refuse to lie on TV if bad ramen is put in front of me. Luckily, Sugimoto was recommended by one of Tokyo's top ramen chefs, Miyazaki-san over at Soranoiro, and his stamp of approval is powerful.    Special shio ramen. This one promised to be topped with extra chashu pork, an egg, and some of the shops homemade wontons.    Yep, a simple, yet perfect bowl. This is the trend these days. Overly simple clear broth, meticulously created to be at a maximum level. The master trained at Shinasobaya, the shop made famous by late ramen master Sano-san.    Love those eggs! Good eggs are kind of normal these days, but these seemed better than average. Turns out they are hard-to-procure Nagoya Cochin chicken, considered some of the best in Japan. The cost of these eggs are very high, and the master told me that he pretty much breaks even with these.    Of course, the shop has a shoyu ramen as well, and tsukemen, which is all good I assume.    Even though the Seibu-Shinjuku train line sees very few sightseers, the ramen on this line is amazing. Shichisai, Hanamichi, Muteppo, and now Sugimoto sit very high up on my list of favorite shops.      東京都中野区鷺ノ宮4-2-3 Tokyo, Nakano-ku, Saginomiya 4-2-3 Closest station: Saginomiya  Open 11:30-15:00, 18:00-21:00 Monday 11:30-15:00 Closed Tuesdays  ",
+        "best_of": true,
         "title": " すぎ本 (Sugimoto in Nakano) "
     },
     {
@@ -7522,6 +8033,7 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
             "https://www.google.co.jp/maps/vt/data=RfCSdfNZ0LFPrHSm0ublXdzhdrDFhtmHhN1u-gM,diiYTOyMer4tSBd2HUcbyoW3Rs4ehK1WR50lQO1xEukxPyeWbZCJFeTUx60GyykqZzRjZDpetW6o6j_km3klljjQv8gi9k9jmmoUQyk29ZtEhhLyw0Lm0VLYqZCmZj4y"
         ],
         "post": " 和dining 清乃    The night before, I was treated to a substandard bowl of Wakayama ramen. Immediately after, I did some research, postponed my morning ferry ride, and set out to Arida, a city just 30km south of Wakayama proper. Can Seino redeem the entire genre of Wakayama ramen?    Highly ranked is always a good sign. Only open for lunch is also a good sign.    People started arriving about an hour before they opened. Another good sign.    There are a lot of choices. You have shoyu, chicken shio, thick Wakayama, and Arida black. They all looked great, and their claim to fame is the shoyu. But I wanted to try the Wakayama. Dreaming of rich brown soup was how I spent the night before.    A note on shoyu; Wakayama is quite famous for their soy sauce history. Many claim that nearby Yuasa (only a few kilometers from this shop) is the birthplace of the stuff, and you can still find craft brewers making small batches of high quality shoyu. A few of the best shops in Tokyo use Wakayama shoyu, a testament to its quality.  But this isn't Tokyo, this is Wakayam. How does this one look?    Yes! This is what ramen adventuring is all about. A ridiculously rich bowl, with just enough bite on the homemade noodles. The soy sauce really comes through with a huge initial impact, followed by a smooth, porky aftertaste. Tender chashu, an egg that burst with flavor, and seasoned menma complete the dish.    A side of shirasu gohan is recommended.    The line wasn't unbearable, but make sure you get there well before they close to avoid disappointment.      和歌山県有田市野696 Wakayama-ken, Arida-shi, No 696 Closest station: Minoshima  Open 11:00-14:00 Closed Tuesdays and some Mondays  ",
+        "best_of": true,
         "title": " 清乃 (Seino in Arida) "
     },
     {
@@ -7578,6 +8090,36 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
         ],
         "post": " けんど茶屋    I had less than 40 minutes before the bus would come. It's a common problem with my weekend work. We fly in to who-knows-where, do our job, and hop over to the next big city. So when you work in a place like Tokushima, it can be quite motainai, unfortunate. No time to hunt out famous ramen. Only time to wait for that damn bus.    Well, I was determined. Don't tell anyone, but I still, after all these years, don't own a smartphone. A quick search on a ramen app would have shown half a dozen highly ranked shops in the area. Tokushima is, after all, one of Japan's famous ramen towns. You can refer to some past posts to see what I'm talking about. Inotani, 3no3, and Sanpa.    Instead, I just wandered. Time was of the essence, so the closest thing would have to suffice. The closest thing was on a little shotengai, shopping street, next to the station. Tons of charm, no customers. Is that a good or a bad sign?    Well, the ramen wasn't that great. I'll leave it at that.    But the staff were a collection of characters. She's been cooking here for 44 years. \"Go look in the other room,\" she told me. \"You'll see me!\"    Sure enough, there was a collection of what I can only describe as fat old lady dolls.    Cute.      徳島県徳島市寺島本町西1-59 Tokushima-ken, Tokushima-shi, Terashimahonchōnishi 1-59 Closest station: Tokushima  Open 9:00-20:00  ",
         "title": " けんど茶屋 (Kendochaya in Tokushima) "
+    },
+    {
+        "date": "2015-05-07 00:00:00",
+        "pictures": [
+            "https://farm8.staticflickr.com/7694/16663752204_37ff7953f8_c.jpg",
+            "https://farm8.staticflickr.com/7675/17078771117_876818d125_c.jpg",
+            "https://farm8.staticflickr.com/7699/17286221565_13ddb8b527_c.jpg",
+            "https://farm8.staticflickr.com/7706/17100011419_4a833a5aa4_c.jpg",
+            "https://farm9.staticflickr.com/8762/17078773727_8cfa966714_c.jpg",
+            "https://farm9.staticflickr.com/8815/17285707931_3d170d546c_c.jpg",
+            "https://farm8.staticflickr.com/7657/16663754754_8681766cdc_c.jpg",
+            "https://farm9.staticflickr.com/8719/17098663370_534b840b13_c.jpg"
+        ],
+        "post": "The latest and greatest ramen shop in Tokyo is by far RAGE, out on the Chuo Line in Nishi-Ogikubo. I prayed for a convenient parking spot. Fantastic! The menu is only two deep; chicken or fish. Shamosoba is make with Tokyo-raised game fowl. If these chickens aren't fighting in illegal cock fighting rings, they're in your ramen. Definitely an uncommon bird.
+
+        The niboshisoba is a blend of three different dried fish.
+
+        Both are getting rave reviews, but I went with the shamosoba this time. So solid. The soup is made with the mentioned chicken, and also a specific ham I'd never heard of. 金華ハム - Kinka ham is a kind of dried Chinese ham. Lots of flavor in this one. This ongoing trend of refined bowls is still going strong. Menson is awesome, indeed.
+
+        The shop's master worked at Suzuran back in the day, another fine ramen shop in Tokyo.
+        東京都杉並区松庵3-37-22
+        Tokyo, Suginami-ku, Shoan 3-37-22
+        Closest station: Nishi-Ogikubo
+
+        Open 11:00-15:00, 18:00-21:00
+        Weekends 11:00-16:00
+        Closed on Tuesdays
+        Labels: オススメ",
+        "best_of": true,
+        "title": "RAGE in Nishi-Ogikubo"
     },
     {
         "date": "2015-06-29 00:00:00",
@@ -7676,6 +8218,30 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
         ],
         "post": " 麺行使 伊駄天    Looking back at my (very) old postings on Ramen Adventures, I am both embarrassed by my writing and nostalgic about a time where I knew almost nothing about ramen. Idaten had a pop-up at the Tachikawa NY Ramen Square, and I went back in 2008. I went, I slurped, and I was surprised to learn that shoyu ramen can have a strong taste.    Fast forward half a decade . . .  They have been long gone from the Ramen Square, but the original shop in Shizuoka city is still popular.    Though the shoyu is still what most regulars order, I really wanted to see what the Teppen was. Billed as ご当地ラー麺, local ramen, I didn't know what to expect. Shizuoka is famous for a few things, but how can green tea and oranges make it into a bowl of ramen?    Oh, and Mt. Fuji. Very cute.    Idaten make their own noodles, so it was easy to incorporate a little matcha powder into the mix. Though the soup was light, you really don't get a massive tea flavor, just a slightly different texture.  And that chashu, well it was flavored with local mikan, a type of small Japanese orange. Interesting, for sure, though not something I will be getting again. Yes, this bowl is fun, but overshadowed by their regular menu.    Shizuoka city is a fantastic place for food. I'm not sure why, but this smallish town has more specialty gourmet, local sushi, and stylish cafes than any other comparable city in Japan.    Apart from the regular menu, Idaten has four limited bowls to reflect the seasons. I wish I was around here enough to sample them all.    Official Site Here      静岡県静岡市葵区御幸町7-5 Shizuoka-ken, Shizuoka-shi, Aoi-ku, Miyuki-cho 7-5 Closest station: Shizuoka  Open 11:00-15:00, 17:30-23:00 Sundays 11:00-21:00  ",
         "title": " 伊駄天 (Idaten in Shizuoka) "
+    },
+    {
+        "date": "2015-06-01 00:00:00",
+        "pictures": [
+            "https://c1.staticflickr.com/9/8816/17795716616_3ab09458f1_c.jpg",
+            "https://c2.staticflickr.com/6/5461/17635747869_da6716ca51_c.jpg",
+            "https://c1.staticflickr.com/9/8845/17822037755_2f5f08fb6f_c.jpg",
+            "https://c4.staticflickr.com/8/7675/17199575294_a49d294780_c.jpg",
+            "https://c4.staticflickr.com/8/7752/17822595491_57f3a5a059_c.jpg",
+            "https://c1.staticflickr.com/9/8884/17795778296_b6410ddc61_c.jpg",
+            "https://c2.staticflickr.com/6/5339/17819300932_a53a3a43fb_c.jpg",
+            "https://c2.staticflickr.com/6/5468/17822580931_b367571171_c.jpg",
+            "https://c4.staticflickr.com/8/7744/17201613103_a95360348a_c.jpg"
+        ],
+        "post": "I can't believe it took me so long to make it here. Itto is one of the highest ranked shops in Japan, and Shin-Koiwa really isn't that far from central Tokyo. Expect crowds on any day that ends in the letter Y (or 曜日 for that matter). And though almost everything on their menu comes recommended by one source or another, you should probably go with the tsukemen the first time around.
+
+        If you look like you aren't from Japan, the staff will assume that you don't know what you are doing and help you order. I obliged and asked, in English, what I should get. The special thick fish tsukemen. Tokusei noko gyokai tsukemen. 特製濃厚魚介つけ麺. This one is amazing. It's hard to pinpoint something that stood out above anything else. The noodles, handmade in the shop, are pretty much the top tier of Japanese noodles. I've been to the most famous udon shop in Kagawa, countryside soba shops where old ladies have made noodles for centuries, and many, many ramen shops. These are up there. Top 5 without a doubt. 
+        The soup is lighter than the typical tonkotsu gyokai that most tsukemen shops serve. Light, but full of great flavors. One of Itto's main draws are the chicken meatballs. Made from specialty French chickens called レッドブロー. Red Brow? I was really into this soup, though my friend prefers the thicker stuff, especially Fuunji. The chashu is cooked using a low temperature vacuum cooker, giving it a fantastic flavor. The eggs are on point. Worth the wait, though on a Thursday afternoon it was only about a dozen people ahead of me. I've heard stories of three or four hours. Be advised. 東京都葛飾区東新小岩1-4-17
+        Tokyo, Katsushika-ku, Higashishinkoiwa 1-4-17
+        Closest station: Shin-Koiwa
+
+        Open 11:00-15:00, 18:00-22:00 Labels: オススメ",
+        "best_of": true,
+        "title": "一燈 (Itto in Shin-Koiwa)"
     },
     {
         "date": "2015-07-30 00:00:00",
@@ -7897,6 +8463,7 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
             "https://www.google.co.jp/maps/vt/data=RfCSdfNZ0LFPrHSm0ublXdzhdrDFhtmHhN1u-gM,ZPeSBz1jaEoXC-bAYgYpeIXjKqVfqLg6P_0hXRteFEkWDLF-R99vVpj8Md1v-DIzEiXCR4i_NuheefvOL3Y_FShIFh43c5eZUFYBTkRatSNr4bDwHgb6toFrCZF8nuOy"
         ],
         "post": " 麺屋 彩未     I've been making it a mission to eat at the highest ranked ramen shops in the country. Saimi is by far the highest ranked miso ramen. Just outside the heart of Sapporo, this is one of those shops that always has a line, and always runs out of soup.    With shops like Yukikaze and Okami Soup having shown me that Sapporo miso is something worthwhile, I was ready to be blown away.    Like most Hokkaido shops, they have miso, shio, and shoyu on the menu. One bowl of miso please.    Right off the bat, these were the best yellow, curly noodles I've ever had. Springy and full of bite.    The soup was definitely good, but I can't agree with the rest of the country in giving this the coveted number one. The master's roots are at Sumire, and the Sumire/Junren style is my least favorite way of doing miso ramen. The impact is minimal, though I think that is the point. Instead of a salty miso hit, you get a smooth, subtle flavor.    If you are in Sapporo, put this on your short list and decide for yourself.    北海道札幌市豊平区美園10条5丁目3-12 Hokkaido, Sapporo-shi, Toyohira-ku, Misono 10jo, 5-3-12 Closest station: Misono  Open 11:00-15:15, 17:00-19:30 Closed Mondays  ",
+        "best_of": true,
         "title": " 彩未 (Saimi in Sapporo, Hokkaido) "
     },
     {
@@ -7965,6 +8532,7 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
             "https://www.google.co.jp/maps/vt/data=RfCSdfNZ0LFPrHSm0ublXdzhdrDFhtmHhN1u-gM,7kEUIonZIXU91sar-zBuYhb69nxu3KuxAGm1nHYy4CdNl9R5UGjbi8FEKzGppMNI70QKXSa6H5Kj8xw8LiBhcByYSRw0R_5tVqvkokshN3m8__dCzTBNNTPCtXvitQSP"
         ],
         "post": " 麺処 きなり    The master at newly-opened Kinari asked that I not reveal his previous place of employment. But I'll give a hint; it's one of the ramen shops in my best-of list.    With rent being cheap (relatively cheaper) on the north side of Tokyo, it was easy (relatively easier) for this small, eight-seat counter restaurant to open.    I had high hopes going in, and was greeted with this fantastic bowl. It's a simple, niboshi-rich ramen with a surprisingly deep umami aftertaste. Sure, this style is the default trend for shops these days, but there was something unique about the flavors in the bowl at Kinari.  Definitely one to check out if you are into niboshi or live anywhere near Komagome Station on the northern side of the Yamanote Line (the Tokyo loop line).    Oh, that egg!      東京都北区西ヶ原1-1-15 Tokyo, Kita-ku, Nishigahara 1-1-15 Closest station: Komagome  Open 11:30-14:30, 17:30-22:00 Saturdays 11:30-14:30, 17:30-20:00 Closed Sundays  ",
+        "best_of": true,
         "title": " 麺処 きなり (Kinari in Komagome) "
     },
     {
@@ -7981,6 +8549,7 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
             "https://www.google.co.jp/maps/vt/data=RfCSdfNZ0LFPrHSm0ublXdzhdrDFhtmHhN1u-gM,4Bq3vI2zCFKfcMbnk8ZgNEG9iqjMPZYpcboDnT4AZbY9QPHQHu_0GaHwMJscjBcFXmfLv1tgJbRUBOtWX-cTzRNmxtg76K2SYLmW44ewRhMj4fr9spQo1r-OUiocBHj2"
         ],
         "post": " ラーメン 巌哲    Maguro ramen is uncommon. Usually, heartier, smokier dried fish are used to make the soup. The flavors just match better. And when you pair maguro tuna with a light shio broth, you'd better know what you are doing.    The Chinese characters in Gantetsu (巌哲) translates to rocky philosophy. This was fitting, as I was meeting with my friend A from Philoramen. I'll keep his name anonymous, as he is a philosophy researcher whose character may come into question if his ramen obsession was found out by the academic world.    The shop filled with wonderful aromas as chef Yasuyuki Hiramatsu quickly sauteed some raw tuna chunks.  The soup uses local chickens from Shiga Prefecture to give just enough character to match the tuna, all topped with high quality versions of your usual toppings.    Another solid shio ramen in Tokyo. Umami-rich, and the half-cooked bits of fresh tuna could stand on their own, they were that good.    The limited hiyashi bowl was outstanding. Those raw, red sliced of maguro were unbelievably rich. We later found out that it was cold smoked, giving those slices a deep, rich flavor.    Smoking meats needs to be a bigger thing in Tokyo, though I'm not sure if the thousands of neighbors we all live near would be too happy about it.    On the ticket machine, the upper left is actually shoyu, so if you want the shio go to the one below.      東京都新宿区西早稲田1-10-4 Tokyo, Shinjuku-ku, Nishiwaseda 1-10-4 Closest station: Waseda  Open 11:30-15:00, 18:00-21:00 Thursday 11:30-15:00 Sunday 11:30-16:00 Closed Mondays  ",
+        "best_of": true,
         "title": " 巌哲 (Gantetsu in Waseda) "
     },
     {
@@ -8151,6 +8720,7 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
             "https://www.google.co.jp/maps/vt/data=RfCSdfNZ0LFPrHSm0ublXdzhdrDFhtmHhN1u-gM,wSuctHbf0a1uAtTJl7_7opgInFiaHV-DA8SOXyrBmfJ1JKaUkxz8QHqWNC3auG4HTCe5BWmbcz-Kq9lOpI1LFZ2lqzzwEqSBu5NdgwVz8mbmH6CafAH1eL0RMITqAmCR"
         ],
         "post": " 煮干中華ソバ イチカワ    The weather for late October was surprisingly warm and clear. The perfect riding weather. I put out a quick call for a ramen ride, but with short notice no one had the time. A solo ride out to Tsukuba was no problem, especially for the bowl at Ichikawa.    The line at 11am, 30 minutes before the shop opens, was almost 40 deep. What is even more impressive is that Ichikawa only serves 80 bowls a day before they close.    This is what they came for. One of the most sought after bowls of niboshi ramen in Japan. The master wore a shirt proclaiming the addictive quality of niboshi, and I agree. Soups made with copious amounts of dried sardines have an almost drug-like umami effect.    If you don't absolutely love these flavors, you might want to reconsider. Even the vinegar is spiked with the good stuff.    And the egg. I watched as the only other employee - I'm assuming it was the master's wife - used a syringe to inject the shop's tare seasoning liquid directly into the yolk before serving.    Wow. I used to say that high quality eggs were hard to give any sort of ranking to. Good was good. But now I have a number one.    Tsukuba isn't considered much of a rider's hangout. Regardless, the ride over the mountain was nice, and a quick dip into a local onsen hot spring was a necessity.    By the way, for those who are concerned about the line. In line at 11am, the shop opened at 11:30, sat down at around 12:30, and was out the door just before 1pm. Good luck.    Official blog here.      茨城県つくば市天久保2-9-2 Ibaraki-ken, Tsukuba-shi, Amakubo 2-9-2 Closest station: Tsukuba  Open 11:30 until they run out Closed Sundays  ",
+        "best_of": true,
         "title": " イチカワ (Ichikawa in Tsukuba) "
     },
     {
@@ -8226,6 +8796,7 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
             "https://www.google.co.jp/maps/vt/data=RfCSdfNZ0LFPrHSm0ublXdzhdrDFhtmHhN1u-gM,6WwkGbFOkFDagHYqXTRIwKKMYTEmodqUv4fvAll4Kv8ewuTVQaNnNLiYVrXQ15RpZim0xjel7XvIrggMAxMWnWMdV23bM68ofsgkrxH9_oO5-s_55ysAOMRmX_mzAQAk"
         ],
         "post": " ラーメン家 みつ葉    This one was on the list for a while. Located way out in Nara Prefecture, It was required that I spend an extra night in Osaka after my work finished, wake up early, and line up well before the shop opened. In case you aren't familiar with the lay of the land, Nara is just less than an hour from Osaka.    Outside, the sandwich board lets you know; 10 people will be about 25 minutes, 20 people equals 50 minutes, and more than 20 people is more than an hour. At 10am (they open at 11), I was number 12. Two minutes after I got in line, there were about 30.  This was on a weekday.  You are warned.    Shoyu or shio, it's your choice. Make sure you get the chashumen for the full effect.    What a beautiful bowl. It wasn't as creamy as I thought it would be. They hit the soup with a hand blender just before serving to froth it up a bit. Underneath the foam is a deep shoyu soup. Amazing stuff. Rare, peppered chashu lining the bowl is their signature.  This bowl looks a lot like one of the best ramen shops in Japan, Ore no Ramen Appare, which actually isn't too far away. If you hit up both shops, you would have eaten at the #2 and #6 ramen shops in Japan, if you follow the popular rankings.    Yes, this shop is out of your way. But if you come here early, you'll be set for a nice day in nearby Nara, one of Japan's famous historical areas. There are temples, quaint restaurants, a big Buddha, and plenty of the area's most famous draw; friendly deer.    I love Nara. People say it is like a mini-Kyoto, but I think of it as a more relaxing experience. The entire place is green and natural, and a short hike up the hill puts you far enough from the city to feel at peace.    I've been hitting off all the big ones lately. Just a few more to go . . .      奈良県奈良市富雄元町3丁目3-15-1 Nara-ken, Nara-shi, Tomiomotomachi 3-3-15-1 Closest station: Tomio  Open 11:00 until they run out Closed Sundays and holidays  ",
+        "best_of": true,
         "title": " みつ葉 (Mitsuba in Nara) "
     },
     {
@@ -8319,6 +8890,7 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
             "https://www.google.co.jp/maps/vt/data=RfCSdfNZ0LFPrHSm0ublXdzhdrDFhtmHhN1u-gM,HXithWzxGAxeEw-U2ozV7N5vOT0SndZUSVFwNPN85OpvUvATZ-5Qz7RWnmCL357QNxd6i-uD5KyT_xXQBSsOIks7QXuJU7iriXvEkxEqExaC0DlDi2mc4wOvCLf9b4uh"
         ],
         "post": " らぁ麺屋 飯田商店    Here it is. This is one of Kanto's most celebrated ramen shops. Some of Ida Shoten's accolades:  #13 in the country according to Tabelog A 95.134 rating on the ramen database TRY magazine #3 shoyu, #7 shio, #1 light tsukemen A massive line every day    Yes, the line here is long. On a warm Saturday in November, I waited over two hours. Be prepared.  I should also note that this shop, though technically in Kanagawa Prefecture, is very far from Tokyo. The fastest trip by train involves riding the Shinkansen bullet train, and takes about an hour and a half.    The menu is simple. Top row is shoyu, followed by shio, with tsukemen just under that. What to eat, what to eat? One of each sounds good.    This shoyu is on another level. Master Ida-san trained at famed Shinasobaya, and it shows. A deep shoyu sits underneath that golden layer of aromatic chicken oil. On many levels, this could be considered a perfect bowl of ramen; every detail is accounted for. Thick-cut menma along side thick-cut chashu. The special version also came with slow-cooked chicken slices and shrimp wontons.  Despite the distance from central Tokyo, this one is a must-hit for ramen lovers.    The shio is up there as well. Notice how he uses slightly different toppings? While the robust shoyu has thick cut menma bamboo shoots, the lighter shio uses a thinner, more delicate one. Also, the bowls are different shapes, meant to affect the aroma and slurpability. This is where my fellow ramen nerds and I geek out.    Oh, they were having a limited bowl of duck shoyu, so we tried that as well. I've had a few bowls of duck shoyu recently, and when done right, it's fantastic. This might have been a reason for the huge line that day.    The tsukemen is a different beast all together. If it looks complicated, well, it is. So complex, in fact, that you need a nine step instruction manual to do it right.    Sprinkle some salt on the noodles. Eat the noodles a la carte. The noodles are sitting in a light konbu dashi that deserves to be tasted alone. Taste just the soup. Rich, isn't it? Eat the tsukemen like a normal person normally would. These toppings are amazing! Now dip the noodles in the shoyu soup, then sprinkle with salt. Eat it! Finish it! Pour the remaining soups together and drink it down. Tell a friend!　行くべ！    But, to be honest, I didn't like this one at all!  The konbu dashi that the noodles sit in was so rich that it became slimy. The word slimy sounds bad in English, while the Japanese onomatopoeia for the word ネバネバ, neba neba, is used to describe many tasty foods. I'm not a huge fan, an aspect I blame on being raised in a Western household where slippery, slimy foods were never on the menu. I'll eat the stuff, but I'm not going out of my way for the likes of natto, okra, or grated yam (tororo).  I've been told by EVERY other ramen nerd that this tsukemen is one of the best in Japan. That overabundance of konbu means and overabundance of umami. Even though I don't recommend it, I kind of recommend it.    You could easily make a day out in Yugawara. There are plenty of onsen, natural hot springs, in the area. Dopponoyu, Japan's largest foot bath, isn't far from Ida Shoten. And in nearby Atami is one of my favorite art museums in Japan, the MOA. Sounds like a perfect day to me!    神奈川県足柄下郡湯河原町土肥2-12-14 Kanagawa-ken, Ashigarashimagun, Yagawaramachi, Doi 2-12-14 Closest station: Yugawara  Open 11:00-15:00 Closed Mondays  ",
+        "best_of": true,
         "title": " 飯田商店 (Ida Shoten in Yugawara) "
     },
     {
@@ -8399,6 +8971,7 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
             "https://www.google.co.jp/maps/vt/data=RfCSdfNZ0LFPrHSm0ublXdzhdrDFhtmHhN1u-gM,dKYKMulo97ESJyPzUSuwRtmTEtJn-6GdYnovmOl4chtYxvf_kbV7aFAC55s4KZrPD_K-QhKH-wwBHO2KctGckoJkewVz4BVZzFs-aI91aF7d8UjVYcuWCVWsQy8VU18n"
         ],
         "post": " 志奈そば 田なか Second    Shinasoba Tanaka in Otsuka is a great shop, and I was excited to hear they would open a second brand near Akihabara Station.    The menu is totally different, focusing on lighter shio styles.  The top of the ticket machine, from left to right, is niboshi shio, anchovy mazesoba, kakesoba, and a shoyu that will come in the future.  I tried a couple bowls, starting with the anchovy mazesoba. Mix it up!    The anchovy flavor was lighter than what you would expect, and the flat noodles are an uncommon choice for this style of soupless ramen. I'd recommend it if it wasn't for their other menu item.  The real winner here is the kakesoba, ramen with nothing but soup and noodles. Why not include a plethora of tasty toppings? This style of ramen let's the soup speak out for itself.    And what a soup it is! Made with Japanese abalone and spiny lobster, the kakesoba is pure essence of the sea. I gotta see it again!    Exploding with umami, and just a splash of the ocean. This is broth at the same level as some at Tokyo's high end kaiseki restaurants. Yes, iseebi, Japanese spiny lobster is very expensive. Yes, awabi, abalone, ain't cheap either. But this bowl is only 1000 yen. Limited to 30 a day.    Show it again!    I've grown to love natural umami flavors more and more. Take a sip, and feel the aftertaste as you exhale. It's hard to define umami; is it a meaty taste or just a mouth-feel. Regardless of how you describe the 6th taste sensation, it is pure joy.  Check out the video I made with #TokyoExtra.        東京都千代田区外神田3-4-1 Tokyo, Chioda-ku, Sotokanda 3-4-1 Closest station: Akihabara  Open 11:00-15:30, 17:00-21:00 Closed Mondays      ",
+        "best_of": true,
         "title": " 田なか Second (Tanaka Second in Akihabara) "
     },
     {
@@ -8465,6 +9038,7 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
             "https://farm2.staticflickr.com/1484/24267183074_92374bb55f_c.jpg"
         ],
         "post": " MENSHO TOKYO    It's only a few days until Valentines, and that means chocolate, chocolate, chocolate in Tokyo. For those who don't know what it is like in Japan, the girls buy chocolate for all the guys in their lives, from friends to colleagues to boyfriends. Something got a little lost in translation, and this holiday is all about marketing to the masses, as many holidays are. Regardless of how you feel about the day, it's a big deal to some.      Ramen shops even get in on the fun. This year, at MENSHO TOKYO, they add dark chocolate to a spicy, peppery lamb soup. This is a limited bowl, only available until February 14th. Better act fast!    The soup is inspired by Toyama Black, a style that uses black pepper and dark shoyu to give a noodle-staining color to the soup.    Melt in some chocolate, and top with roasted Iberico pork for an intense dish.    Surprisingly, this one was pretty good. The spices outweigh the chocolate, much the way Mexican mole does.  As always, noodles are way above average at any Mensho shop.    Definitely not something I'd crush every day, but not something I wouldn't crush once in a while.    Head to my original review of  MENSHO TOKYO for shop info.  ",
+        "best_of": true,
         "title": " チョコひつじ (Chocolate Lamb Ramen at MENSHO TOKYO) "
     },
     {
@@ -8547,6 +9121,7 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
             "https://www.google.co.jp/maps/vt/data=RfCSdfNZ0LFPrHSm0ublXdzhdrDFhtmHhN1u-gM,jZQ61s1d2tFYALmrWRrv7NTc3AcEj6M48_rmJsrNGe2EICNT9cUfh8U6FDDEA-UuxwDOXeXywsPCl1wlfu17jJwZ1R3githqPR-spoCmWcEQJ0MbriwLfZ8-atEDOPnf"
         ],
         "post": " 西町大喜 西町本店    Local ramen, I love it. So when I had a few hours to kill in Toyama, I made it a point to go try the original Toyama Black bowl.    It looked to be about a 30 minute walk, but for 200 yen you can ride the city's streetcar. Just make sure you hop on the Loop Line.    The shop isn't far from Grand-Plaza Mae.    This is a one menu item shop. Go for nami, the smallest size. It was plenty.    Toyama black is defined by the ultra-dark soy sauce and black pepper. Be sure to mix it up a bit before you slurp.  Shoyu-lovers rejoice! This one is so deep, so in-your-face. The soup soaks into everything, and the flavors are extreme.    I tried another Toyama Black from Iroha before at their Ikebukuro shop, and have to say that Taiki blew it away.    Not very crowded on a Sunday afternoon, which was surprising considering the sheer number of famous people who have been here.    Unfortunately, I think Taiki is a default go-to for TV shows that are trying to do a local-flavor type of show about Toyama. Despite the general disingenuous nature of the food reviews on these shows, I can say that Taiki is worthy of a visit.    Enjoy Toyama!    Official site here.    富山県富山市太田口通り1-1-7 Toyama-ken, Toyama-shi, Otaguchidori 1-1-7 Closest station: Toyama (or Grand Plaza-Mae)  Open 11:00-20:00 Closed Wednesdays      ",
+        "best_of": true,
         "title": " 大喜 (Taiki in Toyama) "
     },
     {
@@ -8585,7 +9160,33 @@ rink at their bar.  No thank you!Liquor was not on the agenda, only a thick miso
             "https://www.google.co.jp/maps/vt/data=RfCSdfNZ0LFPrHSm0ublXdzhdrDFhtmHhN1u-gM,N6oFr1fRGiwNXjsm6AmmToBCaWaI1k_jBfdRrcw4Pjm8bFehkFX7ApEZetZRByN9kJAvmlBkHC00pLYwGoerzI6Z0zEVgyQ6v5XlF6j1j1dUysVHIGvg1gZDAje8Z_uT"
         ],
         "post": " 町田汁場 しおらーめん 進化    Shinka is hot on the scene right now, and everyone has been raving about their chicken shio ramen.    Sure, Machida is a bit far, but at least they have two shops to choose from. I never quite get why shops open a second branch a few minutes from the first, but it is quite common in Japan.    Shinka is one of the most metal ramen shops in Tokyo. Regardless of whether you put Green Day, Evanescence, and Ozzfest in the same category is a discussion for another time. We're here for the ramen!    The ramen here is good, really good. Rough cuts of chicken cover the bowl. Tender and fatty.    Everything is premium, farm-sourced chicken here. That layer of oil on the top is rendered chicken oil, and it is aromatic and wonderful.  Shinka's style is in line with the latest \"trend\" in ramen. Simple ramen that is elevated by amazing ingredients and knowledge.      100% homemade noodles.      東京都町田市森野3丁目18-17 Tokyo, Machida-shi, Morino 3-18-17 Closest station: Machida  Open 11:00-15:00, 18:00-21:00 Sundays 11:00-17:00 Closed Monday (Tuesday is a different menu)      ",
+        "best_of": true,
         "title": " 進化 (Shinka in Machida) "
+    },
+    {
+        "date": "2016-03-07 00:00:00",
+        "pictures": [
+            "https://farm2.staticflickr.com/1627/23966808939_d3a84efb1c_c.jpg",
+            "https://farm2.staticflickr.com/1567/23706380444_b7da8b307b_c.jpg",
+            "https://farm2.staticflickr.com/1685/23707751103_2f506782a4_c.jpg",
+            "https://farm2.staticflickr.com/1554/23966821739_fdd40d7c0d_c.jpg",
+            "https://farm2.staticflickr.com/1582/23966836359_04cc70596d_c.jpg",
+            "https://farm2.staticflickr.com/1719/23966846999_453809f21f_c.jpg",
+            "https://farm2.staticflickr.com/1499/24226463202_627deab315_c.jpg",
+        ],
+        "post": "I love being surprised by ramen! The fact that it still happens, after a thousand or so shops is a testament to this genre of food. Koike serves up essentially three styles, along with some limited bowls for good measure.
+        There's a niboshi-rich clear soup, a shoyu clear soup, and a thick soup. They all play off each other, with similar bases and toppings. I've got to go thick! From the looks of this bowl, you are in for an intense punch in the palate. A seriously strong bowl.
+
+        But looks can be deceiving. The kotteri ramen at Koike is surprisingly smooth. The egg was another surprise. Although it looks unseasoned, they soak it in a katsuo broth before serving. This imparts a huge amount of umami.
+
+        A few years ago, I thought that all upper-end eggs were the same. Not true! This one was noticeably different. Noticeably better. Kami-Kitazawa is a little out of the way for many people, but for a shop like this it is worth a detour. 東京都世田谷区上北沢4-19-18
+        Tokyo, Setagaya-ku, Kamikitazawa 4-19-18
+        Closest station: Kami-kitazawa
+
+        Open 11:30-15:00, 18:00-21:00
+        Closed Wednesday and Friday Labels: オススメ",
+        "best_of": true,
+        "title": "らぁめん小池 (Koike in Kamikitazawa)"
     },
     {
         "date": "2016-04-28 00:00:00",
@@ -8603,6 +9204,7 @@ icflickr.com/1513/24669205514_063bf2ff53_c.jpg",
             "https://www.google.co.jp/maps/vt/data=RfCSdfNZ0LFPrHSm0ublXdzhdrDFhtmHhN1u-gM,pd63Y-u9D2pwf5pdFkFNNJcqrzqjmhO57Rn2b_S8430fLpOgB4lNsrCcEQzJGaQm1R9esnJ4h5D9lsjxH1FFgE7gWebhll0Us95c0AVWo5Y3e8PXxXAK0VusivwMpiQp"
         ],
         "post": " 麺や金時    A ramen-slurping friend and his daughter were in town, and she (the daughter) had been looking forward to crushing something great with her honorary jiu-jiu all week.  Then this happened.    We just missed it. We salvaged the ramen adventure by going to a local unknown, but in my heart I was really hoping to try Kintoki.    So I came back!    Oh man, I'm glad I came back. This is chicken ramen kicked up to the highest level.    The shop's name can be translated as golden time, and that is exactly what this one was. A golden bowl of chicken soup, touched with some amazing chicken oil, a deep flavor profile, and some solid toppings.    But wait, their fame in the past was more about their soupless tantanmen.  Another bowl, please!    Oh man, oh man, oh man. I can never get enough of this style.    Remember, they usually run out of soup before they are meant to close. Arrive early.      東京都練馬区小竹町1-2-7 Tokyo, Nerima-ku, Kotakecho 1-2-7 Closest station: Ekoda  Open 11:00-14:00, 17:30-20:30 Closed Mondays and some Tuesdays  ",
+        "best_of": true,
         "title": " 金時 (Kintoki in Nerima) "
     },
     {
@@ -8620,6 +9222,7 @@ icflickr.com/1513/24669205514_063bf2ff53_c.jpg",
             "https://www.google.co.jp/maps/vt/data=RfCSdfNZ0LFPrHSm0ublXdzhdrDFhtmHhN1u-gM,B4HzbCfd9otK_WSuxIB2iwvQglYikKmXkRYAi3LZGsqb7uZV3LkC8-x1z3jaZ_PyRWnzufr_-EhazRkBVk99eK0qeKdvebmG5rs4Y1A0C_dA-b8RXRNT5Adz0gMqcsIl"
         ],
         "post": " 中華そば よしかわ    I managed to drag the usual suspects out on another ramen ride. The problem with many of these rides is that shops open at 11am, and require a boring ride through a major city's traffic. More hardcore riders are up at dawn and well into the mountains by this time.    Luckily, the usual suspects had been out drinking the night before, and a late start paired with a great bowl of ramen was their idea of a good time.  Mine, too.    Why Yoshikawa? Although it has been on my list of shops to check out for a while, their recent #23 spot on a popular nation-wide ranking list made them a must-slurp.    A must-slurp indeed.  This is one is fantastic. The soup is an all natural (無化調) blend of four different dried sardines from all over the country. This is balanced with an shoyu seasoning blend, giving the soup a big impact, and an equally big umami aftertaste.    Be sure to get a side of the iwashidon (いわし丼), a bowl of rice topped with sardines.    Yoshikawa is a relatively new shop, less than two years now, but they have built up a lot of critical success. Expect a bit of a line, though their location detracts from this.    On the ticket machine, the usual upper-left choice was a winner, though the shop has quite a few other choices. You'll be hit with one big choice, though, black or white. They each use a different type of soy sauce. The black was deeper, so I'd suggest that one.    Or just get one of each.      埼玉県上尾市南97-5 Saitama-ken, Ageo-shi, Minami 97-5 Closest station: Kita-Ageo  Open 11:00-15:00. 17:00-21:00 Saturdays 11:00-21:00 Closed on Sundays  ",
+        "best_of": true,
         "title": " よしかわ (Yoshikawa in Saitama) "
     },
     {
@@ -8666,6 +9269,7 @@ icflickr.com/1513/24669205514_063bf2ff53_c.jpg",
             "https://farm2.staticflickr.com/1489/24226075652_d643d15ac1_c.jpg"
         ],
         "post": " 西尾中華そば    Nishio Chukasoba was one of my all-time favorite shops in Japan. Old-school mixed with the new. Classic chukasoba with noodles that had a touch of corn flour in them. One of my regrets in life is that I didn't visit their Komagome shop enough, even though I lived fairly close.  For the record, I probably slurped there a dozen times back in the day. Not enough at all.    Well, Nishio is part of the Nagi group, and he left his shop in the hands of the well-equipped Kabo-chan to pursue overseas ventures. Nagi is killing it in Asia, so I can't fault him. At least he still does the occasional pop-up here in Tokyo.    This one was a one-day event on January 2nd, 2016. His \"leveled-up\" bowl was an exercise in crafting ramen from the best ingredients, sourced from the far reaches of Japan. There is soy sauce from Shodoshima. There is chicken from Aichi, Kumamoto, Aomori, and Iwate. There are organic eggs from Yamanashi. There is, well, read the above Japanese description and you'll see about 50 local ingredients.    For some reason, there was a really nice collection of tequila. 400 yen for a shot? At 11am? Sure!    Hmmm, maybe we shouldn't be drinking tequila first thing in the morning.    The ramen was, as expected, amazing. This is what happens when you go for broke with your ingredients. Complex umami flavors under a deep, meaty broth.    If it looks oily, that's because it is. But that layer of chicken oil, called chiyu in Japanese, is a delicacy unto itself. A byproduct of making the stock, it is one of the hardest things for ramen shops to get right. Too heavy, and it coats your mouth with fat. Too thin, and the bowl lacks substance. Nishio's chiyu has always been perfect.    Great stuff. I hope he makes it back to Japan more often.        ",
+        "best_of": true,
         "title": " 西尾中華そば (One-Day Nishio Popup in Shinjuku) "
     },
     {
@@ -8780,6 +9384,34 @@ icflickr.com/1513/24669205514_063bf2ff53_c.jpg",
         "title": " 凪 (Nagi in Omiya) "
     },
     {
+        "date": "2016-05-05 00:00:00",
+        "pictures": [
+            "https://farm2.staticflickr.com/1476/24985704953_900aed8ffa_c.jpg",
+            "https://farm2.staticflickr.com/1690/24985690453_7f94059091_c.jpg",
+            "https://farm2.staticflickr.com/1548/25519727671_581540ab91_c.jpg",
+            "https://farm2.staticflickr.com/1462/24981906174_fd52437983_c.jpg",
+            "https://farm2.staticflickr.com/1568/25586285866_457806334a_c.jpg",
+            "https://farm2.staticflickr.com/1465/25519740481_b6d07681cd_c.jpg",
+            "https://farm2.staticflickr.com/1503/25519747211_c35f11c40e_c.jpg",
+            "https://farm2.staticflickr.com/1624/24985709333_d41858aaac_c.jpg",
+            "https://farm2.staticflickr.com/1701/25493798232_53b9b1682f_c.jpg",
+            "https://farm2.staticflickr.com/1708/25612429405_34031c3938_c.jpg",
+            "https://farm2.staticflickr.com/1470/25493785762_07d8fcb631_c.jpg"
+        ],
+        "post": "A shop worthy of an adventure! I managed to secure a reservation at a middle-of-nowhere fermented sushi restaurant that had been on my non-ramen list for years. This place was so tough to reserve that I had to settle for a Friday lunch seat, as opposed to the Saturday evening I wanted. That's all well and good, but it meant that I had a few days extra to spend in the area. Camping on the shore of Lake Biwa seemed like something to try. As did traversing a mountain to get into Kyoto for some ramen. Sure, the train from JR Oimaiko Station is only an hour or so to Kyoto, but the map showed a much shorter route over Mt. Hiei. So I hiked. This historic mountain was built to protect ancient Kyoto from evil forces to the Northeast. This seemed to work, until the shogun Nobunaga burned the complex to the ground in 1571.
+
+        Well, the mountain's rope way was closed, so what should have taken an hour ended up being a four hour hike. But right on the other side of this historic mountain was my goal, a ramen shop called Gokkei. I wasn't the only one out for ramen that day (though I was probably the only one who hiked a mountain pass to get there). When I arrived at 1:00pm, they added me to the list and told me to return an hour and a half later.
+        Return I did. Yes, that is the soup. A chicken porridge. I've never had anything like this before. The closest I can think of is the 100% pork soup at Muttepo, but that would be like comparing apples and oranges, or in this case pork and chicken. Probably one of the best bowls I've had in Japan. I really fell in love with this one, though the extended journey to arrive here may have played a role. The only shop in Kyoto from my recent 50-best obsession. For those not willing to wait so long, you might try coming back at 2:30 on the dot, as they were letting a few people in who didn't have a timed ticket. 京都府京都市左京区一乗寺西閉川原町29-7
+        Kyoto, Kyoto-shi, Sakyo-ku, Ichijojinishitojikawaracho 29-7
+        Closest station: Shugakuin
+
+        Open 11:30-22:00 (but when I went they were closed between 2:30pm and 5:30pm)
+        Closed Mondays
+        Labels: オススメ",
+        "best_of": true,
+        "title": "極鶏 (Gokkei in Kyoto)"
+    },
+    {
         "date": "2016-06-30 00:00:00",
         "pictures": [
             "https://c1.staticflickr.com/8/7774/27110364752_ac862899ed_b.jpg",
@@ -8844,6 +9476,7 @@ icflickr.com/1513/24669205514_063bf2ff53_c.jpg",
             "https://www.google.com/maps/vt/data=RfCSdfNZ0LFPrHSm0ublXdzhdrDFhtmHhN1u-gM,ZBFgkG8ofa7OHIC8QtOk2vyI_9KJT01pbaz2T8PdBMYxuGah1NIwh7qC4GlR_u3T5YZ11k-AfNuST6JYAEVlSMNDRb8kFNT4S7qxZrObxlf3o-oH6I7mhnUN8OU"
         ],
         "post": " 一風堂パリ    Only 200 meters from newly opened Kodawari Ramen is newly opened Ippudo. The St. Germain neighborhood is posh and trendy, and it is good to see them with a couple great ramen shops.    Ippudo is Ippudo. Either you love it and obsess, or you just enjoy it as a normal bowl. Me, I slurp at my local Ippudo on occasion, and am always satisfied. They've been pushing the ramen-envelope quite a bit lately, with their global expanse showing no ends. With the recent news that they teamed up with Panda Express, get ready for Ippudo to be all over the place in America in the near future.    While their US business is set to explode, the European side of things has taken some time. Ippudo had planned a Parisian ramen dining restaurant akin to their New York branch some time ago, but the delays have been non-stop. Construction problems, tenant issues, supply problems, it has been so long that they decided to go ahead and open a second shop, before the first could start serving.  This shop is smaller, and the menu is mostly just ramen. My kind of shop!    Well, the standard akamaru is just how I remember it. No review needed.  The master here is none other than Conner Callahan, whom I met at Ippudo's ramen competition last year. He insisted that I try their vegetarian bowl. Two bowls in a row, no problem.    Gasp. Whoah. OMG.  This is, in all honesty, the best vegetarian bowl of ramen I've ever had. The soup is a blend of a Japanese kelp and mushroom dashi and a French vegetable bouillon. The combination is so full of umami. I was shocked at this bowl.  The noodles are made like those at Soranoiro in Tokyo, with paprika giving them a bright orange hue.  The toppings; fried mushrooms and a dollop of ratatouille.    This recipe was developed by the head chef of their New York branch.  Out of a dozen or so shops in Tokyo doing a vegetarian bowl, I can only recommend two. Ippudo's Paris branch would make that three. Any chances of Ippudo opening a branch of their French shop in Japan?    Good luck Ippudo, though you don't really need it.    Official Site Here    14 rue Grégoire de Tours Closest station: Odeon  Open 12:00-16:00, 18:00-0:30 (Sunday until 22:30)      ",
+        "best_of": true,
         "title": " 一風堂パリ (Ippudo in Paris, France) "
     },
     {
@@ -8864,7 +9497,83 @@ icflickr.com/1513/24669205514_063bf2ff53_c.jpg",
             "https://www.google.com/maps/vt/data=RfCSdfNZ0LFPrHSm0ublXdzhdrDFhtmHhN1u-gM,a1kY4a8ZX3CQI_opTVQmpq-j051X4bKoGa0FbxzznRBoMVPC71NtNDTbY1W-53BJSeoNMCwyHY7ntmsx_o57s0X_b1HtdyhRtjh0zyxuEjAHgZROEK3NyriR12g"
         ],
         "post": " 拘りラーメン      I sat down almost a year ago in Tokyo with JB, the owner of newly opened Parisian ramen shop Kodawari Ramen. He had dreams of bringing a real bowl to France, the kind that he slurped every time he visited Japan. Not just the taste, but the atmosphere, the feeling, of Japanese ramen.    That was how Kodawari Ramen was born.    The shop is an absolute trip. Located in trendy St. Germain, stepping in is like being transported back to Japan, into a dingy alleyway of a real Yokocho, one of Japan's tightly packed food streets. Check out my YouTube video for a walkgthrough. It is safe to say that this is a must-visit shop just for the traditional chochin lanterns, rickety sheet metal roof awnings, and ripped-from-the-pavement (literally) Tokyo manhole covers on the floor.      Then there is the ramen. While the global trend is still heavy on the pork, Japan is all about chicken these days. High-quality, healthy, farm-raised poultry is the norm at the best ramen shops in Tokyo, and Kodawari isn't any different.    Embracing chicken, Kodawari ramen's small menu has only four bowls of soup; a shoyu, a shio, a paitan, and one made with black sesame.    As expected, the black sesame is the most popular. People outside of Japan still tend to gravitate to less-simple ramen, and this is proof. An excellent bowl, but I would suggest starting with the shoyu ramen your first time. Kodawari is importing high quality soy sauce from Japan, and you might be surprised how good it is.    There are two soupless bowls on the menu, with one of them being the vegetarian option for the shop. These bowls really let the noodles shine. Want to know more about the noodles? I am going to write in detail about this later, but for a quick summary, Kodawari Ramen is growing their own wheat and having it milled by an artisinal miller. I've never seen anyone go this deep into noodles, even in Japan. Of course, they are making the noodles in house as well. Amazing.    The shio bowl has a lot of ramen nerds debating if it is okay to put a tomato in your ramen. Of course, I say it is fine, tomatoes have a lot of natural umami, and shio needs that extra kick, but many self-proclaimed ramen experts in Paris have said it is unacceptable.    My favorite bowl is the toripaitan. It has that extra umami that I love. Not as creamy as some toripaitan bowls I've had, but more robust and intense.    The egg, though not as bright orange as the premium ones we get in Japan, is on point.    Kodawari Ramen is poised to be an important player in the French ramen scene. Ramen in Paris is abysmal at best, with most shops being a combination of Chinese, Japanese, and Thai under one roof. Anywhere that serves sushi and ramen is already doing something wrong (not always the case), but when you start throwing in random Asian cuisine, you've gone too far. I saw dozens of these shops around Paris.  I'm not here to tell you what to eat, but when you visit restaurants created by people who truly care about the food, you're not only helping yourself, but helping to create a vibrant restaurant scene. Kodawari Ramen, alongside anyone else who opens a legit ramen shop in Paris, is a big step in the right direction.    Official Site Here    29 rue Mazarine, Paris, France Nearest Station: Odeon  Open 12:00-14:00, 19:00-22:00 (Friday and Saturday until 23:00) Closed Mondays      ",
+        "best_of": true,
         "title": " Kodawari Ramen in Paris - The Ramen "
+    },
+    {
+        "date": "2016-06-09 00:00:00",
+        "pictures": [
+            "https://farm2.staticflickr.com/1570/25971141910_aebed94796_b.jpg",
+            "https://farm2.staticflickr.com/1517/26177742851_22850511e8_b.jpg",
+            "https://farm2.staticflickr.com/1563/26177744371_bbf91601c7_b.jpg",
+            "https://farm2.staticflickr.com/1592/26244010485_7893c9fc3c_b.jpg",
+            "https://farm2.staticflickr.com/1555/26244015025_3967d96afe_b.jpg",
+            "https://farm2.staticflickr.com/1652/26244008485_9e71c5d8db_b.jpg",
+            "https://farm2.staticflickr.com/1517/26151573192_fb85c89917_b.jpg"
+        ],
+        "post": "Yamaguchi in Takadanobaba is an amazing shop. It's featured as one of my favorite light, shoyu bowls in my book. As expected, I was blown away by my visit to Yamaguchi-san's second shop. While his first shop made a mark with their light soup, this time he's serving up a spicy mabomazemen, a soupless dish filled with hot and numbing spices. Basically, a thicker version of a soupless tantanmen. I say basically, but there was nothing basic about this bowl. Intense and in-your-face. The kick is strong, but bearable. I shouldn't say that with such certainty. I'm sure this one will hurt a few people.
+        You can always go for their light shio. Also a winner. Yamaguchi makes their own noodles, and a soupless bowl is a great way to highlight the craft.
+        東京都江東区東陽4-6-3
+        Tokyo, Koto-ku, Toyo 4-6-3
+        Closest station: Toyocho
+
+        Open 11:30-15:00, 17:30-21:00
+        Closed Tuesday Labels: オススメ",
+        "best_of": true,
+        "title": "やまぐち 辣式 (Yamaguchi Ratsushiki in Toyocho)"
+    },
+    {
+        "date": "2016-06-06 00:00:00",
+        "pictures": [
+            "https://farm2.staticflickr.com/1581/26176061541_97dbe5cc51_b.jpg",
+            "https://farm2.staticflickr.com/1537/25639668593_7a2020ed82_b.jpg",
+            "https://farm2.staticflickr.com/1538/26149887542_c611a43615_b.jpg",
+            "https://farm2.staticflickr.com/1622/26176063051_d509570e75_b.jpg",
+            "https://farm2.staticflickr.com/1531/26176064771_2a0891f4f9_b.jpg",
+            "https://farm2.staticflickr.com/1608/25639666993_c8e973f7e2_b.jpg"
+        ],
+        "post": "I said goodbye to my ramen rider friends and did what I usually do. I went in search of another bowl. This was up in Sano City, a very important ramen zone in Japan, and I had to take advantage of the chance. 
+        Yosuke was also on my list of the best 50 ramen shops in Japan, and I'm kind of obsessed with checking them all off before the year ends (and they inevitable release another list). As I had just gorged on a full-size bowl across town, it was a relief to see that Yosuke has a half-size bowl. It's only 100 yen less, but I feel bad wasting noodles, especially when Sano ramen is known for the quality of their noodles.
+        Another solid bowl, though the differences between the bowls I've had in Sano are minimal. Light shoyu soup, springy noodles, and some of the most tender pork in Japan. I don't think you'll have a problem getting a seat at Yosuke. The shop is huge, with tables for families and plenty of parking. I prefer smaller, more intimate shops, but out here in the countryside, land is cheap, so you might as well build something large.
+        栃木県佐野市田島町232
+        Tochigi-ken, Sano-shi, Tajimacho 232
+        Closest station: Tajima
+
+        Open 11:00-21:00
+        Closed Tuesdays
+        Labels: Ramen Riders, オススメ",
+        "best_of": true,
+        "title": "ようすけ (Yosuke in Sano, Tochigi)"
+    },
+    {
+        "date": "2016-06-02 00:00:00",
+        "pictures": [
+            "https://farm2.staticflickr.com/1510/26176045631_1455a455c5_c.jpg",
+            "https://farm2.staticflickr.com/1503/26149866872_640bf39186_c.jpg",
+            "https://farm2.staticflickr.com/1651/25637547554_146100dcd5_b.jpg",
+            "https://farm2.staticflickr.com/1466/26216387306_321ab85e7c_b.jpg",
+            "https://farm2.staticflickr.com/1572/26242322185_77e20d961e_b.jpg",
+            "https://farm2.staticflickr.com/1656/25969444530_0c1ebe5a3a_b.jpg",
+            "https://farm2.staticflickr.com/1656/25969444530_0c1ebe5a3a_b.jpg",
+            "https://farm2.staticflickr.com/1449/25637562054_19154a4c72_b.jpg",
+            "https://farm2.staticflickr.com/1473/26242333045_79f83f44e6_b.jpg",
+            "https://farm2.staticflickr.com/1534/26242335185_c1ab90c735_b.jpg"
+        ],
+        "post": "The ramen riders are at it again! I proposed the schedule for the ride. Head to Sano in the morning, eat two bowls of ramen, then hit the mountains. My idea was quickly vetoed. Shops open at 11am, and two bowls would mean missing out on half a day of riding. I'm never one to argue, never one to force my friends to live out my ramen adventures. So instead we hit the highway bright and early. A few hundred kilometers at 160km/hr (I mean 70km/hr, or whatever the speed limit is), then a blast down the windy roads on the way home. A great ride, with a bonus. We ended up in Sano. Sano, in Tochigi Prefecture, has an entire culture around ramen. Noodles are made by hand, and the water is fresh out of the nearby mountains.
+        Two shops in the morning is a hard sell, but a bowl on the way back is no problem. Yamato was high on my list, but when we arrived, they had already taken down the noren, the flag that hangs outside shops to indicate if they are open or not. I had a backup plan, but decided to peak in just in case. The staff noticed we had come by motorcycle, and made an exception. Solid service! And a solid bowl. Sano style is all very similar. Light soup meant to take nothing away from the noodles. It's all about the noodles up here. Made by hand, and often pressed with a bamboo pole to increase their elasticity.
+        We closed the place out. Great ride, great ramen, and great people to share it with.
+
+        Though Sano has enough ramen shops to keep someone busy for a year, Yamato is the one I will recommend (out of the 3 I've been to). It's also considered the best in Tochigi according to the country's biggest food site.
+
+        Just make sure you come early. 栃木県 佐野市 北茂呂町 1-5-2
+        1-5-2 Kitamorocho Sano Tochigi
+        Closest station: Sano
+
+        Open 11:00-14:00, 17:00-20:00
+        Weekends 11:00-20:00
+        Closed Mondays Labels: Ramen Riders, オススメ",
+        "best_of": true,
+        "title": "大和 (Yamato in Sano, Tochigi)"
     },
     {
         "date": "2016-07-28 00:00:00",
@@ -9017,6 +9726,7 @@ icflickr.com/1513/24669205514_063bf2ff53_c.jpg",
             "https://www.google.co.jp/maps/vt/data=RfCSdfNZ0LFPrHSm0ublXdzhdrDFhtmHhN1u-gM,SLqlaiefBH2Y52-plKGcg4pYCsRBvPa12HZojUmdzSzp9kbgy0dnUdw1w-sU3BU7Uos1ZcayJMKyKEPv5mZYUTHqOLNDTHNuXw-AT6K6V5QemB7qICwj4BfaWoz_Cb43"
         ],
         "post": " Homemade Ramen 麦苗    The newest kid on the block is Muginae, just a few minutes from Omori Station. A hot new shop on the super-convenient Yamanote train line? I'm there!    I actually ran into a famous ramen critic by chance the day before, and he clued me into the new shop's opening. Thanks Mr. らおす!    Muginae's m.o. is to follow the awesome trend of using very high quality, very specific ingredients in the bowl. Free range chickens from Yamagata give the broth a solid base, with a tare made from Nagano and Hyogo craft soy sauces.    Noodles are made in house with Japanese flour. Of course, the entire bowl is devoid of any chemical seasoning.    It all adds up to a stellar bowl on Tokyo's south side. Go for the deluxe bowl (the most expensive of the three) and get all the fixings.    An oft overlooked aspect of ramen shops are their bowls. Here, the bowls are handmade by a local artisan. Very cool to have some handmade pottery holding my noodles.    They also have a limited-to-a handful-a-day rice bowl topped with fresh fish from the neighborhood fish monger. I'm loving the dedication to the block.    I just hope the location doesn't hurt their business. The Yamanote line is the most convenient line in Tokyo, but I can't imagine what you could do in Omori.    Well, now you have an excuse to find out!      東京都品川区南大井6-11-10 Tokyo, Shinagawa-ku, Minami Oi 6-11-10 Closest station: Omori  Open 11:30-14:30, 18:00-soup runs out Sunday 11:30-16:00 Closed Thursdays                 ",
+        "best_of": true,
         "title": " 麦苗 (Muginae in Omori) "
     },
     {
@@ -9070,6 +9780,27 @@ icflickr.com/1513/24669205514_063bf2ff53_c.jpg",
         "title": " 若葉 (Wakaba in Tsukiji) "
     },
     {
+        "date": "2016-08-04 00:00:00",
+        "pictures": [
+            "https://c4.staticflickr.com/8/7040/27172601083_f011e2b8f3_c.jpg",
+            "https://c8.staticflickr.com/8/7595/27172598663_35b2918b38_c.jpg",
+            "https://c5.staticflickr.com/8/7109/27171729484_56dded1ba8_c.jpg",
+            "https://c1.staticflickr.com/8/7446/27682989032_d6d9955f1b_c.jpg",
+            "https://c1.staticflickr.com/8/7358/27171714864_30abdb2b77_c.jpg",
+            "https://c2.staticflickr.com/8/7337/27783203985_7ed51ae472_c.jpg",
+        ],
+        "post": "I work one a week in Oimachi, and always go for the pizza mazesoba over at Ajito Ism. Yes, I am obsessed with it a bit.
+
+        But Oimachi has some shops that have been around for ages in the alleys near the station. The entire area is a bit dingy and cramped, just the way I like it. Kiccho's history is deep, and they make their noodles the old way; using bamboo sticks to knead the dough. It's labor intensive, but this traditional method yields flatter, chewier noodles that draw massive lines every day. Not a lot of Tokyo shops do this, so Kiccho is a real gem. Classic, classic, classic. The menu is extensive, but you can go with the wontonmen if you want what I had. 東京都品川区東大井5-6-6
+        Tokyo, Shinagawa-ku, Higashi Oimachi 5-6-6
+        Closest station: Oimachi
+
+        Open 11:30-14:30. 17:30-20:30
+        Closed Monday and Tuesday Labels: オススメ",
+        "best_of": true,
+        "title": "吉兆 (Kiccho in Oimachi)"
+    },
+    {
         "date": "2016-09-29 00:00:00",
         "pictures": [
             "https://c7.staticflickr.com/9/8271/28089284014_bd82f3d3d9_c.jpg",
@@ -9082,6 +9813,7 @@ icflickr.com/1513/24669205514_063bf2ff53_c.jpg",
             "https://www.google.co.jp/maps/vt/data=RfCSdfNZ0LFPrHSm0ublXdzhdrDFhtmHhN1u-gM,QHqSicvFYHSDNxjqsH5uBMQsh7B_QvKOtuBl1RifFZbxARzGorFhkGnlnUj3PZWu2NVvWYWhn2ot-LAxqUWDB6T9sOw86VjKg2Eb_02ZK-65L3O4Zrr_5Wk26KNFssbS"
         ],
         "post": " 星龍軒    Hakodate is synonymous with a few foods. The bustling asaichi (morning fish market) means seafood, especially squid and uni, are great here. The Hakodate-only chain of Lucky Pierrot burger shops are quite popular. As for ramen, Hakodate is all shio. All salt.    Actually, I don't understand Hakodate's claim to shio fame. Sure, there are a handful of shops, but how can a handful of clear, salt ramen bowls entice an entire nation to call Hakodate the salt ramen capitol of Japan. On a recent ramen quiz show, I was told that over 70% of Japanese people surveyed knew this about Hakodate.  Is this the same phenomenon that occurs in my hometown of San Francisco? A place where authentic clam chowder is served at all the finest tourist traps in the city? More research is needed!    My research took me here, to the most popular mom-and-pop ramen shop in Hakodate. Seiryuken (lit. star dragon house) opens for a long lunch service, and runs out of soup on a regular basis. I've worked in the area about five or six times, and had been greeted with a urikire, sold out, five or six times.  This time, I showed up 30 minutes before they opened.    The hype was strong. The hype is well deserved.  Good shio ramen takes a basic chicken broth and hits it with an umami overload. The first sip is mom's chicken soup, with an aftertaste of refined Japanese flavors. It goes from intense to subtle in a heartbeat, a rhythm broken up only by the sparse toppings.    I'm sold. Hakodate equals shio.  Seiryuken boasts a huge menu of noodle and rice dishes, from katsudon to kareraisu to zangi. Pork bowl to curry to fried chicken. The shio is a must, but if you go with a group you could probably split a few more dishes.    Official site here.      北海道函館市若松町7-3 Hokkaido, Hakodate-shi, Wakamatsucho 7-3 Closest station: Hakodate  Open 11:00-18:00 Closed Sunday and Monday  ",
+        "best_of": true,
         "title": " 星龍軒 (Seiryuken in Hakodate, Hokkaido) "
     },
     {
@@ -9169,6 +9901,68 @@ icflickr.com/1513/24669205514_063bf2ff53_c.jpg",
         "title": " 炎神 (Enjin in Sapporo, Hokkaido) "
     },
     {
+        "date": "2016-09-08 00:00:00",
+        "pictures": [
+            "https://c6.staticflickr.com/9/8711/28706735085_45aeb5458f_c.jpg",
+            "https://c4.staticflickr.com/9/8564/28090842603_a94f188d9d_c.jpg",
+            "https://c3.staticflickr.com/9/8869/28673975306_22320b5157_c.jpg",
+            "https://c8.staticflickr.com/9/8271/28090849543_8bf66735e4_c.jpg",
+            "https://c1.staticflickr.com/9/8575/28089097024_e8cd8d3e30_c.jpg",
+            "https://c8.staticflickr.com/9/8591/28628710551_b68a114306_c.jpg",
+            "https://c1.staticflickr.com/9/8618/28089106704_88b71af9ce_c.jpg",
+            "https://c1.staticflickr.com/9/8678/28089121704_dc535c177a_c.jpg",
+            "https://c8.staticflickr.com/9/8731/28090875623_9ee5dc9fc4_c.jpg",
+            "https://c8.staticflickr.com/9/8681/28706755335_232f629548_c.jpg"
+        ],
+        "post": "I'll get to the ramen, which was amazing, in a minute. My adventures in Japan aren't limited to ramen. I love motorcycle touring, I love onsen (Japanese hot springs), and I love hiking to the top of mountains. Aomori Prefecture is where you catch the ferry to Hokkaido, but you should really take your time; this is a beautiful part of the country.
+
+        In fact, just an hour or so from the ferry terminal in Aomori City, you can find Odake (大岳), one of Japan's 100 famous peaks. At the base is an amazing onsen with a campground. A little slice of heaven if you ask me.
+
+        The shot above shows the peak on a beautiful day. The video on my Instagram, shows it the next morning. Ugh. Well, I managed to summit and descend in about three hours. I was soaked, and my spirits reflected the weather.
+
+        The only cure was hot ramen. Takahashi was recommended to me by Ishiyama-san, a famous ramen critic. Sure enough, there is a printout of an article he wrote next to the ticket machine. The catch-copy in the article says 青森のレベルすごく高い - The level of Aomori ramen is very high. Couldn't have said it better myself. This is stellar stuff. Aomori-style, a style that has influenced many shops in Tokyo, is rich in local niboshi, dried baby sardines. The soup is cloudy with the bitter, smoky fish, and the taste is an intense punch in the palate. It is a taste that some foreigners dislike, so make sure you try something a little more accessible first, before trekking to this icon of a shop.
+        The noodles are made in house, which is just an added bonus. Along with Nagao, this is the one to hit in the region. Still soaked, but with a bit more pep in my step, I spent the rest of the day at the famed Aomori Museum of Art, another must hit spot if you are into modern art at all. Next stop, Hokkaido! Just a short four hour ferry ride away. 青森県弘前市撫牛子1-3-6
+        Aomori-ken, Hirosaki-shi, Naijoshi 1-3-6
+        Nearest station: Naijochi
+
+        Open 11:00-15:45
+        Closed Wednesdays Labels: Ramen Riders, オススメ",
+        "best_of": true,
+        "title": "たかはし中華そば店 (Takahashi in Aomori)"
+    },
+    {
+        "date": "2016-09-05 00:00:00",
+        "pictures": [
+            "https://c7.staticflickr.com/9/8219/28673931486_859f4eee76_c.jpg",
+            "https://c4.staticflickr.com/9/8218/28706686195_6df637a589_c.jpg",
+            "https://c3.staticflickr.com/9/8154/28673920306_30f28bd2ac_c.jpg",
+            "https://c8.staticflickr.com/9/8815/28090807623_ec5dcb86c6_c.jpg",
+            "https://c5.staticflickr.com/9/8757/28673926236_908f4eba70_c.jpg",
+            "https://c1.staticflickr.com/9/8833/28089056224_9565aed7f1_c.jpg",
+            "https://c5.staticflickr.com/9/8644/28089082324_f6250e6009_c.jpg",
+            "https://c8.staticflickr.com/9/8380/28090822663_33ca9d3545_c.jpg",
+            "https://c8.staticflickr.com/8/7730/28628673511_d32a4276b4_c.jpg",
+            "https://c1.staticflickr.com/9/8661/28673936456_73914767c8_c.jpg",
+            "https://c1.staticflickr.com/9/8030/28422080360_ea150bf53e_c.jpg",
+            "https://c3.staticflickr.com/9/8719/28673943226_05791f5c3e_c.jpg",
+            "https://c2.staticflickr.com/9/8865/28628689321_845806e166_c.jpg"
+        ],
+        "post": "This was the first of many bowls on my latest ramen adventure. Even though I have recently purchased my first smart phone (yes, I used a prepaid flip phone until June, 2016), I still keep a paper calendar on my person at all times. And when friends recommend a ramen shop, I'll jot it down for future reference. This one, for example is up in Iwate Prefecture, aka the middle of nowhere. Middle of nowhere just happens to be on the way to Hokkaido, which was where I was heading. Perfect. I drove north, getting off the overpriced Tohoku expressway around Sendai. The coast here is beautiful, with tiny islands, plenty of Japanese pine, and that fresh sea air that motorcycle riders live for. Camp was in Ishinomaki, a place I've wanted to visit for a while now. And though the GPS listed the quickest route, that route involved a boring ride back to the expressway. I wanted to see the coast. I wanted to see how this part of Japan, rarely visited by foreigners and natives alike, has been fairing lately. This is where the March, 2011 disaster hit hardest. The tsunami wiped out much of the coast, and led to one of the biggest construction projects in Japan's history.
+
+        Well, five years down the line, and much of the coast is a blank canvas. Clean-up was a monumental undertaking, much of which is completed. New bridges over the larger rivers meant a quick ride, and the freshly paved roads meant that the ride was smooth as well. Once the infrastructure has a chance to rebound, this could be one of Japan's premiere riding spots. I'm looking forward to the future. After a long half-day of spirited riding, I arrived at lunch-only Chigusa. This shop was recommended by the director of the Yokohama Raumen Museum, a guy who knows his stuff. Old school, handmade noodles. While the trend in Tokyo is ultra-refined, these bowls made by old men are simple and wonderful. The chashu was a little dry, but the soup was deep and nourishing.
+
+        Chigusa was damaged in the 2011 earthquake, but 71-year-old master Fujikatsu-san famously opened just five days later, helping to feed a grieving country. In the days, weeks, and months that followed, little things like hot ramen became more important than words can express.
+        I write in that paper notebook with erasable pen, for this exact situation. And while I erased it, you should put this one into your list of remote ramen that is worth a journey. 岩手県久慈市二十八日町1番10号
+        Iwate-ken, Kuji-shi, Nijuhachinichimachi 1-10
+        Closest station: Kuji
+
+        Open 11:00-15:00
+        Closed Tuesdays
+        Labels: Ramen Riders, オススメ",
+        "best_of": true,
+        "title": "千草 (Chigusa in Kuji, Iwate)"
+    },
+    {
         "date": "2016-10-31 00:00:00",
         "pictures": [
             "https://c7.staticflickr.com/9/8137/29690851702_2d1ee060e3_b.jpg",
@@ -9199,6 +9993,7 @@ icflickr.com/1513/24669205514_063bf2ff53_c.jpg",
             "https://www.google.co.jp/maps/vt/data=RfCSdfNZ0LFPrHSm0ublXdzhdrDFhtmHhN1u-gM,Iu-jAuKdJ3_CzSl2tttd496qBjjC-5Vjy9C7SReF9gat1itxc3EWZrazFnuJLhRbJpc5lPodxMHRYQGnVdOIJZpQEY-Htkqj5ZCnk12Sx7hgd3GWEsIlkuJqVsD60F2E"
         ],
         "post": " 麺や 而今    I feel like a broken record when I talk about the Osaka food scene. While Tokyo is all over the place in terms of variety of cuisine, Osaka's cuisine is all over the place in terms of variety. Does that make any sense?    Jikon (or is it Zikon?) isn't far from central Osaka, but it feels like you are in another prefecture. Very rural, with plenty of salarymen riding the early evening train back to their families.    About a 30 minute train, followed by a long walk to the shop.    At the shop's opening time, I was second in line. The gentleman before me didn't even have to order, he was a regular who always gets two bowls. One of the shop's famous 芳醇醤油鶏そば, mellow shoyu chicken soba, and one of something a bit more intense. And while the menu has that typical Osaka variety thing going, I had to stick with the classic on my first time.    If you nerd out about deep umami flavors, this bowl is up there. The master uses konbu from Raosu and Rishiri islands in Hokkaido, considered the best in Japan. If you are ever lucky enough to visit that part of the country, you'll see small-scale mom-and-pop kelp operations, where pristine pieces are hand dried by hand and delicately wrapped up to be shipped to the finest restaurants. With that as the base, he flavors this bowl with a special tare reasoning made from ayu fish sauce and natural, unprocessed shoyu.  Toppings include the standards, plus a chicken meatball, plus smoked duck breast.    I think I paid an extra 100 yen for the egg. Amazing value here.  I finished my bowl and watched my neighbor be handed his second. A niboshi ramen taken straight from Ibuki, the famous Tokyo-based niboshi ramen joint. A place I had plans to go to the following week.    Official site here.      大阪府大東市灰塚6丁目7-9 Osaka, Daito-shi, Haizuka 6-7-9 Closest station: Konoikeshinden  Open 11:30-14:30, 18:00-21:00 Closed Mondays and Tuesdays  ",
+        "best_of": true,
         "title": " 麺や 而今 (Jikon in Osaka) "
     },
     {
@@ -9217,6 +10012,7 @@ icflickr.com/1513/24669205514_063bf2ff53_c.jpg",
             "https://www.google.co.jp/maps/vt/data=RfCSdfNZ0LFPrHSm0ublXdzhdrDFhtmHhN1u-gM,wibPFtZa2kcF6TzW18mlPCcUHSIBfWDgE_FNkWMW-dHR7k7k4ucCrsRMkH923XEMQh_o2dzWJlxtCiWoI4Dh0m_Pe5m6X6W1z1Sr2kDy2lbGvB8uVxqvVamco3mO-VT5"
         ],
         "post": " 麺や 七彩 八丁堀店    File this under best-of-the-best. An epic bowl. A masterpiece.    Shichisai was one of my favorite shops back in the day. They were credited with being one of the shops to put mukacho, preservative-free ramen, on the map. Their kitakata-style noodles were made in house and hand massaged before serving them in a niboshi-rich broth. If you've had real kitakata-style ramen before, you would approve of Shichisai's attention to detail.    So how does their second shop, located in Hatchobori on Tokyo's east side make it even better?    They literally make their noodles on the spot.    From rolling the dough, to kneading it, to cutting it, everything is done in front of you.    And it isn't just a gimmick. The vigorous handling means a chewier noodle.    The only downside is the time. It takes around ten minutes for your noodles to be made. I arrived first thing in the morning on a weekday, so no problem. If you were coming during a busy weekend day you might have to wait a very long time. I can't say for sure, please make sure you arrive early if possible.    Schichisai's broth is deep and smoky. Kitakata-style flavors the broth with dried baby sardines and a lighter style of soy sauce. Heavy enough for a huge impact of flavors, but light enough to crush the entire bowl.    Site here.      東京都中央区八丁堀2-13-2 電話番号 03-5566-9355 営業時間 11:00～15:30／17:30～21:00 定休日 火曜日  ",
+        "best_of": true,
         "title": " 麺や 七彩 (Shichisai in Hatchobori) "
     },
     {
@@ -9245,6 +10041,7 @@ icflickr.com/1513/24669205514_063bf2ff53_c.jpg",
             "https://www.google.co.jp/maps/vt/data=RfCSdfNZ0LFPrHSm0ublXdzhdrDFhtmHhN1u-gM,qeBEHhdn7GyPOeGkUebSdMKwaD84qeoMO-4jTOhvOebjXkK7mjbPJgg0X581gZz8TgNJ2A4TLbA4JjCH1eKWDq-maMWKz7twfHnY9rgnuToNgcLUZ2VbcCtv6O3S-Giz"
         ],
         "post": " 中華そば うえまち    Uemachi isn't as out of the way as many of Osaka's more highly ranked shops, but for someone like me who doesn't live in the Kansai region, it took a while to finally make it.    Actually, with working finishing around 5pm on a Sunday, I could easily change my Shinkansen ticket back to Tokyo to a few hours later, head here for their opening at six, and still make it home before bedtime. For other's I work with, this would be a nightmare; performing for eight hours, then waiting in lines for noodles before the long train back. But if you've followed me recently, you'll know I am obsessed with this list, a 50 best of Japan, and Uemachi comes in at number 30.    A half hour before opening, and there were five people in line. The lure of homemade noodles and a light, preservative-free broth perhaps. I went with the 中華そば, chukasoba, the standard bowl. The other option that looked appealing was the 和え麺, aemen, an all-dashi soup that must be more like a buckwheat soba broth.    Solid.    The master spent four years at another well known Osaka ramen shops (カドヤ食堂). What he learned there was precision, and everything about Uemachi is precise. The soup is a base of very specific chicken from nearby Nara Prefecture and Berkshire Pork from no-so-nearby Kagoshima. It all come together wonderfully. It's the kind of bowl that would give the high-end shoyu ramen shops of Tokyo a run for their money.    Excellent noodles, made in house with a Japanese flour blend.      大阪府大阪市中央区上町A番22号 Osaka, Osaka-shi, Chuo-ku, Uemachi A-22 Closest station: Tanimachi6  Open 11:00-14:30. 18:00-21:00 Closed Mondays  ",
+        "best_of": true,
         "title": " うえまち (Uemachi in Osaka) "
     },
     {
@@ -9262,6 +10059,52 @@ icflickr.com/1513/24669205514_063bf2ff53_c.jpg",
         ],
         "post": " 神座 道頓堀店    The fine folks at Kamukra invited me to visit their head shop in Osaka, right in the middle of Dotonbori.    While Kamukura has a few shops in and around Tokyo, they are an Osaka institution, and have firmly planted themselves as one of the most important shops in the area. The first shop opened in 1986, and in just 30 years they have gone on to be a huge force in the ramen world. Forty one shops in total.    I took this chance to try and understand their brand a bit more, and maybe find out some secrets that go into the soup.    But, alas, it wasn't going to happen. Kamukura's recipe is a closely guarded secret, and to work here behind the soup you need to pass a series of tests and become a soup sommelier.    Well, what can I discern from the taste alone?    If you've ever been to a nabepa, Japanese nabe hotpot party, then you know. You cook meat and vegetables in a broth, infusing all these great flavors together over the course of an hour or so. You're left with an intense broth, and no nabepa ends without noodles being dumped into the left over soup.  This is a basic description of Kamukura's ramen to me. It's intense, with a lot of meat and cabbage flavors. A bit rough and crazy, but a great bowl.  Kind of like Osaka. To me, Osaka is madness, in the best possible way. After this bowl, I somehow wandered into a random sake bar. Next thing I know, yada yada yada, I was drinking absinthe and eating raw horse in a cyber-goth punk bar with old salarymen. You know, a typical Osaka evening.    I shot a simple video this time around, where I met up with my friend Yuka, an Osaka native. Check it out!    Official site here.      大阪府大阪市中央区道頓堀1丁目7-25 Osaka, Osaka-shi, Chuo-ku, Dotonbori 1-7-25 Closest station: Namba  Open 11:00-11:00  ",
         "title": " 神座 (Kamukura in Osaka) "
+    },
+    {
+        "date": "2016-10-06 00:00:00",
+        "pictures": [
+            "https://c1.staticflickr.com/8/7762/28089316624_44a3a3c611_c.jpg",
+            "https://c1.staticflickr.com/9/8819/28600792032_01c4c05c72_c.jpg",
+            "https://c7.staticflickr.com/9/8360/28600788542_840dcfce4c_c.jpg",
+            "https://c5.staticflickr.com/9/8711/28089323364_38a4d2cd83_c.jpg",
+            "https://c5.staticflickr.com/9/8224/28674176036_7b8461bd70_c.jpg",
+            "https://c2.staticflickr.com/9/8492/28628920361_133f759db0_c.jpg",
+            "https://c5.staticflickr.com/9/8607/28600810252_aa0834a749_c.jpg",
+            "https://c2.staticflickr.com/8/7555/28706944305_3d9793893a_c.jpg"
+        ],
+        "post": "Another shop in the Top 50, another shop I had to hit before the year runs out. One thing I like about this list is the variety. Online user rankings tend to favor heavy soups, and they tend to favor Tokyo over anywhere else. This list is Tokyo-heavy, for sure, but they really represent the rest of the country well. Uroko is all about shio. This shop is relatively new, and an offshoot of あす流 (Asuryu), another popular shop in Osaka. And while most shio is considered light and delicate, Uroko goes full-Osaka on this one. Sure, the soup is light. It's a clear chicken and dried fish deal, much like the shio found elsewhere in Japan. What sets it apart is what you see on top. A heavy layer of seabura pork back fat and a sprinkling of dried bonito flakes. Two of my favorite things. You get your umami, and you get your thick, fatty mouthfeel. I love it, and I love how Osaka is all over the place on the ramen map. Light shio made unlight by the toppings is genius. The menu has a few more items. The mazesoba, a soupless bowl, was also legit. Keep it up, Osaka! 大阪府大阪市淀川区西中島4-5-22
+        Osaka, Osaka-shi, Yodogawa-ku, Nishinakajima 4-5-22
+        Closest station: Nishinakajimaminamigata
+
+        Open 11:00-14:30, 18:00-22:00
+        Closed Sundays and holidays
+        Labels: オススメ",
+        "best_of": true,
+        "title": "鱗 (Uroko in Osaka)"
+    },
+    {
+        "date": "2016-10-03 00:00:00",
+        "pictures": [
+            "https://c1.staticflickr.com/9/8557/28422260680_e80de99949_c.jpg",
+            "https://c7.staticflickr.com/8/7582/28600767182_6926e14cb0_c.jpg",
+            "https://c7.staticflickr.com/9/8661/28422265990_597d8af88b_c.jpg",
+            "https://c3.staticflickr.com/9/8819/28600769842_81f5e4da2f_c.jpg",
+            "https://c3.staticflickr.com/9/8796/28674149146_5dbf78c9f4_c.jpg",
+            "https://c2.staticflickr.com/9/8726/28706925825_8a53066e64_c.jpg"
+        ],
+        "post": "So it begins, the great Osaka ramen hunt of 2016. You see, there is this list, and this list of the 50 best ramen shops in Japan includes many from Osaka. Many shops that I have yet to visit. This is something that needed to change. Of course, Osaka ramen shops can be a real pain in the ass. Shops are scattered around, with popular shops in parts of town that only the most native Osakan knows about. And the hours! Many of these shops are only open for a few hours a day, closed on weekends, and prone to run out of soup. The nerve! So plan accordingly. Give yourself ample time to get to the shop. Keep in mind that you might get lost. Account for holidays, avoid local festivals, and don't get discouraged if your plan A, B, and C all fail. The rewards are great. Yashichi is often the highest ranked shop in Osaka (though online rankings change daily) and it shows.
+
+        The soup is a rough, thick chicken broth made with extra amounts of cartilage and skin. By adding and removing different bits from the boil at just the right time, the signature soup is made. It's very precise, and explains why they only open a few hours a day.
+        Definitely a bowl that I'd recommend to anyone on their Osaka ramen adventures.
+        大阪府大阪市北区豊崎三丁目4-8
+        Osaka, Osaka-shi, Kita-ku, Toyosaki 3-4-8
+        Closest station: Nakasu
+
+        Open 11:00-16:00
+        Closed weekends and holidays
+        Labels: オススメ",
+        "best_of": true,
+        "title": "弥七 (Yashichi in Osaka)"
     },
     {
         "date": "2016-11-28 00:00:00",
@@ -9319,6 +10162,7 @@ icflickr.com/1513/24669205514_063bf2ff53_c.jpg",
             "https://www.google.co.jp/maps/vt/data=RfCSdfNZ0LFPrHSm0ublXdzhdrDFhtmHhN1u-gM,PKWygq1FMNQ-JnVHuU6EIHSCWNPtHa_RM6hq8g6K9Q2tiYcW9olY4qQ-sqNZCATnU7OVznI1czJDI0tZ1uOldl7zc1Dqe8DRgkvXiUJkNW2YD2Vjlxya1g-XyY1eQBQZ"
         ],
         "post": " 元気一杯    Before you go to Genki Ippai, you need a bit of warning. This shop has some idiosyncrasies that make it stand out. The first is well known; the blue bucket. Genki Ippai has no sign. The only way to find it and know that they are open is to look for the blue bucket outside. Warning number one: if the bucket isn't there, search for your noodles elsewhere. And though they have a set schedule, the master is known for closing if the soup isn't perfect that day.    The next warning: the rules.  No phones No photos Drink some of the soup before eating the noodles Do not put any of the takana, spicy mustard greens, in until you eat a bit of the ramen Don't ask the master about the ramen Don't speculate about the ramen's ingredients    Yep, you might have heard about this one.  Well, the blue bucket was out, so I went in. I was the last customer of the day, and the shop emptied by the time my ramen came. I respect rules, so I didn't talk, didn't shoot photos, and ate the ramen in the prescribed way.  Frankly one of the best Hakata-style tonkotsu bowls I've ever had. I won't speculate about the ingredients, but it was mega porky without much stink. I understand why a few people rank this as their #1.  Then I did something I know I wasn't supposed to do; I asked the master about his ramen.  First I asked if I could take one photo, a photo of the rules, for my site. His response was unexpected. \"Why would you think you couldn't take photos? You're the only person in here!\" Sure enough, I was the only person left, as the blue bucket was no longer outside. Grasping the opportunity, I delved into his thought process. What's with the rules?  To sum it up, he wants everyone to enjoy his ramen to the max of their ability. If someone is talking on their phone, you might be annoyed and it might affect your dining experience. Hearing someone snap shots, and you might worry that your privacy has been invaded. If you are the one taking photos, you are wasting valuable slurping time; thin Hakata noodles are meant to be slurped quickly. Eat some ramen before adding the hot condiment is self explanatory; it was some of the spiciest takana I've ever had.    I don't think you'll be kicked out for breaking the rules, but he does have a sheet with them translated (both English and Chinese). Don't be that guy.  We chatted for about 10 minutes about all things ramen, and he wished me luck on my search. Then, as I was packing away my camera, he runs over to the kitchen and brings out a bag. A tupperware full of the shop's takana, as a gift.  So, yeah, this is officially my favorite place in Hakata.      福岡県福岡市博多区下呉服町4-31 Fukuoka, Fukuoka-shi, Hakata-ku, Shimogofukumachi 4-31 Closest staiton: Gofukumachi  Open 12:00-18:00 Saturdays 12:00-17:00 Closed Sundays  ",
+        "best_of": true,
         "title": " 元気一杯 (Genki Ippai in Fukuoka) "
     },
     {
@@ -9334,6 +10178,7 @@ icflickr.com/1513/24669205514_063bf2ff53_c.jpg",
             "https://www.google.co.jp/maps/vt/data=RfCSdfNZ0LFPrHSm0ublXdzhdrDFhtmHhN1u-gM,k-ad679RgU1BfTky6zJcyeOIt9UQc23JGS63e_YCZn4EjI7cemsbxDbN1squzBGVLmg04_XUdQA-xnUEZde6m5IP0SrdRicX5JYQAOBnmuiqdYgk8zZ4KkjFnt-X0Dep"
         ],
         "post": " 彩色ラーメン きんせい夢風    I love my ramen adventures, and when I can share them with other ramen nerds, all the better!    Tonda Station itself isn't so far out, but Kinseimufu, a very highly ranked Osaka shop, is. Almost two miles from the nearest station isn't that bad, but on a cloudless day in the middle of a sweltering Japanese summer, I was about to pay the cash for an air-conditioned cab.  Then we saw it. A few hundred yen for a bicycle rental.    Easy choice. We being myself and Ben from Friends in Ramen, your source for Osaka ramen.    The 燻製鶏塩ラーメン, smoked chicken salt ramen, is the one to get. You still get your excellent shio that the place is known for, but you get the bonus of some amazing smoked meat on top.    I thought the normal shio ramen was quite . . . well . . . normal. Two kinds of chashu, high quality menma, and a light, yet umami-rich soup. Great shio ramen has become commonplace these days, so I can't say if the trek was worth it for the non-ramen-obsessed.    Despite having a mega high rating, the line wasn't bad when they opened. You experience may vary.  Official site here.      大阪府高槻市栄町2-19-7 Osaka, Takatsuki, Sakaemachi 2-19-7 Closest station: Tonda  Open 11:00-14:00 Closed Tuesdays and Fridays  ",
+        "best_of": true,
         "title": " きんせい夢風 (Kinseimufu in Osaka) "
     },
     {
@@ -9351,6 +10196,7 @@ icflickr.com/1513/24669205514_063bf2ff53_c.jpg",
             "https://www.google.co.jp/maps/vt/data=RfCSdfNZ0LFPrHSm0ublXdzhdrDFhtmHhN1u-gM,SosRH-k7bduKqu1_mgO0kvTUQuaBsW9HXBWPD1V1YTCudrb--FKSX2CuMlW-NOFIgC2ND6hvM7UHHFT6s2W--VKistLibbVlL6-HfVSQy_ZArGrTzrwLqEjDBrEkuz3b2rA"
         ],
         "post": " らーめん専門 和心 武庫之荘店    There are actually two shops with the name Nagomi in the eastern part of Hyogo Prefecture, bordering on Osaka. One, the original, is a few blocks off the Hanshin rail line. The other shop, opened by a disciple of the first, is five kilometers north, on the Hankyu line. Both are called Nagomi, though the characters are different (和海 vs 和心).    I bring this up because of a conversation I had with some Osaka natives. When someone moves west of Osaka, the only thing that matters, status-wise at least, is which line they are on. The Hanshin line is by far the lesser of the two, home to old wooden houses, ugly seaside factories, and a general roughness. Hankyu is more manicured beauty, tree-lined sidewalks, and specialty stores.    Sure enough, I arrived at Hanshin Mukogawa Station, where locals were fishing for their dinner in the dirty river. The station itself was a bit dated. Construction workers were taking a break, eating watermelon, atop one of those old wooden houses. And, as if the fates wanted to solidify my opinion of Hanshin, Nagomi was closed that day.    Hankyu Mukonoso Station, on the other hand, is shiny and new. Even the trains are stylish.    Construction workers were replaced by ladies walking their dogs in expensive strollers. Fish from the local river were replaced by fish mongers with a fresh Hokkaido catch. And Nagomi here was definitely open.    At 11:30 or so, half an hour before opening, I was about 15th in line. This is a popular shop. I pity the soul who arrives after opening; you'll be here a long time.    This is the 追い鰹醤油らーめん, a shoyu ramen rich with katsuo flavors. Super dark brown, with a flavor to match. If you aren't a fan of rich, smoky fish flavors in your ramen, you've just wasted a couple hours of your life. More if you went to the closed shop first and had to take a bus for an extra 30 minutes to come here.  The shop's signature kurumabu - 車麩 - is an easy way to know your bowl is from Nagomi. Those circular things on top are actually friend bread slices from Okinawa. Kind of like bits of toast, they soak up the soup the way slices of baguette do in French onion soup.    Having spent an extra few hours on this adventure, I had to try their limited rice bowl. Fluffy scrambled egg, heavily flavored chashu, and a nice sauce over rice. It looks like they often have a limited donburi dish like this, which you should probably go for.    Love ya, Kansai.    兵庫県尼崎市南武庫之荘1-22-23 Hyogo, Amagasaki-shi, Minamimukonoso 1-22-23 Closest station: Mukonoso  Open 12:00-14:00, 18:00-23:00 Sundays 12:00-16:00 Closed Tuesdays and some Wednesdays  ",
+        "best_of": true,
         "title": " 和心 (Nagomi in Mukonoso, Hyogo) "
     },
     {
@@ -9367,6 +10213,7 @@ icflickr.com/1513/24669205514_063bf2ff53_c.jpg",
             "https://www.google.co.jp/maps/vt/data=RfCSdfNZ0LFPrHSm0ublXdzhdrDFhtmHhN1u-gM,g9eJsE-cqkaKael3RdCIvts9OCYC6qXAzY8FC0Ki12Rka_6sC55octj4byl8GozSo_lgPZsx4QPjs6b2GMXJH966104i3YKlkoPBoj-wPfFnaUGZjHKD05NTTCSR0NXO"
         ],
         "post": " 麺屋 丈六    I met the master of Joroku at a ramen event last year, and he came off as a real nice guy. Well, that niceness meant that he was constantly being invited to ramen collaborations with other shops, and every single time I tried to visit his downtown Osaka spot, they were unexpectedly closed. Either they were at an event, had run out of soup, or just decided to take a day off.  I learned a lesson about Osaka ramen here; be sure to check their twitter feed for updates. The masters here love twitter and it is the only reliable source of up-to-date shop info. You must be able to find their site and read Japanese; I can only help you out so much.    Joroku's super-central location (minutes from Namba Station, in a very lively part of town) means convenience. Not a particular criteria for a good bowl, but it's great to have a lot of before and after options. And while Joroku is on a rather shady street, more family-friendly fun isn't far away.    Getting down to the ramen, the standard bowl is 高井田系 - takaida-style. It's an Osaka thing, and it is wonderful. Deep, dark tamari shoyu is used. Shoyu 101 teaches us that tamari doesn't have the wheat added, resulting in a much heavier taste. If you've ever been served a special shoyu with sashimi, it was probably tamari.    Using this mega-soy sauce could easily result in a bowl that's too salty, so when a shop really makes it well, the fandom follows.  Feeling adventurous, I tried their limited 秋刀魚醤油らーめん - sanma ramen. Sanma, also called Pacific Saury, is an oily, flavorful fish that gives a big kick of flavor. A lighter, more normal soy sauce rounds out this one.    The two broths side by side.    I prefer the deeper soup. It's super intense, and really indicative of Osaka.  Looking at the menu, the sanma is one of their limited volume bowls. Joroku usually has one or two of these seasonal styles on the menu. An easy excuse to come back.    Official site here.      大阪府大阪市中央区難波千日前6-16 Osaka, Osaka-shi, Chuo-ku, Nanbasennichimae 6-16 Closest station: Namba  Open 11:30-15:00, 18:00-21:00 First Sundays 7:00-10:00, 11:30-15:00 Closed Wednesdays  ",
+        "best_of": true,
         "title": " 丈六 (Joroku in Osaka) "
     },
     {
@@ -9465,6 +10312,27 @@ icflickr.com/1513/24669205514_063bf2ff53_c.jpg",
         "title": " 大岩亭 (Oiwatei in Nagoya) "
     },
     {
+        "date": "2016-12-08 00:00:00",
+        "pictures": [
+            "https://c5.staticflickr.com/6/5636/30344671916_2e77732812_h.jpg",
+            "https://c3.staticflickr.com/9/8411/30344685706_7229ad3d9d_h.jpg",
+            "https://c5.staticflickr.com/6/5836/30344683996_e0d9bcac16_h.jpg",
+            "https://c4.staticflickr.com/6/5578/30294258651_ba57542874_h.jpg",
+            "https://c2.staticflickr.com/6/5738/30294260321_1893942eb8_h.jpg",
+            "https://c7.staticflickr.com/6/5711/30344686766_ece1bc55fe_h.jpg"
+        ],
+        "post": "Shibata is one of those shops that you know about for years, but due to their slightly inconvenient location, just never find yourself going. I say slightly because it is only about 30 minutes west of Shinjuku.
+        A favorite amongst most of the ramen critics, they serve up two kinds of soup; a niboshi style and a normal, classic chukasoba style. Scratch that, an unnormal unclassic bowl. The stock uses chicken, and duck, for a twist on what you are used to. You might not notice the change in taste, but you'll probably be impressed. The duck adds a layer that blends wonderfully with the soy sauce blend. Not a lot of shops use such an uncommon ingredient, but those that do are some of the best slurps in Tokyo.
+        If you love these simple, but deep bowls of ramen, get to Shibata as soon as possible. By the way, they are ranked on almost any best of list, so expect a bit of a line. 東京都調布市若葉町2-25-20
+        Tokyo, Chofu-shi, Wakabacho 2-25-20
+        Closest station: Sengawa
+
+        Open 11:00-14:30, 17:30-20:00
+        Closed Sunday and Monday Labels: オススメ",
+        "best_of": true,
+        "title": "中華そば しば田 (Shibata in Setagaya)"
+    },
+    {
         "date": "2017-01-30 00:00:00",
         "pictures": [
             "https://c1.staticflickr.com/1/587/31264474080_9b2eda3b21_c.jpg",
@@ -9496,6 +10364,7 @@ icflickr.com/1513/24669205514_063bf2ff53_c.jpg",
             "https://www.google.co.jp/maps/vt/data=RfCSdfNZ0LFPrHSm0ublXdzhdrDFhtmHhN1u-gM,5drjV3TRJAESa0ksivx2V91Z_1Nd6_cxb-jvA3niGulr4pwqJr06VeewJysWr4zZzlfH5dorbwWqfo3zX221SguLYSAnBHVEoi1aER9S0TxSAesPWR2dLre8yGYsYlFl"
         ],
         "post": " 銀座 風見    Ginza continues to surprise. First, there was Kagari, which has been completely discovered; if you don't mind a long line of mostly foreigners, it still serves an amazing bowl. Then there was Mugitooribu, whose inclusion on many best-of lists is well deserved.    The latest spot to hit is Kazami.    Kazami is located down a small alley, like many awesome hidden restaurants in Ginza, inside a sleek modern building with a sushi restaurant on the second floor.    The one to order is the 酒粕濃厚そば, sake kasu noko soba. Made with sake lees, a byproduct of nihonshu production. As yeast eats sugar and creates alcohol, an organic sediment builds up. Not something you would want in your drink (although a little can add interest flavors), it is generally discarded.    But it can be used. Here, it adds a deep flavor to the ramen. Similar in some ways to miso, but not as salty or pungent. A bit bitter, but not overly so. Something anyone should try if they have a chance.    As the flavor can be seen as funky to some, there are plenty of condiment options to tweak your soup. Vinegar, sansho pepper, dried red pepper, yuzusco sauce, ground pepper, yuzukosho, and fresh ginger. Don't overdo it.    This is one of my favorite new bowls of 2016. The ingredients are all top quality. A must-slurp in my opinion.    The side of seasonal vegetables was a nice touch.    Ohata-san knocked this anticipated shop out. Well done.        東京都中央区銀座6-4-13 Tokyo, Chuo-ku, Ginza 6-4-13 Closest station: Ginza  Open 11:30-15:30, 17:30-22:30  ",
+        "best_of": true,
         "title": " 風見 (Kazami in Ginza) "
     },
     {
@@ -9511,6 +10380,7 @@ icflickr.com/1513/24669205514_063bf2ff53_c.jpg",
             "https://www.google.co.jp/maps/vt/data=RfCSdfNZ0LFPrHSm0ublXdzhdrDFhtmHhN1u-gM,S_vl_UjbczXiYAOEqN6mrABO6Rxu0h9gfnYGugJ7KaJbasqsUqkAUq17rinjlIZ4l0sTi9JPky0AomyFawcCiBev1DysyOJnsfHChFV8E_UVNsr7DX1jKyUfXCXzYUhQ"
         ],
         "post": " 煮干しつけ麺 宮元    I've crushed Miyamoto in the past, but only at tsukemen events.    He is one of the most revered tsukemen chefs in Tokyo. And according to the curated Tabelog 50, one of the best in Japan.    The upper left, in this case, is 特製極濃煮干しつけ麺, tokuseigokukoniboshitsukemen. Breaking it down we get special, mega-thick, dried sardine tsukemen.    You won't be alone, please observe the rules of the line.    This. Bowl.    Yeah, this one is tops. I have trouble ranking the upper echelon of thick tsukemen shops because each one is just so amazing. From the image, to the smell, to the first bite, to the lasting umami aftertaste. As the name of the shop implies, Miyamoto is heavy with niboshi, dried fish, particularly sardines. The creaminess of the pork, the bitter, smoky punch of the fish, and a hint of yuzu citrus to mellow the whole thing out.    And the line, though strict rules apply, wasn't that bad.    東京都大田区西蒲田7-8-1 Tokyo, Ota-ku, Nishikamata 7-8-1 Closest station: Kamata  Open 11:00-15:00, 18:00-21:00 Closed Wednesdays  ",
+        "best_of": true,
         "title": " 宮元 (Miyamoto in Kamata) "
     },
     {
@@ -9527,6 +10397,7 @@ icflickr.com/1513/24669205514_063bf2ff53_c.jpg",
             "https://www.google.co.jp/maps/vt/data=RfCSdfNZ0LFPrHSm0ublXdzhdrDFhtmHhN1u-gM,mAq0FXglIQI4qipHujKYacN848j0Qr6El24DQ8_AcqhhzDw9mnyvByDJn9tw6jc3QcWv_q60JVUxKncn8DDskB_Q2vr0_BK9y6a9RxBPrAPIRdQhHQOavLj11g2O4LJ9"
         ],
         "post": " 本格博多豚骨ラーメン豚野郎    I've struggled to find an amazing tonkotsu ramen shop near my home. Sure, Shinjuku's Kabukicho red light district is full of cheap spots, but I'm not looking for cheap.    Enter Butayaro. About halfway between Nakano and Higashi-Nakano Stations, right next to the big home supply store (if you live in the neighborhood, you probably know it). It's really not far from civilization, but it feels like it in the strictly residential neighborhood.    Go for the set. I'll explain in a minute.    A bit more intense than expected, which is a great thing when searching for above average tonkotsu. I found it less smooth than those shops as well, which matches perfectly with the name; Yaro means dude, so this shop could be called dude pork.    Normally, with this style, you would order kaedama, an extra serving of noodles. Here, though, it's all about zosui. A side of flavored rice gets dumped in. Dude pork for sure.    The rice amplifies the flavor in ways that noodles can't. Like I said, go for the set.    Go Carps! Apparently, the owner loves Hiroshima, and has a small collection of his favorite baseball team goods.    It's Ramenate!    東京都中野区中野1丁目41番45号 Tokyo, Nakano-ku, Nakano 1-41-45 Closest staiton: Nakano  Open 11:30-15:30, 18:00-22:30 Weekends 11:30-16:00, 18:00-22:30 Closed Tuesdays  ",
+        "best_of": true,
         "title": " 豚野郎 (Butayaro in Nakano) "
     },
     {
@@ -9546,6 +10417,7 @@ icflickr.com/1513/24669205514_063bf2ff53_c.jpg",
             "https://www.google.co.jp/maps/vt/data=RfCSdfNZ0LFPrHSm0ublXdzhdrDFhtmHhN1u-gM,lsV_0qd_F4IPlTyu2ZdPA52tBL3cPB6v6w-uU_r7Ew0pLQh_2PvyWfQ2AW-gXyMhEQoKxrSLSXuEFddFqgJTrNdSC-6OsyfI9QXGrjtICaKtanqfF9gqIO8MdL1XndzROGk"
         ],
         "post": " 多賀野    Takano is one of Tokyo's legendary shops. They've been around for over 20 years, still serving the same classic bowl, still using quality Japanese ingredients.    Nakanobu isn't on many people's radars, especially tourists, but it well could be. Takano is just off the famous Skip Road, a covered shopping street that stretches 330 meters. It's a cool, old-school side of Tokyo, not that far from the center.    And despite the English menu, Takano is a cool, old-school ramen shop.    The hours may have been longer in the past, but now it is strictly lunch.    Classic Tokyo style. Two kinds of Japanese chicken are used for the stock, and plenty of dried fish for that smoky punch that defines Tokyo ramen.    The tsukemen soup is made from pork and duck, a solid match with the whole grain noodles.    Noodles that are made in house, and are a big draw for fans of this style.    Ms. Takano-san is still here, serving bowl after bowl to the masses.    The entire menu is actually quite extensive, with the spicy sesame bowl looking like another winner.    You'll probably wait 20-30 minutes, but you'll have checked off one that is worthy of a visit or two.      東京都品川区中延2-15-10 Tokyo, Shinagawa-ku, Nakanobu 2-15-10 Closest station: Ebaranakanobu  Open 11:30-14:30 Closed Wednesdays  ",
+        "best_of": true,
         "title": " 多賀野 (Takano in Nakanobu) "
     },
     {
@@ -9562,6 +10434,7 @@ icflickr.com/1513/24669205514_063bf2ff53_c.jpg",
             "https://www.google.co.jp/maps/vt/data=RfCSdfNZ0LFPrHSm0ublXdzhdrDFhtmHhN1u-gM,K074RcbHf3pagh61FwzQKlTii35HIeX6b2EBiIyikyNPf9tQWFSS6AtkO2jC8OA_sG2L_edYe_WCn0CDFOkBcU_7a4xGDwdP5yZVo5HBMDwwaYnZIihKwFlFXhzSzQp1"
         ],
         "post": " 中華ソバ 伊吹    I finally made it here, to one of Tokyo's top ramen spots.    Ibuki is at the top for a reason; they bring the niboshi game. Dried baby sardines in this concentration aren't for everyone, not by a long shot. Are they for you?    Start at a normal ramen spot, one that serves a light shoyu ramen. It will have a bit of the stuff. That faint, smoky aftertaste is probably from niboshi, or other dried fish. It adds a lot of umami, and a bit of bitterness. It is this bitter flavor that divides opinions.  If you like it, head somewhere with a bit more niboshi punch. Most tonkotsugyokai tsukemen shops have a lot of these bitter dried fish flavors. Still loving it? Then head to Ibuki.    The menu has a few options. Go with the 濃厚中華ソバ, thick chinese noodles. The old addage of going to the upper right won't work here. It is 800 yen, and right in the middle. There is a lighter soup version and well as a super thick version, but they aren't available every time. The menu also changes slightly at lunch time. Good luck.    A thing of beauty. If you haven't guessed, I am a niboshi addict. Some of the best flavors in the world in my opinion. Smoky, salty, and a bit pungent.    So, is Ibuki the worthy king of niboshi? They have a 98.50 rating over at the Ramen Database, and a 4.04 over at Tabelog (putting them not only at #4 countrywide for ramen, but in the top 500 of all restaurants in Japan).  I'd say yes, this is one of the best bowls you could possibly slurp.    Official blog here.      東京都板橋区前野町4-58-10 Tokyo, Itabashi-ku, Maenocho 4-58-10 Closest station: Maenocho  Open 11:45-14:30, 18:30-20:30 Closed Mondays and some Tuesdays      var amzn_wdgt={widget:'Carousel'}; amzn_wdgt.tag='ramenadven-20'; amzn_wdgt.widgetType='Bestsellers'; amzn_wdgt.searchIndex='Grocery'; amzn_wdgt.browseNode='6502934011'; amzn_wdgt.title='Noodles on Amazon'; amzn_wdgt.width='800'; amzn_wdgt.height='200';     ",
+        "best_of": true,
         "title": " 伊吹 (Ibuki in Itabashi) "
     },
     {
@@ -9610,6 +10483,7 @@ icflickr.com/1513/24669205514_063bf2ff53_c.jpg",
             "https://www.google.co.jp/maps/vt/data=RfCSdfNZ0LFPrHSm0ublXdzhdrDFhtmHhN1u-gM,GXU-GxmFZl5qhmiZQMEOpr8WBoaHn4i2Qhh152LFlxD112OTYsQqEaaeW3hLIAQJVghTWZaNKHWPCbbIDj6LHk86kAJBIKsV3ndVYVBWu5SIF9VQXmYbc2qyhY-uRDnc"
         ],
         "post": " 麺処 金田家    My 2016 bucket list of ramen, a list you can find here, is sadly undoable by the end of the year. I blame Fukuoka. The prefecture's top ranked spots are all in remote locations, with odd hours, and none of them match their days off. So on a recent road trip, I picked one shop, Kanadaya, the highest ranked shop, to check off the list.    Actually, they exist overseas in London. Hey, I recognize that car!    I had very high hopes for this one. It was 2016 that would change my mind about tonkotsu ramen in Kyushu. I'd never, in the eight or so years of Ramen Adventures, had a stellar bowl. Plenty of great ones. Eights and even nines, but never a ten.  I had my first ten at Genki Ippai. I had my second at Kanadaya.    This was pork perfection. The soup is buttery and smooth, without any funk. Chashu sliced so thin that it would dissolve if it wasn't lovingly placed on the sides of the bowl. Just a touch of the standard green onion and kikurage mushroom.    The egg was next level.  I'm sorry to say that this shop isn't so convenient. About an hour from any major city, and that is if you take the bullet train. Even longer if you take a wallet-friendly local. But if you want the best, you have to work for it in Kyushu.  Actually, they have a couple branch shops in Koba (here), Hiroshima (here), and central Hakata (here). I love the vibe of the main shop, in the middle of nowhere.      福岡県行橋市大橋1-4-3 Fukuoka-ken, Yukuhashi-shi, Ohashi 1-4-3 Closest station: Yukuhashi  Open 11:00-15:00. 17:00-20:00 Closed Thursdays  ",
+        "best_of": true,
         "title": " 金田家 (Kanadaya in Fukuoka) "
     },
     {
@@ -9641,6 +10515,7 @@ icflickr.com/1513/24669205514_063bf2ff53_c.jpg",
             "https://www.google.co.jp/maps/vt/data=RfCSdfNZ0LFPrHSm0ublXdzhdrDFhtmHhN1u-gM,p9xUG4r0IpKGIvdKpMX5jU0tfptlSL0l9vO4J3Wco_5M4o_kUnuJEI3wmy1rByresfUL5wZRn9oZa36oEQKJzFFGZ5ubiHykgV6KiIyBNeblcjO365xum_DpwKzCOoCo"
         ],
         "post": " 豚星。    Butaboshi is very highly ranked. 98.41 on the Ramendb, which is impressive.    When I arrived, I instantly understood. The Ramendb is heavily weighted by Jiro lovers, and Butaboshi is Jiro-style.    The only thing thicker than the noodles is the soup. Scratch that, the chunks of pork are thicker still.    I'm not a fan of this style, and I felt bad for leaving what looked like half the bowl when I left. But, as I know from experience, the human body is not meant to overeat ramen of this caliber.    Try it for yourself, but only if you are a fan. The location is out of the way.    Another warning, you will stink after this one. Garlic and rendered pork fat. But some people love that sort of thing.      神奈川県川崎市中原区木月4-5-20 Kanagawa-ken, Kawasaki-shi, Nakahara-ku, Otsuki 4-5-20 Closest station: Hiyoshi  Open 11:00-23:00 Closed Sundays  ",
+        "best_of": true,
         "title": " 豚星。(Butaboshi in Hiyoshi ) "
     },
     {
@@ -9871,6 +10746,7 @@ icflickr.com/1513/24669205514_063bf2ff53_c.jpg",
             "https://www.google.co.jp/maps/vt/data=RfCSdfNZ0LFPrHSm0ublXdzhdrDFhtmHhN1u-gM,A-hN9gcLQVJ1KnymvQ5sck1iH9aVPDXD1P4tVD_W7dghl7egaCLT44nnmZJwXicflMnp4fm3e4DbhoiVLcRnqQmi2ahQNiZN6MFi2eRkphjrnuxFcQX8G_FlorZgGYQm"
         ],
         "post": " 鶏喰～TRICK～    Trick is on of the area's highest ranked shops, with good reason. Their bowl of tokusei chicken shoyu ramen is kind of amazing.    Considered to be the best in Kanagawa by many (#8 in Japan here). The shop isn't too far from central Yokohama, so a ramen hunter in the area doesn't have far to go.    Master Nishikaki-san (西垣さん) spent the early years of his culinary life in Italian cooking. So why didn't he open his own Italian place? One of the reasons is that he likes the hospitality aspect of ramen shops. Customers sit at the counter, watching the chef. It's a kind of direct interaction that you don't get anywhere else.    Special shingen (信玄鶏) chickens from Yamanashi for the soup and toppings. While the soup is a simple chicken stock, the tare seasoning is quite complex. Somewhere between three and five soy sauces are blended and cooked with dried fish, shrimp, and seaweed.  It's an amazing base for the plethora of tasty toppings that you'll get with the special bowl.    Low temperature cooked pork chashu as well as chicken breast, thigh, and meatball.    Everything is top notch.    The egg is, of course, as close to perfect as you can get. The wonton is just an added bonus.    Always a line, and if the spot wasn't all the way down in southern Yokohama, I'd be there more often. A quick glance online and it looks like they make a few limited bowls, like a thicker paitan soup or some spicy styles.  This one will make my best-of-2017 list easily.             神奈川県横浜市南区吉野町4-20 Kanagawa-ken, Yokohama-shi, Minami-ku, Yoshinocho 4-20 Closest station: Yoshinocho  Open 11:00-14:00, 18:00-21:00 Weekends 11:00-15:00 Closed Mondays  ",
+        "best_of": true,
         "title": " 鶏喰～TRICK～ (TRICK in Yokohama) "
     },
     {
@@ -10149,6 +11025,85 @@ icflickr.com/1513/24669205514_063bf2ff53_c.jpg",
         ],
         "post": " 博多一瑞亭    Great Hakata-style tonkotsu ramen is tough to find in Tokyo, especially if you've had the stuff in Kyushu. Tokyo loses a bit of the vibe, and residents complain about the smell. So shops cut corners, or go out of business. Shops like Tanaka Shoten are great, but not so convenient.    When a native Japanese friend from Kyushu told me that his favorite spot in Tokyo is just down the road in Shinjuku, I had to go. Seven bowls of ramen please!    I was on one of my group tours, and we were hungry after the 15 minute walk from Shinjuku Station.    Solid. This bowl was on the rough side. I know some people like their tonkotsu ramen silky smooth and white, but I'll take a flavorful bowl with bits of pork fat any day.    The egg is good, but not necessary.    Quite a big shop, so it worked out well for our group tour.      Crushed it!      東京都新宿区新宿1-4-12 Tokyo, Shinjuku, Shinjuku 1-4-12 Closest station: Shinjuku  Open 11:00-23:00  ",
         "title": " 博多一瑞亭 (Hakata Issuitei in Shinjuku) "
+    },
+    {
+        "date": "2017-07-10 00:00:00",
+        "pictures": [
+            "https://c1.staticflickr.com/5/4221/34877948295_55a33d6b68_b.jpg",
+            "https://c1.staticflickr.com/5/4269/34877949025_e311435869_b.jpg",
+            "https://c1.staticflickr.com/5/4202/34838204856_1333bab1a7_b.jpg",
+            "https://c1.staticflickr.com/5/4223/34067282663_1dbd5a80c4_b.jpg",
+            "https://c1.staticflickr.com/5/4195/34067279673_483c1913cf_b.jpg",
+            "https://c1.staticflickr.com/5/4224/34838203376_b0f8fafdf5_b.jpg"
+        ],
+        "post": "Forty six down, four to go. You see, I have this list of ramen shops that were dubbed the best 50 in Japan by Tabelog. I became obsessed with this list, but there is a problem; some shops are very far away. Nagomi is out in Hyogo Prefecture, on the way to Kobe Station. Not a problem if I live anywhere in Kansai, but for a Kanto guy like myself, I don't make it out here enough. Add to that the lunch only service, which always sells out, and this turns into a once in a blue moon ramen adventure. Although the shop recommends the 塩ミックス, a bowl with double the normal meat toppings, I went with the standard. Creamy chicken soup topped with two kinds of chicken chashu and a tasty piece of pork. Quite a knockout bowl. The round bread things are a signature of this shop, and of their sister shop just a few kilometers north. I loved this one, but I have to say I liked the other Nagomi more. This is a topic of discussion for locals, with the original shop slightly leading. Regardless, both are considered some of the best slurps in the prefecture.
+        兵庫県尼崎市武庫川町2丁目19-3
+        Hyogo Prefecture, Amagasaki-shi, Mukogawa-cho 2-19-3
+        Closest station: Mukogawa
+
+        Open 11:30-15:30
+        Closed Sundays and Mondays
+        Labels: オススメ",
+        "best_of": true,
+        "title": "和海 (Nagomi in Hyogo)"
+    },
+    {
+        "date": "2017-08-31 00:00:00",
+        "pictures": [
+            "https://c1.staticflickr.com/5/4221/34034836074_5bc344d341_b.jpg",
+            "https://c1.staticflickr.com/5/4245/34746401941_27a3428c22_b.jpg",
+            "https://c1.staticflickr.com/5/4200/34491658160_3439765b68_b.jpg",
+            "https://c1.staticflickr.com/5/4247/34491662730_79ece1c251_b.jpg",
+            "https://c1.staticflickr.com/5/4275/34034832754_e8d03b27b3_b.jpg",
+            "https://c1.staticflickr.com/5/4246/34034834154_7376775578_b.jpg",
+            "https://c1.staticflickr.com/5/4243/34034837484_2ae9d5499c_b.jpg",
+            "https://c1.staticflickr.com/5/4195/34034841454_0b113c48f0_b.jpg",
+            "https://c1.staticflickr.com/5/4224/34491661000_b3ef6d7753_b.jpg",
+            "https://c1.staticflickr.com/5/4225/34491659780_7a822d0c6c_b.jpg"
+        ],
+        "post": "Finally! I finally made it to what many say is the best tsukemen shop in Japan. I've been here a few times, but it was always their non-tsukemen shio ramen. It was good, but not something I wanted to trek out for again. So I checked a few sources, checked again, and headed out early to get in line. Michi opened in 2009, when the master, Nagahama-san, left Honda, a popular shop that has produced many successful successors. Nagahama-san was only 22. Some ramen nerds scoff at this #1 status, as the shop doesn't make make their own noodles. Regardless, they are solid. That is the only criticism that anyone could make. The soup, a pork, chicken, and dried seafood blend, is legit. A bit more refined than other shops in this category.
+ 
+        I dig the presentation of the toppings. Separate toppings mean you can really appreciate each bite on it's own level. Keep in mind that the upper left, at 500 yen, is just noodles and soup. Go for the 800 yen つけ麺, as I did, or the special at 1000 yen if you want those toppings (you do). Another interesting note is the small bowl of sauce. It changes daily, and makes this shop a repeater. Maybe a bit spicy, maybe a bit sweet.
+
+        All in all, a shop you should probably hit up sooner in your ramen adventure than I did.
+        東京都葛飾区亀有5-28-17
+        Tokyo, Katsushika-ku, Kameari 5-28-17
+        Closest station: Kameari
+
+        Open 11:30-around 7:00pm or whenever the soup runs out
+        Closed on Monday and Tuesday (when the shop is open as a shio ramen spot)
+
+        But I'm not 100% sure about these hours.
+        Labels: オススメ",
+        "best_of": true,
+        "title": "つけ麺 道 (Michi in Kameari)"
+    },
+    {
+        "date": "2017-08-10 00:00:00",
+        "pictures": [
+            "https://c1.staticflickr.com/5/4204/34034705694_64abbf8542_b.jpg",
+            "https://c1.staticflickr.com/5/4248/34034713224_ac84be359b_b.jpg",
+            "https://c1.staticflickr.com/5/4269/34034690594_d0a2189276_b.jpg",
+            "https://c1.staticflickr.com/5/4222/34034695944_9495618649_b.jpg",
+            "https://c1.staticflickr.com/5/4203/34034701874_7a1509aa6a_b.jpg",
+            "https://c1.staticflickr.com/5/4197/34746320981_deb7fb6047_b.jpg",
+            "https://c1.staticflickr.com/5/4197/34034692914_766024faaa_b.jpg"
+        ],
+        "post": "The debate rages on about which ramen is the best in Nara Prefecture. Some people opt for Mitsuba, with their mega-creamy soup and long lines. The rest say NOROMA. Presonally, I can't decide. I spent the day touring around the mountains of Nara, something few people do. Most, especially tourists, take an express train from either Osaka or Kyoto, hit the famous Nara temples, and head home. They don't realize that this is an entire prefecture.
+ 
+        On the road, I met local Naran Momo on her Yamaha R3, a sexy little 321cc sports bike. When the conversation shifted to ramen, she actually said that Tenri and Saika were her favorites. Two shops I've never heard of. The hunt continues.
+        I arrived well early to NOROMA. It was my first time, and I was sure they would have a bigger line. Nope. When they opened at 6:30pm, there were only three people behind me in line. Torisoba. Creamy chicken soup. This bowl is indeed awesome. The medium-thick toripaitan, creamy chicken soup, is set apart by the intense chicken flavor. Simple, yes, but a very, very comforting bowl.
+
+        Noodles come from Mineya Noodles Factory (ミネヤ製麺製) a famous noodle maker that services the greater Kansai area. 奈良県奈良市南京終町3-1531
+        Nara-ken, Nara-shi, Minamikyobatecho 3-1531
+        Closest station: Kyobate
+
+        Open 11:30-15:00, 18:30-21:00
+        Mondays 18:30-21:00
+        Closed Wednesdays
+        Labels: オススメ",
+        "best_of": true,
+        "title": "NOROMA in Nara"
     },
     {
         "date": "2017-08-07 00:00:00",
