@@ -19,7 +19,6 @@ class Home extends Component {
     render() {
         return (
             <div className="home home-container">
-                
                 <div className="home top-container">
                     <p className="top-text">A one stop shop for everything Ramen!</p> 
                     <img src={ltramen} className="top-image" alt="bowl of ramen" />
