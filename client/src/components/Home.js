@@ -86,14 +86,16 @@ class Home extends Component {
                         </div>
                     </div>
                     <div className="home right bottom-middle">
-                        <div className="home right-middle-text">
-                            <p className="ramen-text title">
-                                My Top Picks
-                            </p>
-                            <p className="ramen-text description">
-                                Not sure which shops to choose? Check out my list of top shops!
-                            </p>
-                        </div>
+                        <Link to="/best-of" className="nav-link">
+                            <div className="home right-middle-text">
+                                <p className="ramen-text title">
+                                    My Top Picks
+                                </p>
+                                <p className="ramen-text description">
+                                    Not sure which shops to choose? Check out my list of top shops!
+                                </p>
+                            </div>
+                        </ Link>
                         <div className="picks-contain">
                             <img src={ltpicks}  className="home picks-image" alt="bowl of ramen"/>
                             <img src={midpicks}  className="home picks-image" alt="bowl of ramen"/>
@@ -101,7 +103,6 @@ class Home extends Component {
                          </div>
                     </div>
                 </div>
-                
             </div>
         );
     }
