@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import 'icheck/skins/all.css';
 import { Checkbox } from 'react-icheck';
+import SignInMessage from './SignInMessage';
 
 class RegisterForm extends Component {
 
@@ -62,6 +63,7 @@ class RegisterForm extends Component {
             <input type="submit" value="Register" name="register" className="register" />
           </div>
         </form>
+        {this.props.showRegisterSuccessMsg ? <SignInMessage resetRegisterSuccesMsg={this.props.resetRegisterSuccesMsg} /> : null}
       </div>
     )
   }

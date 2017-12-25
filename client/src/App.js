@@ -42,7 +42,8 @@ class App extends Component {
       thirdPost: [],
       postToDisplay: "",
       isOnSearchResult: false,
-      isBlogPostClicked: false
+      isBlogPostClicked: false,
+      showRegisterSuccessMsg: false
     }
 
     this.registerSubmit = this.registerSubmit.bind(this);
@@ -65,6 +66,7 @@ class App extends Component {
     this.handleReturnToSearchClick = this.handleReturnToSearchClick.bind(this);
     this.resetIsBlogPostClicked = this.resetIsBlogPostClicked.bind(this);
     this.handleBestOfClick = this.handleBestOfClick.bind(this);
+    this.resetRegisterSuccesMsg = this.resetRegisterSuccesMsg.bind(this);
   }
 
   registerSubmit(e) {
@@ -81,7 +83,8 @@ class App extends Component {
         Auth.authenticateUser(jsonRes.token);
       }
       this.setState({
-        auth: Auth.isUserAuthenticated()
+        auth: Auth.isUserAuthenticated(),
+        showRegisterSuccessMsg: true
       });
     }).catch(err => console.log(err));
   }
@@ -125,6 +128,10 @@ class App extends Component {
 
   resetRedirect() {
     this.setState({ redirectToRegister: false });
+  }
+
+  resetRegisterSuccesMsg() {
+    this.setState({ showRegisterSuccessMsg: false });
   }
 
   search(e) {
@@ -267,7 +274,9 @@ class App extends Component {
                                           registerSubmit={this.registerSubmit}
                                           email={this.state.email}
                                           subscribeChecked={this.state.subscribeChecked}
-                                          handleSubscribeCheckChange={this.handleSubscribeCheckChange} />} 
+                                          handleSubscribeCheckChange={this.handleSubscribeCheckChange}
+                                          showRegisterSuccessMsg={this.state.showRegisterSuccessMsg}
+                                          resetRegisterSuccesMsg={this.resetRegisterSuccesMsg} />} 
                   />
                   <Route path="/search/:query" component={(props) => <SearchResults {...props}
                                         resetIsSearching={this.resetIsSearching}
