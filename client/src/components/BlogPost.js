@@ -53,11 +53,13 @@ class BlogPost extends Component {
         return (
             <div className="single-post-container" ref="myRef">
                 <div className="single-blog-post">
-                    <div className="blogpost-top-contain">
-                        {dateToDisplay ?
-                            <div className="post-date">{moment(dateToDisplay).format('dddd, MMMM Do, YYYY')}</div> :
-                            <div className="blog-loading">Loading...</div>}
-                        <div className="post-title">{this.state.titleToDisplay}</div>
+                    <div className="blogpost-top-wrapper">
+                        <div className="blogpost-top-contain">
+                            {dateToDisplay ?
+                                <div className="post-date">{moment(dateToDisplay).format('dddd, MMMM Do, YYYY')}</div> :
+                                <div className="blog-loading">Loading...</div>}
+                            <div className="post-title">{this.state.titleToDisplay}</div>
+                        </div>
                         {this.renderReturnButton()}
                     </div>
                     <div className="image-content-desktop">
