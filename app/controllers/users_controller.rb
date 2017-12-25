@@ -1,8 +1,13 @@
 class UsersController < ApiController
     include Response
 
-    before_action :require_login, except: [:create]
-    after_action :verify_authorized, except: [:create]
+    before_action :require_login, except: [:create, :index]
+    after_action :verify_authorized, except: [:create, :index]
+
+    def index
+        @user = User.all
+        json_response(@user)
+    end
 
     def create
         begin

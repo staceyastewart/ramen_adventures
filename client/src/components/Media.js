@@ -291,7 +291,7 @@ class Media extends Component {
                     <div className="media-listing">
                         <p className="media-title">Tokyo Eye</p>
                         <p className="media-text">
-                            I took part in a ramen special over at NHK World. Great program in English. We ate at <a className="media-link" href="/search/Kabochan" target="_blank" rel="noopener noreferrer">Kabochan</a>, <a className="media-link" href="/search/Kikanbo" target="_blank" rel="noopener noreferrer">Kikanbo</a>, and <a className="media-link" href="/search/Soranoiro" target="_blank" rel="noopener noreferrer">Soranoiro</a>. Available online over at the NHK World site from February 3rd.
+                            I took part in a ramen special over at NHK World. Great program in English. We ate at <a className="media-link" href="/blogpost/464" target="_blank" rel="noopener noreferrer">Kabochan</a>, <a className="media-link" href="/blogpost/155" target="_blank" rel="noopener noreferrer">Kikanbo</a>, and <a className="media-link" href="/blogpost/263" target="_blank" rel="noopener noreferrer">Soranoiro</a>. Available online over at the NHK World site from February 3rd.
                         </p>
                     </div>
                     <div className="media-listing">

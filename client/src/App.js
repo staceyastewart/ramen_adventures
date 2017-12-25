@@ -18,8 +18,11 @@ import AboutMe from './components/AboutMe';
 import Blog from './components/Blog';
 import BlogPost from './components/BlogPost';
 import SignIn from './components/SignIn';
+import User from './components/User';
 import Unsubscribe from './components/Unsubscribe';
 import Error from './components/Error';
+import RamenMap from './components/RamenMap';
+import BestOf from './components/BestOf';
 
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 
@@ -28,7 +31,6 @@ class App extends Component {
     super();
     this.state = {
       auth: Auth.isUserAuthenticated(),
-      id: Auth.idUser(),
       email: '',
       redirectToRegister: false,
       isSearching: false,
@@ -62,6 +64,7 @@ class App extends Component {
     this.resetIsOnSearchResult = this.resetIsOnSearchResult.bind(this);
     this.handleReturnToSearchClick = this.handleReturnToSearchClick.bind(this);
     this.resetIsBlogPostClicked = this.resetIsBlogPostClicked.bind(this);
+    this.handleBestOfClick = this.handleBestOfClick.bind(this);
   }
 
   registerSubmit(e) {
@@ -85,12 +88,10 @@ class App extends Component {
 
   loginSubmit(e) {
     e.preventDefault();
-  
     axios.post('/login', {
         email: e.target.email.value,
         password: e.target.password.value,
       }).then((jsonRes) => {
-        console.log(jsonRes);
       if (jsonRes.token === undefined) {
         Auth.authenticateUser(jsonRes.token);
       }
@@ -164,6 +165,16 @@ class App extends Component {
       dateToDisplay: post.date,
       postToDisplay: post.id
     });
+  }
+
+  handleBestOfClick(post) {
+    this.setState({
+      isBlogPostClicked: true,
+      contentToDisplay: post.content,
+      photoToDisplay: post.photos,
+      dateToDisplay: post.date,
+      postToDisplay: post.id
+    })
   }
 
   resetSearchResultClicked() {
@@ -256,7 +267,7 @@ class App extends Component {
                                           registerSubmit={this.registerSubmit}
                                           email={this.state.email}
                                           subscribeChecked={this.state.subscribeChecked}
-                                          handleSubscribeCheckChange={this.handleSubscribeCheckChange}/>} 
+                                          handleSubscribeCheckChange={this.handleSubscribeCheckChange} />} 
                   />
                   <Route path="/search/:query" component={(props) => <SearchResults {...props}
                                         resetIsSearching={this.resetIsSearching}
@@ -278,6 +289,11 @@ class App extends Component {
                                       handleSecondBlogImageClick={this.handleSecondBlogImageClick}
                                       handleThirdBlogImageClick={this.handleThirdBlogImageClick} />} 
                   />
+                  <Route path="/best-of"  component={(props) => <BestOf {...props} 
+                                          handleBestOfClick={this.handleBestOfClick} />}
+                  />
+                  {/* <Route path="/best-of" component={BestOf} /> */}
+                  <Route path="/map" component={RamenMap} />
                   <Route path="/blogpost/:id" component={(props) => <BlogPost {...props}
                                           postToDisplay={this.state.postToDisplay}
                                           resetIsOnSearchResult={this.resetIsOnSearchResult}
@@ -292,6 +308,7 @@ class App extends Component {
                                         redirectToRegister={this.state.redirectToRegister}
                                         resetRedirect={this.resetRedirect} />} 
                   />
+                  <Route path="/user" component={User} />
                   <Route component={Error} />
                 </Switch>
               </div>
@@ -301,7 +318,7 @@ class App extends Component {
               {(this.state.isBlogPostClicked) && <Redirect to={`/blogpost/${this.state.postToDisplay}`}/>}
               <Route path="/unsubscribe" component={Unsubscribe} />
           </div>
-        </BrowserRouter>
+        </ BrowserRouter>
     );
   }
 }

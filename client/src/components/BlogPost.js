@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import moment from 'moment';
-import { Carousel } from 'react-responsive-carousel';
 import axios from 'axios';
+import CommentForm from './CommentForm';
+import BlogMobileCarousel from './BlogMobileCarousel';
 
 class BlogPost extends Component {
     constructor(props) {
@@ -10,6 +11,7 @@ class BlogPost extends Component {
             dateToDisplay: '',
             photoToDisplay: [],
             contentToDisplay: "",
+            titleToDisplay: '',
             blogId: props.match.params.id
         }
     }
@@ -21,7 +23,8 @@ class BlogPost extends Component {
             this.setState({
                 dateToDisplay: res.data.date,
                 photoToDisplay: res.data.photos,
-                contentToDisplay: res.data.content
+                contentToDisplay: res.data.content,
+                titleToDisplay: res.data.title
             });
         });
     }
@@ -51,23 +54,27 @@ class BlogPost extends Component {
             <div className="single-post-container" ref="myRef">
                 <div className="single-blog-post">
                     <div className="blogpost-top-contain">
-                        <div className="post-date">{moment(dateToDisplay).format('dddd, MMMM Do, YYYY')}</div>
+                        {dateToDisplay ?
+                            <div className="post-date">{moment(dateToDisplay).format('dddd, MMMM Do, YYYY')}</div> :
+                            <div className="blog-loading">Loading...</div>}
+                        <div className="post-title">{this.state.titleToDisplay}</div>
                         {this.renderReturnButton()}
                     </div>
-                    <div className="image-content">
+                    <div className="image-content-desktop">
                         {photoToDisplay.length ? 
                         <div className="blog-image-container">
-                            <Carousel showThumbs={false} showArrows={true} dynamicHeight emulateTouch useKeyboardArrows>
-                                {photoToDisplay.map((photo, i) => {
-                                    return (
-                                        <div key={i} className="blog-image-div">
-                                            <img className="blog-image" src={photoToDisplay[i]} alt="" />
-                                        </div>
-                                    )
-                                })}
-                            </Carousel></div> : null}
-                        <div className="blog-post-content">{contentToDisplay}</div>
+                            {photoToDisplay.map((photo, i) => {
+                                return (
+                                    <div key={i} className="blog-image-div">
+                                        <img className="blog-image" src={photoToDisplay[i]} alt="" />
+                                    </div>
+                                )
+                            })}
+                        </div> : null}
                     </div>
+                    <BlogMobileCarousel photoToDisplay={this.state.photoToDisplay} />
+                    <div className="blog-post-content">{contentToDisplay}</div>
+                    <CommentForm blogId={this.state.blogId} />
                 </div>
             </div>
         );

@@ -1,5 +1,4 @@
 import React, { PureComponent } from 'react';
-import BestOfNav from './BestOfNav';
 import moment from 'moment';
 import axios from 'axios';
 
@@ -8,7 +7,8 @@ class SearchResults extends PureComponent {
         super(props);
         this.state = {
             query: props.match.params.query,
-            searchResultsPosts: []
+            searchResultsPosts: [],
+            loadingSearchResults: true
         }
 
         this.renderPosts = this.renderPosts.bind(this);
@@ -29,24 +29,13 @@ class SearchResults extends PureComponent {
         .then((res) => {  
             //ref check to prevent setState on unmounted component error.
             if (this.refs.myRef) {
-                this.setState({ searchResultsPosts: res.data.posts }); 
+                this.setState({ 
+                    searchResultsPosts: res.data.posts,
+                    loadingSearchResults: false
+                 }); 
             }     
         });
       }
-
-    renderHeader() {
-        const { query, searchResultsPosts  } = this.state;
-        if (!searchResultsPosts) {
-            return (
-                <div className="spinner-container">
-                    <h1 className="search-results-header">Loading results...</h1>
-                    <i className="fa fa-spinner fa-pulse fa-3x fa-fw"></i> 
-                </div>
-            )
-        } else {
-            return <h1 className="search-results-header">There are {searchResultsPosts.length} results for "{query}"</h1>
-        }
-    }
 
     renderPosts (post, key) {
         const { searchResultsPosts } = this.state;
@@ -66,21 +55,28 @@ class SearchResults extends PureComponent {
     }
 
     render() {
-        const { searchResultsPosts } = this.state;
+        const { query, searchResultsPosts } = this.state;
+        
         if (!searchResultsPosts) {
             return null;
         }
 
         return (
             <div className="search-results-container" ref="myRef">
-                <BestOfNav />
-                <div className="results-container">
-                    {this.renderHeader()}
-                    <ul className="results-posts">
-                        {searchResultsPosts.map((post, key) => {
-                                return this.renderPosts(post, key);
-                            })}
-                    </ul>
+                <div className="results-container">                    
+                    {this.state.loadingSearchResults ? 
+                    <div className="spinner-container">
+                        <h1 className="search-results-header">Loading results...</h1>
+                        <i className="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
+                    </div> : 
+                    <div>
+                        <h1 className="search-results-header">There are {searchResultsPosts.length} results for "{query}"</h1>
+                        <ul className="results-posts">
+                            {searchResultsPosts.map((post, key) => {
+                                    return this.renderPosts(post, key);
+                                })}
+                        </ul>
+                    </div>}
                 </div>
             </div>
         );

@@ -40,6 +40,10 @@ class Navigation extends Component {
                             <li className="mobile-menu-item" onClick={this.handleReturnClick}>Ramen Blog</li>
                         </Link>
                         <hr className="hr-mobile"/>
+                        <Link to="/best-of" className="nav-link">
+                            <li className="mobile-menu-item" onClick={this.handleReturnClick}>Best of the Best</li>
+                        </Link>
+                        <hr className="hr-mobile" />
                         <Link to="/store" className="nav-link">
                             <li className="mobile-menu-item" onClick={this.handleReturnClick}>Store</li>
                         </Link>
@@ -136,6 +140,11 @@ class Navigation extends Component {
                         Ramen Blog
                     </div>
                 </Link>
+                <Link to="/best-of">
+                    <div className="bottom-links">
+                        Best of the Best
+                    </div>
+                </Link>
                 <Link to="/store">
                     <div className="books bottom-links">
                         Store [Books & Tshirts]
@@ -152,6 +161,11 @@ class Navigation extends Component {
                     </div>
                     <SchoolDropDown />
                 </div>
+                <Link to='/map'>
+                    <div className="about bottom-links">
+                        Ramen Map
+                    </div>
+                </Link>
                 <Link to="/media">
                     <div className="media bottom-links">
                         Media

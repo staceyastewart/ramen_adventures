@@ -633,35 +633,51 @@ body {
 .single-blog-post {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 90%;
   border: 1px solid #D8D8D8;
   margin: 30px 0 0 10px;
 }
 
-.blog-image-container {
+/* .blog-image-container {
   height: 567px;
   width: 852px;
-}
-
+} */
+/* 
 .blog-image {
   max-height: 60%;
   max-width: 60%;
+} */
+
+.blogpost-top-contain {
+  display: flex;
+  flex-direction: column;
 }
 
 .blog-image-div {
   background: white;
+  margin-bottom: 7vh;
+  display: flex;
+  justify-content: center;
 }
 
 .post-date {
   font-size: 23px;
   margin: 30px;
-  float: left;
  }
 
-.image-content {
+ .post-title {
+   font-size: 25px;
+   margin: 30px;
+ }
+
+.image-content-desktop {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.image-content-mobile {
+  display: none;
 }
 
 .control-arrow {
@@ -671,7 +687,7 @@ body {
 .blog-post-content {
   font-size: 22px;
   line-height: 38px;
-  margin: 225px 148px 40px 148px;
+  margin: 30px 148px 40px 148px;
 }
 
 .return {
@@ -697,6 +713,11 @@ body {
   margin: 30px 30px 30px 10px;
 }
 
+.blog-loading {
+  font-size: 25px;
+  margin: 30px;
+}
+
 /*-----------------
       Schools
 -----------------*/
@@ -716,6 +737,7 @@ body {
 
 .search-results-container {
   display: flex;
+  justify-content: center;
 }
 
 .results-container {
@@ -1042,7 +1064,50 @@ img.store-bookcover {
   display: none;
 }
 
+/*----------------------
+    Comment Form
+----------------------*/
 
+.comment-message {
+    position: absolute;
+    z-index: 10;
+    background: white;
+    height: 35vh;
+    width: 79vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.5vw;
+}
+
+#comment-login-link {
+  width: auto;
+}
+
+/*-----------------------
+          Map
+-----------------------*/
+
+.map-wrapper {
+  border: 2px solid #D8D8D8;
+  margin: 40px 100px 50px 50px;
+}
+
+.map-container {
+  margin: 50px 150px 100px 100px;
+  font-size: 20px;
+  line-height: 32px;
+  height: 80vh;
+}
+
+/*-----------------------
+        Best Of
+-----------------------*/
+
+.best-loading-message {
+  font-weight: 600;
+  font-size: 30px;
+}
 /*--------------------------
   media queries - mobile
 --------------------------*/
@@ -1420,7 +1485,12 @@ img.store-bookcover {
   }
 
   .blog-image-container {
+    height: 567px;
     width: 100%;
+  }
+
+  .blog-image-div {
+    display: block;
   }
 
   .blog-image {
@@ -1436,6 +1506,18 @@ img.store-bookcover {
 
   .post-date {
     font-size: 21px;
+  }
+
+  .post-title {
+    font-size: 22px;
+  }
+
+  .image-content-desktop {
+    display: none;
+  }
+
+  .image-content-mobile {
+    display: block;
   }
 
   .return {
