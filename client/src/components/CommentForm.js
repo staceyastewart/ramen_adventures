@@ -21,10 +21,8 @@ class CommentForm extends Component {
     }
 
     getComments() {
-        console.log('this is blogId:',this.props.blogId)
         axios.get(`/posts/${this.props.blogId}/comments`)
         .then(response => {
-            console.log(response);
             this.setState({ 
                 comments: response.data.comments,
              });

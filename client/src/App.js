@@ -64,6 +64,7 @@ class App extends Component {
     this.resetIsOnSearchResult = this.resetIsOnSearchResult.bind(this);
     this.handleReturnToSearchClick = this.handleReturnToSearchClick.bind(this);
     this.resetIsBlogPostClicked = this.resetIsBlogPostClicked.bind(this);
+    this.handleBestOfClick = this.handleBestOfClick.bind(this);
   }
 
   registerSubmit(e) {
@@ -164,6 +165,16 @@ class App extends Component {
       dateToDisplay: post.date,
       postToDisplay: post.id
     });
+  }
+
+  handleBestOfClick(post) {
+    this.setState({
+      isBlogPostClicked: true,
+      contentToDisplay: post.content,
+      photoToDisplay: post.photos,
+      dateToDisplay: post.date,
+      postToDisplay: post.id
+    })
   }
 
   resetSearchResultClicked() {
@@ -278,7 +289,10 @@ class App extends Component {
                                       handleSecondBlogImageClick={this.handleSecondBlogImageClick}
                                       handleThirdBlogImageClick={this.handleThirdBlogImageClick} />} 
                   />
-                  <Route path="/best-of" component={BestOf} />
+                  <Route path="/best-of"  component={(props) => <BestOf {...props} 
+                                          handleBestOfClick={this.handleBestOfClick} />}
+                  />
+                  {/* <Route path="/best-of" component={BestOf} /> */}
                   <Route path="/map" component={RamenMap} />
                   <Route path="/blogpost/:id" component={(props) => <BlogPost {...props}
                                           postToDisplay={this.state.postToDisplay}

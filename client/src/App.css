@@ -1099,7 +1099,14 @@ body {
   height: 80vh;
 }
 
+/*-----------------------
+        Best Of
+-----------------------*/
 
+.best-loading-message {
+  font-weight: 600;
+  font-size: 30px;
+}
 /*--------------------------
   media queries - mobile
 --------------------------*/
