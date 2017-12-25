@@ -62,7 +62,11 @@ class BestOf extends Component {
                     No one likes this answer.
 
                     So I have made some best-of lists over the years. Avoid Yelp or other non-Japanese ranking sites. Lines are a good thing. Lines of people with suitcases negates all assumptions; some touristy places are amazing, some are downright awful.</p>
-                    {this.state.loadingBestOfs ? <p className="best-loading-message">Loading Best of List ...</p> : 
+                    {this.state.loadingBestOfs ? 
+                        <div className="spinner-container">
+                            <h1 className="search-results-header">Loading Best of List ...</h1>
+                            <i className="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
+                        </div>  : 
                     <ul className="results-posts">
                         {bestOfs.map((post, key) => {
                             return this.renderPosts(post, key);
