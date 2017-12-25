@@ -1491,6 +1491,10 @@ img.store-bookcover {
     width: 100%;
   }
 
+  .blogpost-top-wrapper {
+    display: block;
+  }
+
   .blog-image-container {
     height: 567px;
     width: 100%;
