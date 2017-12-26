@@ -1122,15 +1122,17 @@ img.store-bookcover {
 
 .signin-message-container {
   position: absolute;
-    height: 50vh;
-    width: 100vw;
-    bottom: 70px;
-    background: white;
-    padding-top: 45px;
-    padding-left: 91px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  height: 55vh;
+  width: 100vw;
+  bottom: 70px;
+  background: white;
+  padding-top: 45px;
+  padding-left: 91px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
 }
 
 .login-button {
@@ -1777,6 +1779,19 @@ img.store-bookcover {
 
   #legend {
     margin: 20px;
+  }
+
+/*===============
+   SIGN IN MSG
+===============*/
+
+  .signin-message-prompt {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .signin-message-container {
+    height: 61vh;
   }
 }
 
