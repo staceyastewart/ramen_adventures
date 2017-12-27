@@ -18,12 +18,11 @@ import AboutMe from './components/AboutMe';
 import Blog from './components/Blog';
 import BlogPost from './components/BlogPost';
 import SignIn from './components/SignIn';
-import User from './components/User';
 import Unsubscribe from './components/Unsubscribe';
 import Error from './components/Error';
 import RamenMap from './components/RamenMap';
 import BestOf from './components/BestOf';
-
+import Profile from './components/Profile';
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 
 class App extends Component {
@@ -301,7 +300,6 @@ class App extends Component {
                   <Route path="/best-of"  component={(props) => <BestOf {...props} 
                                           handleBestOfClick={this.handleBestOfClick} />}
                   />
-                  {/* <Route path="/best-of" component={BestOf} /> */}
                   <Route path="/map" component={RamenMap} />
                   <Route path="/blogpost/:id" component={(props) => <BlogPost {...props}
                                           postToDisplay={this.state.postToDisplay}
@@ -317,7 +315,7 @@ class App extends Component {
                                         redirectToRegister={this.state.redirectToRegister}
                                         resetRedirect={this.resetRedirect} />} 
                   />
-                  <Route path="/user" component={User} />
+                  <Route path="/profile" component={Profile} />
                   <Route component={Error} />
                 </Switch>
               </div>

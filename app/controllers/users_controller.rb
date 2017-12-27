@@ -1,8 +1,8 @@
 class UsersController < ApiController
     include Response
 
-    before_action :require_login, except: [:create, :index]
-    after_action :verify_authorized, except: [:create, :index]
+    #before_action :require_login, except: [:create, :index]
+    #after_action :verify_authorized, except: [:create, :index]
 
     def index
         @user = User.all
@@ -23,10 +23,15 @@ class UsersController < ApiController
         end
     end
 
+    # def show
+    #     @user = current_user
+    #     authorize @user
+    #     json_response(current_user)
+    # end
+
     def show
-        @user = current_user
-        authorize @user
-        json_response(current_user)
+        @user = User.find(params[:id])
+        json_response(@user)
     end
 
     def update

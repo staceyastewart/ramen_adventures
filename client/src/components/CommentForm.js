@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
+import Comment from './Comment';
 
 class CommentForm extends Component {
     constructor() {
         super();
-        const userId = localStorage.getItem('id');
+        const loggedInUser = localStorage.getItem('id');
         this.state = { 
-            userId, 
+            loggedInUser, 
             comments: [],
-            renderMessage: false
+            renderMessage: false,
         }
         this.submitComment = this.submitComment.bind(this);
         this.getComments = this.getComments.bind(this);
@@ -44,11 +45,11 @@ class CommentForm extends Component {
 
     submitComment(e) { 
         e.preventDefault();
-        if (this.state.userId) { 
+        if (this.state.loggedInUser) { 
             axios.post(`/posts/${this.props.blogId}/comments`, { 
                 comment: { 
                     content: e.target.comment.value, 
-                    user_id: parseInt(this.state.userId),
+                    user_id: parseInt(this.state.loggedInUser),
                     post_id: this.props.blogId
                 }
             });
@@ -67,17 +68,9 @@ class CommentForm extends Component {
                     <input type="submit" />
                 </form>
                 <h2>Comments:</h2> 
-                {/* {this.state.comments ? 
-                this.state.comments.map((comment, i) => {
-                    //allow type conversion to compare string to int
-                    if (this.props.blogId == comment.post_id) {
-                        return <div key={i}>{comment.content}</div>
-                    }
-                }) : null}           */}
                 {this.state.comments ?
                     this.state.comments.map((comment, i) => {
-                        //allow type conversion to compare string to int
-                            return <div key={i}>{comment.content}</div>
+                        return <Comment comment={comment} i={i} key={i}/>
                     }) : null}
             </div>
         );
